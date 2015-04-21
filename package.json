@@ -1,0 +1,9 @@
+{
+  "name": "javazone_indexer",
+  "description": "Index JavaZone with ElasticSearch",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "0.12.x"
+  },
+}
