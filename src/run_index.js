@@ -23,17 +23,27 @@ var elasticClient = new elasticSearch.Client({
     log: 'info'
 });
 
-function elasticResponse(error, response) {
+function elasticResponse(error, response, callback) {
     if (error) {
         logger.error("Error: " + error);
     }
 
     logger.info(response);
+
+    if (callback) {
+        callback();
+    }
 }
 
-elasticClient.indices.delete({
-    index: 'javazone'
-}, elasticResponse);
+function putMapping(data, type) {
+    elasticClient.indices.putMapping({
+        index: 'javazone',
+        type: type,
+        body: data
+    }, function (err, response) {
+        elasticResponse(err, response);
+    });
+}
 
 function getJson(url, callback) {
     http.get(url, function (res) {
@@ -69,6 +79,16 @@ function getData(item, name, fieldName) {
     }
 
     return "";
+}
+
+function readJsonFromFile(path, callback) {
+    fs.readFile(path, null, function (err, data) {
+        if (err) {
+            logger.error(err);
+        } else {
+            callback(JSON.parse(data));
+        }
+    });
 }
 
 function writeJsonToFile(path, json) {
@@ -114,7 +134,9 @@ function handle_session(data) {
                 "summary": getData(item, "summary"),
                 "level": getData(item, "level")
             }
-        }, elasticResponse);
+        }, function (err, response) {
+            elasticResponse(err, response);
+        });
     });
 }
 
@@ -130,11 +152,31 @@ function handle_events(data) {
                 "name": getData(item, "name"),
                 "venue": getData(item, "venue")
             }
-        }, elasticResponse);
+        }, function (err, response) {
+            elasticResponse(err, response);
+        });
 
         getJson(getLink(item, "session collection"), handle_session);
     });
 }
 
+elasticClient.indices.delete({
+    index: 'javazone'
+}, function (err, response) {
+    elasticResponse(err, response, function () {
+        elasticClient.indices.create({
+            index: 'javazone'
+        }, function (err, response) {
+            elasticResponse(err, response, function () {
+                readJsonFromFile("config/conference_mapping.json", function (data) {
+                    putMapping(data, 'conference');
+                });
+                readJsonFromFile("config/session_mapping.json", function (data) {
+                    putMapping(data, 'session');
+                });
+            });
+        });
+    });
+});
 
 getJson("http://javazone.no/ems/server/events", handle_events);
