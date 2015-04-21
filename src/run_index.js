@@ -113,7 +113,7 @@ function writeArrayToTextFile(path, list) {
     urlFile.end();
 }
 
-function handle_session(data) {
+function handle_session(data, conference) {
     var items = data["collection"]["items"];
 
     if (!items) {
@@ -132,7 +132,8 @@ function handle_session(data) {
                 "title": getData(item, "title"),
                 "language": getData(item, "lang"),
                 "summary": getData(item, "summary"),
-                "level": getData(item, "level")
+                "level": getData(item, "level"),
+                "conference": conference
             }
         }, function (err, response) {
             elasticResponse(err, response);
@@ -144,19 +145,24 @@ function handle_events(data) {
     var items = data["collection"]["items"];
 
     items.forEach(function (item) {
+        var conference = {
+            "name": getData(item, "name"),
+            "venue": getData(item, "venue")
+        };
+
         elasticClient.index({
             index: 'javazone',
             type: 'conference',
             id: item["href"],
-            body: {
-                "name": getData(item, "name"),
-                "venue": getData(item, "venue")
-            }
+            body: conference
         }, function (err, response) {
             elasticResponse(err, response);
-        });
 
-        getJson(getLink(item, "session collection"), handle_session);
+            getJson(getLink(item, "session collection"), function(data) {
+                conference["link"] = item["href"];
+                handle_session(data, conference);
+            });
+        });
     });
 }
 
