@@ -6,4 +6,7 @@
   "engines": {
     "node": "0.12.x"
   },
+  "dependencies": {
+    "elasticsearch": "^4.0.2"
+  }
 }
