@@ -42,13 +42,17 @@ function elasticResponse(error, response, callback) {
     }
 }
 
-function putMapping(data, type) {
+function putMapping(data, type, callback) {
     elasticClient.indices.putMapping({
         index: 'javazone',
         type: type,
         body: data
     }, function (err, response) {
         elasticResponse(err, response);
+
+        if (callback) {
+            callback();
+        }
     });
 }
 
@@ -182,14 +186,16 @@ elasticClient.indices.delete({
         }, function (err, response) {
             elasticResponse(err, response, function () {
                 readJsonFromFile("config/conference_mapping.json", function (data) {
-                    putMapping(data, 'conference');
-                });
-                readJsonFromFile("config/session_mapping.json", function (data) {
-                    putMapping(data, 'session');
+                    putMapping(data, 'conference', function() {
+                        readJsonFromFile("config/session_mapping.json", function (data) {
+                            putMapping(data, 'session', function() {
+                                getJson("http://javazone.no/ems/server/events", handle_events);
+                            });
+                        });
+                    });
                 });
             });
         });
     });
 });
 
-getJson("http://javazone.no/ems/server/events", handle_events);
