@@ -3,6 +3,13 @@ var fs = require('fs'),
     elasticSearch = require('elasticsearch'),
     winston = require('winston');
 
+
+var host = "localhost:9200";
+
+if (process.argv.length > 2) {
+    host = process.argv[2];
+}
+
 var logger = new (winston.Logger)({
     transports: [
         new (winston.transports.File)({
@@ -19,7 +26,7 @@ var logger = new (winston.Logger)({
 });
 
 var elasticClient = new elasticSearch.Client({
-    host: 'localhost:9200',
+    host: host,
     log: 'info'
 });
 
