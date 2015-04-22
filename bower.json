@@ -1,0 +1,19 @@
+{
+  "name": "javazone_search",
+  "version": "0.0.1",
+  "authors": [
+    "Chris Searle <chris@chrissearle.org>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
