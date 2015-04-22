@@ -1,7 +1,8 @@
 var fs = require('fs'),
     http = require('http'),
     elasticSearch = require('elasticsearch'),
-    winston = require('winston');
+    winston = require('winston'),
+    async = require('async');
 
 
 var host = "localhost:9200";
@@ -30,16 +31,12 @@ var elasticClient = new elasticSearch.Client({
     log: 'info'
 });
 
-function elasticResponse(error, response, callback) {
+function elasticResponse(error, response) {
     if (error) {
         logger.error("Error: " + error);
     }
 
     logger.info(response);
-
-    if (callback) {
-        callback();
-    }
 }
 
 function putMapping(data, type, callback) {
@@ -48,10 +45,8 @@ function putMapping(data, type, callback) {
         type: type,
         body: data
     }, function (err, response) {
-        elasticResponse(err, response);
-
         if (callback) {
-            callback();
+            callback(err, response);
         }
     });
 }
@@ -102,28 +97,6 @@ function readJsonFromFile(path, callback) {
     });
 }
 
-function writeJsonToFile(path, json) {
-    fs.writeFile(path, JSON.stringify(json, null, 4), function (err) {
-        if (err) {
-            logger.error("Unable to write docs file " + err);
-        }
-    });
-}
-
-function writeArrayToTextFile(path, list) {
-    var urlFile = fs.createWriteStream(path);
-
-    urlFile.on("error", function (err) {
-        logger.error("Unable to write url file " + err);
-    });
-
-    list.forEach(function (line) {
-        urlFile.write(line + '\n');
-    });
-
-    urlFile.end();
-}
-
 function handle_session(data, conference) {
     var items = data["collection"]["items"];
 
@@ -169,7 +142,7 @@ function handle_events(data) {
         }, function (err, response) {
             elasticResponse(err, response);
 
-            getJson(getLink(item, "session collection"), function(data) {
+            getJson(getLink(item, "session collection"), function (data) {
                 conference["link"] = item["href"];
                 handle_session(data, conference);
             });
@@ -177,25 +150,58 @@ function handle_events(data) {
     });
 }
 
-elasticClient.indices.delete({
-    index: 'javazone'
-}, function (err, response) {
-    elasticResponse(err, response, function () {
-        elasticClient.indices.create({
-            index: 'javazone'
-        }, function (err, response) {
-            elasticResponse(err, response, function () {
-                readJsonFromFile("config/conference_mapping.json", function (data) {
-                    putMapping(data, 'conference', function() {
-                        readJsonFromFile("config/session_mapping.json", function (data) {
-                            putMapping(data, 'session', function() {
-                                getJson("http://javazone.no/ems/server/events", handle_events);
+async.series([
+        function (callback) {
+            console.log("1: Delete Index");
+            elasticClient.indices.delete({
+                index: 'javazone'
+            }, function (err, response) {
+                callback(err, response);
+            });
+        },
+        function (callback) {
+            console.log("2: Create Index");
+            elasticClient.indices.create({
+                index: 'javazone'
+            }, function (err, response) {
+                callback(err, response);
+            });
+        },
+        function (callback) {
+            console.log("3: Create Mappings");
+            async.parallel([
+                    function (callback) {
+                        console.log("3.1: Create Conference Mapping");
+                        readJsonFromFile("config/conference_mapping.json", function (data) {
+                            putMapping(data, 'conference', function (err, resp) {
+                                callback(err, resp);
                             });
                         });
-                    });
-                });
-            });
-        });
-    });
-});
+                    },
+                    function (callback) {
+                        console.log("3.2: Create Session Mapping");
+                        readJsonFromFile("config/session_mapping.json", function (data) {
+                            putMapping(data, 'session', function (err, resp) {
+                                callback(err, resp);
+                            });
+                        });
+                    }],
+                function (err, resp) {
+                    callback(err, resp);
+                }
+            );
+        },
+        function (callback) {
+            console.log("4: Index");
+            getJson("http://javazone.no/ems/server/events", handle_events);
+            callback(null, "Done");
+        }],
+    function (err, resp) {
+        if (err) {
+            logger.error(err);
+        }
+
+        logger.info(resp);
+    }
+);
 
