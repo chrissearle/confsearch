@@ -68,9 +68,15 @@ function getJson(url, callback) {
 }
 
 function getLink(item, rel) {
-    return item["links"].filter(function (link) {
+    var link = item["links"].filter(function (link) {
         return link["rel"] === rel;
-    })[0]["href"];
+    });
+
+    if (link.length > 0) {
+        return link[0]["href"];
+    }
+
+    return "";
 }
 
 function getData(item, name, fieldName) {
@@ -97,6 +103,29 @@ function readJsonFromFile(path, callback) {
     });
 }
 
+function handle_speaker(data, conference, session) {
+    var items = data["collection"]["items"];
+
+    if (!items) {
+        return;
+    }
+
+    // TODO - need to put conf and session into body - but need to _merge_ if already exists
+    items.forEach(function (item) {
+        elasticClient.index({
+            index: 'javazone',
+            type: 'speaker',
+            id: item["href"],
+            body: {
+                "name": getData(item, "name"),
+                "bio": getData(item, "bio")
+            }
+        }, function (err, response) {
+            elasticResponse(err, response);
+        });
+    });
+}
+
 function handle_session(data, conference) {
     var items = data["collection"]["items"];
 
@@ -105,22 +134,53 @@ function handle_session(data, conference) {
     }
 
     items.forEach(function (item) {
+        var session = {
+            "format": getData(item, "format"),
+            "content": getData(item, "body"),
+            "keywords": getData(item, "keywords", "array"),
+            "title": getData(item, "title"),
+            "language": getData(item, "lang"),
+            "summary": getData(item, "summary"),
+            "level": getData(item, "level"),
+            "conference": conference
+        };
+
+
+        var speakers = item["links"].filter(function (link) {
+                return link["rel"] === "speaker item";
+            });
+
+        var speakerContent = [];
+
+        speakers.forEach(function(speaker) {
+            speakerContent.push({
+                "name": speaker["prompt"],
+                "link": speaker["href"]
+            });
+        });
+
+        session["speakers"] = speakerContent;
+
         elasticClient.index({
             index: 'javazone',
             type: 'session',
             id: item["href"],
-            body: {
-                "format": getData(item, "format"),
-                "content": getData(item, "body"),
-                "keywords": getData(item, "keywords", "array"),
-                "title": getData(item, "title"),
-                "language": getData(item, "lang"),
-                "summary": getData(item, "summary"),
-                "level": getData(item, "level"),
-                "conference": conference
-            }
+            body: session
         }, function (err, response) {
             elasticResponse(err, response);
+
+            var speakers = getLink(item, "speaker collection");
+
+            if (speakers) {
+                getJson(speakers, function (data) {
+                    session["link"] = item["href"];
+                    delete session["content"];
+                    delete session["summary"];
+                    delete session["conference"];
+
+                    handle_speaker(data, conference, session);
+                });
+            }
         });
     });
 }
@@ -202,6 +262,9 @@ async.series([
                     },
                     function (callback) {
                         createMapping('session', "config/session_mapping.json", callback);
+                    },
+                    function (callback) {
+                        createMapping('speaker', "config/speaker_mapping.json", callback);
                     }
                 ],
                 callback

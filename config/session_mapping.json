@@ -89,6 +89,23 @@
             "analyzer": "keyword"
           }
         }
+      },
+      "speakers": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "fields": {
+              "raw": {
+                "type": "string",
+                "index": "not_analyzed"
+              }
+            }
+          },
+          "link": {
+            "type": "string",
+            "analyzer": "keyword"
+          }
+        }
       }
     }
   }
