@@ -150,58 +150,65 @@ function handle_events(data) {
     });
 }
 
+function deleteIndex(callback) {
+    console.log("1: Delete Index");
+    elasticClient.indices.delete({
+        index: 'javazone'
+    }, function (err, response) {
+        callback(err, response);
+    });
+}
+
+function createIndex(callback) {
+    console.log("2: Create Index");
+    elasticClient.indices.create({
+        index: 'javazone'
+    }, function (err, response) {
+        callback(err, response);
+    });
+}
+
+function createMapping(type, path, callback) {
+    console.log("3.1: Create " + type + " mapping");
+    readJsonFromFile(path, function (data) {
+        putMapping(data, type, function (err, resp) {
+            callback(err, resp);
+        });
+    });
+}
+
+function index(callback) {
+    console.log("4: Index");
+    getJson("http://javazone.no/ems/server/events", handle_events);
+    callback(null, "Done");
+}
+
+function logResult(err, resp) {
+    if (err) {
+        logger.error(err);
+    }
+
+    logger.info(resp);
+}
+
+
 async.series([
+        deleteIndex,
+        createIndex,
         function (callback) {
-            console.log("1: Delete Index");
-            elasticClient.indices.delete({
-                index: 'javazone'
-            }, function (err, response) {
-                callback(err, response);
-            });
-        },
-        function (callback) {
-            console.log("2: Create Index");
-            elasticClient.indices.create({
-                index: 'javazone'
-            }, function (err, response) {
-                callback(err, response);
-            });
-        },
-        function (callback) {
-            console.log("3: Create Mappings");
             async.parallel([
                     function (callback) {
-                        console.log("3.1: Create Conference Mapping");
-                        readJsonFromFile("config/conference_mapping.json", function (data) {
-                            putMapping(data, 'conference', function (err, resp) {
-                                callback(err, resp);
-                            });
-                        });
+                        createMapping('conference', "config/conference_mapping.json", callback);
                     },
                     function (callback) {
-                        console.log("3.2: Create Session Mapping");
-                        readJsonFromFile("config/session_mapping.json", function (data) {
-                            putMapping(data, 'session', function (err, resp) {
-                                callback(err, resp);
-                            });
-                        });
-                    }],
-                function (err, resp) {
-                    callback(err, resp);
-                }
+                        createMapping('session', "config/session_mapping.json", callback);
+                    }
+                ],
+                callback
             );
         },
-        function (callback) {
-            console.log("4: Index");
-            getJson("http://javazone.no/ems/server/events", handle_events);
-            callback(null, "Done");
-        }],
-    function (err, resp) {
-        if (err) {
-            logger.error(err);
-        }
-
-        logger.info(resp);
-    }
+        index
+    ],
+    logResult
 );
 
