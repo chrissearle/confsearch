@@ -7,7 +7,8 @@ module.exports = function (grunt) {
         eslint: {
             target: [
                 "Gruntfile.js",
-                "src/*.js"
+                "src/*.js",
+                "js/*.js"
             ]
         },
         "bower-install-simple": {
@@ -19,6 +20,19 @@ module.exports = function (grunt) {
                     directory: "webapp/lib"
                 }
             }
+        },
+        nodemon: {
+            dev: {
+                script: 'src/app.js'
+            }
+        },
+        exec: {
+            elastic: {
+                command: 'elasticsearch --config=config/elasticsearch.yml'
+            },
+            index: {
+                command: 'node src/run_index.js'
+            }
         }
     });
 
@@ -26,7 +40,12 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-npm-install");
     grunt.loadNpmTasks("grunt-bower-install-simple");
     grunt.loadNpmTasks("grunt-eslint");
+    grunt.loadNpmTasks('grunt-nodemon');
+    grunt.loadNpmTasks('grunt-exec');
 
     grunt.registerTask("install", ["bower-install-simple:app", "npm-install"]);
     grunt.registerTask("default", ["eslint"]);
+    grunt.registerTask("run", ["nodemon"]);
+    grunt.registerTask("es", ["exec:elastic"]);
+    grunt.registerTask("index", ["exec:index"]);
 };
