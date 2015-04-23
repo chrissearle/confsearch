@@ -26,7 +26,8 @@ app.controller("SearchController", ["$http", function ($http) {
     self.search = function () {
         $http.post('/search', {query: self.searchText}).
             success(function (data) {
-                self.results = data;
+                self.results = data.hits;
+                self.navs = data.aggs;
             }).
             error(function (data, status) {
                 console.log(status + " " + data);

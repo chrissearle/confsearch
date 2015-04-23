@@ -13,6 +13,10 @@ var elasticSearch = require("elasticsearch"),
 
 var host = process.env.BONSAI_URL || "localhost:9200";
 
+String.prototype.capitalize = function () {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 var logflag = process.env.LOG_CONSOLE || false;
 
 var logger;
@@ -93,7 +97,45 @@ function search(query, res) {
     elasticClient.search(
         {
             "index": "javazone",
-            "q": query
+            "body": {
+                "query": {
+                    "query_string": {
+                        "query": query
+                    }
+                },
+                "aggs": {
+                    "conference_counts": {
+                        "terms": {
+                            "field": "conference.name.raw"
+                        }
+                    },
+                    "speaker_counts": {
+                        "terms": {
+                            "field": "speakers.name.raw"
+                        }
+                    },
+                    "format_counts": {
+                        "terms": {
+                            "field": "format.raw"
+                        }
+                    },
+                    "keyword_counts": {
+                        "terms": {
+                            "field": "keywords.raw"
+                        }
+                    },
+                    "language_counts": {
+                        "terms": {
+                            "field": "language.raw"
+                        }
+                    },
+                    "level_counts": {
+                        "terms": {
+                            "field": "level"
+                        }
+                    }
+                }
+            }
         }, function (err, resp) {
             if (err) {
                 logger.error(err);
@@ -102,7 +144,20 @@ function search(query, res) {
             } else {
                 res.setHeader("Content-Type", "application/json");
 
-                res.json(resp.hits.hits);
+                var result = {};
+
+                result.hits = resp.hits.hits;
+
+                result.aggs = [];
+
+                for (var aggregation_name in resp.aggregations) {
+                    result.aggs.push({
+                        "name": aggregation_name.replace('_counts', 's').capitalize(),
+                        "data": resp.aggregations[aggregation_name].buckets
+                    });
+                }
+
+                res.json(result);
             }
         }
     );
