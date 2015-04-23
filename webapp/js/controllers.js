@@ -23,7 +23,10 @@ app.controller("SearchController", ["$http", function ($http) {
 
     var self = this;
 
-    self.search = function () {
+    self.searched = false;
+
+    self.search = function (searchFlag) {
+        self.searched = searchFlag !== false;
         $http.post('/search', {query: self.searchText}).
             success(function (data) {
                 self.results = data.hits;
@@ -32,5 +35,7 @@ app.controller("SearchController", ["$http", function ($http) {
             error(function (data, status) {
                 console.log(status + " " + data);
             });
-    }
+    };
+
+    self.search(false);
 }]);

@@ -16,3 +16,13 @@ body {
 div.search-input-group {
     width: 400px;
 }
+
+h4.conference {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+p.summary {
+    font-weight: bold;
+}

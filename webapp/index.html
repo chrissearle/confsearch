@@ -54,11 +54,43 @@
         <div class="col-md-9">
             <h3>Results</h3>
 
-            <div ng-repeat="hit in sc.results">
-                <h4 ng-if="hit._type == 'conference'">{{ hit._source.name }} (conference)</h4>
-                <h4 ng-if="hit._type == 'session'">{{ hit._source.title }} (session)</h4>
-                <h4 ng-if="hit._type == 'speaker'">{{ hit._source.name }} (speaker)</h4>
-                <pre>{{ hit }}</pre>
+            <div ng-repeat="hit in sc.results" ng-if="sc.searched">
+                <h3>{{ hit.title }}</h3>
+
+                <h4 class="conference">{{ hit.conference.name }}</h4>
+
+                <p class="summary">{{ hit.summary }}</p>
+
+                <p class="content">{{ hit.content }}</p>
+
+                <h4>Speakers</h4>
+
+                <p ng-repeat="speaker in hit.speakers">{{ speaker.name }}</p>
+
+                <h4>Details</h4>
+
+                <table class="table">
+                    <tr>
+                        <th>Topics:</th>
+                        <td>
+                            <ul class="list-group">
+                                <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Format:</th>
+                        <td>{{ hit.format }}</td>
+                    </tr>
+                    <tr>
+                        <th>Level:</th>
+                        <td>{{ hit.level }}</td>
+                    </tr>
+                    <tr>
+                        <th>Langauge:</th>
+                        <td>{{ hit.language }}</td>
+                    </tr>
+                </table>
             </div>
         </div>
 
@@ -71,7 +103,7 @@
                         <span class="badge">{{ item.doc_count }}</span>
                         {{ item.key }}
                     </li>
-                </ul
+                </ul>
             </div>
         </div>
     </div>

@@ -91,27 +91,53 @@ function stats(res) {
     );
 }
 
-function search(query, res) {
+function search(queryString, res) {
     "use strict";
+
+    var query;
+
+    if (queryString) {
+        query = {
+            "multi_match": {
+                "fields": [
+                    "format",
+                    "content^20",
+                    "keywords",
+                    "title^100",
+                    "language",
+                    "summary",
+                    "level",
+                    "conference.name",
+                    "conference.venue",
+                    "speakers.name^50"
+                ],
+                "query": queryString,
+                "type": "phrase_prefix"
+            }
+        };
+    } else {
+        query = {
+            "match_all": {}
+        }
+    }
 
     elasticClient.search(
         {
             "index": "javazone",
+            "type": "session",
             "body": {
-                "query": {
-                    "query_string": {
-                        "query": query
-                    }
-                },
+                "query": query,
                 "aggs": {
                     "conference_counts": {
                         "terms": {
-                            "field": "conference.name.raw"
+                            "field": "conference.name.raw",
+                            "size": 30
                         }
                     },
                     "speaker_counts": {
                         "terms": {
-                            "field": "speakers.name.raw"
+                            "field": "speakers.name.raw",
+                            "size": 15
                         }
                     },
                     "format_counts": {
@@ -146,7 +172,14 @@ function search(query, res) {
 
                 var result = {};
 
-                result.hits = resp.hits.hits;
+                result.hits = [];
+
+                resp.hits.hits.forEach(function(hit) {
+                    var processedHit = hit._source;
+                    processedHit.type = hit._type;
+
+                    result.hits.push(processedHit);
+                });
 
                 result.aggs = [];
 
