@@ -6,6 +6,9 @@
   "engines": {
     "node": "0.12.x"
   },
+  "scripts": {
+    "start": "node src/app.js"
+  },
   "dependencies": {
     "async": "^0.9.0",
     "body-parser": "^1.12.3",
@@ -16,9 +19,7 @@
     "grunt-bower-install-simple": "^1.1.2",
     "grunt-eslint": "^11.0.0",
     "grunt-npm-install": "^0.2.0",
-    "winston": "^1.0.0"
-  },
-  "devDependencies": {
+    "winston": "^1.0.0",
     "grunt-exec": "^0.4.6",
     "grunt-nodemon": "^0.4.0"
   }

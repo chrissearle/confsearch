@@ -48,4 +48,6 @@ module.exports = function (grunt) {
     grunt.registerTask("run", ["nodemon"]);
     grunt.registerTask("es", ["exec:elastic"]);
     grunt.registerTask("index", ["exec:index"]);
+
+    grunt.registerTask("heroku:production", "bower-install-simple:app");
 };

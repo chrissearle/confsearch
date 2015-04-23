@@ -11,31 +11,39 @@ app.use(bodyParser.json());
 var elasticSearch = require("elasticsearch"),
     winston = require("winston");
 
-var host = "localhost:9200";
+var host = process.env.BONSAI_URL || "localhost:9200";
 
-if (process.argv.length > 2) {
-    host = process.argv[2];
+var logflag = process.env.LOG_CONSOLE || false;
+
+var logger;
+
+if (logflag) {
+    logger = new (winston.Logger)({
+        transports: [
+            new (winston.transports.Console)()
+        ]
+    });
+} else {
+    logger = new (winston.Logger)({
+        transports: [
+            new (winston.transports.File)({
+                name: "info-file",
+                filename: "logs/web-info.log",
+                level: "info"
+            }),
+            new (winston.transports.File)({
+                name: "debug-file",
+                filename: "logs/web-debug.log",
+                level: "debug"
+            }),
+            new (winston.transports.File)({
+                name: "error-file",
+                filename: "logs/web-error.log",
+                level: "error"
+            })
+        ]
+    });
 }
-
-var logger = new (winston.Logger)({
-    transports: [
-        new (winston.transports.File)({
-            name: "info-file",
-            filename: "logs/web-info.log",
-            level: "info"
-        }),
-        new (winston.transports.File)({
-            name: "debug-file",
-            filename: "logs/web-debug.log",
-            level: "debug"
-        }),
-        new (winston.transports.File)({
-            name: "error-file",
-            filename: "logs/web-error.log",
-            level: "error"
-        })
-    ]
-});
 
 var elasticClient = new elasticSearch.Client({
     host: host,
@@ -112,7 +120,9 @@ app.post("/search", function (req, res) {
     search(req.body.query, res);
 });
 
-var server = app.listen(3000, function () {
+var port = process.env.PORT || 3000;
+
+var server = app.listen(port, function () {
     "use strict";
 
     var serverHost = server.address().address;
