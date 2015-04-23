@@ -9,3 +9,10 @@
     text-align: center;
 }
 
+body {
+    padding-top: 70px;
+}
+
+div.search-input-group {
+    width: 400px;
+}
