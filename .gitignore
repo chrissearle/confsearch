@@ -3,3 +3,4 @@ data/*
 logs/*
 node_modules
 webapp/lib
+bower_components
