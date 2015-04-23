@@ -1,8 +1,10 @@
-var fs = require('fs'),
-    http = require('http'),
-    elasticSearch = require('elasticsearch'),
-    winston = require('winston'),
-    async = require('async');
+/* globals require, process */
+
+var fs = require("fs"),
+    http = require("http"),
+    elasticSearch = require("elasticsearch"),
+    winston = require("winston"),
+    async = require("async");
 
 
 var host = "localhost:9200";
@@ -14,24 +16,32 @@ if (process.argv.length > 2) {
 var logger = new (winston.Logger)({
     transports: [
         new (winston.transports.File)({
-            name: 'info-file',
-            filename: 'logs/info.log',
-            level: 'info'
+            name: "info-file",
+            filename: "logs/info.log",
+            level: "info"
         }),
         new (winston.transports.File)({
-            name: 'error-file',
-            filename: 'logs/error.log',
-            level: 'error'
+            name: "error-file",
+            filename: "logs/error.log",
+            level: "error"
         })
+    ]
+});
+
+var output = new (winston.Logger)({
+    transports: [
+        new (winston.transports.Console)()
     ]
 });
 
 var elasticClient = new elasticSearch.Client({
     host: host,
-    log: 'info'
+    log: "info"
 });
 
 function elasticResponse(error, response) {
+    "use strict";
+
     if (error) {
         logger.error("Error: " + error);
     }
@@ -40,8 +50,10 @@ function elasticResponse(error, response) {
 }
 
 function putMapping(data, type, callback) {
+    "use strict";
+
     elasticClient.indices.putMapping({
-        index: 'javazone',
+        index: "javazone",
         type: type,
         body: data
     }, function (err, response) {
@@ -52,38 +64,44 @@ function putMapping(data, type, callback) {
 }
 
 function getJson(url, callback) {
-    http.get(url, function (res) {
-        var body = '';
+    "use strict";
 
-        res.on('data', function (chunk) {
+    http.get(url, function (res) {
+        var body = "";
+
+        res.on("data", function (chunk) {
             body += chunk;
         });
 
-        res.on('end', function () {
+        res.on("end", function () {
             callback(JSON.parse(body));
         });
-    }).on('error', function (e) {
+    }).on("error", function (e) {
         logger.error("Got error: ", e);
     });
 }
 
 function getLink(item, rel) {
-    var link = item["links"].filter(function (link) {
-        return link["rel"] === rel;
+    "use strict";
+
+    var link = item.links.filter(function (l) {
+        return l.rel === rel;
     });
 
     if (link.length > 0) {
-        return link[0]["href"];
+        return link[0].href;
     }
 
     return "";
 }
 
 function getData(item, name, fieldName) {
-    fieldName = fieldName || 'value';
+    "use strict";
 
-    var datum = item["data"].filter(function (data) {
-        return data["name"] === name;
+    fieldName = fieldName || "value";
+
+    var datum = item.data.filter(function (data) {
+        return data.name === name;
     });
 
     if (datum.length > 0) {
@@ -94,6 +112,8 @@ function getData(item, name, fieldName) {
 }
 
 function readJsonFromFile(path, callback) {
+    "use strict";
+
     fs.readFile(path, null, function (err, data) {
         if (err) {
             logger.error(err);
@@ -103,19 +123,22 @@ function readJsonFromFile(path, callback) {
     });
 }
 
-function handle_speaker(data, conference, session) {
-    var items = data["collection"]["items"];
+function handleSpeaker(data, conference, session) {
+    "use strict";
+
+    var items = data.collection.items;
 
     if (!items) {
         return;
     }
 
     // TODO - need to put conf and session into body - but need to _merge_ if already exists
+
     items.forEach(function (item) {
         elasticClient.index({
-            index: 'javazone',
-            type: 'speaker',
-            id: item["href"],
+            index: "javazone",
+            type: "speaker",
+            id: item.href,
             body: {
                 "name": getData(item, "name"),
                 "bio": getData(item, "bio")
@@ -126,8 +149,10 @@ function handle_speaker(data, conference, session) {
     });
 }
 
-function handle_session(data, conference) {
-    var items = data["collection"]["items"];
+function handleSession(data, conference) {
+    "use strict";
+
+    var items = data.collection.items;
 
     if (!items) {
         return;
@@ -146,47 +171,49 @@ function handle_session(data, conference) {
         };
 
 
-        var speakers = item["links"].filter(function (link) {
-                return link["rel"] === "speaker item";
-            });
+        var speakers = item.links.filter(function (link) {
+            return link.rel === "speaker item";
+        });
 
         var speakerContent = [];
 
-        speakers.forEach(function(speaker) {
+        speakers.forEach(function (speaker) {
             speakerContent.push({
-                "name": speaker["prompt"],
-                "link": speaker["href"]
+                "name": speaker.prompt,
+                "link": speaker.href
             });
         });
 
-        session["speakers"] = speakerContent;
+        session.speakers = speakerContent;
 
         elasticClient.index({
-            index: 'javazone',
-            type: 'session',
-            id: item["href"],
+            index: "javazone",
+            type: "session",
+            id: item.href,
             body: session
         }, function (err, response) {
             elasticResponse(err, response);
 
-            var speakers = getLink(item, "speaker collection");
+            var speakerLink = getLink(item, "speaker collection");
 
-            if (speakers) {
-                getJson(speakers, function (data) {
-                    session["link"] = item["href"];
-                    delete session["content"];
-                    delete session["summary"];
-                    delete session["conference"];
+            if (speakerLink) {
+                getJson(speakerLink, function (speakerData) {
+                    session.link = item.href;
+                    delete session.content;
+                    delete session.summary;
+                    delete session.conference;
 
-                    handle_speaker(data, conference, session);
+                    handleSpeaker(speakerData, conference, session);
                 });
             }
         });
     });
 }
 
-function handle_events(data) {
-    var items = data["collection"]["items"];
+function handleEvents(data) {
+    "use strict";
+
+    var items = data.collection.items;
 
     items.forEach(function (item) {
         var conference = {
@@ -195,41 +222,47 @@ function handle_events(data) {
         };
 
         elasticClient.index({
-            index: 'javazone',
-            type: 'conference',
-            id: item["href"],
+            index: "javazone",
+            type: "conference",
+            id: item.href,
             body: conference
         }, function (err, response) {
             elasticResponse(err, response);
 
-            getJson(getLink(item, "session collection"), function (data) {
-                conference["link"] = item["href"];
-                handle_session(data, conference);
+            getJson(getLink(item, "session collection"), function (sessionData) {
+                conference.link = item.href;
+                handleSession(sessionData, conference);
             });
         });
     });
 }
 
 function deleteIndex(callback) {
-    console.log("1: Delete Index");
+    "use strict";
+
+    output.info("1: Delete Index");
     elasticClient.indices.delete({
-        index: 'javazone'
+        index: "javazone"
     }, function (err, response) {
         callback(err, response);
     });
 }
 
 function createIndex(callback) {
-    console.log("2: Create Index");
+    "use strict";
+
+    output.info("2: Create Index");
     elasticClient.indices.create({
-        index: 'javazone'
+        index: "javazone"
     }, function (err, response) {
         callback(err, response);
     });
 }
 
 function createMapping(type, path, callback) {
-    console.log("3.1: Create " + type + " mapping");
+    "use strict";
+
+    output.info("3.1: Create " + type + " mapping");
     readJsonFromFile(path, function (data) {
         putMapping(data, type, function (err, resp) {
             callback(err, resp);
@@ -238,12 +271,16 @@ function createMapping(type, path, callback) {
 }
 
 function index(callback) {
-    console.log("4: Index");
-    getJson("http://javazone.no/ems/server/events", handle_events);
+    "use strict";
+
+    output.info("4: Index");
+    getJson("http://javazone.no/ems/server/events", handleEvents);
     callback(null, "Done");
 }
 
 function logResult(err, resp) {
+    "use strict";
+
     if (err) {
         logger.error(err);
     }
@@ -255,19 +292,21 @@ function logResult(err, resp) {
 async.series([
         deleteIndex,
         createIndex,
-        function (callback) {
+        function (outerCallback) {
+            "use strict";
+
             async.parallel([
                     function (callback) {
-                        createMapping('conference', "config/conference_mapping.json", callback);
+                        createMapping("conference", "config/conference_mapping.json", callback);
                     },
                     function (callback) {
-                        createMapping('session', "config/session_mapping.json", callback);
+                        createMapping("session", "config/session_mapping.json", callback);
                     },
                     function (callback) {
-                        createMapping('speaker', "config/speaker_mapping.json", callback);
+                        createMapping("speaker", "config/speaker_mapping.json", callback);
                     }
                 ],
-                callback
+                outerCallback
             );
         },
         index

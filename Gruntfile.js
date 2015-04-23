@@ -23,15 +23,15 @@ module.exports = function (grunt) {
         },
         nodemon: {
             dev: {
-                script: 'src/app.js'
+                script: "src/app.js"
             }
         },
         exec: {
             elastic: {
-                command: 'elasticsearch --config=config/elasticsearch.yml'
+                command: "elasticsearch --config=config/elasticsearch.yml"
             },
             index: {
-                command: 'node src/run_index.js'
+                command: "node src/run_index.js"
             }
         }
     });
@@ -40,8 +40,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-npm-install");
     grunt.loadNpmTasks("grunt-bower-install-simple");
     grunt.loadNpmTasks("grunt-eslint");
-    grunt.loadNpmTasks('grunt-nodemon');
-    grunt.loadNpmTasks('grunt-exec');
+    grunt.loadNpmTasks("grunt-nodemon");
+    grunt.loadNpmTasks("grunt-exec");
 
     grunt.registerTask("install", ["bower-install-simple:app", "npm-install"]);
     grunt.registerTask("default", ["eslint"]);
