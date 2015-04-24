@@ -198,11 +198,29 @@ function search(queryString, filters, res) {
     if (filters.length > 0) {
         // TODO - multiple
 
-        var filter = {
-            "term": {}
-        };
+        var filterList = [];
 
-        filter.term[filters[0].type] = filters[0].value;
+        filters.forEach(function(f) {
+            var filter = {
+                "term": {}
+            };
+
+            filter.term[f.type] = f.value;
+
+            filterList.push(filter);
+        });
+
+        var filter;
+
+        if (filterList.length == 1) {
+            filter = filterList[0];
+        } else {
+            filter = {
+                "bool": {
+                    "must": filterList
+                }
+            }
+        }
 
         body.query = {
             "filtered": {

@@ -85,10 +85,6 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
             "value": value
         });
 
-        if (self.filters.length > 1) {
-            self.filterWarning = "Multiple filters not yet implemented - only the first will be applied";
-        }
-
         self.search();
     };
 
