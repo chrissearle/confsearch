@@ -191,6 +191,11 @@ function search(queryString, filters, from, count, res) {
                 "terms": {
                     "field": "level"
                 }
+            },
+            "video_counts": {
+                "value_count": {
+                    "field": "video"
+                }
             }
         }
     };
@@ -201,13 +206,31 @@ function search(queryString, filters, from, count, res) {
         var filterList = [];
 
         filters.forEach(function (f) {
-            var item = {
-                "term": {}
-            };
+            if (f.type === "video") {
+                if (f.value === "Video") {
+                    filterList.push({
+                        "exists": {
+                            "field": "video"
+                        }
+                    });
+                }
 
-            item.term[f.type] = f.value;
+                if (f.value === "No video") {
+                    filterList.push({
+                        "missing": {
+                            "field": "video"
+                        }
+                    });
+                }
+            } else {
+                var item = {
+                    "term": {}
+                };
 
-            filterList.push(item);
+                item.term[f.type] = f.value;
+
+                filterList.push(item);
+            }
         });
 
         var filter;
@@ -265,10 +288,26 @@ function search(queryString, filters, from, count, res) {
                 result.aggs = [];
 
                 for (var aggregationName in resp.aggregations) {
-                    result.aggs.push({
-                        "name": aggregationName,
-                        "data": resp.aggregations[aggregationName].buckets
-                    });
+                    if (aggregationName === "video_counts") {
+                        result.aggs.push({
+                            "name": aggregationName,
+                            "data": [
+                                {
+                                    "key": "Video",
+                                    "doc_count": resp.aggregations[aggregationName].value
+                                },
+                                {
+                                    "key": "No video",
+                                    "doc_count": resp.hits.total - resp.aggregations[aggregationName].value
+                                }
+                            ]
+                        });
+                    } else {
+                        result.aggs.push({
+                            "name": aggregationName,
+                            "data": resp.aggregations[aggregationName].buckets
+                        });
+                    }
                 }
 
                 result.count = resp.hits.total;
