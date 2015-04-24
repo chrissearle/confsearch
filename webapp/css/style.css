@@ -26,3 +26,11 @@ h4.conference {
 p.summary {
     font-weight: bold;
 }
+
+.panel-default:nth-of-type(odd) {
+    background: #ffffff !important;
+}
+
+.panel-default:nth-of-type(even), .panel-default:nth-of-type(even) .btn-default, .panel-default:nth-of-type(even) .list-group-item {
+    background: #f5f5f5 !important;
+}

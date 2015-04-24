@@ -43,7 +43,15 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
 
     self.search = function () {
         SearchService.runSearch(self.searchText, self.filters, function (data) {
-            self.results = data.hits;
+            var hits = [];
+
+            data.hits.forEach(function(hit) {
+                hit.expanded = false;
+
+                hits.push(hit);
+            });
+
+            self.results = hits;
 
             var aggs = data.aggs;
             var navs = [];
@@ -103,6 +111,14 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
         });
 
         self.search();
+    };
+
+    self.expand = function (index) {
+        self.results[index].expanded = true;
+    };
+
+    self.collapse = function (index) {
+        self.results[index].expanded = false;
     };
 
     self.search();

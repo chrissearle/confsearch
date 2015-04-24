@@ -76,43 +76,51 @@
         <div class="col-md-9">
             <h2 ng-if="sc.count > 1">{{ sc.count }} sessions</h2>
 
-            <div ng-repeat="hit in sc.results">
-                <h3>{{ hit.title }}</h3>
+            <div class="panel panel-default" ng-repeat="hit in sc.results">
+                <div class="panel-body">
+                    <h3>{{ hit.title }}</h3>
 
-                <h4 class="conference">{{ hit.conference.name }}</h4>
+                    <h4 class="conference">{{ hit.conference.name }}</h4>
 
-                <p class="summary">{{ hit.summary }}</p>
+                    <p class="summary">{{ hit.summary }}</p>
 
-                <p class="content">{{ hit.content }}</p>
+                    <p class="content" ng-show="hit.expanded">{{ hit.content }}</p>
 
-                <h4>Speakers</h4>
+                    <h4>Speakers</h4>
 
-                <p ng-repeat="speaker in hit.speakers">{{ speaker.name }}</p>
+                    <p ng-repeat="speaker in hit.speakers">{{ speaker.name }}</p>
 
-                <h4>Details</h4>
+                    <p ng-hide="hit.expanded"><a ng-click="sc.expand($index)" class="btn btn-xs btn-default">More</a>
+                    </p>
 
-                <div class="row">
-                    <div class="col-md-4">
-                        <ul class="list-group">
-                            <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <table class="table table-bordered">
-                            <tr>
-                                <th>Format:</th>
-                                <td>{{ hit.format }}</td>
-                            </tr>
-                            <tr>
-                                <th>Level:</th>
-                                <td>{{ hit.level }}</td>
-                            </tr>
-                            <tr>
-                                <th>Langauge:</th>
-                                <td ng-if="hit.language == 'en'">English</td>
-                                <td ng-if="hit.language == 'no'">Norwegian</td>
-                            </tr>
-                        </table>
+                    <p ng-show="hit.expanded"><a ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
+                    </p>
+
+                    <h4 ng-show="hit.expanded">Details</h4>
+
+                    <div class="row" ng-show="hit.expanded">
+                        <div class="col-md-4">
+                            <ul class="list-group">
+                                <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th>Format:</th>
+                                    <td>{{ hit.format }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Level:</th>
+                                    <td>{{ hit.level }}</td>
+                                </tr>
+                                <tr>
+                                    <th>Langauge:</th>
+                                    <td ng-if="hit.language == 'en'">English</td>
+                                    <td ng-if="hit.language == 'no'">Norwegian</td>
+                                </tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
