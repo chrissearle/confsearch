@@ -53,7 +53,8 @@
                         <ul class="dropdown-menu" role="menu">
                             <li>{{mc.conferences.raw}}</li>
                             <li ng-repeat="conference in mc.conferences | orderBy:'-name'">
-                                <a ng-click="sc.addFilter('conference.name', conference.name)" href="#">{{ conference.name }} <span class="badge">{{ conference.count }}</span></a>
+                                <a ng-click="sc.addFilter('conference.name', conference.name)" href="#">{{
+                                    conference.name }} <span class="badge">{{ conference.count }}</span></a>
                             </li>
                         </ul>
                     </li>
@@ -64,7 +65,8 @@
 
     <div class="row" ng-if="sc.filters.length > 0">
         <div class="well">
-            <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{ filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
+            <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{
+                filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
             <span ng-if="sc.filterWarning" class="label label-warning">{{ sc.filterWarning }}</span>
         </div>
     </div>
@@ -136,6 +138,18 @@
                 |
                 {{ sc.speakerCount }} speakers
             </p>
+
+            <h4>TODO:</h4>
+            <ul>
+                <li>Make RETURN key work in search field</li>
+                <li>Add click on right navigation to add filters</li>
+                <li>Add function to remove filter</li>
+                <li>Support more than one filter at a time</li>
+                <li>Restrict to one filter per field</li>
+                <li>All speakers list</li>
+                <li>Remove right navigation if only one value is present for a field</li>
+                <li>Query tuning</li>
+            </ul>
         </footer>
     </div>
 

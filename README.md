@@ -1,13 +1,12 @@
 # JavaZone Indexer
 
-To start ElasticSearch locally - run
+To start ElasticSearch locally - grunt es
 
-```
-elasticsearch --config=config/elasticsearch.yml
-```
+To index - grunt index
 
-Still to be done:
+To start app - grunt run
 
-* Handle speakers. Make sure that we can search/aggregate speakers. Probably make them their own type as well - need to store some info on what session(s) they have.
-* Dynamic mappings for raw field perhaps
+To point app to a different ES endpoint - set BONSAI_URL environment variable
+
+To index to a different ES endpoint - node src/run_index.js URL
 
