@@ -6,7 +6,7 @@ String.prototype.capitalize = function () {
     return this.charAt(0).toUpperCase() + this.slice(1);
 };
 
-String.prototype.endsWith = function(suffix) {
+String.prototype.endsWith = function (suffix) {
     return this.indexOf(suffix, this.length - suffix.length) !== -1;
 };
 
@@ -52,7 +52,7 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
             var aggs = data.aggs;
             var navs = [];
 
-            aggs.forEach(function(agg) {
+            aggs.forEach(function (agg) {
                 var name = agg.name.replace("_counts", "");
 
                 var type = name.toLowerCase();
@@ -99,10 +99,12 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
         self.search();
     };
 
-    self.removeFilter = function(filter) {
-        // TODO
+    self.removeFilter = function (filter) {
+        self.filters = self.filters.filter(function (data) {
+            return data.type != filter.type;
+        });
 
-        self.filterWarning = "Not yet implemented";
+        self.search();
     };
 
     self.search(false);

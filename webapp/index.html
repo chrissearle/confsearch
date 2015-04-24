@@ -67,7 +67,6 @@
         <div class="well">
             <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{
                 filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
-            <span ng-if="sc.filterWarning" class="label label-warning">{{ sc.filterWarning }}</span>
         </div>
     </div>
 
@@ -145,6 +144,7 @@
             <h4>TODO:</h4>
             <ul>
                 <li>Add function to remove filter</li>
+                <li>Pagination</li>
                 <li>All speakers list</li>
                 <li>Query tuning</li>
             </ul>
