@@ -85,12 +85,16 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
     };
 
     self.addFilter = function (type, value) {
-        // TODO - one per type limit
+        var filters = self.filters.filter(function (data) {
+            return data.type !== type;
+        });
 
-        self.filters.push({
+        filters.push({
             "type": type,
             "value": value
         });
+
+        self.filters = filters;
 
         self.search();
     };
