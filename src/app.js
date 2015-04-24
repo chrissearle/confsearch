@@ -267,6 +267,8 @@ function search(queryString, filters, res) {
                     });
                 }
 
+                result.count = resp.hits.total;
+
                 res.json(result);
             }
         }

@@ -72,9 +72,9 @@
 
     <div class="row">
         <div class="col-md-9">
-            <h3>Results</h3>
+            <h2 ng-if="sc.count > 0">{{ sc.count }} sessions</h2>
 
-            <div ng-repeat="hit in sc.results" ng-if="sc.searched">
+            <div ng-repeat="hit in sc.results">
                 <h3>{{ hit.title }}</h3>
 
                 <h4 class="conference">{{ hit.conference.name }}</h4>
@@ -143,7 +143,6 @@
 
             <h4>TODO:</h4>
             <ul>
-                <li>Add function to remove filter</li>
                 <li>Pagination</li>
                 <li>All speakers list</li>
                 <li>Query tuning</li>

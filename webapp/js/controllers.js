@@ -37,15 +37,11 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
 
     var self = this;
 
-    self.searched = false;
-
     self.searchText = "";
     self.filters = [];
 
 
-    self.search = function (searchFlag) {
-        self.searched = searchFlag !== false;
-
+    self.search = function () {
         SearchService.runSearch(self.searchText, self.filters, function (data) {
             self.results = data.hits;
 
@@ -81,6 +77,8 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
             });
 
             self.navs = navs;
+
+            self.count = data.count;
         });
     };
 
@@ -107,5 +105,5 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
         self.search();
     };
 
-    self.search(false);
+    self.search();
 }]);
