@@ -86,6 +86,14 @@
         <div class="col-md-9">
             <h2 ng-if="sc.count > 1">{{ sc.count }} sessions</h2>
 
+            <nav>
+                <ul class="pager">
+                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
+                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+
             <div class="panel panel-default" ng-repeat="hit in sc.results">
                 <div class="panel-body">
                     <h3>{{ hit.title }}</h3>
@@ -134,6 +142,15 @@
                     </div>
                 </div>
             </div>
+
+            <nav>
+                <ul class="pager">
+                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
+                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+
         </div>
 
         <div class="col-md-3">
@@ -151,6 +168,7 @@
         </div>
     </div>
 
+
     <div class="row">
         <footer class="footer" ng-controller="StatsController as sc">
             <p>
@@ -163,7 +181,6 @@
 
             <h4>TODO:</h4>
             <ul>
-                <li>Pagination</li>
                 <li>All speakers list</li>
                 <li>Query tuning</li>
                 <li>Speaker Pics</li>

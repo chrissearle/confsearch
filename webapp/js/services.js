@@ -15,10 +15,12 @@ app.service("SearchService", ["$http", function ($http) {
             });
     }
 
-    function runSearch(queryText, filters, callback) {
+    function runSearch(queryText, filters, page, perPage, callback) {
         $http.post('/search', {
             query: queryText,
-            filters: filters
+            filters: filters,
+            from: page,
+            count: perPage
         }).success(function (data) {
             callback(data);
         });

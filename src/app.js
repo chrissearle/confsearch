@@ -127,7 +127,7 @@ function stats(res) {
     );
 }
 
-function search(queryString, filters, res) {
+function search(queryString, filters, from, count, res) {
     "use strict";
 
     var query;
@@ -153,8 +153,8 @@ function search(queryString, filters, res) {
         };
     } else {
         query = {
-            "match_all": {}
-        }
+            "match_all": {},
+        };
     }
 
 
@@ -200,26 +200,26 @@ function search(queryString, filters, res) {
 
         var filterList = [];
 
-        filters.forEach(function(f) {
-            var filter = {
+        filters.forEach(function (f) {
+            var item = {
                 "term": {}
             };
 
-            filter.term[f.type] = f.value;
+            item.term[f.type] = f.value;
 
-            filterList.push(filter);
+            filterList.push(item);
         });
 
         var filter;
 
-        if (filterList.length == 1) {
+        if (filterList.length === 1) {
             filter = filterList[0];
         } else {
             filter = {
                 "bool": {
                     "must": filterList
                 }
-            }
+            };
         }
 
         body.query = {
@@ -238,6 +238,8 @@ function search(queryString, filters, res) {
         {
             "index": "javazone",
             "type": "session",
+            "from": from,
+            "size": count,
             "body": body
         }, function (err, resp) {
             if (err) {
@@ -252,18 +254,20 @@ function search(queryString, filters, res) {
                 result.hits = [];
 
                 resp.hits.hits.forEach(function (hit) {
+                    /* eslint-disable no-underscore-dangle */
                     var processedHit = hit._source;
                     processedHit.type = hit._type;
+                    /* eslint-disable no-underscore-dangle */
 
                     result.hits.push(processedHit);
                 });
 
                 result.aggs = [];
 
-                for (var aggregation_name in resp.aggregations) {
+                for (var aggregationName in resp.aggregations) {
                     result.aggs.push({
-                        "name": aggregation_name,
-                        "data": resp.aggregations[aggregation_name].buckets
+                        "name": aggregationName,
+                        "data": resp.aggregations[aggregationName].buckets
                     });
                 }
 
@@ -290,7 +294,7 @@ app.get("/conferences", function (req, res) {
 app.post("/search", function (req, res) {
     "use strict";
 
-    search(req.body.query, req.body.filters, res);
+    search(req.body.query, req.body.filters, req.body.from || 1, req.body.count || 50, res);
 });
 
 var port = process.env.PORT || 3000;

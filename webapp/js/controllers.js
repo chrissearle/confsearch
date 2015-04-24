@@ -39,9 +39,15 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
 
     self.searchText = "";
     self.filters = [];
+    self.page = 1;
+    self.perPage = 50;
 
-    self.search = function () {
-        SearchService.runSearch(self.searchText, self.filters, function (data) {
+    self.search = function (resetPage) {
+        if (resetPage) {
+            self.page = 1;
+        }
+
+        SearchService.runSearch(self.searchText, self.filters, self.page, self.perPage, function (data) {
             var hits = [];
 
             data.hits.forEach(function(hit) {
@@ -86,6 +92,10 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             self.navs = navs;
 
             self.count = data.count;
+
+            self.prevPage = (self.page > 1) ? self.page - 1 : 0;
+            self.lastPage = Math.ceil(self.count / self.perPage);
+            self.nextPage = (self.page < self.lastPage) ? self.page + 1 : 0;
         });
     };
 
@@ -101,7 +111,7 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
 
         self.filters = filters;
 
-        self.search();
+        self.search(true);
     };
 
     self.removeFilter = function (filter) {
@@ -109,7 +119,7 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             return data.type != filter.type;
         });
 
-        self.search();
+        self.search(true);
     };
 
     self.expand = function (index) {
@@ -131,5 +141,11 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
         self.currentVideo = $sce.trustAsResourceUrl("");
     };
 
-    self.search();
+    self.gotoPage = function(page) {
+        self.page = page;
+
+        self.search();
+    };
+
+    self.search(true);
 }]);
