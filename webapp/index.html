@@ -41,7 +41,7 @@
                                ng-model="sc.searchText">
 
                         <div class="input-group-btn">
-                            <button type="button" ng-click="sc.search()" class="btn btn-primary"><span
+                            <button type="submit" ng-click="sc.search()" class="btn btn-primary"><span
                                     class="glyphicon glyphicon-search"></span></button>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                         <ul class="dropdown-menu" role="menu">
                             <li>{{mc.conferences.raw}}</li>
                             <li ng-repeat="conference in mc.conferences | orderBy:'-name'">
-                                <a ng-click="sc.addFilter('conference.name', conference.name)" href="#">{{
+                                <a ng-click="sc.addFilter('conference.name.raw', conference.name)" href="#">{{
                                     conference.name }} <span class="badge">{{ conference.count }}</span></a>
                             </li>
                         </ul>
@@ -90,28 +90,30 @@
 
                 <h4>Details</h4>
 
-                <table class="table">
-                    <tr>
-                        <th>Topics:</th>
-                        <td>
-                            <ul class="list-group">
-                                <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Format:</th>
-                        <td>{{ hit.format }}</td>
-                    </tr>
-                    <tr>
-                        <th>Level:</th>
-                        <td>{{ hit.level }}</td>
-                    </tr>
-                    <tr>
-                        <th>Langauge:</th>
-                        <td>{{ hit.language }}</td>
-                    </tr>
-                </table>
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-group">
+                            <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Format:</th>
+                                <td>{{ hit.format }}</td>
+                            </tr>
+                            <tr>
+                                <th>Level:</th>
+                                <td>{{ hit.level }}</td>
+                            </tr>
+                            <tr>
+                                <th>Langauge:</th>
+                                <td ng-if="hit.language == 'en'">English</td>
+                                <td ng-if="hit.language == 'no'">Norwegian</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -119,12 +121,12 @@
             <div ng-repeat="nav in sc.navs">
                 <h4>{{ nav.name }}</h4>
 
-                <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="item in nav.data" ng-if="item.key">
+                <div class="list-group">
+                    <a class="list-group-item" ng-repeat="item in nav.data" ng-if="item.key" ng-click="sc.addFilter(nav.type, item.key)">
                         <span class="badge">{{ item.doc_count }}</span>
                         {{ item.key }}
-                    </li>
-                </ul>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -141,8 +143,6 @@
 
             <h4>TODO:</h4>
             <ul>
-                <li>Make RETURN key work in search field</li>
-                <li>Add click on right navigation to add filters</li>
                 <li>Add function to remove filter</li>
                 <li>Support more than one filter at a time</li>
                 <li>Restrict to one filter per field</li>

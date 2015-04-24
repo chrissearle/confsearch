@@ -13,10 +13,6 @@ var elasticSearch = require("elasticsearch"),
 
 var host = process.env.BONSAI_URL || "localhost:9200";
 
-String.prototype.capitalize = function () {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-}
-
 var logflag = process.env.LOG_CONSOLE || false;
 
 var logger;
@@ -164,29 +160,29 @@ function search(queryString, filters, res) {
 
     var body = {
         "aggs": {
-            "conference_counts": {
+            "conference.name.raw_counts": {
                 "terms": {
                     "field": "conference.name.raw",
                     "size": 30
                 }
             },
-            "speaker_counts": {
+            "speaker.name.raw_counts": {
                 "terms": {
                     "field": "speakers.name.raw",
                     "size": 15
                 }
             },
-            "format_counts": {
+            "format.raw_counts": {
                 "terms": {
                     "field": "format.raw"
                 }
             },
-            "keyword_counts": {
+            "keywords.raw_counts": {
                 "terms": {
                     "field": "keywords.raw"
                 }
             },
-            "language_counts": {
+            "language.raw_counts": {
                 "terms": {
                     "field": "language.raw"
                 }
@@ -206,7 +202,7 @@ function search(queryString, filters, res) {
             "term": {}
         };
 
-        filter.term[filters[0].type + ".raw"] = filters[0].value;
+        filter.term[filters[0].type] = filters[0].value;
 
         body.query = {
             "filtered": {
@@ -248,7 +244,7 @@ function search(queryString, filters, res) {
 
                 for (var aggregation_name in resp.aggregations) {
                     result.aggs.push({
-                        "name": aggregation_name.replace('_counts', 's').capitalize(),
+                        "name": aggregation_name,
                         "data": resp.aggregations[aggregation_name].buckets
                     });
                 }
