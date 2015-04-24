@@ -124,7 +124,7 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
         $location.hash("videoPlayer");
         $anchorScroll();
 
-        self.currentVideo = $sce.trustAsResourceUrl(self.results[index].video.replace("vimeo.com", "player.vimeo.com/video"));
+        self.currentVideo = $sce.trustAsResourceUrl(self.results[index].video.replace("http://vimeo.com", "//player.vimeo.com/video"));
     };
 
     self.removeVideo = function() {
