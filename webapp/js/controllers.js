@@ -32,14 +32,13 @@ app.controller("MenuController", ["SearchService", function (SearchService) {
     });
 }]);
 
-app.controller("SearchController", ["SearchService", function (SearchService) {
+app.controller("SearchController", ["SearchService", "$location", "$anchorScroll", "$sce", function (SearchService, $location, $anchorScroll, $sce) {
     "use strict";
 
     var self = this;
 
     self.searchText = "";
     self.filters = [];
-
 
     self.search = function () {
         SearchService.runSearch(self.searchText, self.filters, function (data) {
@@ -119,6 +118,17 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
 
     self.collapse = function (index) {
         self.results[index].expanded = false;
+    };
+
+    self.playVideo = function(index) {
+        $location.hash("videoPlayer");
+        $anchorScroll();
+
+        self.currentVideo = $sce.trustAsResourceUrl(self.results[index].video.replace("vimeo.com", "player.vimeo.com/video"));
+    };
+
+    self.removeVideo = function() {
+        self.currentVideo = $sce.trustAsResourceUrl("");
     };
 
     self.search();

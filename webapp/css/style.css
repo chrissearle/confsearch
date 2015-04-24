@@ -34,3 +34,7 @@ p.summary {
 .panel-default:nth-of-type(even), .panel-default:nth-of-type(even) .btn-default, .panel-default:nth-of-type(even) .list-group-item {
     background: #f5f5f5 !important;
 }
+
+div.video {
+    text-align: center;
+}

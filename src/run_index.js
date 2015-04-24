@@ -170,6 +170,11 @@ function handleSession(data, conference) {
             "conference": conference
         };
 
+        var video = getLink(item, "alternate video");
+
+        if (video) {
+            session.video = video;
+        }
 
         var speakers = item.links.filter(function (link) {
             return link.rel === "speaker item";

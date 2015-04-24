@@ -63,6 +63,16 @@
         </div>
     </nav>
 
+    <div class="row" class="video" ng-if="sc.currentVideo">
+        <div class="well well-sm">
+            <a ng-click="sc.removeVideo()" class="btn btn-xs btn-default">Hide Video</a>
+        </div>
+        <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+            <iframe ng-src="{{ sc.currentVideo }}" class="embed-responsive-item"
+                    id="videoPlayer" align="center"></iframe>
+        </div>
+    </div>
+
     <div class="row" ng-if="sc.filters.length > 0">
         <div class="well well-sm">
             <div class="btn-group" role="group">
@@ -90,10 +100,10 @@
 
                     <p ng-repeat="speaker in hit.speakers">{{ speaker.name }}</p>
 
-                    <p ng-hide="hit.expanded"><a ng-click="sc.expand($index)" class="btn btn-xs btn-default">More</a>
-                    </p>
-
-                    <p ng-show="hit.expanded"><a ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
+                    <p>
+                        <a ng-hide="hit.expanded" ng-click="sc.expand($index)" class="btn btn-xs btn-default">More</a>
+                        <a ng-show="hit.expanded" ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
+                        <a ng-if="hit.video" ng-click="sc.playVideo($index)" class="btn btn-xs btn-default">Video</a>
                     </p>
 
                     <h4 ng-show="hit.expanded">Details</h4>
@@ -157,8 +167,9 @@
                 <li>All speakers list</li>
                 <li>Query tuning</li>
                 <li>Speaker Pics</li>
-                <li>Video links</li>
-                <li>Handling speakers - speakers that are on several sessions over several years are not the same speaker in EMS</li>
+                <li>Handling speakers - speakers that are on several sessions over several years are not the same
+                    speaker in EMS
+                </li>
             </ul>
         </footer>
     </div>
