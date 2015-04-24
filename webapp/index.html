@@ -86,7 +86,7 @@
         <div class="col-md-9">
             <h2 ng-if="sc.count > 1">{{ sc.count }} sessions</h2>
 
-            <nav>
+            <nav ng-hide="sc.lastPage === 1">
                 <ul class="pager">
                     <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
                     <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
@@ -110,7 +110,7 @@
 
                     <p>
                         <a ng-hide="hit.expanded" ng-click="sc.expand($index)" class="btn btn-xs btn-default">More</a>
-                        <a ng-show="hit.expanded" ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
+                        <a ng-show="hit.expanded && sc.count > 1" ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
                         <a ng-if="hit.video" ng-click="sc.playVideo($index)" class="btn btn-xs btn-default">Video</a>
                     </p>
 
@@ -143,7 +143,7 @@
                 </div>
             </div>
 
-            <nav>
+            <nav ng-hide="sc.lastPage === 1">
                 <ul class="pager">
                     <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
                     <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
@@ -182,8 +182,8 @@
             <h4>TODO:</h4>
             <ul>
                 <li>All speakers list</li>
-                <li>Query tuning - change from phrase_prefix to cross_fields. Also look at sorting when scores are the same</li>
                 <li>Speaker Pics</li>
+                <li>Speaker Bios</li>
                 <li>Handling speakers - speakers that are on several sessions over several years are not the same
                     speaker in EMS
                 </li>

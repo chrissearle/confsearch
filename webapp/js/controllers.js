@@ -47,11 +47,21 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             self.page = 1;
         }
 
-        SearchService.runSearch(self.searchText, self.filters, self.page, self.perPage, function (data) {
+        var offset = (self.page - 1) * self.perPage;
+
+        SearchService.runSearch(self.searchText, self.filters, offset, self.perPage, function (data) {
+            self.removeVideo();
+
+            self.count = data.count;
+
             var hits = [];
 
             data.hits.forEach(function(hit) {
                 hit.expanded = false;
+
+                if (self.count == 1) {
+                    hit.expanded = true;
+                }
 
                 hits.push(hit);
             });
@@ -90,8 +100,6 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             });
 
             self.navs = navs;
-
-            self.count = data.count;
 
             self.prevPage = (self.page > 1) ? self.page - 1 : 0;
             self.lastPage = Math.ceil(self.count / self.perPage);

@@ -1,0 +1,499 @@
+{
+  "took": 62,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  },
+  "hits": {
+    "total": 13,
+    "max_score": 0.8608454,
+    "hits": [
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/580343a2-e19c-43a1-8d27-9b7d36054c70",
+        "_score": 0.8608454,
+        "_source": {
+          "format": "presentation",
+          "content": "På FINN har brukerne lenge hatt muligheten for å lagre søkene sine til senere bruk, samt få daglig e-postvarsling på dette. Med inntog av nye enheter med mulighet push-varslinger ser vi at daglig varsling tilhører fortiden og har laget et system for å varsle brukerne mer eller mindre øyeblikkelig.\n\nProspective search, alert, percolate, lagrede søk. Kjært barn har mange navn, men få implementasjoner. I vår søken fant vi veldig få referanser til hvordan dette kan gjøres med SOLR-indekser. Vi bestemte oss tidlig for at Elasticsearch' implementasjon (percolate) hadde mye bra ved seg, men det var ingen opsjon å bytte ut vårt primære SOLR-søk med Elasticsearch.  Videre var det nødvendig med mange tilpasninger for å få systemet til å yte de volumene FINN har, spesielt på antall lagrede søk. Vi har laget en hybridløsning hvor oversetter mellom SOLR, FINN's eget søkeformat og ElasticSearch.\n\nSystemet lytter kontinuerlig til annonsetilgangen på hele FINN, og matcher dette opp mot alle brukernes totalt ca 600.000 lagrede søk.  Treff pushes videre til FINN-strømmen, mobile enheter og epost.\n\nPresentasjonen vil gå gjennom løsningen i detalj, fra initielle betraktninger, via arkitekturen og implementasjonen, til testimplementasjoner og en betraktning av hva vi synes er bra og mangelfullt ved løsningen.",
+          "keywords": [
+            "Backend",
+            "Architecture",
+            "Experience reports"
+          ],
+          "title": "PUSH i FINN.no: Øyeblikkelig varsling på nye annonser",
+          "language": "no",
+          "summary": "Hvordan FINN bruker SOLR, Elasticsearch, Cassandra og Kafka til å matche 10 millioner koblinger pr dag mellom brukerenes lagrede søk og annonser som legges inn. Tidligere fikk du en epost om morgenen, nå kan du få varsel på din telefon sekunder etter at annonsen legges inn.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2014",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f"
+          },
+          "video": "http://vimeo.com/105761141",
+          "speakers": [
+            {
+              "name": "Fredrik Rødland",
+              "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/580343a2-e19c-43a1-8d27-9b7d36054c70/speakers/7e1aa6b5-0944-4b38-8121-f79c7c1f1f90"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/bd635203-0651-46bc-99ba-fbf27f4d2b59",
+        "_score": 0.3474678,
+        "_source": {
+          "format": "lightning-talk",
+          "content": "Vi gjennomgår et enkelt standardproblem i Java - hvordan sortere en liste? - og ser hvordan vi kan gjøre det mye mer konsist og lettere å lese via de nye språkmekanismene som kommer i Java 8.",
+          "keywords": [
+            "Core Java",
+            "Programming languages"
+          ],
+          "title": "Java 8 - Closures, Extension Methods, SAMs, Method Handles, Oh My!",
+          "language": "no",
+          "summary": "We show a simple standard problem in Java - how to sort a list? - and how this can be made much more concise and easier to read using the new language features in Java 8.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2011",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda"
+          },
+          "speakers": [
+            {
+              "name": "Fredrik Vraalsen",
+              "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/bd635203-0651-46bc-99ba-fbf27f4d2b59/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/8df6e847-b2c0-432d-bd34-8afb670dd36e",
+        "_score": 0.3474678,
+        "_source": {
+          "format": "lightning-talk",
+          "content": "Vi forventer i dag å få servert enkle og intuitive brukergrensesnitt. I løpet av de siste årene er dette ofte realisert ved å ta bruk av touch-teknologi. Ved å innlemme fysisk sensorlyttere, er det mulig å introdusere ny intuitiv atferd for å forbedre brukeropplevelsen enda mer. Androidtjenester gjør det svært enkelt å legge til denne funksjonaliteten. Denne talen er en introduksjon til Androids sensortjenester og hvordan man, ved å ta i bruk dette enkle verktøyet, kan berike brukeropplevelsen.",
+          "keywords": [
+            "Research",
+            "Mobile",
+            "Programming concepts"
+          ],
+          "title": "Forbedre brukeropplevelsen ved hjelp av sensorlyttere",
+          "language": "no",
+          "summary": "There are other ways to get good user experince than touch technology! By incorporating physical sensor listeners, it is possible to introduce new intuitive behaviors. This speech is an introduction to Android sensor services and how this can enrich user experience.",
+          "level": "beginner",
+          "conference": {
+            "name": "JavaZone 2011",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda"
+          },
+          "speakers": [
+            {
+              "name": "Fredrik Oledal",
+              "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/8df6e847-b2c0-432d-bd34-8afb670dd36e/speakers/bb47afb1-bfa2-4d86-9d8d-0b0512d57e8d"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/2d044f66-2abf-4ace-84a9-af62ec5049bf",
+        "_score": 0.3474678,
+        "_source": {
+          "format": "presentation",
+          "content": "There's a lot of buzz about Functional Programming. Even Java has gotten support with the release of Java 8! Why should we as developers, architects or project managers care? Come learn about some of the benefits you can get by incorporating aspects of functional programming in your project. We'll touch on issues such as reuse, reduced complexity, improved testability, expressiveness, bugs, performance and more!",
+          "keywords": [
+            "Concepts",
+            "Craftmanship",
+            "Knowledge Practice"
+          ],
+          "title": "What's the deal with Functional Programming anyway?",
+          "language": "en",
+          "summary": "Learn about the benefits of adopting functional programming principles in your software development projects. We'll touch on issues such as reuse, reduced complexity, testing, performance and more!",
+          "level": "beginner",
+          "conference": {
+            "name": "JavaZone 2014",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f"
+          },
+          "video": "http://vimeo.com/105785568",
+          "speakers": [
+            {
+              "name": "Fredrik Vraalsen",
+              "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/2d044f66-2abf-4ace-84a9-af62ec5049bf/speakers/3784bf60-2111-401d-b383-f928e1cdf2dc"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/2e4e3b89-277c-4d41-89fa-9c9398ed9beb",
+        "_score": 0.3474678,
+        "_source": {
+          "format": "presentation",
+          "content": "Java 8 will finally deliver us to the promised land of functional programming! So can we stop worrying now about learning Scala and Clojure and the other new kids on the block?\n\nWe'll look at what new powers the new features such as Lambdas, Default Methods and Streams give us, as well as what Java is still lacking compared to other functional languages on the JVM.",
+          "keywords": [
+            "Alternative languages",
+            "Core Java",
+            "Functional Programming"
+          ],
+          "title": "Java 8 to the rescue!?",
+          "language": "en",
+          "summary": "Java 8 will finally deliver us to the promised land of functional programming! We'll look at what new powers the new features such as Lambdas and Default Methods give us, and also where Java is still lacking compared to e.g. Scala and Clojure.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2013",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa"
+          },
+          "video": "http://vimeo.com/74354370",
+          "speakers": [
+            {
+              "name": "Fredrik Vraalsen",
+              "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/2e4e3b89-277c-4d41-89fa-9c9398ed9beb/speakers/a5b18513-8558-4f10-a5f2-c4d18414bf5c"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/0ba4d1d2-8d2a-4afa-ad20-d33accc5e2a7",
+        "_score": 0.27797425,
+        "_source": {
+          "format": "presentation",
+          "content": "Vegvesenet har tusenvis av trafikkmålestasjoner over hele landet med sensorer som kan måle en mengde data om kjøretøyene som passerer, for eksempel hastighet, lengde og vekt. Nå skal disse passeringsdataene samles inn, analyseres og arkiveres i sanntid. Til dette formålet utvikles en helt ny arkitektur i Vegvesenet basert på Akka, Elasticsearch og OPC-UA. Systemet må kunne håndtere de store samtidige datamengdene som kommer inn fra alle målestasjonene og skal gi grunnlag for ulike sanntidstjenester for trafikksentralene og publikum samt lagre dataene for senere statistisk analyse - et perfekt case for horisontal skalerbarhet med Akka og Elasticsearch? Denne presentasjonen vil ta for seg arkitekturen som ble valgt og vise styrker og svakheter ved de ulike komponentene, erfaringene vi har gjort oss i forhold til clustering, skalerbarhet og ytelse og hvordan vi har kommet oss rundt en del av utfordringene vi har møtt.",
+          "keywords": [
+            "Backend",
+            "Architecture",
+            "Experience reports"
+          ],
+          "title": "Vi vet hvor det blir kø - Store mengder trafikkdata med Akka og Elasticsearch (og en tysker ved navn OPC-UA)",
+          "language": "no",
+          "summary": "Vegvesenet er i ferd med å bygge et nytt system for innsamling av trafikkdata i sanntid basert på Akka, Elasticsearch og OPC-UA. Her får du en gjennomgang av prosjektet, arkitekturen, erfaringer som er gjort i forhold til de valgte komponentene, clustering, skalerbarhet og ytelse og noen løsninger på utfordringer vi har møtt underveis.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2014",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f"
+          },
+          "video": "http://vimeo.com/105771495",
+          "speakers": [
+            {
+              "name": "Jan Fredrik Wedén",
+              "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/0ba4d1d2-8d2a-4afa-ad20-d33accc5e2a7/speakers/4551d5d7-2597-4d4d-8ce0-3430ee6914e8"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9",
+        "_score": 0.2628617,
+        "_source": {
+          "format": "presentation",
+          "content": "Reuse, genericity and decoupling have recently been treated as the very goals of software development. But they are not.\r\n\r\nYou probably feel you should reuse as much code as possible, be it your own, that of you organization or third party open source or commercial software. But just because the code is already written doesn't mean you won't have to understand, debug and maybe even change it.\r\n\r\nYou probably feel you should write your code in a generic fashion so it can be reused. But generic code can be harder to understand. And making a piece of code flexible to certain kinds of changes will make it less flexible to other changes. Moving decisions to configuration can make your code more generic, but often, it will increase the cost of change.\r\n\r\nYou have probably learned that you must reduce the extent to which parts of your code is coupled to each other if you are to create maintainable code. So all your objects reference each other through interfaces and are wired together in huge XML files. But this makes the code harder to navigate and refactor.\r\n\r\nIn the quest for better software reuse, genericity and decoupling has become ends in themselves.  In this talk, we will show how examples of how contemporary notions of good design have led us and others to solutions that are overly complex.\r\n\r\n\"A good design\" is not a goal in itself. The goal is a system that requires as little effort as possible to develop and change. Proper use of reuse, decoupling and genericity can help with this goal. Improper use almost always hurts.\r\n\r\nSo how do you measure something like simplicity? We would like to revive an often reviled metric: Lines of code. More specifically, how many executable statements do you have to deal with to maintain the code?\r\n\r\nSoftware developers have to be smart. But if you sometimes get the feeling we're too smart for our own good, this talk is for you.",
+          "keywords": [
+            "Alternative Languages",
+            "Domain-driven design",
+            "Architecture and Design"
+          ],
+          "title": "Reconsidering cherished design dogmas",
+          "language": "en",
+          "summary": "Is your code perfectly decoupled, reusable and generic? Maybe it shouldn't be.\r\n\r\nIn this example-driven talk, we strike a blow for simplicity. We take to task current notions of high-quality software architecture and show how even modern approaches are needlessly complex.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2009",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b"
+          },
+          "speakers": [
+            {
+              "name": "Finn-Robert Kristensen",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9/speakers/5a1481c5-e1a1-46b9-8caf-1417f807eeb5"
+            },
+            {
+              "name": "Johannes Brodwall",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9/speakers/13f468db-0c55-4bbd-9557-666457269e93"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597",
+        "_score": 0.24322747,
+        "_source": {
+          "format": "lightning-talk",
+          "content": "Høyere ytelse oppnås ikke lenger ved å øke klokkehastigheten, men ved å kaste flere prosessorkjerner på problemet. Allerede i dag er det vanlig med 4 kjerner på skrivebordet, og denne trenden vil bare fortsette fremover. Hvis en ikke makter å utnytte parallelliteten, vil man om ikke lenge utnytte kun få prosent av ytelsen i systemet.\r\n\r\nFor å kunne utnytte systemet fullt ut, må man få et bevisst forhold til parallellitet. Hvor mange utviklere behersker egentlig dette? Vi vil belyse denne problemstillingen gjennom noen enkle caser basert på bruk av tråd-mekanismer som finnes i Java i dag.",
+          "keywords": ["Core Java"],
+          "title": "Er det ikke bare å legge på 'synchronized' da?",
+          "language": "no",
+          "summary": "Utivkling av parallelle systemer blir stadig viktigere. Hvor mange utviklere behersker egentlig dette? Vi går igjennom noen enkle caser for å belyse problemstillingen.",
+          "level": "beginner",
+          "conference": {
+            "name": "JavaZone 2009",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b"
+          },
+          "speakers": [
+            {
+              "name": "Jon Marius Håkedal",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597/speakers/dab13296-4ecf-456c-ada5-b0b34994b08f"
+            },
+            {
+              "name": "Fredrik Vraalsen",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df",
+        "_score": 0.24322747,
+        "_source": {
+          "format": "presentation",
+          "content": "Tired of XML in your web applications? Looking for a better language which lets you do more with less?\r\n\r\nScala is a modern programming language on the Java VM, combining the best of OO and functional programming. Wicket is a popular stateful component-based web framework.\r\n\r\nWe have developed SubmitIT, a web application to collect presentation proposals for the JavaZone programme committee. \r\n\r\nIn this presentation we start by giving some background on JavaZone, the review process and the pains of a growing conference. Then we introduce SubmitIT and give an overview of the core technologies used, Scala and Wicket. We present some of the challenges we had to overcome when combining a Java-based web framework with Scala, as well as the available tool support. Finally we conclude with some remarks on productivity and code quality.",
+          "keywords": [
+            "Tools and Techniques",
+            "Experience Reports",
+            "Java Frameworks",
+            "Frontend Technologies",
+            "Alternative Languages"
+          ],
+          "title": "Scala & Wicket, match made in heaven? A case study of JavaZone's web submission application",
+          "language": "en",
+          "summary": "Scala is a modern programming language on the Java VM, combining the best of OO and functional programming. Wicket is a popular stateful component-based web framework. In this talk we present these two technologies and some of the observed strengths and weaknesses of combining them.",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2009",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b"
+          },
+          "speakers": [
+            {
+              "name": "Fredrik Vraalsen",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0"
+            },
+            {
+              "name": "Alf Kristian Støyle",
+              "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df/speakers/1d29ccb1-2cf0-4651-bca4-fea8c8ddd63c"
+            }
+          ]
+        }
+      },
+      {
+        "_index": "javazone",
+        "_type": "session",
+        "_id": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/6f140cbb-9330-4a86-8d85-d1780ce466ff",
+        "_score": 0.15730397,
+        "_source": {
+          "format": "presentation",
+          "content": "På JavaZone 2004 holdt jeg presentasjonen \"Finn rytmen med Agile utvikling\". Min påstand den gang var at \"Agile utviklingsteknikker som test-drevet utvikling, kontinuerlig integrasjon, daglige stand-up møter og ukentlige iterasjoner skaper en rytme i prosjektet som er veldig behagelig og effektiv å jobbe i, både for utviklere og prosjektet som helhet.\"\n\nEtter 10 år og en rekke smidige prosjekter -- i inn- og utland, i offentlig og privat sektor, med samlokaliserte team og team spredt på ulike kontinenter -- vil jeg oppsummere hva som har vist seg å fungere, hva som ikke har fungert, og på hvilke områder jeg opplever det er størst forbedringspotensiale. \n\nForedraget er basert på egne erfaringer, forskning og sure innspill fra gode kollegaer.",
+          "keywords": [
+            "Enterprise",
+            "Craftsmanship and Tools"
+          ],
+          "title": "Fant du rytmen med smidig utvikling?",
+          "language": "no",
+          "summary": "\"Finn rytmen med Agile utvikling!\" sa jeg i 2004. Fant du den?",
+          "level": "intermediate",
+          "conference": {
+            "name": "JavaZone 2013",
+            "venue": "Oslo Spektrum",
+            "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa"
+          },
+          "video": "http://vimeo.com/74418498",
+          "speakers": [
+            {
+              "name": "Nils Christian Haugen",
+              "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/6f140cbb-9330-4a86-8d85-d1780ce466ff/speakers/81bb4edc-3018-4a46-a83a-68c8d3318168"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "aggregations": {
+    "language.raw_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "no",
+          "doc_count": 8
+        },
+        {
+          "key": "en",
+          "doc_count": 5
+        }
+      ]
+    },
+    "format.raw_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "presentation",
+          "doc_count": 9
+        },
+        {
+          "key": "lightning-talk",
+          "doc_count": 4
+        }
+      ]
+    },
+    "keywords.raw_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 18,
+      "buckets": [
+        {
+          "key": "Architecture",
+          "doc_count": 3
+        },
+        {
+          "key": "Backend",
+          "doc_count": 3
+        },
+        {
+          "key": "Core Java",
+          "doc_count": 3
+        },
+        {
+          "key": "Experience reports",
+          "doc_count": 3
+        },
+        {
+          "key": "Alternative Languages",
+          "doc_count": 2
+        },
+        {
+          "key": "Mobile",
+          "doc_count": 2
+        },
+        {
+          "key": "Alternative languages",
+          "doc_count": 1
+        },
+        {
+          "key": "Architecture and Design",
+          "doc_count": 1
+        },
+        {
+          "key": "Architecture in practice",
+          "doc_count": 1
+        },
+        {
+          "key": "Concepts",
+          "doc_count": 1
+        }
+      ]
+    },
+    "conference.name.raw_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "JavaZone 2013",
+          "doc_count": 4
+        },
+        {
+          "key": "JavaZone 2014",
+          "doc_count": 4
+        },
+        {
+          "key": "JavaZone 2009",
+          "doc_count": 3
+        },
+        {
+          "key": "JavaZone 2011",
+          "doc_count": 2
+        }
+      ]
+    },
+    "level_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "intermediate",
+          "doc_count": 8
+        },
+        {
+          "key": "beginner",
+          "doc_count": 5
+        }
+      ]
+    },
+    "video_counts": {"value": 8},
+    "speakers.name.raw_counts": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Fredrik Vraalsen",
+          "doc_count": 5
+        },
+        {
+          "key": "Alf Kristian Støyle",
+          "doc_count": 1
+        },
+        {
+          "key": "Alf Thomas Nilsen",
+          "doc_count": 1
+        },
+        {
+          "key": "Audun Fauchald Strand",
+          "doc_count": 1
+        },
+        {
+          "key": "Finn-Robert Kristensen",
+          "doc_count": 1
+        },
+        {
+          "key": "Fredrik Oledal",
+          "doc_count": 1
+        },
+        {
+          "key": "Fredrik Rødland",
+          "doc_count": 1
+        },
+        {
+          "key": "Jan Fredrik Wedén",
+          "doc_count": 1
+        },
+        {
+          "key": "Johannes Brodwall",
+          "doc_count": 1
+        },
+        {
+          "key": "Jon Marius Håkedal",
+          "doc_count": 1
+        },
+        {
+          "key": "Nils Christian Haugen",
+          "doc_count": 1
+        },
+        {
+          "key": "Per Jørgen Walstrøm",
+          "doc_count": 1
+        },
+        {
+          "key": "Ragne Elisabeth Henriksen",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}

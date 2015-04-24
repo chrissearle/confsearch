@@ -137,18 +137,18 @@ function search(queryString, filters, from, count, res) {
             "multi_match": {
                 "fields": [
                     "format",
-                    "content^20",
+                    "content",
                     "keywords",
-                    "title^100",
+                    "title^3",
                     "language",
                     "summary",
                     "level",
                     "conference.name",
                     "conference.venue",
-                    "speakers.name^50"
+                    "speakers.name"
                 ],
                 "query": queryString,
-                "type": "phrase_prefix"
+                "type": "cross_fields"
             }
         };
     } else {
@@ -156,7 +156,6 @@ function search(queryString, filters, from, count, res) {
             "match_all": {},
         };
     }
-
 
     var body = {
         "aggs": {
@@ -255,7 +254,7 @@ function search(queryString, filters, from, count, res) {
         body.query = query;
     }
 
-    // console.log(JSON.stringify(body, null, 4));
+    //console.log(JSON.stringify(body, null, 4));
 
     elasticClient.search(
         {
@@ -271,6 +270,8 @@ function search(queryString, filters, from, count, res) {
                 res.status(500).send(err);
             } else {
                 res.setHeader("Content-Type", "application/json");
+
+                // console.log(JSON.stringify(resp, null, 4));
 
                 var result = {};
 
@@ -333,7 +334,7 @@ app.get("/conferences", function (req, res) {
 app.post("/search", function (req, res) {
     "use strict";
 
-    search(req.body.query, req.body.filters, req.body.from || 1, req.body.count || 50, res);
+    search(req.body.query, req.body.filters, req.body.from || 0, req.body.count || 50, res);
 });
 
 var port = process.env.PORT || 3000;
