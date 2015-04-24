@@ -22,7 +22,7 @@
 <body>
 
 <div class="container" ng-controller="SearchController as sc">
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="MenuController as mc">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -35,7 +35,7 @@
                 <a class="navbar-brand" href="#/">Search JavaZone</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <form class="navbar-form" role="search" id="search-form" name="search-form">
+                <form class="navbar-form navbar-left" role="search" id="search-form" name="search-form">
                     <div class="input-group search-input-group">
                         <input type="text" class="form-control" placeholder="Search" id="query" name="query"
                                ng-model="sc.searchText">
@@ -46,9 +46,28 @@
                         </div>
                     </div>
                 </form>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Conferences
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>{{mc.conferences.raw}}</li>
+                            <li ng-repeat="conference in mc.conferences | orderBy:'-name'">
+                                <a ng-click="sc.addFilter('conference.name', conference.name)" href="#">{{ conference.name }} <span class="badge">{{ conference.count }}</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
+
+    <div class="row" ng-if="sc.filters.length > 0">
+        <div class="well">
+            <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{ filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
+            <span ng-if="sc.filterWarning" class="label label-warning">{{ sc.filterWarning }}</span>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-9">

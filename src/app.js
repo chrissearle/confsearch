@@ -54,6 +54,46 @@ var elasticClient = new elasticSearch.Client({
     log: "info"
 });
 
+function conferences(res) {
+    "use strict";
+
+    elasticClient.search(
+        {
+            "index": "javazone",
+            "type": "session",
+            "searchType": "count",
+            "body": {
+                "aggs": {
+                    "conference_counts": {
+                        "terms": {
+                            "field": "conference.name.raw",
+                            "order": {"_term": "desc"}
+                        }
+                    }
+                }
+            }
+        }, function (err, resp) {
+            if (err) {
+                logger.error(err);
+
+                res.status(500).send(err);
+            } else {
+                res.setHeader("Content-Type", "application/json");
+
+                var result = [];
+
+                resp.aggregations.conference_counts.buckets.forEach(function (bucket) {
+                    result.push({
+                        "name": bucket.key,
+                        "count": bucket.doc_count
+                    });
+                });
+
+                res.json(result);
+            }
+        }
+    );
+}
 
 function stats(res) {
     "use strict";
@@ -91,7 +131,7 @@ function stats(res) {
     );
 }
 
-function search(queryString, res) {
+function search(queryString, filters, res) {
     "use strict";
 
     var query;
@@ -121,47 +161,70 @@ function search(queryString, res) {
         }
     }
 
+
+    var body = {
+        "aggs": {
+            "conference_counts": {
+                "terms": {
+                    "field": "conference.name.raw",
+                    "size": 30
+                }
+            },
+            "speaker_counts": {
+                "terms": {
+                    "field": "speakers.name.raw",
+                    "size": 15
+                }
+            },
+            "format_counts": {
+                "terms": {
+                    "field": "format.raw"
+                }
+            },
+            "keyword_counts": {
+                "terms": {
+                    "field": "keywords.raw"
+                }
+            },
+            "language_counts": {
+                "terms": {
+                    "field": "language.raw"
+                }
+            },
+            "level_counts": {
+                "terms": {
+                    "field": "level"
+                }
+            }
+        }
+    };
+
+    if (filters.length > 0) {
+        // TODO - multiple
+
+        var filter = {
+            "term": {}
+        };
+
+        filter.term[filters[0].type + ".raw"] = filters[0].value;
+
+        body.query = {
+            "filtered": {
+                "query": query,
+                "filter": filter
+            }
+        };
+    } else {
+        body.query = query;
+    }
+
+    // console.log(JSON.stringify(body, null, 4));
+
     elasticClient.search(
         {
             "index": "javazone",
             "type": "session",
-            "body": {
-                "query": query,
-                "aggs": {
-                    "conference_counts": {
-                        "terms": {
-                            "field": "conference.name.raw",
-                            "size": 30
-                        }
-                    },
-                    "speaker_counts": {
-                        "terms": {
-                            "field": "speakers.name.raw",
-                            "size": 15
-                        }
-                    },
-                    "format_counts": {
-                        "terms": {
-                            "field": "format.raw"
-                        }
-                    },
-                    "keyword_counts": {
-                        "terms": {
-                            "field": "keywords.raw"
-                        }
-                    },
-                    "language_counts": {
-                        "terms": {
-                            "field": "language.raw"
-                        }
-                    },
-                    "level_counts": {
-                        "terms": {
-                            "field": "level"
-                        }
-                    }
-                }
-            }
+            "body": body
         }, function (err, resp) {
             if (err) {
                 logger.error(err);
@@ -174,7 +237,7 @@ function search(queryString, res) {
 
                 result.hits = [];
 
-                resp.hits.hits.forEach(function(hit) {
+                resp.hits.hits.forEach(function (hit) {
                     var processedHit = hit._source;
                     processedHit.type = hit._type;
 
@@ -202,10 +265,16 @@ app.get("/stats", function (req, res) {
     stats(res);
 });
 
+app.get("/conferences", function (req, res) {
+    "use strict";
+
+    conferences(res);
+});
+
 app.post("/search", function (req, res) {
     "use strict";
 
-    search(req.body.query, res);
+    search(req.body.query, req.body.filters, res);
 });
 
 var port = process.env.PORT || 3000;

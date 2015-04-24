@@ -1,40 +1,64 @@
-/* globals angular moment */
+/* global angular */
 
 var app = angular.module("jzes");
 
-app.controller("StatsController", ["$http", function ($http) {
+app.controller("StatsController", ["SearchService", function (SearchService) {
     "use strict";
 
     var self = this;
 
-    $http.get('/stats').
-        success(function (data) {
-            self.sessionCount = data["session"];
-            self.conferenceCount = data["conference"];
-            self.speakerCount = data["speaker"];
-        }).
-        error(function (data, status) {
-            console.log(status + " " + data);
-        });
+    SearchService.getInfo("/stats", function (data) {
+        self.sessionCount = data["session"];
+        self.conferenceCount = data["conference"];
+        self.speakerCount = data["speaker"];
+    });
 }]);
 
-app.controller("SearchController", ["$http", function ($http) {
+app.controller("MenuController", ["SearchService", function (SearchService) {
+    "use strict";
+
+    var self = this;
+
+    SearchService.getInfo("/conferences", function (data) {
+        self.conferences = data;
+    });
+}]);
+
+app.controller("SearchController", ["SearchService", function (SearchService) {
     "use strict";
 
     var self = this;
 
     self.searched = false;
 
+    self.searchText = "";
+    self.filters = [];
+
+
     self.search = function (searchFlag) {
         self.searched = searchFlag !== false;
-        $http.post('/search', {query: self.searchText}).
-            success(function (data) {
-                self.results = data.hits;
-                self.navs = data.aggs;
-            }).
-            error(function (data, status) {
-                console.log(status + " " + data);
-            });
+
+        SearchService.runSearch(self.searchText, self.filters, function (data) {
+            self.results = data.hits;
+            self.navs = data.aggs;
+        });
+    };
+
+    self.addFilter = function (type, value) {
+        // TODO - one per type limit
+
+        self.filters.push({
+            "type": type,
+            "value": value
+        });
+
+        self.search();
+    };
+
+    self.removeFilter = function(filter) {
+        // TODO
+
+        self.filterWarning = "Not yet implemented";
     };
 
     self.search(false);
