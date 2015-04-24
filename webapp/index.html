@@ -65,8 +65,10 @@
 
     <div class="row" ng-if="sc.filters.length > 0">
         <div class="well">
-            <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{
-                filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
+            <div class="btn-group" role="group">
+                <a ng-repeat="filter in sc.filters" ng-click="sc.removeFilter(filter)" href="#" class="btn btn-default">{{
+                    filter.value }} <span class="glyphicon glyphicon-remove-circle"></span></a>
+            </div>
         </div>
     </div>
 
