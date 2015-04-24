@@ -166,7 +166,7 @@ function search(queryString, filters, res) {
                     "size": 30
                 }
             },
-            "speaker.name.raw_counts": {
+            "speakers.name.raw_counts": {
                 "terms": {
                     "field": "speakers.name.raw",
                     "size": 15
