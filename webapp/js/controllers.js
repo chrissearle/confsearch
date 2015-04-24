@@ -57,20 +57,27 @@ app.controller("SearchController", ["SearchService", function (SearchService) {
 
                 var type = name.toLowerCase();
 
-                name = name.replace(".raw", "");
+                var filterCount = self.filters.filter(function (data) {
+                    return data.type === type;
+                });
 
-                if (name.endsWith(".name")) {
-                    name = name.replace(".name", "");
+                if (filterCount == 0) {
+
+                    name = name.replace(".raw", "");
+
+                    if (name.endsWith(".name")) {
+                        name = name.replace(".name", "");
+                    }
+
+                    if (!name.endsWith("s")) {
+                        name = name + "s";
+                    }
+
+                    agg.type = type;
+                    agg.name = name.capitalize();
+
+                    navs.push(agg);
                 }
-
-                if (!name.endsWith("s")) {
-                    name = name + "s";
-                }
-
-                agg.type = type;
-                agg.name = name.capitalize();
-
-                navs.push(agg);
             });
 
             self.navs = navs;

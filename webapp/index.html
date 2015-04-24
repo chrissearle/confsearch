@@ -118,11 +118,12 @@
         </div>
 
         <div class="col-md-3">
-            <div ng-repeat="nav in sc.navs">
+            <div ng-repeat="nav in sc.navs" ng-if="nav.data.length > 1">
                 <h4>{{ nav.name }}</h4>
 
                 <div class="list-group">
-                    <a class="list-group-item" ng-repeat="item in nav.data" ng-if="item.key" ng-click="sc.addFilter(nav.type, item.key)">
+                    <a class="list-group-item" ng-repeat="item in nav.data" ng-if="item.key"
+                       ng-click="sc.addFilter(nav.type, item.key)">
                         <span class="badge">{{ item.doc_count }}</span>
                         {{ item.key }}
                     </a>
@@ -146,7 +147,6 @@
                 <li>Add function to remove filter</li>
                 <li>Restrict to one filter per field</li>
                 <li>All speakers list</li>
-                <li>Remove right navigation if only one value is present for a field</li>
                 <li>Query tuning</li>
             </ul>
         </footer>
