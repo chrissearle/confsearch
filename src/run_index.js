@@ -53,7 +53,7 @@ function putMapping(data, type, callback) {
     "use strict";
 
     elasticClient.indices.putMapping({
-        index: "javazone",
+        index: "conference",
         type: type,
         body: data
     }, function (err, response) {
@@ -136,7 +136,7 @@ function handleSpeaker(data, conference, session) {
 
     items.forEach(function (item) {
         elasticClient.index({
-            index: "javazone",
+            index: "conference",
             type: "speaker",
             id: item.href,
             body: {
@@ -192,7 +192,7 @@ function handleSession(data, conference) {
         session.speakers = speakerContent;
 
         elasticClient.index({
-            index: "javazone",
+            index: "conference",
             type: "session",
             id: item.href,
             body: session
@@ -223,11 +223,12 @@ function handleEvents(data) {
     items.forEach(function (item) {
         var conference = {
             "name": getData(item, "name"),
-            "venue": getData(item, "venue")
+            "venue": getData(item, "venue"),
+            "group": "Javazone"
         };
 
         elasticClient.index({
-            index: "javazone",
+            index: "conference",
             type: "conference",
             id: item.href,
             body: conference
@@ -245,11 +246,24 @@ function handleEvents(data) {
 function deleteIndex(callback) {
     "use strict";
 
-    output.info("1: Delete Index");
-    elasticClient.indices.delete({
-        index: "javazone"
+    output.info("1.1: Check For Existing Index");
+    elasticClient.indices.exists({
+        "index": "conference"
     }, function (err, response) {
-        callback(err, response);
+        if (err) {
+            callback(err, response);
+        } else {
+            if (response) {
+                output.info("1.2: Delete Index");
+                elasticClient.indices.delete({
+                    index: "conference"
+                }, function (err, response) {
+                    callback(err, response);
+                });
+            } else {
+                callback(err, response);
+            }
+        }
     });
 }
 
@@ -258,7 +272,7 @@ function createIndex(callback) {
 
     output.info("2: Create Index");
     elasticClient.indices.create({
-        index: "javazone"
+        index: "conference"
     }, function (err, response) {
         callback(err, response);
     });
@@ -275,12 +289,30 @@ function createMapping(type, path, callback) {
     });
 }
 
-function index(callback) {
+function indexJavazone(callback) {
     "use strict";
 
-    output.info("4: Index");
+    output.info("4: Index Javazone");
     getJson("http://javazone.no/ems/server/events", handleEvents);
     callback(null, "Done");
+}
+
+function indexFlatMap(callback) {
+    "use strict";
+
+    output.info("4: Index flatMap");
+    readJsonFromFile("static_data/flatMap2012.json", function(data) {
+        data.forEach(function(item) {
+            elasticClient.index({
+                index: "conference",
+                type: "session",
+                body: item
+            }, function (err, response) {
+                elasticResponse(err, response);
+            });
+        });
+        callback(null, "Done");
+    });
 }
 
 function logResult(err, resp) {
@@ -314,7 +346,19 @@ async.series([
                 outerCallback
             );
         },
-        index
+        function (outerCallback2) {
+            "use strict";
+            async.parallel([
+                    function (callback) {
+                        indexJavazone(callback);
+                    },
+                    function (callback) {
+                        indexFlatMap(callback);
+                    }
+                ],
+                outerCallback2
+            );
+        }
     ],
     logResult
 );

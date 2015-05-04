@@ -55,7 +55,7 @@ function conferences(res) {
 
     elasticClient.search(
         {
-            "index": "javazone",
+            "index": "conference",
             "type": "session",
             "searchType": "count",
             "body": {
@@ -64,6 +64,11 @@ function conferences(res) {
                         "terms": {
                             "field": "conference.name.raw",
                             "order": {"_term": "desc"}
+                        }
+                    },
+                    "conference_group_counts": {
+                        "terms": {
+                            "field": "conference.group.raw"
                         }
                     }
                 }
@@ -76,16 +81,27 @@ function conferences(res) {
             } else {
                 res.setHeader("Content-Type", "application/json");
 
-                var result = [];
+                var c_result = [];
+                var g_result = [];
 
                 resp.aggregations.conference_counts.buckets.forEach(function (bucket) {
-                    result.push({
+                    c_result.push({
                         "name": bucket.key,
                         "count": bucket.doc_count
                     });
                 });
 
-                res.json(result);
+                resp.aggregations.conference_group_counts.buckets.forEach(function (bucket) {
+                    g_result.push({
+                        "name": bucket.key,
+                        "count": bucket.doc_count
+                    });
+                });
+
+                res.json({
+                    "conference": c_result,
+                    "group": g_result
+                });
             }
         }
     );
@@ -96,7 +112,7 @@ function stats(res) {
 
     elasticClient.search(
         {
-            "index": "javazone",
+            "index": "conference",
             "searchType": "count",
             "body": {
                 "aggs": {
@@ -153,12 +169,18 @@ function search(queryString, filters, from, count, res) {
         };
     } else {
         query = {
-            "match_all": {},
+            "match_all": {}
         };
     }
 
     var body = {
         "aggs": {
+            "conference.group.raw_counts": {
+                "terms": {
+                    "field": "conference.group.raw",
+                    "size": "5"
+                }
+            },
             "conference.name.raw_counts": {
                 "terms": {
                     "field": "conference.name.raw",
@@ -258,7 +280,7 @@ function search(queryString, filters, from, count, res) {
 
     elasticClient.search(
         {
-            "index": "javazone",
+            "index": "conference",
             "type": "session",
             "from": from,
             "size": count,

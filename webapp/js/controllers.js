@@ -28,7 +28,8 @@ app.controller("MenuController", ["SearchService", function (SearchService) {
     var self = this;
 
     SearchService.getInfo("/conferences", function (data) {
-        self.conferences = data;
+        self.conferences = data.conference;
+        self.groups = data.group;
     });
 }]);
 
