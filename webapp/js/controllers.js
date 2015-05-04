@@ -89,6 +89,8 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
                         name = name.replace(".name", "");
                     }
 
+                    name = name.replace(".", " ");
+                    
                     if (!name.endsWith("s")) {
                         name = name + "s";
                     }
