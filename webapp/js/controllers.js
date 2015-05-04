@@ -42,6 +42,19 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
     self.filters = [];
     self.page = 1;
     self.perPage = 50;
+    self.queryString = "";
+
+    for (var key in $location.search()) {
+        if (key === "page") {
+            self.page = $location.search()[key];
+        }
+        if (key === "perPage") {
+            self.perPage = $location.search()[key];
+        }
+        if (key === "text") {
+            self.searchText = $location.search()[key];
+        }
+    }
 
     self.search = function (resetPage) {
         if (resetPage) {
@@ -90,7 +103,7 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
                     }
 
                     name = name.replace(".", " ");
-                    
+
                     if (!name.endsWith("s")) {
                         name = name + "s";
                     }
@@ -107,6 +120,21 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             self.prevPage = (self.page > 1) ? self.page - 1 : 0;
             self.lastPage = Math.ceil(self.count / self.perPage);
             self.nextPage = (self.page < self.lastPage) ? self.page + 1 : 0;
+
+            var query = [];
+
+            if (self.searchText) {
+                query.push("text=" + self.searchText);
+            }
+
+            query.push("page=" + self.page);
+            query.push("perPage=" + self.perPage);
+
+            self.filters.forEach(function(filter) {
+                query.push("filter_" + filter.type + "=" + filter.value);
+            });
+
+            self.queryString = query.join("&");
         });
     };
 
