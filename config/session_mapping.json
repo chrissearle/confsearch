@@ -117,6 +117,10 @@
           "link": {
             "type": "string",
             "analyzer": "keyword"
+          },
+          "avatar": {
+            "type": "string",
+            "index": "not_analyzed"
           }
         }
       }

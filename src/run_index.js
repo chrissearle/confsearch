@@ -301,7 +301,7 @@ function indexFlatMap(callback) {
     "use strict";
 
     output.info("4: Index flatMap");
-    readJsonFromFile("static_data/flatMap2012.json", function(data) {
+    readJsonFromFile("static_data/flatmap.json", function(data) {
         data.forEach(function(item) {
             elasticClient.index({
                 index: "conference",

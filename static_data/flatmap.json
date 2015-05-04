@@ -1,0 +1,451 @@
+[
+  {
+    "format": "presentation",
+    "title": "Living in a Post-Functional World",
+    "language": "en",
+    "content": "\"Functional Programming\" is the modern received wisdom regarding program and language design. All the cool kids talk about writing code that is \"functional\" or even \"purely functional\". However, functional programming as it is traditionally defined really doesn't cut the mustard, and if you look at how modern functional architectures are being shaped, everyone seems to have tacitly arrived at the same conclusion: more is needed.\n\nIn this talk, we will look at how modern functional languages like Scala, Clojure and even Haskell have evolved beyond the simple paradigms of the lambda calculus. We will see how the industry has really moved beyond functional programming and into the realm of something more powerful, more expressive and better suited to the task of large application architecture.",
+    "video": "http://vimeo.com/66548717",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Daniel Spiewak",
+        "bio": "Daniel Spiewak is a software developer based out of Boulder, CO. Over the years, he has worked with Java, Scala, Ruby, C/C++, ML, Clojure and several experimental languages. He currently spends most of his free time researching parser theory and methodologies, particularly areas where the field intersects with functional language design, domain-specific languages and type theory.\n\nDaniel has written a number of articles on his weblog, Code Commit, including his popular introductory series, Scala for Java Refugees.",
+        "avatar": "http://2013.flatmap.no/m/speakers/spiewak.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/spiewak.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Fun with Relational Interpreters in miniKanren",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Daniel Friedman"
+      },
+      {
+        "name": "William Byrd"
+      }
+    ],
+    "link": "http://2013.flatmap.no/danwill.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Java 8 to the rescue!?",
+    "language": "en",
+    "content": "Java 8 will finally deliver us to the promised land of functional programming! So can we stop worrying now about learning Scala and Clojure and the other new kids on the block?\n\nWe'll look at what powers the new features such as Lambdas, Default Methods and Streams give us, as well as what Java is still lacking compared to other functional languages on the JVM.",
+    "video": "http://vimeo.com/66548718",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Fredrik Vraalsen",
+        "bio": "Fredrik works as a software developer at Knowit, where he mainly deals in Java EE development. The last couple of years he's focused on functional programming and in particluar how to apply this in his daily job as a Java developer. He's held training courses in Scala and dabbled in Clojure, and likes to speak at conferences.",
+        "avatar": "http://2013.flatmap.no/m/speakers/vraalsen.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/vraalsen.html"
+  },
+  {
+    "format": "workshop",
+    "title": "From Dynamic to Static in a functional way",
+    "language": "en",
+    "content": "Ross Lawley is a long term Pythonista and a newbie Scalaholic. As the maintainer of the 'Casbah' Scala Driver, Ross will discuss how much trouble an inquisitive look at the Functional Programming Principles in Scala course can get you into. Six months later and many lessons learnt, Ross now works on both Python and Scala MongoDB drivers for 10gen simultaneously. While introducing MongoDB, Ross will also look at the Scala Good Stuff™, as well as the bad, and look for ways to lower the learning curve.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Ross Lawley",
+        "bio": "Ross is a Python and Scala Engineer based in London for 10gen - the company behing MongoDB. With over 10 years experience developing web applications Ross holds a deep passion for agile web development. Previously, Ross was the Software Architect for Streetlife and prior to that Ross was the lead developer for Europes largest commercial radio station owner - Global Radio Ltd.",
+        "avatar": "http://2013.flatmap.no/m/speakers/lawley.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/lawley.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Sketching in Scala Notebook",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Nathan Hamblen"
+      }
+    ],
+    "link": "http://2013.flatmap.no/hamblen.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Latency and fault tolerance using Hystrix",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jacek Migdal"
+      }
+    ],
+    "link": "http://2013.flatmap.no/migdal.html"
+  },
+  {
+    "format": "presentation",
+    "title": "What's new in Scala 2.10?",
+    "language": "en",
+    "content": "Scala 2.10 arrived in January, bringing with it some every day conveniences like the standardized Futures API, String Interpolation, Value Classes, and Implicit Classes, along with the power features of Dynamic, Def Macros and Reflection. Learn how these features work together, and see how they are being used to provide the next generation of expressive, performance, and type safe libraries.",
+    "video": "http://vimeo.com//66548858",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jason Zaugg",
+        "bio": "Jason Zaugg loved coding in Scala so much that he recently joined Typesafe to code in Scala. He's working on the compiler and standard library, in particular in the areas around macros and reflection. He's also been a core contributor to Scalaz and the IntelliJ Scala plugin.",
+        "avatar": "http://2013.flatmap.no/m/speakers/zaugg.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/zaugg.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Scala Intro",
+    "language": "en",
+    "content": "Jon-Anders and Morten will give you a short introduction to Scala, before we all start coding Scala. We will focus on an area that is the most fun for new Scala developers, the collections API. It tends to be an eye opener for Java developers, when they see just how easy and fun collections can be, in Scala.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Morten Andersen-Gott",
+        "bio": "Morten fell in love with Scala in 2012, when he used it to build a pet project and discovered just how easy and enjoyable coding can be in Scala. Since then, he's been dreading the verbose nature of Java code. In his spare time, Morten is often seen wearing a referee kit, either on the football field or at developer conferences.",
+        "avatar": "http://2013.flatmap.no/m/speakers/andersen-gott.jpg"
+      },
+      {
+        "name": "Jon-Anders Teigen",
+        "bio": "Jon–Anders Teigen is an experienced Scala and Java software developer. As an active and long time member of the Scala community, he is a frequent speaker at events and conferences, and has contributed to a range of open source Scala projects.\n\nJon–Anders is the co–founder of scalaBin – “The Norwegian Scala User Group”, and Oslo Socially Functional – A meetup for functional programmers.",
+        "avatar": "http://2013.flatmap.no/m/speakers/teigen.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/andersen-gott.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Unfiltered Directives",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jon-Anders Teigen",
+        "bio": "Jon–Anders Teigen is an experienced Scala and Java software developer. As an active and long time member of the Scala community, he is a frequent speaker at events and conferences, and has contributed to a range of open source Scala projects.\n\nJon–Anders is the co–founder of scalaBin – “The Norwegian Scala User Group”, and Oslo Socially Functional – A meetup for functional programmers.",
+        "avatar": "http://2013.flatmap.no/m/speakers/teigen.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/teigen.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Event Sourcing for Functional Programmers",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Daniel Westheide"
+      }
+    ],
+    "link": "http://2013.flatmap.no/westheide.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Shapeless TBD",
+    "language": "en",
+    "content": "TBD",
+    "video": "http://vimeo.com//66548722",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Miles Sabin",
+        "bio": "Miles does stuff with Scala for Precog: currently he's working on the representation of the intermediate language between Quirrel (Precog's query language) and its various query/storage backends.\n\nWhen not working on Precog, he does his utmost to break Scala’s typechecker with his project shapeless and is a regular speaker at Scala and functional programming events.\n\nHe can often be found walking in the South Downs around his home in Brighton with a camera and an unfeasibly energetic English Springer Spaniel named Tigger.",
+        "avatar": "http://2013.flatmap.no/m/speakers/sabin.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/sabin.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Building a Scala REST API—adaptation and experiences",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Kåre Blakstad"
+      }
+    ],
+    "link": "http://2013.flatmap.no/blakstad.html"
+  },
+  {
+    "format": "presentation",
+    "title": "What Every Hipster Should Know About Functional Programming",
+    "language": "en",
+    "content": "Different programming paradigms serve different purposes. Systems programmers prefer tools that are dumb, imperative and close to the metal. Enterprise programmers prefer tools which foster complexity, increasing billable hours and the client's dependency on the developer.\n\nAnd, let me just come clean and admit it, functional programmers do it for that delicious feeling of superiority that comes from looking down your nose at the normals in their caves banging together for loops and mutable state to make fire.\n\nTreat yourself to a crash course in the vocabulary of functional programming: higher order functions, combinators, the infinite opportunities to throw the word \"monad\" in the face of anyone who thinks an ironic moustache is enough to justify all that self-assured smugness these days. You'll never have to lose a programming argument again once you've learned where to casually toss terms like \"applicative functor\" and \"Kleisli triple\" into the conversation.\n\nThis is the War of the Hipsters. Arm yourself now, before it goes mainstream.",
+    "video": "http://vimeo.com/66548720",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Bodil Stokke",
+        "bio": "Bodil is a developer, frequent speaker and occasional teacher of web technology and anything that favours s-expressions. She is currently leading the web dev team at Arktekk, a charming little consultancy in Oslo, Norway. She is best known as the creator of the Catnip IDE for Clojure, and for her contributions to the field of programming language theory, especially the Facial Hair Theory of Language Design. She holds a doctorate in Metaphysics from ULC, and her favourite pony is Rainbow Dash.",
+        "avatar": "http://2013.flatmap.no/m/speakers/bodil.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/bodil.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Parsing A La Carte",
+    "language": "en",
+    "content": "Discover the deep mysteries of parsing algorithms and grammatical wizardry in everyone's favorite programming language! We will start from a basic parser combinator framework and build our way toward something much more general. Along the way, we will uncover the wonders of finite automata, parsing expression grammars, compiler-compilers, and more!",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Daniel Spiewak",
+        "bio": "Daniel Spiewak is a software developer based out of Boulder, CO. Over the years, he has worked with Java, Scala, Ruby, C/C++, ML, Clojure and several experimental languages. He currently spends most of his free time researching parser theory and methodologies, particularly areas where the field intersects with functional language design, domain-specific languages and type theory.\n\nDaniel has written a number of articles on his weblog, Code Commit, including his popular introductory series, Scala for Java Refugees.",
+        "avatar": "http://2013.flatmap.no/m/speakers/spiewak.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/spiewak.html"
+  },
+  {
+    "format": "presentation",
+    "title": "WTF is Datomic?",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "August Lilleaas"
+      }
+    ],
+    "link": "http://2013.flatmap.no/lilleaas.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Welcome to (Macro) Paradise",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jason Zaugg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/zaugg.html"
+  },
+  {
+    "format": "presentation",
+    "title": "F# Type Providers",
+    "language": "en",
+    "summary": "Consuming large-scale data in a statically typed language, using compile-time metaprogramming",
+    "content": "In this 30 minute presentation, using live coding, Jonas will introduce F# Type Providers. The presentation will demonstrate how Type Providers offer a new way to consume data in a statically typed language. Type Providers is a mechanism that enables developers to write components that uses compile-time metaprogramming to produce new types.\n\nType Providers enables scenarios such as consuming a SQL database or Web Service without using traditional code generation or mapping classes. It also enables new scenarios where traditional code generation techniques would not be feasible, like consuming massive data sets such as Freebase.com or statistical data from The World Bank, all in a statically typed way with benefits such as statement completion and compile time checking.\n\nThe last part of the presentation will discuss planned features for Macros that will enable similar scenarios in future versions of Scala.",
+    "video": "http://vimeo.com/66548723",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jonas Follesø",
+        "bio": "Jonas started programming the moment he got his first computer as a 11 year old, and after working with .NET for 11 years he has gained broad experience and in–depth knowledge of the .NET Framework and the C# programming language. Over the last few years one of his passions has been for programming languages in general, and functional programming in particular. Jonas is currently working for BEKK as a scientist, doing both project-work as well as keeping track of new technologies and techniques for software development.\n\nJonas is an active member of and contributor to the Norwegian developer community. He is an experienced speaker from both local user groups and larger conferences like TechEd, REMIX, MSDN Live, JavaZone, Smidig, ROOTS, Functional Programming Day and NDC.",
+        "avatar": "http://2013.flatmap.no/m/speakers/follesoe.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/follesoe.html"
+  },
+  {
+    "format": "presentation",
+    "title": "From Grid to Akka!",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Eivind Waaler"
+      }
+    ],
+    "link": "http://2013.flatmap.no/waaler.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Composable Abstractions in Clojure",
+    "language": "en",
+    "content": "Most people agree that composabillity is a good thing, but few of us are used to working with or creating good composable abstractions. Why is that? I believe that the languages we use greatly influences the way we think, and if our languages encourage composabillity we are more likely to strive for it in our own programs.\n\nIn this talk I will give examples of how first class- and higher order functions in Clojure helps us in create composable abstractions. I will also show how we can take existing APIs and make them more composable using core library functions.\n\nAlthough the examples will be in Clojure, the same concepts applies to other languages that share the same functional idioms.",
+    "video": "http://vimeo.com/66548861",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Erik Bakstad",
+        "bio": "Erik is a former hockey player turned programmer, currently working at Miles. In his limited spare time he's working on a tool for documenting and visualizing system architecture, which they hope will be the same to Enterprise Architect as Git is to CVS.",
+        "avatar": "http://2013.flatmap.no/m/speakers/bakstad.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/bakstad.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Shapeless",
+    "language": "en",
+    "content": "An open ended, participant driven tour through shapeless's concepts and techniques.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Miles Sabin",
+        "bio": "Miles does stuff with Scala for Precog: currently he's working on the representation of the intermediate language between Quirrel (Precog's query language) and its various query/storage backends.\n\nWhen not working on Precog, he does his utmost to break Scala’s typechecker with his project shapeless and is a regular speaker at Scala and functional programming events.\n\nHe can often be found walking in the South Downs around his home in Brighton with a camera and an unfeasibly energetic English Springer Spaniel named Tigger.",
+        "avatar": "http://2013.flatmap.no/m/speakers/sabin.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/sabin.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Distributed Reactive Programming: Introducing Akka 2.2",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Viktor Klang"
+      }
+    ],
+    "link": "http://2013.flatmap.no/klang.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Setting HTTP Free with Unfiltered and Dispatch",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Nathan Hamblen"
+      },
+      {
+        "name": "Jon-Anders Teigen",
+        "bio": "Jon–Anders Teigen is an experienced Scala and Java software developer. As an active and long time member of the Scala community, he is a frequent speaker at events and conferences, and has contributed to a range of open source Scala projects.\n\nJon–Anders is the co–founder of scalaBin – “The Norwegian Scala User Group”, and Oslo Socially Functional – A meetup for functional programmers.",
+        "avatar": "http://2013.flatmap.no/m/speakers/teigen.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/hamblen.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Practical Lambda Calculus",
+    "language": "en",
+    "content": "Jonas and Einar have a Socratic dialogue about the purest of the purest, the Lambda Calculus. Starting with just lambdas, Jonas will build up the basics of a programming language, in order to answer Einar's naïve questions about calculations, abstractions and programming in general. The explanations will be backed by live-coding in Jonas' home-brewed Sublime Text 2 plugin that does tricks on lambda expressions.",
+    "video": "http://vimeo.com/66548921",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Einar Høst",
+        "bio": "Einar W. Høst is a developer and technical architect at Computas. Day time Einar heads his employer's internal Software Engineering network and holds a Ph.D. in Computer Science from the University of Oslo. Night time Einar writes an obscure technical blog, enjoys pixel art, and indulges in impractical coding projects that are more geared towards satisfying curiosity and doing the unexpected than providing business value.",
+        "avatar": "http://2013.flatmap.no/m/speakers/host.jpg"
+      },
+      {
+        "name": "Jonas Winje",
+        "bio": "Jonas Winje is a developer at Computas, where he codes Smalltalk and Blub. MSc in Computer Science from the University of Oslo. He likes Programming Language Things and thinks that monads are really just Pokémon.",
+        "avatar": "http://2013.flatmap.no/m/speakers/winje.jpg"
+      }
+    ],
+    "link": "http://2013.flatmap.no/einarjonas.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Economies of Scala",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2013",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Simen Fure Jørgensen"
+      }
+    ],
+    "link": "http://2013.flatmap.no/simen.html"
+  }
+]

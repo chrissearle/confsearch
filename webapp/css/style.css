@@ -38,3 +38,13 @@ p.summary {
 div.video {
     text-align: center;
 }
+
+img.avatar {
+    width: 75px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.speakers {
+    margin-bottom: 10px;
+}

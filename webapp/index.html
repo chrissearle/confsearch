@@ -99,9 +99,11 @@
 
             <nav ng-hide="sc.lastPage === 1">
                 <ul class="pager">
-                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span
+                            aria-hidden="true">&larr;</span> Previous</a></li>
                     <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
-                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span aria-hidden="true">&rarr;</span></a></li>
+                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span
+                            aria-hidden="true">&rarr;</span></a></li>
                 </ul>
             </nav>
 
@@ -111,17 +113,24 @@
 
                     <h4 class="conference">{{ hit.conference.name }}</h4>
 
-                    <p class="summary">{{ hit.summary }}</p>
+                    <p ng-if="hit.summary" class="summary">{{ hit.summary }}</p>
 
-                    <p class="content" ng-show="hit.expanded">{{ hit.content }}</p>
+                    <p class="content" ng-if="hit.content" ng-show="hit.expanded || !hit.summary">{{ hit.content }}</p>
 
                     <h4>Speakers</h4>
 
-                    <p ng-repeat="speaker in hit.speakers">{{ speaker.name }}</p>
+                    <div class="clearfix speakers" ng-repeat="speaker in hit.speakers">
+                        <h5>{{ speaker.name }}</h5>
+                        <p ng-show="hit.expanded">
+                            <img ng-if="speaker.avatar" ng-src="{{ speaker.avatar }}" alt="{{ speaker.name }}" class="avatar img-circle"/>
+                            {{ speaker.bio }}
+                        </p>
+                    </div>
 
                     <p>
                         <a ng-hide="hit.expanded" ng-click="sc.expand($index)" class="btn btn-xs btn-default">More</a>
-                        <a ng-show="hit.expanded && sc.count > 1" ng-click="sc.collapse($index)" class="btn btn-xs btn-default">Less</a>
+                        <a ng-show="hit.expanded && sc.count > 1" ng-click="sc.collapse($index)"
+                           class="btn btn-xs btn-default">Less</a>
                         <a ng-if="hit.video" ng-click="sc.playVideo($index)" class="btn btn-xs btn-default">Video</a>
                     </p>
 
@@ -156,9 +165,11 @@
 
             <nav ng-hide="sc.lastPage === 1">
                 <ul class="pager">
-                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span aria-hidden="true">&larr;</span> Previous</a></li>
+                    <li ng-class="sc.prevPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.prevPage)"><span
+                            aria-hidden="true">&larr;</span> Previous</a></li>
                     <li>Page {{ sc.page }} of {{ sc.lastPage }}</li>
-                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span aria-hidden="true">&rarr;</span></a></li>
+                    <li ng-class="sc.nextPage == 0 ? 'disabled' : ''"><a ng-click="sc.gotoPage(sc.nextPage)">Next <span
+                            aria-hidden="true">&rarr;</span></a></li>
                 </ul>
             </nav>
 
