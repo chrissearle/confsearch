@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="jzes">
+<html lang="en" ng-app="confsearch">
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <title>JavaZone Search</title>
+    <title>Conference Search</title>
 
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
 
     <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/marked/lib/marked.js"></script>
+    <script src="lib/angular-marked/angular-marked.min.js"></script>
 
     <script src="js/app.js"></script>
     <script src="js/directives.js"></script>
@@ -32,7 +34,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#/">Search JavaZone</a>
+                <a class="navbar-brand" href="#/">Conference Search</a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <form class="navbar-form navbar-left" role="search" id="search-form" name="search-form">
@@ -113,9 +115,9 @@
 
                     <h4 class="conference">{{ hit.conference.name }}</h4>
 
-                    <p ng-if="hit.summary" class="summary">{{ hit.summary }}</p>
+                    <p ng-if="hit.summary" class="summary" marked="hit.summary"></p>
 
-                    <p class="content" ng-if="hit.content" ng-show="hit.expanded || !hit.summary">{{ hit.content }}</p>
+                    <p class="content" ng-if="hit.content" ng-show="hit.expanded || !hit.summary" marked="hit.content"></p>
 
                     <h4>Speakers</h4>
 
@@ -123,7 +125,7 @@
                         <h5>{{ speaker.name }}</h5>
                         <p ng-show="hit.expanded">
                             <img ng-if="speaker.avatar" ng-src="{{ speaker.avatar }}" alt="{{ speaker.name }}" class="avatar img-circle"/>
-                            {{ speaker.bio }}
+                            <div ng-show="hit.expanded" marked="speaker.bio"></div>
                         </p>
                     </div>
 
@@ -138,21 +140,21 @@
 
                     <div class="row" ng-show="hit.expanded">
                         <div class="col-md-4">
-                            <ul class="list-group">
+                            <ul ng-if="hit.keywords" class="list-group">
                                 <li class="list-group-item" ng-repeat="keyword in hit.keywords">{{ keyword }}</li>
                             </ul>
                         </div>
                         <div class="col-md-4">
                             <table class="table table-bordered">
-                                <tr>
+                                <tr ng-if="hit.format">
                                     <th>Format:</th>
                                     <td>{{ hit.format }}</td>
                                 </tr>
-                                <tr>
+                                <tr ng-if="hit.level">
                                     <th>Level:</th>
                                     <td>{{ hit.level }}</td>
                                 </tr>
-                                <tr>
+                                <tr ng-if="hit.language">
                                     <th>Langauge:</th>
                                     <td ng-if="hit.language == 'en'">English</td>
                                     <td ng-if="hit.language == 'no'">Norwegian</td>
@@ -200,16 +202,6 @@
                 |
                 {{ sc.speakerCount }} speakers
             </p>
-
-            <h4>TODO:</h4>
-            <ul>
-                <li>All speakers list</li>
-                <li>Speaker Pics</li>
-                <li>Speaker Bios</li>
-                <li>Handling speakers - speakers that are on several sessions over several years are not the same
-                    speaker in EMS
-                </li>
-            </ul>
         </footer>
     </div>
 

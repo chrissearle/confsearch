@@ -23,6 +23,7 @@
     "format": "presentation",
     "title": "Fun with Relational Interpreters in miniKanren",
     "language": "en",
+    "video": "http://vimeo.com/66548859",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -30,10 +31,14 @@
     },
     "speakers": [
       {
-        "name": "Daniel Friedman"
+        "name": "Daniel Friedman",
+        "bio": "Daniel P. Friedman is Professor of Computer Science at Indiana University. He is co-author of The Little Schemer, The Seasoned Schemer, The Reasoned Schemer, The Little MLer, A Little Java: A Few Patterns, Scheme and the Art of Programming, and Essentials of Programming Languages, 3rd Edition, all published by MIT Press.",
+        "avatar": "http://2013.flatmap.no/m/speakers/dan.jpg"
       },
       {
-        "name": "William Byrd"
+        "name": "William Byrd",
+        "bio": "William E. Byrd is a Postdoctoral Researcher at the U Combinator language research group at the University of Utah. He is co-author of The Little Schemer, and co-designer of several declarative languages: miniKanren (logic programing), Harlan (GPU programming), and Kanor (cluster programming). His StarCraft 2 handle is 'Rojex' (character code 715).",
+        "avatar": "http://2013.flatmap.no/m/speakers/will.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/danwill.html"
@@ -81,6 +86,8 @@
     "format": "presentation",
     "title": "Sketching in Scala Notebook",
     "language": "en",
+    "content": "Scala Notebook provides a new way of interacting with the language, a middle ground between the austerity of the text-mode REPL and the grandiosity of an IDE. The project, based on IPython Notebook, harnesses the REPL to a local HTTP server so that you can work with Scala in the most popular interface of our time — the web browser.\n\nWhat Scala Notebook hasn't had in its public form is a way to visualize data beyond HTML tables. This talk will explore a new fork of Scala Notebook that renders data in Scalable Vector Graphics, the standard visual language of the web. Going a step further, we'll leverage the popular D3 JavaScript library to smoothly manipulate SVG using live data from Scala Notebook cells.",
+    "video": "http://vimeo.com/66548724",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -88,7 +95,9 @@
     },
     "speakers": [
       {
-        "name": "Nathan Hamblen"
+        "name": "Nathan Hamblen",
+        "bio": "Nathan Hamblen is founder of a number of Scala free software projects including Dispatch, giter8, and the Scala release announcement site [notes.implicit.ly](http://notes.implicit.ly). He is a co-founder of the Unfiltered toolkit for servicing HTTP requests in Scala, co-organizer of the ny-scala Meetup, and Director of Engineering at Meetup.",
+        "avatar": "http://2013.flatmap.no/m/speakers/hamblen.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/hamblen.html"
@@ -97,6 +106,7 @@
     "format": "presentation",
     "title": "Latency and fault tolerance using Hystrix",
     "language": "en",
+    "content": "Many applications have external dependencies which eventually fail at some point. E.g. an app calling 30 services with 99.9% naively will theoretically have 97% uptime. The reality is usually much worse (latencies, straglers, etc.).\n\nThe workshop will show how to use Scala with [Hystrix](https://github.com/Netflix/Hystrix) library to isolate errors and improve the reliability in systematic manner. We will be aiming to achieve maximal uptime and minimize latencies in simulate environment.\n\nHystrix is a Java library, so you could use it also in other JVM languages",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -157,6 +167,7 @@
     "format": "presentation",
     "title": "Unfiltered Directives",
     "language": "en",
+    "video": "http://vimeo.com/66548860",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -175,6 +186,7 @@
     "format": "workshop",
     "title": "Event Sourcing for Functional Programmers",
     "language": "en",
+    "content": "Event Sourcing, CQRS and Memory Image are architectural patterns that often go hand in hand, and they have a strong following in the .NET community. Unfortunately, solutions found there and in existing Java frameworks follow a very object-oriented approach. However, the very ideas behind these patterns, especially event sourcing, are a natural fit for a functional programmer's mindset.\n\nIn this workshop, I will give an overview of the rationale behind employing these patterns and the tools we have available to implement them as functional programmers. This will be followed by a live coding session, in which we will build a small example application together, making use of the Eventsourced library for Scala and Akka.",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -182,7 +194,9 @@
     },
     "speakers": [
       {
-        "name": "Daniel Westheide"
+        "name": "Daniel Westheide",
+        "bio": "Daniel is a developer at Viaboxx, where he is building software for next-generation parcel machines using Java, Groovy and JavaScript. He has a long history with Java, dating back to the days of version 1.1, but grew passionate about functional programming several years ago. He helped create a cloud-based service for managing documents using Clojure and an architecture based on event sourcing and CQRS. He spends a lot of his free time with Scala, having contributed to several open-source projects.",
+        "avatar": "http://2013.flatmap.no/m/speakers/westheide.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/westheide.html"
@@ -211,6 +225,8 @@
     "format": "presentation",
     "title": "Building a Scala REST API—adaptation and experiences",
     "language": "en",
+    "content": "Faced with the \"Classic\" Java API - a sinkhole of hacks and technical debt - and the Finn veteran's deep lust to learn Scala, a new Scala REST API project was spawned. Consultants got hired, the coffee dispenser was filled and the task of creating a brand new API for some of the core functionality of the company was undertaken. This talk will deal with challenges associated with adapting a new programming paradigm in a OO/Java heavy organization, the side-effects that arose when throwing the old code out, choice of frameworks, performance issues and whatever else we have time to talk about.",
+    "video": "http://vimeo.com/66548918",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -218,7 +234,9 @@
     },
     "speakers": [
       {
-        "name": "Kåre Blakstad"
+        "name": "Kåre Blakstad",
+        "bio": "Kåre Blakstad is a Scala-developer at FINN.no, the Norwegian corporate equivalent of Craigslist. He usually works on the Scala core API's, but is sometimes forced to work on Java-projects. He tries to keep these disturbances to a minimum. Kåre has been working with Scala for only about 6 months and this is some of the reason why he wants to share some of the early experiences with others debating whether or not to use this epic language.\n\nHe is also a very eager beer brewer, and might have something to do with people getting a bit tipsy during flatMap 2013. Also, as you can see on the picture, he is extremely outdoorsy, and practically lives in the mountains.",
+        "avatar": "http://2013.flatmap.no/m/speakers/blakstad.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/blakstad.html"
@@ -266,6 +284,8 @@
     "format": "presentation",
     "title": "WTF is Datomic?",
     "language": "en",
+    "content": "Datomic is a new database with a twist on client/server and the change of data over time. For example, all data is immutable. And queries run on the client, not the server. Wat!!\n\n* I'll tell you why (and when) that's a good thing.\n* I'll introduce what Datomic is and how it works. Datomic is pretty different from most of the other databases out there.\n* I'll explain how to use Datomic to store and query your data,\n* I'll showcase some of the uses for datomic other than being the database in traditional server apps.",
+    "video": "http://vimeo.com/66548971",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -273,7 +293,9 @@
     },
     "speakers": [
       {
-        "name": "August Lilleaas"
+        "name": "August Lilleaas",
+        "bio": "Works in Kodemaker as a consultant/contractor. Built a fairly large (and not yet publicly available) system in Clojure, using a mix of Datomic, elasticsearch and MongoDB, with AngularJS on the client. Likes building web systems in all shapes and sizes, and being involved in the entire stack. Prefers being called a UI programmer over front end developer. Has also written a bunch of Objective-C for iOS in previous jobs.",
+        "avatar": "http://2013.flatmap.no/m/speakers/lilleaas.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/lilleaas.html"
@@ -282,6 +304,7 @@
     "format": "workshop",
     "title": "Welcome to (Macro) Paradise",
     "language": "en",
+    "content": "We'll examine macros in detail: when are they appropriate, how they are invoked by the compiler, and how you can implement them. This journey will take us from the standard Scala 2.10 release (which includes, experimentally, def-macros), through to the fabled \"Macro Paradise\", where R&D is underway to provide Type Macros and more.\n\nConcretely, we will:\n\n* Learn how to reflect on types\n* Use the REPL to experiment with compiler internals\n* Build a macro, step-by-step, to transform a block of code\n* Use reify, manual tree creation, and the new quasiquotes to construct and pattern match against trees.\n* Learn what it means to be sym-ful\n* Understand how to write (or use pre-written) tree Traversers and Transformers.\n\nPrerequisites:\n\n* Basic knowledge of git (or be sitting next to someone with said knowledge)\n* You've at least browsed through http://docs.scala-lang.org/overviews/reflection/overview.html and the \"Def Macros\" section http://docs.scala-lang.org/overviews/macros/overview.html\n* SBT 0.12.3 installed (http://scala-sbt.org)",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -289,7 +312,9 @@
     },
     "speakers": [
       {
-        "name": "Jason Zaugg"
+        "name": "Jason Zaugg",
+        "bio": "Jason Zaugg loved coding in Scala so much that he recently joined Typesafe to code in Scala. He's working on the compiler and standard library, in particular in the areas around macros and reflection. He's also been a core contributor to Scalaz and the IntelliJ Scala plugin.",
+        "avatar": "http://2013.flatmap.no/m/speakers/zaugg.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/zaugg.html"
@@ -319,6 +344,8 @@
     "format": "presentation",
     "title": "From Grid to Akka!",
     "language": "en",
+    "content": "During the last year we have put quite a lot of effort into creating our own simple grid-based processing engine. We define a custom process which will load and process data on a distributed data-grid. Doing parallel/asynchronous operations is done using a combination of distributed tasks and node-local data. I have, however, seen a need for more flexibility in the way processes are defined with regards to asynchronous steps and maximizing throughput and utilization of available processing resources. With this in mind I have ported a version of our processing engine to use Akka and asynchronous messages to achieve benefits in terms of scalability, error handling and a more flexible resource-utilization.\n\nThe goal of this presentation is to show the differences in working with a grid-product (Hazelcast) compared to that of Akka and actors. I will through examples explain how our system is implemented in Hazelcast, and how it can be improved using Akka. Examples will be given in both Java and Scala.",
+    "video": "http://vimeo.com/66548919",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -326,7 +353,9 @@
     },
     "speakers": [
       {
-        "name": "Eivind Waaler"
+        "name": "Eivind Waaler",
+        "bio": "Eivind has a passion for programming languages, functional programming and elegant solutions to computer-challenges. He has almost 15 years of experience with Java projects, but discovered Scala when writing a master-thesis on implementing efficient DSLs on the JVM some years ago. Eivind is currently leading the Java department in BEKK which also includes a dedicated \"Scala & JVM\" group. The last 2 years he has been working on projects using Java grid products as Hazelcast and GemFire.",
+        "avatar": "http://2013.flatmap.no/m/speakers/waaler.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/waaler.html"
@@ -374,6 +403,8 @@
     "format": "presentation",
     "title": "Distributed Reactive Programming: Introducing Akka 2.2",
     "language": "en",
+    "content": "While asynchronous reactive programming is a great way to utilize multicore on one machine, distributed computing has the potential of providing more resilient systems and even more cores to use!\n\nIn this talk we'll explore new features and changes in Akka 2.2 that will enable you to harness the computing power of multiple machines, get the most out of your CPUs, as well as integrate with existing software and services.\n\nPrepare for awesomeness! Bring popcorn!",
+    "video": "http://vimeo.com/66548920",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -381,7 +412,9 @@
     },
     "speakers": [
       {
-        "name": "Viktor Klang"
+        "name": "Viktor Klang",
+        "bio": "Viktor Klang, also known as √, is a passionate programmer with a taste for concurrency paradigms and performance optimization. Tech Lead for the Akka project at Typesafe.",
+        "avatar": "http://2013.flatmap.no/m/speakers/klang.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/klang.html"
@@ -390,6 +423,7 @@
     "format": "workshop",
     "title": "Setting HTTP Free with Unfiltered and Dispatch",
     "language": "en",
+    "content": "Unfiltered and Dispatch are two independent libraries that are built with the same philosophy: HTTP libraries have no business telling you how to build your application. But in this workshop, we'll give you some ideas of how to do that.\n\nJon-Anders Teigen and Nathan Hamblen will build and explain an Unfiltered web site that reflects current real-world conditions using web services accessed through Dispatch.",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -397,7 +431,9 @@
     },
     "speakers": [
       {
-        "name": "Nathan Hamblen"
+        "name": "Nathan Hamblen",
+        "bio": "Nathan Hamblen is founder of a number of Scala free software projects including Dispatch, giter8, and the Scala release announcement site [notes.implicit.ly](http://notes.implicit.ly). He is a co-founder of the Unfiltered toolkit for servicing HTTP requests in Scala, co-organizer of the ny-scala Meetup, and Director of Engineering at Meetup.",
+        "avatar": "http://2013.flatmap.no/m/speakers/hamblen.jpg"
       },
       {
         "name": "Jon-Anders Teigen",
@@ -436,6 +472,8 @@
     "format": "presentation",
     "title": "Economies of Scala",
     "language": "en",
+    "content": "For software companies in a tight employment market like the one in Norway, most technical advantages are dwarfed by one concern: Access to good developers. It clearly doesn't matter what kinds of technical advantages a new language can bring, if you can't hire any developers to work with it. On the flip side, if you can bring great developers to your project, you're probably in good shape no matter what language you have chosen.\n\nThe data from 117 developers and hundreds of job listings shows that while employers want Java developers, developers want to work with Scala or Clojure.\n\nIn this session I will start of by letting the numbers do the talking. Then the discussion will be open: Would businesses be wise to take advantage of my findings?",
+    "video": "https://vimeo.com/66548972",
     "conference": {
       "group": "flatMap",
       "name": "flatMap 2013",
@@ -443,7 +481,9 @@
     },
     "speakers": [
       {
-        "name": "Simen Fure Jørgensen"
+        "name": "Simen Fure Jørgensen",
+        "bio": "Having started his career as a Java developer, Simen went on to become co-founder and CEO of Iterate. Some might say that means Simen has joined the dark side - but he refuses to let go of his technical upbringing. His mixed career means that he takes an interest in business issues as well as technology, learning Organizational Analysis one month and Data Analysis with R the next month.",
+        "avatar": "http://2013.flatmap.no/m/speakers/simen.jpg"
       }
     ],
     "link": "http://2013.flatmap.no/simen.html"

@@ -1,6 +1,6 @@
 /* global angular */
 
-var app = angular.module("jzes", []);
+var app = angular.module("confsearch", ["hc.marked"]);
 
 /*
 

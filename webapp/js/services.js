@@ -1,6 +1,6 @@
 /* global angular */
 
-var app = angular.module("jzes");
+var app = angular.module("confsearch");
 
 app.service("SearchService", ["$http", function ($http) {
     "use strict";
