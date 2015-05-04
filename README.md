@@ -1,4 +1,4 @@
-# JavaZone Indexer
+# Conference Indexer
 
 To start ElasticSearch locally - grunt es
 
