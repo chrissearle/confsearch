@@ -112,7 +112,10 @@
                 <div class="panel-body">
                     <h3>{{ hit.title }}</h3>
 
-                    <h4 class="conference">{{ hit.conference.name }}</h4>
+                    <h4 class="conference">
+                        <img ng-src="/img/{{ hit.conference.group }}.png" alt="{{ hit.conference.name }}"/>
+                        {{ hit.conference.name }}
+                    </h4>
 
                     <p ng-if="hit.summary" class="summary" marked="hit.summary"></p>
 
