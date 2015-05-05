@@ -44,15 +44,18 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
     self.perPage = 50;
     self.queryString = "";
 
+    var initialReset = true;
+
     for (var key in $location.search()) {
         if (key === "page") {
             self.page = $location.search()[key];
-        }
-        if (key === "perPage") {
+            initialReset = false;
+        } else if (key === "perPage") {
             self.perPage = $location.search()[key];
-        }
-        if (key === "text") {
+        } else  if (key === "text") {
             self.searchText = $location.search()[key];
+        } else {
+            self.filters.push({type: key, value: $location.search()[key]});
         }
     }
 
@@ -131,7 +134,7 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
             query.push("perPage=" + self.perPage);
 
             self.filters.forEach(function(filter) {
-                query.push("filter_" + filter.type + "=" + filter.value);
+                query.push(filter.type + "=" + filter.value);
             });
 
             self.queryString = query.join("&");
@@ -186,5 +189,5 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
         self.search();
     };
 
-    self.search(true);
+    self.search(initialReset);
 }]);
