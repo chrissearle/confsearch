@@ -297,15 +297,16 @@ function indexJavazone(callback) {
     callback(null, "Done");
 }
 
-function indexFlatMap(callback) {
+function loadFile(path, type, callback) {
     "use strict";
 
-    output.info("4: Index flatMap");
-    readJsonFromFile("static_data/flatmap.json", function(data) {
-        data.forEach(function(item) {
+    output.info("4.1: Index file: " + path);
+
+    readJsonFromFile(path, function (data) {
+        data.forEach(function (item) {
             elasticClient.index({
                 index: "conference",
-                type: "session",
+                type: type,
                 body: item
             }, function (err, response) {
                 elasticResponse(err, response);
@@ -313,6 +314,26 @@ function indexFlatMap(callback) {
         });
         callback(null, "Done");
     });
+}
+
+function indexFlatMap(outerCallback) {
+    "use strict";
+
+    output.info("4: Index files");
+
+    async.parallel([
+            function (callback) {
+                loadFile("static_data/smidig-conferences.json", "conference", callback)
+            },
+            function (callback) {
+                loadFile("static_data/flatmap-conferences.json", "conference", callback)
+            },
+            function (callback) {
+                loadFile("static_data/flatmap-sessions.json", "session", callback)
+            }
+        ],
+        outerCallback
+    );
 }
 
 function logResult(err, resp) {
