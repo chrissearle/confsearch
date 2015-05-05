@@ -4,4 +4,4 @@ logs/*
 node_modules
 webapp/lib
 bower_components
-connections.txt
+notes.txt

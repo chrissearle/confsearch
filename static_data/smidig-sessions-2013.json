@@ -1,0 +1,1280 @@
+[
+    {
+        "format": "lightning-talk",
+        "title": "Brukerhistorier skal være brukbare!",
+        "content": "I smidige organisasjoner (og de som liker å tro at de er det) er det populært å beskrive krav i form av brukerhistorier. Det er også veldig mange eksempler på ubrukelige brukerhistorier som ikke gir noen merverdi. I denne lyntalen vil jeg peke på noen av de vanligste feilene og hvordan man kan unngå dem.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Karianne Berg"
+            }
+        ],
+        "keywords": [
+            "Produktkøen (Backlog)"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Teknosklerose - Hvordan unngå at prosjektet ditt blir stivbeint",
+        "content": "Systemisk sklerose er i følge Wikipedia \"en autoimmun bindevevssykdom som affiserer huden og andre organer ved at bindevevet blir stivt og hardt\". Stivt og hardt, altså ikke smidig og fleksibelt. Uttrykket sklerose er medisinsk, men hva om vi overfører begrepet til IT-prosjekter? IT-prosjekter er noe menneskeheten selv har utviklet for å effektivisere arbeid og løse problemer. Dessverre er det ikke alltid slik, og noen prosjekter skaper problemer i stedet for å løse dem. Teknosklerose oppstår av flere årsaker. Først og fremst fordi vi sementeres i våre arbeidsmåter, aksepterer status quo og resignerer, i stedet for å ta tak i utfordringer. Men også fordi de involverte over tid ser seg blinde på det de arbeider med.\r\n\r\nI Digipost, hvor Martin jobber som produkteier og Stein Inge som utvikler, leverer vi programvare til produksjon to ganger i uka, jobber på én ting om gangen, kommuniserer hele tiden, endrer prioritet kontinuerlig og er ekstremt opptatt av smidig applikasjonsarkitektur og testing. Vi har også sett oss blinde og vært sementert i våre arbeidsmåter mange ganger, og vi kommer helt sikkert til å oppleve det igjen. Det er uunngåelig. Heldigvis har vi lært masse på veien, og i dag er vi bedre rustet enn noen gang til å tøye det stive og gå fra sementert til fleksibelt. Sett utenifra kan det virke som om alle regler er kastet på båten, men det er fordi vi har oppdaget at å fjerne regler er bedre enn å innføre dem, noe som krever mer disiplin og fører til en strammere prosess som er hypereffektiv.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stein Inge Morisbak"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "The GREEN WEEK: Agile Technical Debt Engineering beats Refactoring",
+        "content": "Reduction of technical debt is best accomplished by systematic engineering, and iterative reduction. Engineering means setting several quantified quality requirements like Maintainability, Testability,Portability.  Then empowering your team to find technical solutions, implement them, and measure progress. Confirmit in Oslo pioneered this in 2005, as a Green Week once month.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "tom gilb"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "presentation",
+        "title": "The power of why",
+        "content": "Smidige folk stiller spørsmål. De slår seg ikke til ro med \"sånn gjør i det her\". De utfordrer Status Quo. De tror på utvikling, tror at det alltid er mulig å lære nye kunster om man anstrenger seg. De sørger for å lære av erfaring og liker å komme til bunns i hvordan ting henger sammen. De motiveres av å vite hvorfor de skal løse problemer. Dette er \"the Agile Mindset\" - det smidige tankesettet.\r\n\r\nDe beste organisasjonene vet hvorfor de gjør ting, og hvorfor de organiserer arbeidet på en viss måte. De har tro på det de lager og i tillegg en grunnleggende tro på hvorfor de lager og selger nettopp dette. \r\n\r\nHva ligger egentlig i det smidige tankesettet? \r\n\r\n\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Geir Amsjø"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Test-drevet CSS-refaktorering",
+        "content": "Har du noen gang vært i et prosjekt hvor CSS-koden har vært veldig lesbar, forståelig og enkel å endre uten at du har vært redd for å ødelegge noe visuelt dersom du faktisk gjorde en endring? \r\n\r\nDa hører du til en av de sjelde og denne lyntalen er ikke for deg.\r\n\r\nFor ofte er heller det motsatte tilfellet - spesielt med langtlevende webapplikasjoner eller nettsteder. \r\n\r\nFordi ofte er CSS-kode dårlig strukturert, det er mange regler å forholde seg til, og ingen forstår eller kjenner fullt og holdent til hvilke regler som brukes og ikke. Det er ihvertfall de færreste som kan forutsi hva som kan bryte visuelt dersom noen endrer en regel. Derfor gjør vi alt i vår makt for å slippe å røre den eksisterende CSS-koden. Vi lager heller nye regler - ofte ser de nye reglene ut som gamle regler - vi repeterer oss selv og CSS-koden vår bloater og råtner sakte men sikkert hen.\r\n\r\nHva hvis du kommer til et punkt hvor du finner ut at CSS-kodebasen er så råtten, bloated og uleselig at du ønsker å refaktorere CSS-koden din slik at du faktisk har kontroll. Hvordan sikrer du at du ivaretar det visuelle mens du gjør endringer i din CSS, ikke bare nå men i all fremtid.\r\n\r\nKom og se på denne lyntalen dersom du ønsker å finne ut hvordan du kan lage automatiserte tester som gjør deg i stand til å refaktorere din CSS kodebase sikkert. \r\n\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Safurudin Mahic"
+            }
+        ],
+        "keywords": [
+            "Smidig testing"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Utvikler kom ut av din hule og vis ditt produkt",
+        "content": "Hvor mange utviklere har ikke sittet og ergret seg over at den nye kjære funksjonaliteten deres blir presentert på en elendig måte? Ofte av en productowner eller selger som såvidt har satt seg inn i det,  greier vi å synliggjøre verdien av funksjonaliteten til kunden da? Hva kan vi gjøre med det?\r\n\r\nVil i denne lyntalen understreke hvorfor utviklerne selv bør tre ut av sin hule og sørge for at den nye funksjonaliteten  presenteres på en best mulig måte og hvordan en kan gjøre det. Vil se på hvilke virkemidler som kan hjelpe oss og fordelene en kan oppnå med dette.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Knut Brakestad"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Drillet på Scrum, milevis unna Smidig. State of the Agile Norway.",
+        "content": "I dette foredraget ønsker jeg å dele mine erfaringer, hvor jeg på oppdrag fra staten skulle evaluere smidigheten hos 4 forskjellige leverandører som deltok i en anbudskonkurranse.\r\n\r\nI utlysningen sto det at man ønsker å jobbe smidig og potensielle leverandører skulle vise frem sin smidig kompetanse både på papir og ved å løse et virkelig case (se et annet foredrag om selve utvelgelsesprocessen: \"Smidig anbud, er det mulig?\").\r\n\r\nTil slutt stod man med fire store norske konsulentselskaper som skulle løse caset og virkelig vise frem sine kunnskap om smidig.\r\n\r\nSkuffelsen min var stor og jeg ønsker å dele den med flere, så kom og hør meg gråte. Selv om vi i Norge har kommet ganske langt i antall ScrumMastere per capita, er vi fortsatt milevis unna smidig \r\n\r\nJeg skal liste opp de største problemområdene som ikke lar bransjen bli smidig og vil erklære krig mot alle som påstår at de er smidig, når de ikke er det.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sergey Dmitriev"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "20 anti-patterns som gjør at din smidig implementering er svak",
+        "content": "De fleste i dag vil påstå at de jobber smidig. I dette foredrag har jeg samlet topp 20 av de antimønstre som  vi oppdager mest når vi er ute hos kunder og coacher smidige team.\r\n\r\nDisse gjør at smidig implementeringer gir sine eiere forbedringer som kan kun måles i prosent istedenfor i antall ganger. \r\n\r\nFikser du disse garanterer jeg at din organisasjon vil være helt annerledes og verdiskapningen minst dobler seg.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sergey Dmitriev"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Fra idé til betalende kunder på 6 uker",
+        "content": "Hør Benedicte, idéhaver og halve utviklingsavdelingen til #lillygram, fortelle om konseptene hun mener gjorde det mulig å gå fra idé til betalende kunder på 6 uker!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Benedicte Raae"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "workshop",
+        "title": "Kanban Game",
+        "content": "Spillet getKanban er et brettspill hvor du som deltaker får lære om Kanban på en effektiv måte. I grupper på 4-6 personer skal dere drive en teknologibedrift. Vi kommer innom situasjoner underveis som gjør at du får en god forståelse for hvordan mekanikken i Kanban fungerer.\r\n\r\nDette er en hands-on, engasjerende og morsom måte å lære om Kanban, og blir av mange beskrevet som den beste og mest effektive måtene få få en innføring i metoden.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ketil Jensen"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Relasjonsledelse",
+        "content": "Ledelsesteorier kommer og går, men relasjoner mellom mennesker består! Glem derfor endringsledelse, situasjonsbestemt ledelse, teori Y og teori X etc. etc. og lær deg heller hvordan du kan bygge relasjoner!\r\n\r\nLyntalen tar kort for seg begrepet Relasjonsledelse og hva det innebærer. Relasjonsledelse er en lederstil hvor en leder skaper resultater ut fra hvilke relasjoner vedkommende leder skaper til sine medarbeidere og ikke ut fra hvilken posisjon lederen har. Dette forsøker mange (de fleste) norske ledere å få til, men med varierende hell. Relasjonsledelse og smidig er som skapt for hverandre!\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Reinert Kamøy"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Innovasjon for prosjektledere",
+        "content": "Skal du utvikle deg som prosjektleder, må du hele tiden prøve noe nytt - samtidig som alle rundt prosjektet ønsker å kjøre så trygt som mulig. Hvordan får du til det? Lyntalen tar utgangspunkt i erfaringer fra Statkraft.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Trond Wingård"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Avlyst: Arkitektur - Smidig eller Agile? Ja takk begge deler",
+        "content": "Til dags dato finnes de ingen enighet om hva programvarearkitektur er.\r\nI mange tilfellene går definisjonen av rollen til en programvarearkitekt i mot det vi anser som Smidig og Agile.\r\n\r\nEr det mulig å forene verdisettene Agile og Lean innen programvarearkitektur? Mens Lean ønsker upfront design og planlegging, krever Agile at man hopper ut i det og kontinuerlig forbedrer arkitekturen. Å ha en bestemt holdning til programvarearkitektur er allikevel avgjørende for at et projekt skal lykkes. Jeg vil snakke om hvordan vi kan gå frem for å kombinere disse verdisettene.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Johan Sydseter"
+            }
+        ],
+        "keywords": [
+            "Smidig forvaltning"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Gått i luksusfella og opparbeidet deg (teknisk) gjeld? Ta oppgjøret i banken og ikke i skifteretten",
+        "content": "En kompis dro til USA for å prøve lykken i underholdningsbransjen. Han gjorde det bra og kjøpte seg et flott hus i Las Vegas. Samtidig med de amerikanske bankene gikk også karrieren hans på en smell. Han klarte ikke å betale gjelda, og lot banken sitte igjen med det råtne lånet. Dette skjer ikke like enkelt i det norske eiendomsmarkedet ettersom man er personlig ansvarlig for forpliktelsen. \r\nI norsk software skjer dette derimot hele tiden: Man løper fra det man har for å starte noe nytt og flott. \r\nDette foredraget tar for seg utfordringer med \"the big bang rewrite\", hvordan dette vanskeliggjør kontinuerlig leveranse og hvorfor man bør gjøre opp gjeld i banken og ikke i skifteretten",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Yngvar Ugland"
+            }
+        ],
+        "keywords": [
+            "Continuous delivery"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hæ? Skal du tjene penger på hva jeg lager?",
+        "content": "Jeg ønsker å fortelle om bruk av innhøsting av målbare verdier og indikatorer, hvordan de kan gjennomsyre et prosjekt og spenne på tvers av fagområder. \r\n\r\nUtfordring\r\nJeg har gjentatte ganger (Ikke i Bouvet selvfølgelig :-) sett at teknikere blir gira på å innføre tekniske løsninger som ikke fører noe sted hen, men som det er vanskelig for andre parter å begripe konsekvensene av før det er for sent. En annen utfordring er den gjentagende fraværende Product Owner som gjør at noen prosjekter famler i blinde. En tredje utfordring er upresis kommunikasjon mellom fagprofesjoner i samme prosjekt. Til slutt: Leverer vi hva brukerne faktisk trenger?\r\n\r\nProsjektene våre spenner fra strategi og markedskommunikasjon hos Reklame/CRM, via virksomhetsarkitektur, til det mer tekniske hos .Net og Java. Dette innebærer samarbeid med mange fagprofesjoner med sine egne metoder. Ikke alle nyter å få andres metoder eller begreper tredd nedover ørene.\r\n\r\nDette er kjent stoff. Vår nyhet i dette landskapet er Kundereisen.(http://www.bouvet.no/radgivning/Kundereisen/). Metoden inneholder både servicedesign og hendelsebasert kommunikasjon. Den kan også beskrives som en avart av virksomhetsarkitektur. Det handler om forretningsutvikling, kravfangst med \"field studies\" (systematiske intervjuer av målgrupper), og målstyring. Kundereisen har fått en del oppmerksomhet innen brukskvalitet-orienterte miljøer utenfor Bouvet\r\n\r\nFra før av har vi latt oss påvirke av metodene til Tom Gilb i de tekniske miljøene. Vi har dermed flere miljøer som kan enes om en del kriterier for vellykkede prosjekter. Du finner lignende begreper i Googles produktutviklingsmetoder (Objectives and Key Results), og jeg hevder det kan harmonere bra med Lean Startup\r\n\r\nMed dette som balast blir det enklere å prioritere og kommunisere med bakgrunn i faktiske målbare verdier helt mot sluttbrukere og andre viktige stakeholdere. Uten mye prosessoverhead. Uten at alle må lære seg en helt ny metode i tillegg til hva de kan fra før.  Det handler om å bevisstgjøre hvilke spørsmål du bør og kan stille, forstå hva du kan forvente av andre, og hva som forventes av deg.\r\n\r\nStikkord: Kundereisen, prosjektgjennomføring, kompetanseutvikling",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Simen Sommerfeldt"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "presentation",
+        "title": "Scaling Kanban in the Enterprise: Sustainable Improvement",
+        "content": "By now many people have heard of Kanban and its use in software development and IT operations. However, there is a lot of shallow understanding and shallow implementations. People believe Kanban is just a board on the wall with tickets on it, or Kanban is a team level process. Both of these are misconceptions. Kanban has always been a service-oriented approach to improving end-to-end workflow. This presentation will explain how to scale Kanban in an enterprise - scaling up to large projects and portfolio level as well as scaling out across a network of interdependent shared services. Enterprise scale Kanban delivers on a culture of continuous improvement, providing sustainable improvement - better service delivery together with greater employee and customer satisfaction.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "David J. Anderson"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Don't be an entrepredouche",
+        "content": "Akkurat som med Scrum og Kanban så løser heller ikke Lean Startup alle verdensproblemer. Lean Startup er et nyttig tankesett som oppfordrer deg til å validere hypotesene dine og endre kurs før det er for sent. Men som med alt annet må det tilpasses til kontekst og kombineres med sunn fornuft og godt håndtverk om man skal lykkes.\r\n\r\nDenne siden kan være til inspirasjon: http://entrepredouche.com/",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Erling Linde"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "#NoEstimates - hva nå?",
+        "content": "Det er mye snakk om \"ikke-estimering\" om dagen. I denne lyntalen vil jeg tordne om hva som er galt med estimater - men jeg vil også problematisere den noe enkle avskrivingen av estimater som praksis. \r\nOg hva hvis vi fjerner estimater fra ligningen? Hva gjør vi isteden? Hvordan snakker vi om omfang, verdi, gevinst - og kost?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Marit Rossnes"
+            }
+        ],
+        "keywords": [
+            "Produktkøen (Backlog)"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Prioritering av produktkøen, fra behov til leveranse i et av landets største og mest komplekse IT-miljøer",
+        "content": "Praktisk håndtering og prioritering av produktkøen kan være en formidabel utfordring i store organisasjoner. For å sikre høyest mulig forretningsmessig gevinst må nødvendige beslutninger tas på riktig tidspunkt - og disse beslutningene bør kunne spores helt inn i konstruksjonsfasen. Hvilke parametere man bruker for å prioritere produktkøen, hvordan man sammenstiller  prioriterte køer på tvers av organisasjonelle enheter og hvordan man til slutt leveranseplasserer, krever en solid metode og hensiktsmessige verktøy.\r\n\r\nKjell Lundene (Metodeansvarlig i Nav) og Tomas Zijdemans (Accenture) deler erfaringer fra smidig systemleveransemetode i Nav. Foredraget tar for seg metodemessige aspekter og praktiske løsninger.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tomas Zijdemans"
+            }
+        ],
+        "keywords": [
+            "Produktkøen (Backlog)"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Økt forretningsverdi med kvalitetskrav",
+        "content": "I smidig tror vi at funksjonalitet er den eneste formen for forretningsverdi man kan ha. Vi glemmer at kvalitet og kvalitetsegenskaper er helt essensielt for å gi kunden det sluttproduktet som gir mest verdi til kunden. Kvalitet er heller ikke bare antall feil eller responstider, det er mange fasetter og man kan ikke få alt.\r\n\r\nI dette foredraget vil forklare at man må ha et bevisst forhold til hvilke kvalitetskrav man stilles. Disse skal eies av kunden (produkteier) som også skal prioritere mellom dem, på samme måte som brukerhistorier.\r\n\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Mario Aparicio"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Vedlikeholdbar testing av JavaScript-views",
+        "content": "Testing er vanskelig. Testing i frontend er enda vanskeligere. Å skrive gode javascript-tester krever disiplin og en stødig hånd. Hvis ikke, ender du fort opp med en uforvaltbar smørje der mange tester feiler hver gang du endrer et klassenavn eller flytter på et inputfelt. Skal du i tillegg teste en arbeidsflyt i en single-page app må du også tenke på mocking av ajax-kall. Til sammen blir dette fort vondt å teste og testene fort uleslige. For å rydde opp i kompleksiteten kan vi pakke interaksjonen med viewene inn i page objects.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sveinung Dalatun"
+            }
+        ],
+        "keywords": [
+            "Smidig testing"
+        ]
+    },
+    {
+        "format": "workshop",
+        "title": "Puppet- og Vagrant-workshop",
+        "content": "Vagrant er et verktøy for å lage og konfigurere virtualiserte utviklingsmiljø eller prodlike miljø lokalt på din egen maskin. Til å sette opp konfigurasjonen, brukere og tjenester på disse miljøene bruker vi Puppet, som lar deg skrive infrastrukturen som kode. På denne måten kan du behandle infrastrukturen din som du behandler koden din ellers: Dytte den inn i versjonskontroll, gjøre den reproduserbar og trekke ut felleskomponenter.\r\n\r\nWorkhoppen vil inneholde litt teori og mange praktiske  oppgaver som vil være relevante for de fleste.\r\n\r\nVarigheten er 3 timer.\r\n\r\nKrever egen PC/Mac. Forklaring av oppsettet finnes på https://github.com/bekkopen/devops-kurs",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sveinung Dalatun"
+            }
+        ],
+        "keywords": [
+            "DevOps"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Testing i en software-definert verden",
+        "content": "En kan anta at deltakere på Smidig-konferansen har et høyt kunnskapsnivå på testing av applikasjoner. Men i en software-definert verden stopper ikke behovet for utvikling, testing og kvalitetskontroll med den koden som utgjør applikasjonen din. I 2013 er vi kommet så langt at vi vet at _alle_ lagene i stakken bør dokumenteres i kode. Helt nederst i stakken treffer vi alltid noe av metall. Ta et steg tilbake og tenk gjennom, hvor mange avhengigheter er vi egentlig prisgitt for at alt skal virke slik vi vil?\r\n\r\nCI/CD tar gjerne hånd om applikasjonen vår men prinsippene om raskere iterasjon og versjonering av miljø har like mye for seg når en tenker på hardware, lagringsenheter, nettverk. Ønsker en å nærme seg en visjon om et software-drevet datasenter må også denne koden tas ansvar for. Ditt endelige artifakt er ikke en zip-fil men en sum av systemer som tilsammen gir deg et resultat.\r\n\r\nCode coverage er med dette redefinert. Vi ser på hvordan du enkelt kan starte en prosess mot å dekke flere av dine harde avhengigheter med kode.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jan Ivar Beddari"
+            }
+        ],
+        "keywords": [
+            "DevOps"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Værsåsnill å hjelp meg å validere min slanke oppstart!",
+        "content": "Vi har akkurat startet en ny Lean Startup etter boka og bygger et enkelt og minimalt produkt for å forenkle teamlederes og organisasjoners hverdag. Litt av motivasjonen er å lære mer om produktutvikling, og gjennomføring av en ide ved riktig styring underveis.  \r\n\r\nDagens mål er et produkt som skal bistå i å lodde stemningen i ditt team, på kryss av flere teams, eller gjennom hele organisasjoner. Vi sikter mot enkel og brukervennlig interaksjon, lar deg måle enkle kategorier og egendefinerte parametre over tid, samt mulighet til å knytte sammen ulike data. Noen eksperimenter vi  med gamification, mobilteknologi, kontinuerlig validering og ønsker å ha din hjelp til å validere ideen! \r\n\r\nJeg presenterer vår tidlige beta, og ønsker å få din feedback i første open space!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ole Christian Rynning"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Pipeline - en motorvei fra commit til produksjon",
+        "content": "I denne lyntalen vil jeg gå gjennom hvordan vi følger hvert enkelt artefakt fra bygg til produksjon.\r\n\r\n\r\nOver 170 moduler deployes til produksjon.\r\nUtviklere styrer selv når modulene skal deployes.\r\nFull oversikt over hvem som har godkjent hva.\r\nFull oversikt over hvor et artefakt har vært og hvilke tester som har blitt kjørt.\r\nEnkelt å se hva puppet skal deploye.\r\nEnkelt å se hva som har blitt deploya.\r\nEnkel inngang til vcs, ci, logger osv.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Gard Rimestad"
+            }
+        ],
+        "keywords": [
+            "Continuous delivery"
+        ]
+    },
+    {
+        "format": "presentation",
+        "title": "Agile in the Eyes of the Customer",
+        "content": "This talk will point to certain ‘supplier biased’ attitudes to agile principles and practices, and explain how a customer perspective might require some divergent views. The following issues will be highlighted: \r\n \r\n•         cost and benefit estimation and budgeting\r\n•         owner governance\r\n•         the control gate at the end of each iteration\r\n•         an agile contract balancing risk between the parties\r\n•         enterprise architecture and system portfolio as hard constraints on the solutions\r\n•         real product ownership with key customer Resources\r\n\r\nThese constructs should not be considered quirky in terms of agile. They are all there to secure what agile is really about: To produce value for the customer. Or, to repeat an old DSDM mantra: “Fitness for business purposes”!\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kjetil Strand"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "presentation",
+        "title": "Dødssynder innen kostnadsestimering",
+        "content": "De siste tiårene er det blitt gjort store forbedringer innen systemutviklingsmetoder, men innen estimering har vi ikke hatt den samme fremgangen. Vitenskapelige studier viser at kostnadsoverskridelsene er like store som de var for 30 år siden. I dette foredraget skal vi se på noen alvorlige feil som (ofte) gjøres i estimering. Vi vil komme innom tema som hva er (ikke) et estimat, smart bruk av erfaringstall, hvordan bør vi håndtere usikkerhet, \"the clients curse\", relevansen av \"the central tendency of judgment\" for Planning Poker og hvor lett det er å manipulere estimater. Foredraget bygger på egen erfaring og forskning innen software engineering, forecasting, økonomi og psykologi. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stein Grimstad"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Underestimering og uteliv",
+        "content": "Har du lurt på hvorfor estimater har en tendens til å sprekke? Har du opplevd at utviklere på standup forteller at brukerhistorien snart er ferdig, \"bare et par timer til så..\", flere dager på rad? Det har jeg!\r\n\r\nHvorfor underestimerer vi og hva er det egentlig som skjer etter at estimater er gitt og teamet begynner å levere brukerhistorier? Finnes det andre situasjoner hvor vi har vanskelig for å komme med troverdige estimater, hvor ting tar lengre tid enn planlagt? Hva er det som gjør at vi ikke klarer å lære av tidligere feil?\r\n\r\nI denne lyntalen vil jeg se på om vi kan lære noe om smidig programutvikling, ved å observere oss selv i hverdagslige situasjoner.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Lars-Erik Wollan"
+            }
+        ],
+        "keywords": [
+            "Produktkøen (Backlog)"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Strukturert wiki - en selvmotsigelse?",
+        "content": "Mange wiki-løsninger som brukes for planlegging og dokumentering av utviklingsprosesser og driftsløsninger har en tendens til å vokse organisk uten noen form for planlegging, og ender derfor gjerne opp som et villniss det kan være vanskelig å gjenfinne informasjon fra. Dette kan virke uunngåelig innenfor de flytende rammene for bruk man ofte har i en wiki, men må det alltid være sånn?\r\n\r\nVed bruk av kjente prinsipper for informasjonsarkitektur i kombinasjon med oppsett av helt eller delvis strukturerte data kan man gjennom navigasjon, lister og faste innholdsfelter legge rammer for innholdsvektsten. Dette vil gjøre wiki-løsningen mer verdifull for hele organisasjonen gjennom å gjøre det enklere å finne fram og å skaffe seg oversikt over hvilken informasjon som finnes i wikien. Dette gjør spesielt at det blir lettere å både hente ut informasjon og å redigere eller legge til ny informasjon for de som bruker wikien mye, men også sporadiske brukere vil med en god struktur i større grad kunne finne fram på egenhånd og slik gjøre virksomheten mer effektiv.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Svein-Magnus Sørensen"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Programming should be FUN!",
+        "content": "This lightning talk will go through why I think we tend to implement processes and structures that kill our creativity and takes the fun out of programming.\r\n\r\nWe keep organizing our programming into processes and structures that ensures that the fun is left out of the programming experience. In my opinion, programming SHOULD be fun, it should be opinionated and it should be a creative process.\r\n\r\nWe need to stop optimizing for predictability and get back to the roots of what programming really is: Solving problems and issues in an innovative and engaging way!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Joachim Haagen Skeie"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Google Spreadsheet som back-end for din neste MVP",
+        "content": "Hensikten med en Minimum Viable Product er å lage akkurat nok software for å kunne bekrefte/avkrefte/teste en hypotese knyttet til hvordan produktet vi lager skal fungere. \r\n\r\nDet betyr at vi raskest mulig må lage noe vi kan teste på reelle brukere. Da er det neppe lurt å begynne med databasemodellering, skrive masse back-end kode, og først etter flere iterasjoner ha ferdig noe man faktisk kan bruke.\r\n\r\nFor å unngå å masse tid i starten av prosjektet på den delen av løsnignen vi var tryggest på, valgte vi å bruke Google Spreadsheet som back-end. Google Spreadsheets gir oss versjonering, autorisasjon, samhandling, datavalidering og en rekke andre avanserte funksjoner. Via Google sine API-er kan vi enkelt eksponere regnearket som et JSON endepunkt vi konsumerer fra applikasjonen vår.\r\n\r\nVed å jobbe på denne måten kunne vi umiddelbart begynne å jobbe med den delen av applikasjonen hvor det var størst usikkerhet – brukeropplevelsen for sluttbrukerne, samtidig som kunden selv kunne vedlikeholde og oppdatere alt av data i et enkelt regneark.\r\n\r\nLyntalen er basert på erfaringer fra et pågående prosjekt på NTNU/St.Olav knyttet til kartlegging av smerter hos kreftpasienter.\r\n\r\nPresentasjonen vil dele erfaringer med bruk av Google Spreadsheet, i tillegg til å se litt på muligehtene for integrasjon mot Google Docs. JavaScript biblioteket sheetsee.js som gjør det enkelt å konsumere Google Spreadsheet fra JavaScript vil og kort bli presentert.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jonas Follesø"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Vannfall sett fra elva, elvebredden og litt lenger opp - et skråblikk på teknologers nye rolle",
+        "content": "Streberne - du har sikkert sett snurten av de - de som har det travelt. Det er gutta i dress og damene i drakt - la oss heller kalle de forretningssiden. De med direktør-tittel, eller trainee tittel, eller de beste - produktsjefene - de med solid klesbransjeerfaring som bare vet at den nye kolleksjonen kommer til å selge mer hvis du legger på den rette zoom-effekten når du browser plaggene på websiden. De vil ha funksjonalitet raskt, kanskje i går - eller i hvert fall i morgen. De forteller den ene historien etter den andre. Hvor fint ville de ikke få det om bare den ene og den andre og den tredje knappen var på plass? De har gjerne googlet og funnet en hyllevare som gir seg ut for å løse akkurat det du skal gjøre til 129 kr måneden.\r\n\r\nDu blir møtt med \"Du er software arkitekt sier du? Scrum-master? Smidig tilnærming? Produkteier? Tenke langsiktig, helhetlig og optimalisere for hele livsløpet?\" \"Hva betyr alt dette?\" sier strebern - trenger jeg å bry meg? Kan du ikke bare fikse det - hvis ikke bytter jeg deg bare ut. Utviklerne, de vil ha smidig - med prioritert backlog - kun en ting av gangen - arbeidsro - ting tar den tiden det tar - blir vi stresset går det bare saktere sier de - vi tar egne beslutninger, vi tror det blir best slik.\r\n\r\nJeg har tenkt en del på dette. Føler ofte at jeg står på elvebredden og ser på at utviklerne svømmer for harde livet, mens forretningssiden bare åpner slusene til alle sideelvene også - pøser på. Jeg prøver å hive ut redningsvester, og robåter. For å få utviklerne til land. Så kan vi overvåke hva som skjer. Måle vannstanden. Foreslå endringer. Hvilken sluse skal vi stenge? Kan vi legge rør rundt? Hvem skal vi kaste ut i elva? Skal han som er der ute ro eller grave med gravemaskin? Trenger vi en arkitekt? Trenger vi en Scrum-master? Nei, her må det nok en PMI- og Prince2 sertifisert produkteier med psykologi-master og tekniske nådegaver til. Helst med påbygg fra BI - ja skolen altså - og lang erfaring med tolkning av BI-dashbord. Ja også glemte jeg lang erfaring som utvikler, helst på Ubuntu. Kanskje han klarer å snakke streberne til fornuft? Hva med å bli med på en rusletur oppover elva og observere bedre?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jan Helge Maurtvedt"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Er best practices onde?",
+        "content": "Noen elsker dem og andre hater dem. Men kan man generalisere om best practices uten å ta hensyn til hvilken kontekst det er snakk om? Kan det i selve verket være sånn at best practices er bra i noen sammenhanger og skadelige i andre?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Niklas Bjørnerstedt"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Effektive smidige team",
+        "content": "Hva har kvaliteten på teamarbeidet å si for produkt- og prosjektkvalitet? Lyntalen presenterer resultater fra en større undersøkelse på 71 smidige software-team i Norge og Asia.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Yngve Lindsjørn"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Par-review!",
+        "content": "Både parprogrammering og code reviews er teknikker for å dele kunnskap, redusere antall feil og øke kodekvalitet. Parprogrammering fungerer imidlertid bedre til kunnskapsdeling. Code reviews blir ofte gjennomført overfladisk, og resultatet blir ofte at kodekvaliteten ikke blir økt i like stor grad som den kan bli ved parprogrammering.\r\n\r\nHvis du først og fremst bruker reviews som teknikk, utfør reviewene i par bestående av forfatter og reviewer. Bruk den nye koden som et utgangspunkt for en parprogrammeringssesjon og jobb med koden til dere i fellesskap er fornøyde.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Fredrik de Vibe"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "TTT - Team tar tid",
+        "content": "Klassiske teamprosessmodeller forteller oss at et team går igjennom noen faser (forming, storming, norming) før de kommer så langt at de produserer (performing). Så hvorfor tar man sjeldent ordentlig høyde for det i prosjektplanleggingen og estimeringen? Og hva er egentlig kosten av omorganisering?\r\n\r\nUndersøkelser som er gjort på området indikerer at det tar 4-5 sprinter før et team er oppe i optimal (for det teamet) produksjonshastighet. Dette kan forbedres med større fokus på teamets behov for å bli samkjørte, og ved å tillate de ulike fasene i teamprosessen å gå sin gang. Det holder ikke å peke på domenekunnskap som begrensning, et veletablert team vil også raskere kunne tilegne seg ny kunnskap. \r\n \r\nImidlertid vet alle som jobber i store prosjekter - særlig store prosjekter som sliter litt - at ledelse og styringsgruppe alltid faller tilbake på sitt ultimate verktøy; omorganisering av prosjektet. Men hva koster dette oss egentlig, i form av støy, nydannelse av team og ikke minst kunnskap? Er det slik at vi taper fart og produktivitet, eller har ledelsen rett i at en ressurs er en ressurs?\r\n\r\nDenne lyntalen handler om hva som skjer når et team dannes, om hva som skjer når et prosjekt omorganiserer og hva man bør ta høyde for i estimater og fremdriftsplaner.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Camilla Krogstad Grøneng"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Egner smidig seg for innovasjon?",
+        "content": "For mange ledere er smidig litt skummelt. Man vet ikke helt hva man får når man begynner. Og noen kan komme til å få idéer underveis. Det er vanskelig å kile smidig inn i en klassisk prosjektmodell, med vannfall og det hele - og det blir bare enda verre om man også må forholde seg til kontrakter og leverandører - hvordan i all verden følger man opp noe slikt? Noen av nøkkelprinsippene i smidig - kundens behov i sentrum, evnen til å lære og forandre retning underveis, friheten til å gjøre nye proiriteringer når det er nødvendig - alt dette skulle da vel egentlig støtte opp under innovasjon og kreativitet?\r\n \r\nSamtidig; hvor blir det av de store visjonene? Og hvorfor antar vi at kunden - eller produkteieren - skal kunne komme med geniale idéer om noe nytt som ikke likner på det de har fra før? Hvordan kan man skape noe nytt gjennom å iterere og forbedre? Ved å stadig tilpasse seg endringer, hvordan kan vi klare å få til noe som er signifikant annerledes og bedre?\r\n \r\nDenne lyntalen handler om hvilke utfordringer som ligger i det å være smidig OG innovativ, i en verden der Kontroll og Kreativitet ikke alltid spiller på lag.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Camilla Krogstad Grøneng"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Successful project with distributed teams",
+        "content": "I have 6 years of experience working in software development companies with different customers around the world. Last two years I have worked as project manager/Scrum master in projects with Norwegian companies. And I want to share my experience of building successful cooperation across national boundaries. I want to explain what has worked and what hasn’t in my recent projects by providing insight of what the work process looks like in an outsourcing company and what are the risks you face on the very beginning of  your project implementation as well as those that arise during the project flow. There is no Single True Way of building good cooperation among distributed teams, but there are things that will definitely help and there are things that will hurt. \r\nAnd in my 10-minute presentation I want to share my real life expertise that will help create good cooperation, avoid possible mistakes and just add happiness to the work no matter what role a listener has in an Agile team.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Taras Voytovych"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "workshop",
+        "title": "Spill Lean Startup-spillet",
+        "content": "Hvem er Smidig-konferansens beste på Lean Startup og innovasjon? Bli med på å spille Lean Startup-spillet og finn ut om du er så god som du tror. Kan du vinne markedet med ditt produkt?\r\n\r\nSpillet er egenutviklet, men godt testet. En MVP om du vil, men for et brettspill. Bli med hvis du vil lære litt mens du har det gøy!\r\n\r\nWorkshopen varer til klokken 1400, med pause for lunsj.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Simen Fure Jørgensen"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Smidig: Ikke for utviklere",
+        "content": "Overhørt: \"Smidig-konferansen er for produkteiere og Scrum Mastere det JavaZone er for utviklere\".\r\n\r\nSmidig har blitt det prosjektledere, produkteiere og prosesscoacher driver med. Myke saker om kultur og organisasjon. Scrum-folk som diskuterer produktkøen, definition of done og gruppedynamikk.\r\n\r\nTeknologene har forlengst gått videre.\r\n\r\nDet er åpenbart et problem at de som skal gjøre jobben ikke lenger er en del av det miljøet som i størst grad diskuterer hvordan jobben skal gjøres. Heldigvis er løsningen her allerede. \r\n\r\nContinuous Delivery, eller snarere kunsten å alltid levere raskere, gir utviklere og driftere en uendelig lang meny av teknisk krevende utfordringer som må møtes. Og forresten må vi fikse alle de andre tingene på veien,  de myke sakene om kultur og organisasjon, men mer som et biprodukt enn som et mål i seg selv.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Simen Fure Jørgensen"
+            }
+        ],
+        "keywords": [
+            "Continuous delivery"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Software Craftmanship and Getting Things Done (GTD)",
+        "content": "Software craftsmen learn continuously to keep adding value to his current work and repertoire. Getting Things Done (GTD) workflow helps software craftsmen to get organized with their responsibilities as well as their professional and personal development in a stress free way.\r\n\r\nAs aspiring software craftsmen you learn continuously, catching up with the existing and new things that can add value to your current work and repertoire. Let’s say you read a tech article or listen to an episode of your favorite podcast and find yourselves with references that inspire you to check further. What do you do to make sure that you will give those ideas enough attention to decide effectively whether you want to act on it or not? Do you keep a mental “check-later” list and never actually check them because you simply forget it or too busy to get back to it?\r\n\r\nGetting Things Done (GTD) system presents a workflow that will help us get organized with our responsibilities as well as our professional and personal development, based on the natural way we deal with our work: we (1) \"collect\" things that command our attention; (2) \"process\" them to know what they mean and what to do about them; and (3) \"organize\" the results, which we (4) \"review\" as options for what we choose to (5) \"do\". One of the challenges to get organized in the conventional ways, like making list and schedules, is that we tend to do all the five phases at one time. Selecting too early will list out things we consider unimportant relative to other “critical” things on the list or simply because we don’t know how to act on it now. Leaving things open will take up energy and prevent us from having a totally effective, clear focus of what is important.\r\n\r\nSince the first time GTD was invented, tools have been created to make it easier to implement GTD as part of our daily life with the least interruption. We will have a look at some of the available tools in comparison.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Irwan Syahrir"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "På tross av organisasjonen?",
+        "content": "Hjelper min organisasjon meg med innovasjon, eller jobber jeg mot strømmen?\r\n\r\nInnovasjonsmetodikk fungerer kun med de riktige forutsetninger: Ledelse, kultur, incentiver, målsetninger, strategi, agendaer og kunnskap er ikke nødvendigvis en del av metoden: Allikevel er det oftest her vi finner rotårsaken når innovasjon feiler.\r\n\r\nOrganisasjoner kan kategoriseres på skala fra introvert til ekstrovert. Det er ugunstig å være i et av ytterpunktene, og vi finner de riktige forutsetninger for iterativ innovasjonsmetodikk ved å finne vårt balansepunkt på denne aksen.\r\n\r\nForedraget er basert på generaliserte caser om innovasjon som har feilet i etablerte virksomheter.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Anders Haugeto"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Vil du ha smidig må du få omfang ut av kontrakten!",
+        "content": "I denne lyntalen vil jeg utfordre kundene våre. De fleste kunder vil ha smidige prosjekter, men legger allikevel opp til en omfattende kravliste og løsningebeskrivelse i kontrakten. De verste tilfellene legger også opp til en tilnærmet fastpris i kontrakten!\r\n\r\nMitt spørmål er da: Hvordan har de tenkt å få til smidig gjennomføring under slike forutsetninger?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Bent Are Melsom"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hva har inndeling av kode, Lean og Togaf til felles?",
+        "content": "Dette er en lyntale hvor jeg ønsker å rette mer fokus på produktet fremfor prosjektet. \r\n\r\nInndeling av kode, Lean og TOGAF representerer ofte ulike interesenter, men jeg tror de har lagt mer til felles enn de selv er klar over. Sentralt er produktet(ene) som skal utvikles og forvaltes. \r\n\r\nI denne lyntalen vil jeg forsøke å sette fokus på likhetene mellom kodeinndeling, Lean og TOGAF, og viktigheten av å plassere produktet i fokus gjennom hele livssyklusen fra start til mål.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Terje Heen"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Smidigere kropp, smidigere sinn, smidigere utvikling?",
+        "content": "Jeg er en datamann med en pasjon for å finne ut hvordan kropp og sinn fungerer og hvordan de samspiller. Hvordan påvirker vår egen \"software\" og \"hardware\" vår hverdag? Kan økt smidighet i kropp og sinn gjøre oss mere inspirerte, glade og produktive? Hvordan kan vi relatere dette til smidig utvikling?\r\n\r\nJeg har jobbet i softwarebransjen i snart 20 år, og har hatt de fleste roller man kan ha i både smidige og rigide utviklingsprosjekter. I lyntalen deler jeg noen av mine erfaringer fra min søken etter smidighet i kropp, sinn og softwareutvikling. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jan Baggerud Larsen"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Smidig konseptutvikling - bruk din produksjonsplattform til prototyping",
+        "content": "Isteden for at slenge bort arbeid når vi går til systemimplementasjon kan vi i smidige prosjekter iterativt bygge videre på GUI-prototyper vi lager direkte i produksjonsplattformen. Vi gjenbruker arbeid,minsker risiko og kan sjapp teste alternative løsninger!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Anders Långberg"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Release hver 14.dag, gain and pain",
+        "content": "I vårt distribuerte team har vi de siste 1,5 årene releaset vårt SaaS/Cloud system i gjennomsnitt hver 14.dag.\r\nVi vil gjerne dele de erfaringene vi har gjort i denne perioden.\r\nGain: \r\nRask tilbakemelding fra kunde\r\nVi er veldig fleksible\r\nHar fått til fleksibel oppgraderings prosess i samarbeid med (i utgangspunktet firkantet) IT-avdeling\r\nHar pushet mye funksjonalitet\r\n++\r\nPain:\r\n\"Stress\" i korte iterasjoner\r\nIkke nok tid på refaktorering og kvalitet\r\n+++\r\n\r\n\r\n\r\n\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kari Strand Båtnes"
+            }
+        ],
+        "keywords": [
+            "Continuous delivery"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Stort eller lite team: Hvordan tilpasser jeg prosessen?",
+        "content": "Jeg har det siste året vært ScrumMaster på to prosjekt ett med 10 personer (hos SSB) og ett med 2 personer (hos Tine). Behovet for prosessregler har vært ganske forskjellig på de to teamene og jeg vil dele de erfaringene jeg har gjort meg. Begge teamene brukte en  kombinasjon av teknikker fra Scrum, Kanban, og XP, og jeg vil ta utgangspunkt i disse prosessrammeverkene.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tormod Haavi"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Som lyn fra klar himmel - Effektive leveranser",
+        "content": "Det oppstår en situasjon med en alvorlig feil i en løsning som er i akseptansetest. Feilen vedvarer, situasjonen blir eskalert. Kom og hør erfaringer fra mitt prosjekt som ikke bare løste problemet, men i tillegg oppnådde ekstra positive effekter ved hjelp av smidige prinsipper. \r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ellen-Marie Bjerknes Nygård"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hvordan kjøre et prosjekt i grøfta med dårlig målstyring",
+        "content": "Mange lurer sikkert på hvordan man bruke tall, mål og måltall til å suboptimalisere sine prosesser. Det er ikke vanskelig, og det finnes mange kjente eksempler i samfunnet hvor IT-prosjekter er involvert. \r\n\r\nVi ser på hvordan Goodharts lov bør anvendes i vår bransje. Deretter ser vi det hele i sammenheng med teori for systemtenkning, med gripende sitater fra Goldratts \"Theory of constraints\", og selvsagt Demings \"Out of the crisis\".\r\n\r\nTil slutt sitter du igjen med enda flere spørsmål om hvordan du kan realisere verdi i ditt prosjekt.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Henning Spjelkavik"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Smidige utviklere spør ikke om lov",
+        "content": "Hva gjør du hvis du ikke er 100% sikker på hvordan du skal utføre en oppgave på backlogen? Går du og spør om hjelp? Møte med produkteieren? Tavlediskusjoner? \r\nDet er min påstand at vi gjør altfor mye av dette.  Ikke bare taper vi tid på masse møter og forstyrrende diskusjoner, vi skaper også et miljø der folk ikke tar ansvar selv, ikke føler at de er istand til å løse problemer på egenhånd.  Passive utviklere som bare gjør som de blir fortalt har det mindre morro, og gjør dårligere arbeid enn de som engasjerer seg og tar ansvar.  \r\nEn viktig del av den smidige prosessen er sprint-demoen. Her har mange et stort forbedringspotensiale.  Bruk den til å aktivt engasjere de fagansvarlige - \"Hva synes du om denne løsningen? Tror du dette vil kunne fungere for dere?\" Du vil bli overrasket over hvor ofte svaret er ja. Du vil bli overrasket over hvor mye morsommere det er å jobbe, når du selv føler at du kan ta beslutninger.  Selv om svaret er \"nei\", så er det aldri mye jobb å skrive det om igjen (dersom demoene er med kort nok mellomrom og man klarer å dele inn oppgaver på en god måte) \r\nSå kom igjen folkens.  Tilgivelse ER bedre tillatelse - i hvertfall i smidig softwareutvikling.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Christin Gorman"
+            }
+        ],
+        "keywords": [
+            "Produktkøen (Backlog)"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Begrepet Smidig tilhører historiens skraphaug, men hva lærte vi egentlig?",
+        "content": "Som med de fleste gode ideer som oppnår popularitet har også Smidig blitt industrialisert til det ugjenkjennelige. Smidig har blitt tilpasset og forflatet, formalisert og dokumentert på en slik måte at forståelsen og dybden har forsvunnet. Problemet som vi har sett før og kommer til å se igjen er at man ikke kan institusjonalisere tankesett og holdninger.\r\n\r\nSånn er det bare. Her ofres ingen sentimentalitet over begrepet Smidig, men hva var det vi egentlig lærte? \r\n\r\nForedraget fokuserer på å forklare hvorfor begrepet Smidig tilhører historiens skraphaug, hva vi egentlig lærte, og hvordan vi skal ta med oss den viktige kunnskapen videre.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tore Vestues"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "workshop",
+        "title": "Effectively Coaching Agile Teams",
+        "content": "You call yourself an agile coach, but are you really acting as a coach rather than an advisor or a subject matter expert? What are the benefits of using coaching techniques known from life-coaching when working with self-organizing teams, ScrumMasters, Product Owners and stakeholders? Will you be able to learn such skills?\r\n\r\nWell, come and try it out!\r\n\r\nIn this session we will take a brief journey into professional coaching from a systemic point of view. You will learn about the mindset behind coaching, the flow in a coaching conversation and try out different types of questions that can be useful. We will also sharpen your awareness about the differences and similarities between Professional Coaching and Agile Coaching plus introduce you to the Team Coaching Framework that we have developed.\r\n\r\nThis workshop is co-lead by Andrea Tomasini and Bent Myllerup.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Bent Myllerup"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Kontinuerlig forbedring, nøkkel til å bli mer smidig; Erfaringer, utfordringer og løsninger fra prosjekt med 15 til 80 prosjektmedlemmer",
+        "content": "Ønsker du å jobbe mer smidig enn det du gjør i dag? Å få til kontinuerlig forbedring, både med teknikker, og som kultur, er en nøkkelfaktor.\r\n\r\nDenne lyntalen gir et innblikk i hvordan vi har jobbet med \"kontinuerlig forbedring\" i Cisco Lysaker, hvilke utfordringer vi har hatt og hvilke løsninger som har passet hos oss. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Eira Brunstad"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "\"Vi bruker det som passer\" - empirisk undersøkelse i bruk av smidige metoder i Norge",
+        "content": "Forskere ved NITH har gjennomført undersøkelse om bransjens bruk av utviklingsmetoder siden 2002. I 2011 gjennomførte vi den fjerde, med spesielt fokus på smidige metoder. Våre resultater viser at bransjen ikke følger kjerneverdiene til the agile manifesto, men heller plukker det som passer. Vi stiller oss derfor tvilende til at man kan høste de gevinstene som smidig utvikling lover.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Eivind Brevik"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hvordan Kirkens Bymisjon i Oslo utviklet Kvalitetssystemet sitt Agilt",
+        "content": "Hvordan Kirkens Bymisjon i Oslo utviklet Kvalitetssystem sitt Agilt\r\n\r\nMed små midler klarte vi å skape resultater på kort tid ved å jobbe agilt uten at vi hadde forkunnskaper om agil tenkning.\r\n\r\nHistorie:\r\nHvem er Kirkens Bymisjon i Oslo\r\n1200 medarbeidere 1400 frivillige mer enn 40 lokasjoner\r\nJobber lavterskeltilbud innen for sektorene eldreomsorg, rus, psykiatri, bolig, barn og unge.\r\n\r\nOppgaven var å flytte:\r\nKvalitetssystemet vårt fra Episerver 4.6 til SharePoint 2013 og forbedre løsningen.\r\n21. mai fikk vi en times opplæring og beskjed om å jobbe Agilt, dette var en metode som var ukjent for hele organisasjonen vår.\r\nSkissene på hva vi ønsket ble tegnet på flippoverark dagen etter.\r\nDet vi klarte var å skape en bred og god forståelse mellom nyansatte utviklere og erfarende medarbeidere  fra hele bredden av organisasjonen.\r\nDet ble gjennomført\r\n2 arbeidsseminarer\r\n4 review\r\nDaglig kontakt mellom Scrummaster og Utvikler\r\n\r\nSkapt engasjement og entusiasme\r\nVed å jobbe på en måte hvor det ble gjensidig forståelse av behovene  mellom utviklere og prosjektmedarbeidere.\r\n\r\n\r\nEngasjementet og entusiasmen er tatt videre ut i organisasjonen og til ressurspersoner på hver lokasjon som oppdaterer innholdet.\r\nVirkemidler:\r\n\r\n•\tProsjektrom i SharePoint for prosjektteam og ressursgruppe\r\n•\tLinjemøter\r\n•\tUtvalgte ressurspersoner på hver lokasjon\r\n\r\n\r\n1. oktober ble den nye løsningen ferdig \r\n\r\nProsjektet er levert på tid\r\nInnenfor økonomiske rammer\r\nOg går nå over til kontinuerlig forbedring \r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ole Christian Svenskerud"
+            }
+        ],
+        "keywords": [
+            "Smidig forvaltning"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Team Turkis for enhver pris!",
+        "content": "En lyntale om at teamet er bedre enn summen av enkeltpersonene og hvorfor teamshopping lønner seg framfor bodyshopping. \r\n\r\nJeg vil gjennom tre punkter fortelle historien om hvordan vi skapte teamfølelse, commitment og leveransekraft i teamet over lengre tid. Og er det mulig å gjenskape suksessen?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kaja Kværn"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Fra årlige releaser til Continuous Delivery",
+        "content": "Fronter er en e-læringsplattform som i år fyller 15 år. Vi har ca 8 millioner brukere på verdensbasis og over 1 millard sidevisninger i måneden bare fra vårt hosting-senter i Oslo. Vi er på en \"reise\" der vi går fra å gå fra å være et gammeldags produktutviklingsselskap som har årlige releaser til å være en lean softwareorganisasjon som releaser hyppig.\r\n\r\nDet jeg tenker å snakke mest om er hvilke endringer vi har gjort for å komme der vi er i dag, og hvilke endringer vi må gjøre fremover for å bli enda bedre!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Geir Wiksén"
+            }
+        ],
+        "keywords": [
+            "Continuous delivery"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hvordan et dysfunksjonelt team kan skape flott kunst",
+        "content": "\"Det finnes intet ’Jeg’ – endring av konteksten vi opplever i, åpner for anerkjennelsen av at det såkalte ´Jeget´ bare eksisterer innenfor en gitt kontekst\". \r\n\r\nYrkesaktive kreatører med ulik bakgrunn, boende både i Litauen og utenlands, samlet seg i en liten by med et felles mål – å gå inn i en profesjonell dialog og et profesjonelt samarbeid.\r\n\r\nFoto-video prosjektet handler om identitet og indre prosesser i individet. \r\n\r\nI denne lyntalen vil jeg forklare hvordan det som så ut som et dysfunksjonell team skapte dette kunstverket.  \r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Darija Hauge"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "workshop",
+        "title": "Smidig arkitektur",
+        "content": "Hva er \"nok\" arkitektur? Et prosjekt kan mislykkes både på grunn av for lite arkitekturarbeid og på grunn av for mye. Dersom du går gjennom jungelen uten et kart, er det ganske sikkert at du går deg vil. Men samtidig, dersom du ser på byggplantegninger når du skal komme deg fra en by til neste går du deg like vil (og du har kastet bort mer tid). Og dersom du har valgt feil kart har du i hvert fall kastet bort tiden.\r\n\r\nDersom du er en erfaren eller uerfaren arkitekt og du har lyst til å lære en praktisk innfallsvinkel for å få gjort akkurat passe mye og riktig analysearbeid før du starter, er denne workshopen for deg.\r\n\r\nKurset baserer seg rundt en arkitekturmal som dekker både funksjonelle og tekniske aspekter av et prosjekt. Gjennom hands-on øvelser vil du lære en praktisk innfallsvinkel til å utforske og presenterer systemarkietktur.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Johannes Brodwall"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Når vil vi slutte å vifte med dette \"Smidig\"-flagget",
+        "content": "Dersom du ikke har forstått \"Smidig\" enda, vil du aldri forstå det.\r\n\r\nDet er 12 år siden en gjeng kom ned fra fjellet med de smidige bud på en stentavle. Men begrepet Smidig var bare luktesalt for å vekke folk som sov bak rattet. De som ikke har våknet enda vil nok ikke våkne av mer luktesalt og samtidig har mange blitt forelsket i lukten av luktesalt.\r\n\r\nPoenget var alltid å søke bedre og hyppigere feedback. Det er lurt uavhengig av hva man kaller det.\r\n\r\nLa oss snakke om feedback i stedet og hvordan vi kan pensjonere dette begrepet som har utspilt sin rolle.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Johannes Brodwall"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Du kaster bort tid på prototyping!",
+        "content": "De fleste er nå frelst om verdien av prototyping, men gjør du det feil kan du ende opp med å kaste bort altfor mye tid med lite gevinst. Foredraget overtaler deg om viktigheten av å ta en smidig tilnærming til selve prototypingsprosessen.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sarah Brodwall"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Viktigste faktorer for å redusere teknisk gjeld",
+        "content": "“Teknisk gjeld” er en metafor som beskriver snarveier (shortcuts) som tas under design av programvare for å oppnå raske forretningsgevinster, men som  på sikt vil føre til økte kostnader ved vedlikehold og videreutvikling. Såkalte ”code smells” er ment å indikere teknisk gjeld. Derfor refaktorerer man slike smells for å nedbetale teknisk gjeld. Men hvilke smell er verst og hvor viktig er det å refaktorere dem? Er det andre viktige faktorer som fører til teknisk gjeld?\r\n\r\nFor å få svar på dette analyserte vi fire systemer (utviklet av fire konsulentselskaper) med samme funksjonalitet men ulike mht code smells og andre egenskaper. Seks utviklere ble leid inn for å utføre de samme tre vedlikeholdsoppgavene på alle systemene. Det vi fant var ganske oppsiktsvekkende …\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Dag Sjøberg"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "presentation",
+        "title": "End of Big, hva nå?",
+        "content": "Jon Kåre jobber i dag som prosjektleder med ansvar for strategiprosjektet Digitial Transformasjon i Schibsted Norge. Forut for dette har han jobbet med implementering av LEAN i hele Schisted- konsernet. I det arbeidet har man stått ovenfor utfordringen med å forstå hvordan LEAN skal tolkes i andre industrier enn ren prosessindustri. Han har erfaring fra å implementer et LEAN tankesett i redaksjonelle prosesser, salgsprosesser, serviceoprosesser og ikke minst utivklingsprosesser.\r\n\r\nDe siste årene har LEAN innovasjon og utvikling stått øverst på hans agenda. Dette er kompetanse og ferdigheter som vil være helt kritisk for veldig mange bedrifter fremover, og kan være helt avgjørende for selv store etablerte bedrifter eksistens i fremtiden.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jon Kåre Stene"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Åpningstale",
+        "content": "Årets konferanse er den syvende Smidigkonferansen i Norge. Det er en årlig konferanse for og av fagmiljøet selv. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ivar Conradi Østhus"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "ISO sertifisering, Scrum-innføringens beste venn!?",
+        "content": "Jeg visste at jeg skulle innføre og implementere Scrum i min nye jobb, men jeg ble overrasket over at vi samtidig skulle ISO 9001 sertifiseres.  Jeg hadde erfaring fra Scrum-innføring, men ingen erfaring fra ISO sertifisering, annet enn en god del skepsis og et inntrykk av at ISO sertifisering er i en helt annen verden enn smidig utvikling. Hvordan i all verden skal dette passe sammen? \r\nMen erfaringen har vært overraskende positiv!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kjetil Svingen-Austestad"
+            }
+        ],
+        "keywords": [
+            "Smidig forvaltning"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Er det store tunge leveranseprosjektet endelig dødt?",
+        "content": "Flere og flere selskaper, og særlig det offentlige, \"insourcer\" utvikling. Og spesielt av kritiske virksomhets- og samfunnskritiske applikasjoner. Som konsulent ser jeg en trend der avrop på rammeavtaler går mer på hodekjøp enn prosjekter.\r\n\r\nHva er det som skjer?\r\n\r\nKanskje man skjønner at man ikke klarer å se inn i krystallkula og lage spesifikasjoner så godt som man trodde?\r\n\r\nKanskje til og med målprismodeller ikke var så smidig likevel?\r\n\r\nHar man endelig forstått at kontrakter og advokater faktisk står i veien for verdiskapning?\r\n\r\nHer kommer noen refleksjoner over temaet etter å ha jobbet med fremtidig utvikling- og forvaltningsmodell for en avdeling i Statnett.\r\n\r\nHilsen en Prosjektleder\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Rune Larsen"
+            }
+        ],
+        "keywords": [
+            "Realisering av verdi"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Hvordan holde retrospektiv med 30+ deltakere",
+        "content": "Om man har en avdeling eller et prosjekt som består av flere team, hvordan forbedrer man helheten? Vi vet alle at en retrospektiv etter hver sprint er nøkkelen til prosessforbedring, men de gjelder jo stort sett bare internt i teamet.\r\n\r\nDet er endel utfordringer med å holde retrospektiv med mange deltakere og denne lyntalen vil hjelpe deg å takle noen av dem. Det tas utgangspunkt i et konkret tilfelle der jeg fasiliterte en retrospektiv med over 30 deltakere for Norwegian.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Rune Larsen"
+            }
+        ],
+        "keywords": [
+            "Team"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Statens standardavtale for smidig systemutvikling  - Oxymoron eller hybrid?   ",
+        "content": "På smidig 2007 holdt jeg lyntale om kontraktsregulering av smidige prosjekter. Budskapet mitt var at det var mulig å få til innenfor offentlig anskaffelsesregelverk. \r\n\r\nNå, 6 år etter,  begynner avtalen å bli ferdig. Vi holder fast ved at systemutviklingen skal være smidig. Men avtalen inneholder også deler som ikke er så smidige. Derfor er det kanskje riktig å kalle den en hybrid..   ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Mari Vestre"
+            }
+        ],
+        "keywords": [
+            "Annet"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Kaste stein i glasshus; om legacy-kode og knuste vinduer",
+        "content": "Hva skal du gjøre når du overtar teknisk ansvar for et system med åpenbare mangler og betydelig teknisk gjeld? Hvordan kan du redusere mengden 'knuste vindu' og unngå å knuse nye?\r\n\r\nOm 'Broken window'-teorien og hvordan den oppfører seg innen systemutvikling; hvilke feil bør du unngå og hvilke praktiske grep bør du gjøre for å legge til rette for en kultur for kodehåndverk?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Geir Amdal"
+            }
+        ],
+        "keywords": [
+            "Software craftsmanship"
+        ]
+    },
+    {
+        "format": "lightning-talk",
+        "title": "Lean canvas - Business Model Canvas - Lean Start-up",
+        "content": "Det introduseres stadig nye konsepter innenfor innovasjon som lean canvas, business model canvas og lean start-up. Hva er forskjell og likheter mellom disse rammeverkene og når bør jeg bruke hva? Lyntalen vil klargjøre terminologi og   hvordan disse rammeverkene forholder seg til hverandre. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2013",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Benjamin Sommer"
+            }
+        ],
+        "keywords": [
+            "Innovasjon"
+        ]
+    }
+]

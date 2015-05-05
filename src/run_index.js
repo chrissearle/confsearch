@@ -326,6 +326,12 @@ function indexFlatMap(outerCallback) {
                 loadFile("static_data/smidig-conferences.json", "conference", callback)
             },
             function (callback) {
+                loadFile("static_data/smidig-sessions-2013.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/smidig-sessions-2014.json", "session", callback)
+            },
+            function (callback) {
                 loadFile("static_data/flatmap-conferences.json", "conference", callback)
             },
             function (callback) {
