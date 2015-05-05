@@ -130,8 +130,13 @@ app.controller("SearchController", ["SearchService", "$location", "$anchorScroll
                 query.push("text=" + self.searchText);
             }
 
-            query.push("page=" + self.page);
-            query.push("perPage=" + self.perPage);
+            if (self.page > 1) {
+                query.push("page=" + self.page);
+            }
+
+            if (self.perPage != 50) {
+                query.push("perPage=" + self.perPage);
+            }
 
             self.filters.forEach(function(filter) {
                 query.push(filter.type + "=" + filter.value);
