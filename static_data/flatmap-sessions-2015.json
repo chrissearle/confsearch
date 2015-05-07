@@ -1,0 +1,417 @@
+[
+  {
+    "format": "presentation",
+    "title": "Type-Driven Development in Idris",
+    "language": "en",
+    "content": "Idris [http://idris-lang.org/](http://idris-lang.org/) is a general-purpose programming language with an expressive type system which allows a programmer to state properties of a program precisely in its type. Type checking is equivalent to formally and mechanically checking a program’s correctness. Introductory examples of programs verified in this way typically involve length preserving operations on lists, or ordering invariants on sorting.\n\nRealistically, though, programming is not so simple: programs interact with users, communicate over networks, manipulate state, deal with erroneous input, and so on. In this talk I will give an introduction to programming in Idris, with demonstrations, and show how its advanced type systems allows us to express such interactions precisely. I will show how it supports verification of stateful and communicating systems, in particular giving an example showing how to verify properties of concurrent communicating systems.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Edwin Brady",
+        "bio": "Edwin Brady is a Lecturer in Computer Science at the University of St Andrews in Scotland, UK. His research interests there include programming language design, in particular type systems and domain specific languages. Since 2008, he has been designing and implementing the Idris programming language, a general purpose functional programming language with dependent types. When he’s not doing that, he’s likely to be playing a game of Go, wrestling with the crossword, or stuck on a train somewhere in Britain.",
+        "avatar": "http://2015.flatmap.no/img/brady.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/brady.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Functional UI programming is a thing now",
+    "language": "en",
+    "content": "UI programming hasn't changed since its inception. A tree structure of views, events on views, events bubble up the tree. This is the poster child of object oriented programming, each element in the UI is an object, the object points to its children, and so on.\n\nReact (by Facebook) changes everything, by making UI programming functional. At the same time, nothing has changed. Our UI will still be modelled as a tree structure of views with events that bubble up the tree. Types are propositions. Really? In what sense?\n\nIn this talk you will learn what React is and why you should use it. We'll look at the history of UI programming, the common ground for almost every UI toolkit in existence, and see how React does its thing in a functional way. We'll also take a look at React Native, to showcase that the React way of building UIs isn't limited to the web.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "August Lilleaas",
+        "bio": "August is a full stack programmer at Kodemaker. He's spent the last couple of years building systems for NSB (Norwegian State Railways), before that a mix of UI programming for the web, iOS and Android, and various Ruby on Rails apps in many different shapes and sizes. When picking his technology battles, he will try to introduce Facebook React, Datomic and Clojure, in that order.",
+        "avatar": "http://2015.flatmap.no/img/lilleaas.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/lilleaas.html"
+  },
+  {
+    "format": "presentation",
+    "title": "A skeptic's look at Scalaz' \"Gateway Drugs\": A practical exploration",
+    "language": "en",
+    "content": "\"We've all seen them on the corner of our local software development neighborhoods: FP purists, shamelessly peddling scalaz to unsuspecting developers. Lured in by promises of Free Monoids, Semigroups, and Endofunctors these developers soon seem lost in throes of ecstatic coding.\"\n\nTo the skeptical and stubbornly practical among us, the above might ring a little true – especially if read in Rod Serling's voice. Images of gibbering horrors lurking in the depths of mathematical perfection swim before our eyes.\n\nBut what if there is true value in the world of scalaz? What if it is possible to use these tools for good (and a little bit of evil – it's fun to use learning for evil!) and profit... Without getting hopelessly lost in the opium dens of FP?\n\nIn this talk we will look at some of the \"gateway drugs\" of scalaz: Validation, NonEmptyList, \/, Monad Transformers, and more. How do they work from a practical standpoint? What is their value for real world applications? Can we use them without an advanced Maths PhD? And just how fun is it to *really* code with these tools?",
+    "video": "",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Brendan McAdams",
+        "bio": "Having recently returned from several wilderness years of being an itinerant conference speaker, trainer, and consultant for such fine companies as MongoDB and Typesafe, Brendan now writes Scala code for Netflix, building beautiful APIs with Scalatra and Swagger.",
+        "avatar": "http://2015.flatmap.no/img/mcadams.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/mcadams.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Scala.meta",
+    "language": "en",
+    "content": "Scala.meta is a simple, robust and portable metaprogramming foundation for Scala. Based on our experience with scala.reflect, we are building scala.meta to provide a metaprogramming API that doesn't require knowledge about compiler internals and is friendly to IDEs and incremental compilation.\n\nAt this workshop, I will present our progress on a series of practical examples that show how scala.meta handles common metaprogramming tasks: code generation with new and improved quasiquotes, program analysis with a drastically simplified introspection API, as well as code rewriting with a concise and functional tree traversal/transformation framework.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Eugene Burmako",
+        "bio": "Programming languages enthusiast, PhD student at EPFL, member of Scala team, Scala macros guy.",
+        "avatar": "http://2015.flatmap.no/img/burmako.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/burmako.html"
+  },
+  {
+    "format": "presentation",
+    "title": "The Swiss Army Knife of Generic Programming: Shapeless's Type Class Derication in Action",
+    "language": "en",
+    "content": "Automatic type class derivation, introduced in shapeless 2.0.0 at the beginning of 2013 by Lars Hupel in the form of the TypeClass type class (yes, you read that right), deserves a great deal more attention than it has received up until now. Built on top of shapeless's core generic programming primitives it allows instances for a wide variety of useful type classes to be derived for Scala ADTs with no (or at most minimal) boilerplate.\n\nBut until recently the types that type class instances could be derived for (families of Scala case classes sharing a common sealed trait and with fairly minimal support for recursion) was quite limited. In shapeless 2.1.0 its scope has been significantly expanded to include non-case classes (so long as they are sufficiently \"case class-like\") and more complex recursion patterns (eg. through types outside the immediate family). It's now also possible to provide specialized, non-derived, instances for specific case class members of the families being derived for.\n\nThis means that shapeless type class derivation is now the tool of choice for many important generic programming problems in Scala.\n\nIn this talk I will demonstrate this with example derivations of ordering and type-safe equality type classes, serialization and deserialization, type safe diffs, functors and a variety of other folds, unfolds and transformations which would otherwise require huge amounts of tedious boilerplate to implement.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Miles Sabin",
+        "bio": "Miles has been doing stuff with Scala for the last ten years, most recently with _.underscore and Precog. His best known project, the Scala generic programming library shapeless, is the weapon of choice wherever boilerplate needs to be scrapped or arities abstracted over.",
+        "avatar": "http://2015.flatmap.no/img/sabin.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/sabin.html"
+  },
+  {
+    "format": "presentation",
+    "title": "OptimusPrimeT",
+    "language": "en",
+    "content": "Everybody knows monads by now, so a talk about monads would hardly be worthwhile. Let's take it to the next level: monad transformers. We'll learn what they are, how they naturally emerge in your code base and how to make good use of them in Scala – and maybe even how to create your own.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Lars Hupel",
+        "bio": "Lars is a PhD student in Munich, Germany, working in the area of theorem proving. He has been using Scala for quite a while now, and is known as one of the founders of the typelevel initiative which is dedicated to providing principled, type-driven Scala libraries. He also teaches Haskell at university.",
+        "avatar": "http://2015.flatmap.no/img/hupel.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/hupel.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Akka Hands-On",
+    "language": "en",
+    "content": "User today expect responsive applications with close to zero downtime. To achieve this, concurrency, parallelism and fault tolerance is a necessity, however, building such systems is a complex task. Akka addresses the complexity of building scalable and fault tolerant systems.\n\nParticipants of this workshop will learn about Akka's primary abstraction, the actor model. Participants will also learn about how actors achieve fault tolerance through supervision and death watch, and scalability through routers. Each concept in Akka will be covered with slides containing theory and mostly code examples, and concrete exercises where the participant can choose to use Scala or Java (8).\n\nIt is recommended that participants bring their own laptop, or participate in pair-programming, for the exercises. Participants can choose to do exercises in Scala or Java.\n\nThis workshop assumes no prior knowledge about Akka.",
+    "video": "",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Arild Nilsen",
+        "bio": "Arild is a developer and consultant at Bekk Consulting. Through projects at work, and personal side projects, Arild has gained hands-on and deep knowledge of Akka and the actor model. His interests include distributed systems and concurrency. He also has an interest for Scala, and regularly attends Scalabin meetups.",
+        "avatar": "http://2015.flatmap.no/img/nilsen.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/nilsen.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Purescript",
+    "language": "en",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Bodil Stokke",
+        "bio": "Bodil is a a bishop of the Greater London diocese of the Church of Emacs, and a compulsive conference speaker in the fields of functional programming and internets technologies, and is a co-organiser of multiple developer conferences in Scandinavia and the UK, mostly because she’s still learning how to stop. Her favourite pony is Pinkie Pie.",
+        "avatar": "http://2015.flatmap.no/img/stokke.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/stokke.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Free All The Functors",
+    "language": "en",
+    "content": "If you've hung around with functional types or browsed around in functional libraries, you may have heard about the infamous free monad. This talk will provide an introductory take on free objects and their implementations in Scala and Haskell.\n\nWe'll begin by looking at basic examples of free monoids and free monads, and then we will graduate to looking at some of their actual usages in real code. No previous knowledge of Haskell is required.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Alissa Pajer",
+        "bio": "Alissa Pajer began her functional programming career as a Scala engineer at Precog. She worked there for two years, until Precog was acquired by RichRelevance, her current employer. Before her coding days, she studied pure mathematics, earning a Bachelors from Carleton College and a Masters from the University of Colorado. She currently lives in Munich, Germany, where she spends her non-computer time hiking, running, swimming, and cycling.",
+        "avatar": "http://2015.flatmap.no/img/pajer.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/pajer.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Existential Lambda Calculus",
+    "language": "en",
+    "content": "In earlier talks at flatMap(Oslo), we have seen that the untyped lambda calculus is tremendously powerful - using enterprise patterns such as the AbstractionRecursionFactoryFactory (aka y-combinator) and Dependency Injection (to defeat the laws of mathematics) we arrived at full Turing Completeness. However, this power comes at a cost: it is easy to make mistakes!\n\nIt is entirely possible to write programs in untyped lambda calculus that engage in infinite recursion or other nonsensical activities. For this reason, modern languages like Idris and Système F sacrifice some expressive power in order to enjoy greater safety.\n\nIn this talk, Jonas will address Einar's growing concerns about the correctness of large-scale lambda calculus programs by introducing a formalism for specifying the types of lambda calculus expressions.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Einar Høst",
+        "bio": "Einar W. Høst is an ivory tower expat and computer programmer working for Computas, programming computers. His goal is to write code that respects and amuses the djinns of the computer but not necessarily anyone else. He holds a PhD in Computer Science from the University of Oslo.",
+        "avatar": "http://2015.flatmap.no/img/host.png"
+      },
+      {
+        "name": "Jonas Winje",
+        "bio": "Jonas is a developer at Computas. His favourite animal is the goat, and his favourite animal is the otter. He's got an MSc in Computer Science from the University of Oslo, his favourite animal is the quokka, and he likes programming languages. His favourite animal is the capybara.",
+        "avatar": "http://2015.flatmap.no/img/winje.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/hostwinje.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Functional Composition",
+    "language": "en",
+    "content": "Using Clojure and Overtone, Chris Ford shows how to make music starting with the basic building block of sound, the sine wave, and gradually accumulating abstractions culminating in a canon by Johann Sebastian Bach.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Chris Ford",
+        "bio": "Chris Ford has been fascinated by functional programming since he first encountered Haskell during a misguided attempt to study electrical engineering. He currently makes a living coding Clojure for ThoughtWorks, although he thinks that identifying with a particular programming language is like a carpenter identifying with a particular size of screwdriver.",
+        "avatar": "http://2015.flatmap.no/img/ford.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/ford.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Functional Architectural Patterns",
+    "language": "en",
+    "content": "The functional paradigm is not only applicable to programming. There is even more reason for using functional patterns at an architectural level. MapReduce is the most famous example of such a pattern. In this talk, we will go through a few other patterns, and their corresponding stateful anti-patterns.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Lars Albertsson",
+        "bio": "Lars Albertsson has worked with data-intensive and scalable applications at Google, Spotify, natural language processing startup Recorded Future, and with stock exchange systems. He is now the data architect for the common technology platform at Schibsted Media Group.",
+        "avatar": "http://2015.flatmap.no/img/albertsson.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/albertsson.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Ship your scala code often and easy with Docker",
+    "language": "en",
+    "content": "Your awesome Scala applications deserve an equally elegant solution for deployment. Docker has gotten great traction in the DevOps world, and rightly so, as it is a powerful, robust and friendly tool.\n\nIn this talk Marcus shares his experiences in using the power of Scala and Docker to enable continuous delivery of new functionality to tens of thousands of business customers. Don’t miss this chance to see a live demonstration of these tools and hear how they are used in the wild, as well as see some supporting open source projects from Marcus and others and how they can be combined in powerful ways.\n\nYou don’t need any previous knowledge of Docker to follow along.\n\nLearn:\n\n* How to build Docker images easily from sbt\n* Deploying images and managing containers from Scala\n* Real-world tips and tricks for running Scala applications as containers",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Marcus Lönnberg",
+        "bio": "Marcus Lönnberg is a Scala hacker with Swedens largest online accounting solution provider SpeedLedger with several open source projects for Scala and Docker. He is a co-founder of the Docker Göteborg Meetup group and has presented at conferences and Meetups.",
+        "avatar": "http://2015.flatmap.no/img/lonnberg.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/lonnberg.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Calculating taxes using functional programming and Akka",
+    "language": "en",
+    "content": "The Norwegian Tax Administration (Skatteetaten) is currently developing new systems for calculating Tax Cards (skattekort), Taxes (skatt) and Tax Settlements (skatteoppgjør). This presentation will show how principles from Functional Programming are being applied to solve the calculation-part of the system - making each calculation self-documenting and describable. The system is run using Akka to handle concurrent calculations, failover and scalability. We will take a look at how Akka is used and discuss some experiences we have had with the framework.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Eivind Barstad Waaler",
+        "bio": "Eivind has 15 years of experience developing on the JVM. He loves programming and is always looking for simple solutions to complex challenges.",
+        "avatar": "http://2015.flatmap.no/img/waaler.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/waaler.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Introduction to Haskell",
+    "language": "en",
+    "content": "This workshop will teach you the basics of the purely functional programming language Haskell. No prior experience with Haskell or functional programming is required.\n\nWe will start by looking at what distinguishes Haskell from other programming languages – including other functional languages; namely its rich type system, lazy evaluation and no mutable state. We will also look at how, with Haskell's powerful type inference, we get strong correctness guarantees without having to sprinkle type annotations everywhere.\n\nWe will then dive into some code and see how to use Haskell in practice. You will be using some of the built-in data types, and you will define our own special-purpose data types to solve problems in a test-driven fashion.\n\nAfter having dipped our toes in some Haskell code, we will end by talking a bit about how not allowing side effects makes Haskell great for concurrency and parallelism and look a bit at how Haskell is used in practice in industry.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Erlend Hamberg",
+        "bio": "Erlend Hamberg started a on computer engineering degree to learn about systems programming and hardware, but veered slightly off course and ended up with a degree in computer science with a specialization in artificial intelligence. After a brief return to his former passion of low-level programming, working on drivers at ARM, his nascent love for Haskell and functional programming sprung into full bloom during a research internship at Galois. He is currently working for Soundrop, building marketing tools for the music business and helps organize the Oslo Haskell meetup group.",
+        "avatar": "http://2015.flatmap.no/img/hamberg.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/hamberg.html"
+  },
+  {
+    "format": "presentation",
+    "title": "The Hitchiker's Guide to the Curry-Howard Correspondence",
+    "language": "en",
+    "content": "Functions are proofs. Um, I can see how that might work. Go on.\n\nTypes are propositions. Really? In what sense? In fact, a function is the proof of the proposition its type represents. Woah, you've lose me now.\n\nDon't Panic! The Curry-Howard Correspondence is an elegant bridge between the planet of logic and the planet of programming, and it's not actually that hard to understand.\n\nIn this talk Chris Ford will use the Idris dependently-typed functional programming language for examples, as its type system is sophisticated enough to construct interesting automated proofs simply by writing functions. This talk is not designed to convert you into a theoretical computer scientist, but to share with you a wonderful sight in your journey through the vast and peculiar universe of programming.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Chris Ford",
+        "bio": "Chris Ford has been fascinated by functional programming since he first encountered Haskell during a misguided attempt to study electrical engineering. He currently makes a living coding Clojure for ThoughtWorks, although he thinks that identifying with a particular programming language is like a carpenter identifying with a particular size of screwdriver.",
+        "avatar": "http://2015.flatmap.no/img/ford.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/ford.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Clojures core.async explained",
+    "language": "en",
+    "content": "In this talk, I’ll start out with a brief comparison between Scalas actors and Clojures core.async. Then I’ll guide the audience through usual pain points of naive async programming and show how Clojures core.async remedies this by implementing Communication Sequential Processes (CSP).\n\nThe main part of the talk will be taking such a naive implementation of some async activity and show how this can be reimplemented as a state-machine and link this with how the go-macro in core.async is implemented.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Erik Assum",
+        "bio": "Erik works as a consultant at Iterate. He’s a mainly a backend programmer, but tends to work wherever the code is bad enough. Given time he’ll eventually drift into some sort of devops role while trying to figure out how to run the current project even better.",
+        "avatar": "http://2015.flatmap.no/img/assum.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/assum.html"
+  },
+  {
+    "format": "workshop",
+    "title": "F# Workshop: The Little MLer does .NET",
+    "language": "en",
+    "content": "jørn Einar Bjartnes, Einar Høst and Jonas Winje will do a workshop in F# loosely based on The Little MLer. There will be algebraic datatypes, pattern matching and property based testing - all with code that interops well with C#.\n\nWe'll provide virtualized dev environments, both as Ubuntu VMs (VirtualBox) and Windows Servers in Azure (connect with RDP), so if you don't have Windows, just bring a laptop that can run remote desktop or a VirtualBox VM. If you have Windows, please install Visual Studio Community Edition.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Einar Høst",
+        "bio": "Einar W. Høst is an ivory tower expat and computer programmer working for Computas, programming computers. His goal is to write code that respects and amuses the djinns of the computer but not necessarily anyone else. He holds a PhD in Computer Science from the University of Oslo.",
+        "avatar": "http://2015.flatmap.no/img/host.png"
+      },
+      {
+        "name": "Jonas Winje",
+        "bio": "Jonas is a developer at Computas. His favourite animal is the goat, and his favourite animal is the otter. He's got an MSc in Computer Science from the University of Oslo, his favourite animal is the quokka, and he likes programming languages. His favourite animal is the capybara.",
+        "avatar": "http://2015.flatmap.no/img/winje.png"
+      },
+      {
+        "name": "Bjørn Einar Bjartnes",
+        "bio": "Bjørn Einar Bjartnes is a developer and architect at Computas AS. He has a background from distributed control systems for oil and gas, which is how he fell in love with state machines. Bjørn Einar holds a MSc in Engineering Cybernetics from NTNU.",
+        "avatar": "http://2015.flatmap.no/img/bjartnes.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/bjartnes.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Functional patterns for scala beginners",
+    "language": "en",
+    "content": "Scala, by being both Functional and Object-Oriented is easy to get started with, especially for java developers. However, to get the most of the language, you have to embrace its functional nature.\n\nIn this session, I'll show you how to start using scala's functional nature by presenting patterns originated in the functional world:\n\n* Algebraic Data Types for data modelling\n* Typeclasses for extensible abstractions\n* Error handling in a composable fashion with Either and Validation\n* Segregation between logic and effects for easier testing\n* Property based testing",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Clément Delafargue",
+        "bio": "Clément Delafargue is an independent consultant. A graduate from École Centrale de Nantes, he has been developing web projects since 2002. He can work both on frontend and backend, with various technologies (Javascript (on both frontend and backend), Ruby, Java, Scala). He is particularly interestedin Functional Programming.\n\nVery passionate about tech and development, he has co-founded Eklaweb, a sur-mesure dev company in 2009. He has gathered a team of engineers and taught them functional programming. He’s now an indepedendent consultant and works with several startups, such as Clever Cloud, and Sounderbox. Besides his work, he teaches computer programming at École Centrale de Nantes and IMIE (C, java, scala, haskell, PHP, HTML/CSS, PL/SQL). He also teaches continuous integration and functional programming to Centrale Nantes students. He has created Nantes Functional Programming Group and gives talks about functional programming.",
+        "avatar": "http://2015.flatmap.no/img/delafargue.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/delafargue.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Slick",
+    "language": "en",
+    "content": "Slick is a modern database query and access library for Scala offering static checking and composable queries. All wrapped up in a familiar collection-like api. Sounds great doesn't it ?\n\nBut what does it really mean, and how do you use it ? And how should you not use it?\n\nThis presentation will give you an introduction to Slick, what it is and how it works, before diving into a series of tips and tricks gathered from using and fighting with Slick on several projects:\n\n* wrangling the code-generator\n* schema-changes vs git-branches\n* testing\n* increasing type-safety\n* sbt integration\n\nand more...",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jon-Anders Teigen",
+        "bio": "Jon-Anders Teigen is a functional programming entuhusiast working at Arktekk. Ever since he stumbled upon Scala many years ago, he has been a happy programmer enjoying the wonderful world of functions, types and parametricity. He lives in Oslo with his family and three bikes.",
+        "avatar": "http://2015.flatmap.no/img/teigen.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/teigen.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Demystifying Type Inference",
+    "language": "en",
+    "content": "Understanding type inference in Scala is a dark art. How does the compiler sometimes manage to conjure up exactly the correct type from an horrendous tangle of polymorphic method calls, while at other times drawing a blank at something that seems plainly obvious to everyone else?\n\nI'll cover the core ideas of type inference, show what works, what doesn't work, and why. I'll give simple explanations of covariance and contravariance, and the differences between type parameters and type members, then show how you can exploit type inference with some good design and applied cunning.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2015",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jon Pretty",
+        "bio": "Jon is a longstanding active member of the Scala community, having first used Scala in 2004. Since then, he's consulted on Scala in small businesses, large corporations and government projects. Since last summer, Jon has been on sabbatical to concentrate on Rapture, his family of open-source libraries and other Scala projects.",
+        "avatar": "http://2015.flatmap.no/img/pretty.png"
+      }
+    ],
+    "link": "http://2015.flatmap.no/pretty.html"
+  }
+]

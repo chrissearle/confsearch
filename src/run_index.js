@@ -335,7 +335,10 @@ function indexFlatMap(outerCallback) {
                 loadFile("static_data/flatmap-conferences.json", "conference", callback)
             },
             function (callback) {
-                loadFile("static_data/flatmap-sessions.json", "session", callback)
+                loadFile("static_data/flatmap-sessions-2013.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/flatmap-sessions-2015.json", "session", callback)
             }
         ],
         outerCallback
