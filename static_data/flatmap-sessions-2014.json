@@ -1,2 +1,412 @@
 [
+  {
+    "format": "presentation",
+    "title": "TBD",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Martin Odersky",
+        "bio": "Martin Odersky is professor of computer science at EPFL in Lausanne, Switzerland, co-founder of Typesafe, and creator of the Scala language.\n\nFor most of his career Martin has worked on the fusion of functional and object-oriented programming. He believes the two paradigms are two sides of the same coin, to be unified as much as possible.\n\nTo support this claim, he has worked on a number of language designs, from Pizza to GJ to Scala. He wrote javac, the compiler used by the majority of today's Java programmers and scalac, the compiler used by the fast-growing Scala community. He authored \"Programming in Scala\", the best selling book on Scala and pioneered two massive open online courses on functional and reactive programming. Previously, he held positions at IBM Research, Yale University, the University of Karlsruhe and the University of South Australia.",
+        "avatar": "http://2014.flatmap.no/m/speakers/odersky.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/odersky.html"
+  },
+  {
+    "format": "presentation",
+    "title": "The Future is primitive",
+    "content": "The current state of the software ecosystem is ever ripe for marketing teams to work their influence on engineering teams, but there is still opportunity for engineers to give the \"tiller orders\" and steer the industry in new directions. Scala is in a unique position among programming languages in the wide array of design facilities it affords you. There are many choices to select from, but you can learn to be much more powerful by selecting fewer of them and thinking solely in terms of \"primitive\" abstractions. This lends itself to smaller, more reusable and easier to understand software, all of which should be goals of any software project. This talk explores this idea in the context of the current Scala ecosystem and in how Scala-provided primitives, like Futures, give you a basis for defining your own reusable primitives to create beautiful abstractions.",
+    "video": "http://vimeo.com/96629282",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Doug Tangren",
+        "bio": "Doug Tangren works on patience and platform at Meetup and is a co-organizer of the New York Scala Enthusiasts. An open advocate for exploratory programming and contributor to a number of Scala libraries and sbt plugins.",
+        "avatar": "http://2014.flatmap.no/m/speakers/tangren.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/tangren.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Optimizing Lambda Calculus",
+    "content": "A successor to last year's session on the purest of the pure, the Lambda Calculus, this year's session is about predecessors. Jonas and Einar return to continue their Socratic dialog as they hunt for a more performant way to handle the daunting task of calculating the predecessor of a number. The solution will exploit the fact that in Lambda Calculus, abstractions are always dissolving before our very eyes - allowing for some clever and confusing optimizations. Along the way we will encounter Peano and see that bringing him into the fold saves the day.",
+    "video": "http://vimeo.com/96639838",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Einar Høst",
+        "bio": "Einar W. Høst is a sleep-deprived developer and technical architect at Computas. In his spare time, he writes an obscure technical blog, enjoys pixel art and indulges in impractical coding projects aimed at having fun with the djinns of the computer. He holds a PhD in Computer Science from the University of Oslo and thinks ivory towers are beautiful.",
+        "avatar": "http://2014.flatmap.no/m/speakers/host.jpg"
+      },
+      {
+        "name": "Jonas Winje",
+        "bio": "Jonas Winje is a developer at Computas, where he codes Smalltalk and Blub. MSc in Computer Science from the University of Oslo. He likes Programming Language Things and thinks infinite towers are pretty.",
+        "avatar": "http://2014.flatmap.no/m/speakers/winje.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/winjehost.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Functional UI programming",
+    "content": "Various JavaScript toolkits have been offered the past few years to enable the use of functional patterns on the frontend. While these tools promote composable APIs and pure functions to a certain degree, UI programming is still encumbered with stateful MV*-like frameworks, or just plain dirty DOM manipulation.\n\nFacebook's React is an interesting approach to UI programming in the browser that does away with manual DOM manipulation all together, and more closely resembles classic UI programming. Combine this approach with the immutable data structures of Clojurescript, and we're really getting somewhere.\n\nIn this talk I will explore the path to fully functional UI programming in the browser through React, Clojurescript, Om (React for Clojurescript) and other tools.",
+    "video": "http://vimeo.com/96639841",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Christian Johansen",
+        "bio": "Christian is a passionate programmer working with Oslo-based consultancy Kodemaker. He's a man of eclectic background, having worked with everything from Unix systems tuning and ops to various server-side applications and JavaScript heavy frontend development.\n\nChristian is the author of \"Test-Driven JavaScript Development\", and he maintains several open source projects, including the JavaScript test-framework Buster.JS and the popular mocking framework Sinon.JS. Functional programming has been a growing interest the past years, and after some time with the wonderful world of Clojure and its immutable data types, he realized there was no going back.",
+        "avatar": "http://2014.flatmap.no/m/speakers/johansen.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/johansen.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Macrology 201",
+    "content": "This workshop is going to be a follow-up for my \"What Are Macros Good For?\" talks at Scalapeño and Scala eXchange. The talks introduced a number of popular macro techniques that tackle code generation, static checks and DSLs, focusing on high-level design and omitting implementation details. The workshop will be dedicated to implementation details of some of those techniques, identifying potential pitfalls and providing solutions and explanations.\n\nQuestions that attendees are going to be able to answer after attending the workshop:\n\n* What are the approaches to modularizing macros?\n* How to make tree construction and deconstruction less verbose?\n* When is it necessary to use resetAttrs and what to do if it does not work?\n* What are hygiene and referential transparency and why should one care?\n* How to write a macro that improves performance by inlining or specializing some code?\n* How to implement a type provider and how to sidestep potential performance problems?\n* How to deal with materializers and what problems can one run into when implementing them?\n\nKnowledge that will help with getting up to speed during the workshop:\n\n* Having watched either [Scalapeño](http://scalapeno.underscore.co.il/#!what-are-macros-good-for/c134f) or [Scala eXchange](http://skillsmatter.com/podcast/scala/what-are-macros-good-for) talks for having an overview of the use cases we'll be covering.\n* Familiarity with the \"Def Macros\" section of the macro [docs](http://docs.scala-lang.org/overviews/macros/overview.html) for understanding the basics of implementing macros.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Eugene Burmako",
+        "bio": "Being a metaprogramming aficionado, Eugene believes that metaprogramming can be applied to mainstream programming in a safe and disciplined way. Since fall 2011, as a member of the Scala team and Martin Odersky's PhD student, he has been realizing this vision in the Scala macros project. Before joining EPFL he was experimenting with metaprogramming for CLR. Eugene's projects in this area include Relinq, a bidirectional LINQ to JavaScript transformer, and Conflux, a library that crosscompiles C# into CUDA.",
+        "avatar": "http://2014.flatmap.no/m/speakers/burmako.jpg"
+      },
+      {
+        "name": "Denys Shabalin",
+        "bio": "Denys is the author of Scala 2.11's quasiquotes, a project aimed at making AST manipulation a pleasure. He is also an active contributor to scala/scala repository, hacking on compiler internals, reflection API and macros. At the moment he works as intern at Typesafe researching ways to introduce referential transparency and hygiene concepts to Scala compiler and macro system.",
+        "avatar": "http://2014.flatmap.no/m/speakers/shabalin.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/burmako.html"
+  },
+  {
+    "format": "presentation",
+    "title": "DOT calculus",
+    "content": "The DOT (Dependent Object Types) calculus attempts to ground Scala's type system in fewer, but powerful, constructs. In this talk I will describe what these constructs are, and how they relate to Scala's current type system. I will also show how DOT simplifies type inference. Finally, I will touch upon the challenges in the meta-theory.",
+    "video": "http://vimeo.com/96634123",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Nada Amin",
+        "bio": "Nada is a member of the Scala team at EPFL, where she studies type systems and hacks on programming languages. She has contributed to Clojure's core.logic and Google's Closure compiler. She's loved helping others learn to program ever since tutoring SICP as an undergraduate lab assistant at MIT.",
+        "avatar": "http://2014.flatmap.no/m/speakers/amin.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/amin.html"
+  },
+  {
+    "format": "presentation",
+    "title": "The imminent revolution of functional append-only databases",
+    "content": "Traditional databases supports operations like \"update\" and \"delete\". How did you decide that it's OK for your business to discard old data? Are you sure this data is not relevant now, or that it will never be relevant in the future?\n\nWe'll take a look at the functional databases Event Store and Datomic. We'll mostly explore interesting business cases that functional databases solve elegantly, instead of a small (and frankly useless) getting started scenario. We'll also look at the problems that arise when we attempt to solve these problems with more traditional databases.",
+    "video": "http://vimeo.com/96634125",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "August Lilleaas",
+        "bio": "August is a programmer and a consultant, employed at [Kodemaker](http://kodemaker.no/), and currently contracting at NSB. He's equally experienced on both backend and frontend, and delivers web apps, mobile apps, and real time systems. In his free time he works on both test frameworks and operating systems, and blogs about [functional databases](http://dbs-are-fn.com/) from time to time.",
+        "avatar": "http://2014.flatmap.no/m/speakers/lilleaas.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/lilleaas.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Scala Intro",
+    "content": "Alfred and Morten will give you a short introduction to Scala, before we all start coding. They will focus on an area that is a lot of fun for new Scala developers - the collections API. Seeing how fun, easy, and powerfull collections can be, is often an eye opener for Java developers.\n\nThis workshop is intended for experienced Java developers, with little or no prior exposure to Scala. Bring a laptop or pair up with someone who did.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Alfred Lysebraate",
+        "bio": "Alfred enjoys writing Scala code more than he enjoys writing bios.",
+        "avatar": "http://2014.flatmap.no/m/speakers/lysebraate.jpg"
+      },
+      {
+        "name": "Morten Andersen-Gott",
+        "bio": "Morten fell in love with Scala in 2012, when he used it to build a pet project and discovered just how easy and enjoyable coding can be in Scala. Since then, he's been dreading the verbose nature of Java code. In his spare time, Morten is often seen wearing a referee kit, either on the football field or at developer conferences.",
+        "avatar": "http://2014.flatmap.no/m/speakers/andersen-gott.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/andersen-gott-lysebraate.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Regexes, Kleene algebras, and real ultimate power!",
+    "content": "If hearing 'regular expression' makes you think of Perl or that Jamie Zawinsky quote, think again! Kleene algebras are a generalization of regular expressions that can be used to compute transitive closure, shortest path, solve linear equations, and more! This talk will explore Kleene algebras, model them in Spire, and go through several concrete examples, with particular attention to regular expressions and languages. We'll see how algebraic properties plus laziness allow an amazingly expressive and powerful implementation.",
+    "video": "http://vimeo.com/96644096",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Erik Osheim",
+        "bio": "Erik is one of the creators of Spire, a Typelevel project designed to support fast, generic, and precise numerical programming in Scala. He is a contributor to the Scala compiler and standard library, and uses Scala to push the limits of JVM performance and expressiveness. Erik works at Meetup, where he collects, processes, and analyzes data to learn how to more effectively create community.",
+        "avatar": "http://2014.flatmap.no/m/speakers/osheim.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/osheim.html"
+  },
+  {
+    "format": "presentation",
+    "title": "How Haskell is Changing my Brain",
+    "content": "Learning Haskell is about more than learning new syntax and understanding the function signatures of its many modules. It's even about more than defining your own type classes and implementing new Functors. Learning Haskell is about putting yourself in a position where your mental abstractions can (and will!) drastically change for the better. In this talk, we'll explore through example how and why Haskell provides us with so many opportunities for these mind-changing moments. Furthermore, we'll discuss how these changes in our brains shape how we approach functional programming.",
+    "video": "http://vimeo.com/96639840",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Alissa Pajer",
+        "bio": "Alissa Pajer began her functional programming career as a Scala engineer at Precog. She worked there for two years, until Precog was acquired by RichRelevance, her current employer. Before her coding days, she studied pure mathematics, earning a Bachelors from Carleton College and a Masters from the University of Colorado. She currently lives in Munich, Germany, where she spends her non-computer time hiking, running, swimming, and cycling.",
+        "avatar": "http://2014.flatmap.no/m/speakers/pajer.jpg"
+      }
+    ],
+    "link": ""
+  },
+  {
+    "format": "workshop",
+    "title": "Intro to Clojure",
+    "content": "In this two hour workshop you will learn the basics of Clojure. You will get the theoretical intro to the language, mixed with hands on tasks, solving failing unit tests. The tasks will be solved with the amazing new IDE Light Table.\n\nIf you plan to join this session, please set up your computer beforehand. It should only take about 5 minutes. Instructions at [http://bit.ly/flatmap-clojure-ws](http://bit.ly/flatmap-clojure-ws)",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Alf Kristian Støyle",
+        "bio": "Alf Kristian has 10 years of experience programming on the JVM, primarily Java. The last 6 years he has sought better solutions and languages, since he thinks Java the language, and its numerous frameworks, simply is not good enough. He is a believer in functional programming, and hence has a deep interest in Scala and Clojure.\n\nHis commitment to FP on the JVM, has lead him to give many talks, workshops, and organize several user groups meetups for FP. He is currently co-founder and organizer of [Oslo Socially Functional Programmers](http://www.meetup.com/Oslo-Socially-Functional/), which aims to to promote the use of FP in Oslo.\n\nAlf Kristian works as a programmer and consultant for [Kodemaker](http://www.kodemaker.no/), and is currently very happy programming Clojure at work.",
+        "avatar": "http://bit.ly/flatmap-clojure-ws"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/stoyle.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Netflix + Scala",
+    "content": "Find out the architecture Netflix (producers of such fine entertainment as \"Lillyhammer\" & \"Arrested Development\") is using for their next generation device metadata APIs – specifically, the tech stack & development+deployment processes. We will explore demonstrate real world use cases which make Scala stand out as a choice programming language for for building clean, beautiful, RESTful APIs with tools such as Swagger+Scalatra. Techniques will be demonstrated for producing & consuming JSON (json4s), as well as sending HTTP Requests (Dispatch), using MySQL & Cassandra, and Caching. We will also explore Scala testing frameworks, and how they plug into our larger CI/CD infrastructure, with discussions of quite a bit of Netflix OSS components.",
+    "video": "http://vimeo.com/96673387",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Brendan W. McAdams",
+        "bio": "A polyglot programmer, Brendan has made various contributions to Open Source in the past including building a Linux Driver for the Lego Mindstorms system — which now ships with the kernel. He is currently a Sr. Software Developer at Netflix, working in Scala. He has previously served as a Consultant/Instructor at Typesafe, and as the MongoDB Scala evangelist, traveling the world to speak at conferences, and conduct professional consulting and training. Travel highlights included the JavaZone bike trip from hell in Finse, doing a customer consult in beautiful, sunny Malta, and running MongoDB training in such exotic locales as Yerevan, Armenia. While at MongoDB he also developed and maintained Casbah, the MongoDB driver for Scala, and a connector to integrate Hadoop + MongoDB.",
+        "avatar": "http://2014.flatmap.no/m/speakers/mcadams.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/mcadams.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Selling new tech to skeptics: Getting past 99 no's",
+    "content": "You are passionate about programming, and you want your organization to understand that it is time to move on. You see the need clearly, but you face fierce resistance from those who prefer the status quo. You will get 99 no's before you finally get the 1 yes you need. How do you persist?\n\nYou need to understand the adoption of new technology in a wider perspective. What do you say, and what do they actually hear? This talk will give you practical advice and proven strategies from real life success stories.",
+    "video": "http://vimeo.com/96634124",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Simen Fure Jørgensen",
+        "bio": "Having started his career as a Java developer, Simen went on to become co-founder and CEO of Iterate. Some might say that means Simen has joined the dark side - but he refuses to let go of his technical upbringing. His mixed career means that he takes an interest in business issues as well as technology, learning Organizational Analysis one month and Data Analysis with R the next month.",
+        "avatar": "http://2014.flatmap.no/m/speakers/jorgensen.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/jorgensen.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Scalaz",
+    "content": "In this workshop, we'll get you started with scalaz. The first topic will be the general organization of the library; that is, an overview over what's in there and how you find what you're looking for. Next, we'll be working through a couple of problems and are trying to solve them with increasing levels of abstraction, starting with monoids, and – given enough time – ending with monad transformers (no worries: like monads, they're nice and fluffy). This will cover various topics like dealing with infinite structures, error handling and encoding invariants into types. We'll also investigate how your favourite library could benefit from scalaz integration.\n\nNo matter whether you've already been working with scalaz 6 and want to do a migration to version 7, or are completely new to scalaz, this workshop is for you. Knowing some Haskell is advantageous, but by no means necessary. A bit of Scala experience is recommended.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Lars Hupel",
+        "bio": "Lars is a PhD student in Munich, Germany, working in the area of theorem proving. He has been using Scala for quite a while now, and is the maintainer of scalaz, a library for functional programming in Scala. Additionally, he is founder of the typelevel initiative which is dedicated to providing principled, type-driven Scala libraries.",
+        "avatar": "http://2014.flatmap.no/m/speakers/hupel.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/hupel.html"
+  },
+  {
+    "format": "presentation",
+    "title": "Doing Batshit Crazy Algebra with Scala Types!",
+    "content": "What would it mean to \"add\" or \"multiply\" types like Boolean and List[Int]? Would you think me mad if I applied the quadratic formula to a type constructor, expanded its power series, then tried to justify using this to count binary trees? And what interpretation could I possibly give to performing differentiation on a type constructor, and what's this got to do with zippers? I'll leave my mathematical rigor behind, and go a bit wild with types and algebra. And hopefully show that doing crazy algebraic stuff with types can actually throw up some interesting, surprising and useful results!",
+    "video": "http://vimeo.com/96671607",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jon Pretty",
+        "bio": "This year, Jon celebrates a decade of developing in Scala and contributing to the Scala community. He has deployed Scala into startups, large corporations, government and open source, but is best known these days for his Rapture IO and JSON libraries.",
+        "avatar": "http://2014.flatmap.no/m/speakers/pretty.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/pretty.html#rapturejson"
+  },
+  {
+    "format": "presentation",
+    "title": "Rapture JSON",
+    "content": "Rapture JSON is comprehensive set of tools for working with JSON in Scala which combines some of the best new features of Scala 2.10 to bridge the gap between the dynamic world of JSON and statically-typed Scala, without sacrificing the expressiveness of concise and idiomatic Scala. See how you can parse, extract and pattern match immutable JSON, or use mutable JSON to get a lightweight object database. This will be a fun, entry-level talk, with lots of examples and some live coding!",
+    "video": "http://vimeo.com/96644098",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Jon Pretty",
+        "bio": "This year, Jon celebrates a decade of developing in Scala and contributing to the Scala community. He has deployed Scala into startups, large corporations, government and open source, but is best known these days for his Rapture IO and JSON libraries.",
+        "avatar": "http://2014.flatmap.no/m/speakers/pretty.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/pretty.html#rapturejson"
+  },
+  {
+    "format": "workshop",
+    "title": "Sbt",
+    "content": "The workshop will be a code-along demonstration of how to get started with SBT. We'll start from scratch with a simple project and evolve it step-by-step to a multi-module webapplication with cross-compilation, testing, fat-jar assembly code generation and more.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Doug Tangren",
+        "bio": "Doug Tangren works on patience and platform at Meetup and is a co-organizer of the New York Scala Enthusiasts. An open advocate for exploratory programming and contributor to a number of Scala libraries and sbt plugins.",
+        "avatar": "http://2014.flatmap.no/m/speakers/tangren.jpg"
+      },
+      {
+        "name": "Jon-Anders Teigen",
+        "bio": "Jon–Anders Teigen is an experienced Scala and Java software developer. As an active and long time member of the Scala community, he is a frequent speaker at events and conferences, and has contributed to a range of open source Scala projects.\n\nJon–Anders is the co–founder of scalaBin – \"The Norwegian Scala User Group\", and Oslo Socially Functional – A meetup for functional programmers.",
+        "avatar": "http://2014.flatmap.no/m/speakers/teigen.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/tangrenteigen.html"
+  },
+  {
+    "format": "presentation",
+    "title": "How we ported our application from Java to Scala",
+    "content": "In this talk I will tell the story about how we ported our main application to Scala.\n\nInitial focus will be on motivation for the team and for myself. Then we have a look at how my team tested the waters first, and how that testing developed into a multiphased porting strategy:\n\n* refactor Java codebase to favor immutability and static functions\n* mechanically rewrite Java code to Scala\n* port Java collections usage to Scala collections, introducing Option when possible\n* restore sanity by replacing Hibernate with Scalaquery/Slick\n* rewire with cake pattern instead of Spring\n* regain control over HTTP by replacing Spring MVC with Unfiltered\n\nBy sharing some experience for each of these phases, I hope this talk can be useful for anyone considering doing the same.",
+    "video": "http://vimeo.com/96634126",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Øyvind Raddum Berg",
+        "bio": "Øyvind Raddum Berg is a developer at Penger.no, where he has had the opportunity to play and work with Scala for over two years. He has a love for starting new, amazing projects and discarding them two days later, something which has brought him to a lot of interesting platforms and languages.",
+        "avatar": "http://2014.flatmap.no/m/speakers/berg.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/berg.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Shapeless 2.0",
+    "content": "An extended workshop on the concepts, techniques and new features in shapeless 2.0.\n\nThe workshop will start with a walkthrough of various parts of the library, focussing particularly on its support for generic programming, followed by dojo style challenges using, extending or borrowing ideas from shapeless to solve problems chosen by the participants. With any luck we might be able to generate a few useful pull requests against the project by the end of the session.\n\nIf you're already using shapeless and have topics you'd like to work through then bring them with you. And if you have questions about the new toys in shapeless 2.0, or are new to it and just want to know what all the fuss is about, then this is the perfect event for you.",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Miles Sabin",
+        "bio": "Miles has been doing stuff with Scala for the last ten years, most recently with _.underscore and Precog. His best known project, the Scala generic programming library shapeless, is the weapon of choice wherever boilerplate needs to be scrapped or arities abstracted over.\n\nRumours to the contrary, he does exist at runtime, and can often be found walking in the South Downs around his home in Brighton with a camera and an unfeasibly energetic (and usually very muddy) English Springer Spaniel named Tigger.",
+        "avatar": "http://2014.flatmap.no/m/speakers/sabin.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/sabin.html"
+  },
+  {
+    "format": "presentation",
+    "title": "The Mess We've Made",
+    "content": "In this talk, we'll explore why some technologies end up inexplicably dominating our field while others fade away despite their obvious merits. What will it take for the languages we care about to succeed, and what are the consequences of success? Let's apply a broad perspective to the mess we've made of modern computer science, and explore our options for getting the situation back on track through a careful examination of history, science and ponies.",
+    "video": "http://vimeo.com/96644097",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Bodil Stokke",
+        "bio": "Bodil is a compulsive conference speaker in the fields of functional programming and internets technologies, and is a co-organiser of multiple developer conferences in Scandinavia and the UK, mostly because she’s still learning how to stop. She is a prolific contributor to the Free Software community, and has recently taken up designing new programming languages as a hobby. In her spare time, she works as a developer for Future Ad Labs, a London based startup that wants to make advertising a productive member of society. Her favourite pony is Pinkie Pie.",
+        "avatar": "http://2014.flatmap.no/m/speakers/bodil.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/bodil.html"
+  },
+  {
+    "format": "workshop",
+    "title": "Functional Programming in Java 8",
+    "content": "This workshop will teach you how you can utilise the new language features in Java 8 to program in a functional style. The main focus will be anonymous functions (lambdas), in particular the new Stream API that lets us write much more declarative code when working with collections and other data sources. Let's ditch those old for-loops and if-statements! We'll also look at lazy and parallel computations and how to work with immutable data in Java and why this is important.\n\nParticipants should have an IDE with Java 8 support, e.g. IntelliJ IDEA (community edition is fine) or [Eclipse with Java 8 support](http://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_(BETA)).",
+    "conference": {
+      "group": "flatMap",
+      "name": "flatMap 2014",
+      "venue": "DogA"
+    },
+    "speakers": [
+      {
+        "name": "Fredrik Vraalsen",
+        "bio": "Fredrik works as a software developer and consultant at Iterate. His main interest currently is functional programming and in particluar how to apply this in his daily job as a Java developer. He's held training courses in Scala and dabbled in Clojure, and likes to speak at conferences.",
+        "avatar": "http://2014.flatmap.no/m/speakers/vraalsen.jpg"
+      }
+    ],
+    "link": "http://2014.flatmap.no/speakers/vraalsen.html"
+  }
 ]

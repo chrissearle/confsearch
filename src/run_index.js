@@ -338,6 +338,9 @@ function indexFlatMap(outerCallback) {
                 loadFile("static_data/flatmap-sessions-2013.json", "session", callback)
             },
             function (callback) {
+                loadFile("static_data/flatmap-sessions-2014.json", "session", callback)
+            },
+            function (callback) {
                 loadFile("static_data/flatmap-sessions-2015.json", "session", callback)
             }
         ],
