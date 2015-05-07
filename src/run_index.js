@@ -63,54 +63,6 @@ function putMapping(data, type, callback) {
     });
 }
 
-function getJson(url, callback) {
-    "use strict";
-
-    http.get(url, function (res) {
-        var body = "";
-
-        res.on("data", function (chunk) {
-            body += chunk;
-        });
-
-        res.on("end", function () {
-            callback(JSON.parse(body));
-        });
-    }).on("error", function (e) {
-        logger.error("Got error: ", e);
-    });
-}
-
-function getLink(item, rel) {
-    "use strict";
-
-    var link = item.links.filter(function (l) {
-        return l.rel === rel;
-    });
-
-    if (link.length > 0) {
-        return link[0].href;
-    }
-
-    return "";
-}
-
-function getData(item, name, fieldName) {
-    "use strict";
-
-    fieldName = fieldName || "value";
-
-    var datum = item.data.filter(function (data) {
-        return data.name === name;
-    });
-
-    if (datum.length > 0) {
-        return datum[0][fieldName];
-    }
-
-    return "";
-}
-
 function readJsonFromFile(path, callback) {
     "use strict";
 
@@ -120,126 +72,6 @@ function readJsonFromFile(path, callback) {
         } else {
             callback(JSON.parse(data));
         }
-    });
-}
-
-function handleSpeaker(data, conference, session) {
-    "use strict";
-
-    var items = data.collection.items;
-
-    if (!items) {
-        return;
-    }
-
-    // TODO - need to put conf and session into body - but need to _merge_ if already exists
-
-    items.forEach(function (item) {
-        elasticClient.index({
-            index: "conference",
-            type: "speaker",
-            id: item.href,
-            body: {
-                "name": getData(item, "name"),
-                "bio": getData(item, "bio")
-            }
-        }, function (err, response) {
-            elasticResponse(err, response);
-        });
-    });
-}
-
-function handleSession(data, conference) {
-    "use strict";
-
-    var items = data.collection.items;
-
-    if (!items) {
-        return;
-    }
-
-    items.forEach(function (item) {
-        var session = {
-            "format": getData(item, "format"),
-            "content": getData(item, "body"),
-            "keywords": getData(item, "keywords", "array"),
-            "title": getData(item, "title"),
-            "language": getData(item, "lang"),
-            "summary": getData(item, "summary"),
-            "level": getData(item, "level"),
-            "conference": conference
-        };
-
-        var video = getLink(item, "alternate video");
-
-        if (video) {
-            session.video = video;
-        }
-
-        var speakers = item.links.filter(function (link) {
-            return link.rel === "speaker item";
-        });
-
-        var speakerContent = [];
-
-        speakers.forEach(function (speaker) {
-            speakerContent.push({
-                "name": speaker.prompt,
-                "link": speaker.href
-            });
-        });
-
-        session.speakers = speakerContent;
-
-        elasticClient.index({
-            index: "conference",
-            type: "session",
-            id: item.href,
-            body: session
-        }, function (err, response) {
-            elasticResponse(err, response);
-
-            var speakerLink = getLink(item, "speaker collection");
-
-            if (speakerLink) {
-                getJson(speakerLink, function (speakerData) {
-                    session.link = item.href;
-                    delete session.content;
-                    delete session.summary;
-                    delete session.conference;
-
-                    handleSpeaker(speakerData, conference, session);
-                });
-            }
-        });
-    });
-}
-
-function handleEvents(data) {
-    "use strict";
-
-    var items = data.collection.items;
-
-    items.forEach(function (item) {
-        var conference = {
-            "name": getData(item, "name"),
-            "venue": getData(item, "venue"),
-            "group": "Javazone"
-        };
-
-        elasticClient.index({
-            index: "conference",
-            type: "conference",
-            id: item.href,
-            body: conference
-        }, function (err, response) {
-            elasticResponse(err, response);
-
-            getJson(getLink(item, "session collection"), function (sessionData) {
-                conference.link = item.href;
-                handleSession(sessionData, conference);
-            });
-        });
     });
 }
 
@@ -289,14 +121,6 @@ function createMapping(type, path, callback) {
     });
 }
 
-function indexJavazone(callback) {
-    "use strict";
-
-    output.info("4: Index Javazone");
-    getJson("http://javazone.no/ems/server/events", handleEvents);
-    callback(null, "Done");
-}
-
 function loadFile(path, type, callback) {
     "use strict";
 
@@ -316,12 +140,36 @@ function loadFile(path, type, callback) {
     });
 }
 
-function indexFlatMap(outerCallback) {
+function loadIndexFiles(outerCallback) {
     "use strict";
 
     output.info("4: Index files");
 
     async.parallel([
+            function (callback) {
+                loadFile("static_data/javazone-conferences.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2008.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2009.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2010.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2011.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2012.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2013.json", "session", callback)
+            },
+            function (callback) {
+                loadFile("static_data/javazone-sessions-2014.json", "session", callback)
+            },
             function (callback) {
                 loadFile("static_data/smidig-conferences.json", "conference", callback)
             },
@@ -379,19 +227,7 @@ async.series([
                 outerCallback
             );
         },
-        function (outerCallback2) {
-            "use strict";
-            async.parallel([
-                    function (callback) {
-                        indexJavazone(callback);
-                    },
-                    function (callback) {
-                        indexFlatMap(callback);
-                    }
-                ],
-                outerCallback2
-            );
-        }
+        loadIndexFiles
     ],
     logResult
 );

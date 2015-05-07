@@ -30,6 +30,9 @@ module.exports = function (grunt) {
             elastic: {
                 command: "elasticsearch --config=config/elasticsearch.yml"
             },
+            javazone: {
+                command: "node src/build_javazone.js"
+            },
             index: {
                 command: "node src/run_index.js"
             }
@@ -47,7 +50,7 @@ module.exports = function (grunt) {
     grunt.registerTask("default", ["eslint"]);
     grunt.registerTask("run", ["nodemon"]);
     grunt.registerTask("es", ["exec:elastic"]);
-    grunt.registerTask("index", ["exec:index"]);
+    grunt.registerTask("index", ["exec:javazone", "exec:index"]);
 
     grunt.registerTask("heroku:production", "bower-install-simple:app");
 };
