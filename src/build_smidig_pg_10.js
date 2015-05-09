@@ -39,8 +39,8 @@ client.connect(function (err) {
     var data = [];
 
     client.query("SELECT t.id, t.title, t.description, " +
-        "string_agg(distinct u.name, ',') AS users, " +
-        "string_agg(distinct tg.title, ',') AS tags " +
+        "array_agg(distinct u.name) AS users, " +
+        "array_agg(distinct tg.title) AS tags " +
         "FROM talks t " +
         "  LEFT JOIN speakers s ON (s.talk_id = t.id) " +
         "  LEFT JOIN users u ON (u.id = s.user_id) " +
@@ -63,14 +63,18 @@ client.connect(function (err) {
 
             var speakers = [];
 
-            row.users.split(',').forEach(function (user) {
+            row.users.forEach(function (user) {
                 speakers.push({"name": user});
             });
 
             var tags = [];
 
             if (row.tags) {
-                tags = row.tags.toLowerCase().split(",");
+                row.tags.forEach(function(tag) {
+                    if (tag) {
+                        tags.push(tag.toLowerCase());
+                    }
+                });
             }
 
             data.push({
