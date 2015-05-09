@@ -38,7 +38,17 @@ client.connect(function (err) {
 
     var data = [];
 
-    client.query("SELECT t.id, t.title, t.description, u.name as user, string_agg(tg.title, ',') AS tags from talks t, users u, speakers s, tags tg, tags_talks tgt where acceptance_status='accepted' and t.id = s.talk_id and s.user_id = u.id and tg.id=tgt.tag_id and t.id=tgt.talk_id group by t.id, u.name", function (err, result) {
+    client.query("SELECT t.id, t.title, t.description, " +
+        "string_agg(distinct u.name, ',') AS users, " +
+        "string_agg(distinct tg.title, ',') AS tags " +
+        "FROM talks t " +
+        "  LEFT JOIN speakers s ON (s.talk_id = t.id) " +
+        "  LEFT JOIN users u ON (u.id = s.user_id) " +
+        "  LEFT JOIN tags_talks tgt ON (tgt.talk_id = t.id) " +
+        "  LEFT JOIN tags tg ON (tg.id = tgt.tag_id) " +
+        "WHERE t.acceptance_status = 'accepted' " +
+        "GROUP BY t.id, t.title, t.description;", function (err, result) {
+
         if (err) {
             logger.error('error running query' + err);
         }
@@ -50,6 +60,19 @@ client.connect(function (err) {
                     "_type": "session"
                 }
             });
+
+            var speakers = [];
+
+            row.users.split(',').forEach(function (user) {
+                speakers.push({"name": user});
+            });
+
+            var tags = [];
+
+            if (row.tags) {
+                tags = row.tags.toLowerCase().split(",");
+            }
+
             data.push({
                 "id": row.id,
                 "format": "lightning-talk",
@@ -60,12 +83,8 @@ client.connect(function (err) {
                     "name": "Smidig " + year,
                     "venue": location
                 },
-                "speakers": [
-                    {
-                        "name": row.user
-                    }
-                ],
-                "keywords": row.tags.toLowerCase().split(",")
+                "speakers": speakers,
+                "keywords": tags
             });
         });
 
