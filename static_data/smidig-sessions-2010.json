@@ -1,0 +1,127 @@
+[
+    {
+        "id": 131,
+        "format": "lightning-talk",
+        "title": "Smidig er ikke noe du er, men noe du forsøker å bli",
+        "content": "\"Alle\" har nå blitt smidige, og Scrum har blitt et buzzword som benyttes i tide og utide. For en som har tro på prinsippene bak smidig utvikling skulle en tro at det er bra mange er smidige. Men jeg vil hevde at man er i ferd med gå i en felle i det man proklamerer at man \"er smidig\".\r\n\r\nJeg mener ønsket om kontinuerlig læring, både rundt hva man lager, og hvordan man lager det, er svært viktig for å lykkes med smidig metodikk.\r\nJeg vil i lyntalen argumentere for at det å si \"vi ønsker å bli smidigere\" i stedet for \"vi er smidige\" kan hjelpe en til å stadig søke å forbedre bruk av smidig metodikk, fordi en da tvinges til stadig å evaluere om hensikten med valg av metode oppnåes. I motsatt fall kan smidige praksiser fort bli redusert til punkter i en sjekkliste.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sven Erik Bjerke"
+            }
+        ],
+        "keywords": [
+            "smidig"
+        ]
+    },
+    {
+        "id": 73,
+        "format": "lightning-talk",
+        "title": "Hyppige releaser gir færre feil",
+        "content": "Jeg påstår at hyppige releaser gir færre feil. Jeg vil fortelle dere \r\n\r\n- hvorfor hyppige releaser gir færre feil\r\n- hvilke andre goodies du får med hyppige releaser, i tillegg til færre feil\r\n- hva du må gjøre for å klare å levere hyppig\r\n\r\nDenne lyntalen kjører jeg uten slides.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Vidar Moe"
+            }
+        ],
+        "keywords": [
+            "releaseprosess",
+            "lean"
+        ]
+    },
+    {
+        "id": 43,
+        "format": "lightning-talk",
+        "title": "Kanban, det er et alternativ til Scrum det! ... eller?",
+        "content": "Kanban er et ord som for mange utviklere er ett alternativ til Scrum. Men ordet betyr noe løst oversatt fra Japansk \"Visuelt kort\". Det er mye som kan visualiseres ved bruk av Kanbans, og det trenger ikke nødvendigvis være en Story! \r\n\r\nJeg vil gi en rask introduksjon til Kanbans utspring, samt gi noen eksempler på andre steder kortene kan forenkle din arbeidshverdag.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Erlend Falch-Pedersen"
+            }
+        ],
+        "keywords": [
+            "wip",
+            "wip",
+            "pull",
+            "lean",
+            "kanban"
+        ]
+    },
+    {
+        "id": 149,
+        "format": "lightning-talk",
+        "title": "Det er enkelt å release hver dag",
+        "content": "Du trenger ikke nødvendigvis cloud, helt ny arkitektur eller mye spesialkompetanse for å komme igang med å levere til produksjon kontinuerlig - eller hver dag om du vil.\r\n\r\nJeg vil snakke litt om hvordan vi har organiserer oss i prosjektetene våre med Bring, og får til å release nærmest så ofte vi vil, samt hvordan vi fortsetter å jobbe med å forbedre oss.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ole Christian Rynning"
+            }
+        ],
+        "keywords": [
+            "utrulling",
+            "kvalitet",
+            "kontinuerligforbedring",
+            "verdi",
+            "smidigere?"
+        ]
+    },
+    {
+        "id": 97,
+        "format": "lightning-talk",
+        "title": "Smidig - Hvordan? spør du. Hvorfor? spør jeg.",
+        "content": "Smidig prosjekt eller organisasjon sier du? HVORFOR skal prosjektet være smidig?\r\n\r\n ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ole Morten Amundsen"
+            }
+        ],
+        "keywords": [
+            "smidigere?",
+            "smidig"
+        ]
+    },
+    {
+        "id": 51,
+        "format": "lightning-talk",
+        "title": "Skyt prosjekthelten!",
+        "content": "I noen prosjekter jeg har jobbet i, har det vært en såkalt \"prosjekthelt\". Han som alltid jobber overtid, som retter bugs til klokka to om natta og egenhendig sørger for at systemet kommer opp og kjører igjen etter en krasj. I denne lyntalen vil jeg snakke om hvorfor en sånn prosjekthelt ikke egentlig er fordelaktig for prosjektet, og argumentere for hvem som bør være den egentlige prosjekthelten.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2010",
+            "venue": "Radisson BLU Scandinavia Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Karianne Berg"
+            }
+        ],
+        "keywords": [
+            "prosjekter",
+            "teamarbeid"
+        ]
+    }
+]

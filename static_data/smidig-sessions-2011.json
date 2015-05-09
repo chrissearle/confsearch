@@ -1,0 +1,371 @@
+[
+    {
+        "id": 88,
+        "format": "workshop",
+        "title": "Hands-on refaktoreringsworkshop - del 1",
+        "content": "Hvor mange av dere refaktorerer nådeløst, og hele tiden? Vår påstand er at du ikke kan holde kodebasen din smidig hvis ikke du refaktorerer kontinuerlig. Det er en forutsetning for å kunne drive med evolusjonært design. \r\n\r\nPå denne workshopen vil du få mulighet til å bli bedre på å finne ut hvilke deler av kodebasen som trenger refaktorering, hvor er de stinkende likene begravet, og teknikker for å forbedre designet uten å måtte legge til side all annen utvikling mens du holder på med forbedringen. \r\n\r\nDeltakerne kan gå på en av delene eller begge. Denne delen av workshopen vil presentere grunnleggende refaktoreringer og gi deltagerne mulighet for å praktisere disse på en eksempelapplikasjon som er forberedt på forhånd. \r\n\r\nUTSTYR:\r\nDeltagerne må stille med egen laptop, en per par, med utviklingsmiljø (Eclipse/IDEA) de bruker til daglig ferdig satt opp, samt at git (kommandolinjeklient) må være installert. Eksempelapplikasjonen vil være tilgjengelig på et git-repository. Den vil også være tilgjengelig på en minnepinne.\r\n\r\nKRAV TIL FORKUNNSKAPER:\r\nDeltagerne må kunne programmere i Java, og fortrinnsvis gjøre dette til daglig. De må også ha grunnleggende kjennskap til objektorientert design og automatisert testing. Det er ingen krav om forkunnskaper i refaktorering. \r\n\r\nMax 20 deltakere.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Karianne Berg"
+            }
+        ],
+        "keywords": [
+            "extreme-programming",
+            "programmering",
+            "java",
+            "hands-on",
+            "refaktorering",
+            "refactoring"
+        ]
+    },
+    {
+        "id": 43,
+        "format": "workshop",
+        "title": "Smidig utvikling med kontinuerlig integrasjon og Jenkins",
+        "content": "Vil du vite hvordan kontinuerlig integrasjon forbedrer utviklingsløpet?  I denne workshopen skal du sette opp en Jenkins byggserver for en typisk webapplikasjon, og se hvordan den hjelper deg til en smidig jobbhverdag.\r\n\r\nVi tar for oss:\r\n\r\n- testkjøring\r\n- databasemigrering\r\n- integrasjon- og smoketester før deploy\r\n- deployment til testserver\r\n- byggnummerering i produksjonsmiljø \r\n- m.m.\r\n\r\nForutsetninger:\r\n\r\n- Maks antall deltagere er 20.  \r\n- Deltagere trenger en datamaskin per par.  \r\n- Deltagerne bør ha kjennskap til Java, Maven og Git, samt ha dette installert.\r\n- Konto på GitHub.com.\r\n\r\nMålgruppen for workshopen er hovedsaklig utviklere.  \r\n\r\nWorkshopen arrangeres av Stian Mathiassen (BEKK) og Henrik Brautaset Aronsen (Conduct AS)\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stian Mathiassen"
+            }
+        ],
+        "keywords": [
+            "continuous delivery",
+            "kontinuerlig leveranse",
+            "java",
+            "databasemigrering",
+            "smidig",
+            "ci",
+            "jenkins"
+        ]
+    },
+    {
+        "id": 88,
+        "format": "workshop",
+        "title": "Hands-on refaktoreringsworkshop - del 1",
+        "content": "Hvor mange av dere refaktorerer nådeløst, og hele tiden? Vår påstand er at du ikke kan holde kodebasen din smidig hvis ikke du refaktorerer kontinuerlig. Det er en forutsetning for å kunne drive med evolusjonært design. \r\n\r\nPå denne workshopen vil du få mulighet til å bli bedre på å finne ut hvilke deler av kodebasen som trenger refaktorering, hvor er de stinkende likene begravet, og teknikker for å forbedre designet uten å måtte legge til side all annen utvikling mens du holder på med forbedringen. \r\n\r\nDeltakerne kan gå på en av delene eller begge. Denne delen av workshopen vil presentere grunnleggende refaktoreringer og gi deltagerne mulighet for å praktisere disse på en eksempelapplikasjon som er forberedt på forhånd. \r\n\r\nUTSTYR:\r\nDeltagerne må stille med egen laptop, en per par, med utviklingsmiljø (Eclipse/IDEA) de bruker til daglig ferdig satt opp, samt at git (kommandolinjeklient) må være installert. Eksempelapplikasjonen vil være tilgjengelig på et git-repository. Den vil også være tilgjengelig på en minnepinne.\r\n\r\nKRAV TIL FORKUNNSKAPER:\r\nDeltagerne må kunne programmere i Java, og fortrinnsvis gjøre dette til daglig. De må også ha grunnleggende kjennskap til objektorientert design og automatisert testing. Det er ingen krav om forkunnskaper i refaktorering. \r\n\r\nMax 20 deltakere.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kjersti Bjørnestad Berg"
+            }
+        ],
+        "keywords": [
+            "extreme-programming",
+            "programmering",
+            "java",
+            "hands-on",
+            "refaktorering",
+            "refactoring"
+        ]
+    },
+    {
+        "id": 42,
+        "format": "Tordentale",
+        "title": "Reduksjonisme er roten til alt vondt!",
+        "content": "Smidig produktutvikling krever egentlig at man tar et endelig oppgjør med Frederick Windslow Taylor's tankegods. Gannt diagrammer, målstyring (MBO), og krav om ansvarliggjøring er eksempler på sykdomstegn i organisasjoner hvor reduksjonisme råder. Mange moderne utviklingsorganisasjoner tar derimot utgangspunkt i verdier som er beskrevet av William Edwards Deming, de praktiserer systemtenkning og inntar et holistisk syn på produktutvikling. Fokus på læring, kontinuerlig planlegging og ubegrenset tillit til sine ansatte er typiske sunnhetstegn som gjerne stråler ut fra disse organisasjonene.\r\n\r\nDette foredraget starter med en oppsummering av programvareindustriens mørke og tragiske historie. Deretter settes reduksjonisme (Taylorisme) og systemtenkning (Demingisme) opp i mot hverandre, og til slutt drøftes noen ideer til hva man kan gjøre i organisasjoner som er gjennomsyret av reduksjonister og reduksjonisme.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Olve Maudal"
+            }
+        ],
+        "keywords": [
+            "deming",
+            "taylor",
+            "reduksjonisme",
+            "systemtenkning"
+        ]
+    },
+    {
+        "id": 97,
+        "format": "workshop",
+        "title": "TDD: Fra FizzBuzz til praktisk bruk i prosjekt, og hvordan jeg skriver tester",
+        "content": "De fleste kjøper argumentene for hvorfor automatisk testing er viktig for å sikre smidige prosjekter med hyppige leveranser. \r\n\r\nMen å gå fra teori og praksis er ikke alltid like enkelt. Eksemplene man begynner med er ofte enkle. De fleste klarer FizzBuzz kataen fint, men opplever det vanskelig når de skal ta i bruk TDD på prosjektet de jobber på.\r\n\r\nI denne workshopen vil jeg forsøke å dele noen av mine erfaringer som aktiv bruker av testdrevet utvikling gjennom de siste 5 årene. \r\n\r\nWorkshopen vil ta for seg bla:\r\n\r\n- Navngiving av testklasser og metoder\r\n- Strukturering av en testklasse (hva kommer hvor)\r\n- Hvordan skrive tester som er lette å lese og forstå\r\n- Hvordan teste med eksterne avhengigheter\r\n- Hvorfor håndskrevne mocks ofte er bedre en mock-rammeverk\r\n- Hvordan holde testene dine DRY ved hjelp av builder-patternet\r\n- Classic TDD vs \"London School TDD\" og hvorfor vi bruker begge\r\n\r\nEksemplene kommer til å være i C# og NUnit, men det meste som tas opp er direkte overførbart til JUnit og Java.\r\n\r\nEr du nybegynner vil workshopen hjelpe deg å komme godt i gang med TDD på realistiske problemstillinger, mens de mer erfarne vil kunne plukke opp tips ved å se en annen stil på koden enn hva de kanskje er vandt til.\r\n\r\nWorkshopen vil ha flere oppgaver, så deltagerne oppfordres til å stille med egen laptop med C#/Java og NUnit/JUnit installert.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jonas Follesø"
+            }
+        ],
+        "keywords": [
+            "junit",
+            "nunit",
+            "java",
+            "c#",
+            "programmering",
+            "testdrevet",
+            "enhetstesting",
+            "tdd"
+        ]
+    },
+    {
+        "id": 89,
+        "format": "workshop",
+        "title": "Hands-on refaktoreringsworkshop - del 2",
+        "content": "Hvor mange av dere refaktorerer nådeløst, og hele tiden? Vår påstand er at du ikke kan holde kodebasen din smidig hvis ikke du refaktorerer kontinuerlig. Det er en forutsetning for å kunne drive med evolusjonært design. \r\n\r\nPå denne workshopen vil du få mulighet til å bli bedre på å finne ut hvilke deler av kodebasen som trenger refaktorering, hvor er de stinkende likene begravet, og teknikker for å forbedre designet uten å måtte legge til side all annen utvikling mens du holder på med forbedringen. \r\n\r\nDenne delen av workshopen vil presentere mer avanserte konsepter innen refaktorering, slik som refaktorering til patterns, der ulike mindre refaktoreringer blir brukt som byggesteiner for å danne en større helhet. Vi presenterer også teknikker som reduserer tiden der koden ikke kompilerer eller der testene ikke kjører, såkalt Limited Red. Mesteparten av tiden vil være hands-on øvelser på en eksempelapplikasjon som er forberedt på forhånd.\r\n\r\nUTSTYR:\r\nDeltagerne må stille med egen laptop, en per par, med utviklingsmiljø (Eclipse/IDEA) de bruker til daglig ferdig satt opp, samt at git (kommandolinjeklient) må være installert. Eksempelapplikasjonen vil være tilgjengelig på et git-repository. Den vil også være tilgjengelig på en minnepinne.\r\n\r\nKRAV TIL FORKUNNSKAPER:\r\nDeltakerne må ha kjennskap til grunnleggende refaktoreringer, som for eksempel extract method, move method, extract class og introduce parameter object (dette kan du eventuelt lære om del 1 av denne workshopen). Deltagerne må kunne programmere i Java, fortrinnsvis til daglig. De må også ha grunnleggende kjennskap til objektorientert design og automatisert testing. \r\n\r\nMax 20 deltakere.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Karianne Berg"
+            }
+        ],
+        "keywords": [
+            "extreme-programming",
+            "programmering",
+            "java",
+            "hands-on",
+            "refactoring",
+            "refaktorering"
+        ]
+    },
+    {
+        "id": 43,
+        "format": "workshop",
+        "title": "Smidig utvikling med kontinuerlig integrasjon og Jenkins",
+        "content": "Vil du vite hvordan kontinuerlig integrasjon forbedrer utviklingsløpet?  I denne workshopen skal du sette opp en Jenkins byggserver for en typisk webapplikasjon, og se hvordan den hjelper deg til en smidig jobbhverdag.\r\n\r\nVi tar for oss:\r\n\r\n- testkjøring\r\n- databasemigrering\r\n- integrasjon- og smoketester før deploy\r\n- deployment til testserver\r\n- byggnummerering i produksjonsmiljø \r\n- m.m.\r\n\r\nForutsetninger:\r\n\r\n- Maks antall deltagere er 20.  \r\n- Deltagere trenger en datamaskin per par.  \r\n- Deltagerne bør ha kjennskap til Java, Maven og Git, samt ha dette installert.\r\n- Konto på GitHub.com.\r\n\r\nMålgruppen for workshopen er hovedsaklig utviklere.  \r\n\r\nWorkshopen arrangeres av Stian Mathiassen (BEKK) og Henrik Brautaset Aronsen (Conduct AS)\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Henrik Brautaset Aronsen"
+            }
+        ],
+        "keywords": [
+            "continuous delivery",
+            "kontinuerlig leveranse",
+            "java",
+            "databasemigrering",
+            "smidig",
+            "ci",
+            "jenkins"
+        ]
+    },
+    {
+        "id": 89,
+        "format": "workshop",
+        "title": "Hands-on refaktoreringsworkshop - del 2",
+        "content": "Hvor mange av dere refaktorerer nådeløst, og hele tiden? Vår påstand er at du ikke kan holde kodebasen din smidig hvis ikke du refaktorerer kontinuerlig. Det er en forutsetning for å kunne drive med evolusjonært design. \r\n\r\nPå denne workshopen vil du få mulighet til å bli bedre på å finne ut hvilke deler av kodebasen som trenger refaktorering, hvor er de stinkende likene begravet, og teknikker for å forbedre designet uten å måtte legge til side all annen utvikling mens du holder på med forbedringen. \r\n\r\nDenne delen av workshopen vil presentere mer avanserte konsepter innen refaktorering, slik som refaktorering til patterns, der ulike mindre refaktoreringer blir brukt som byggesteiner for å danne en større helhet. Vi presenterer også teknikker som reduserer tiden der koden ikke kompilerer eller der testene ikke kjører, såkalt Limited Red. Mesteparten av tiden vil være hands-on øvelser på en eksempelapplikasjon som er forberedt på forhånd.\r\n\r\nUTSTYR:\r\nDeltagerne må stille med egen laptop, en per par, med utviklingsmiljø (Eclipse/IDEA) de bruker til daglig ferdig satt opp, samt at git (kommandolinjeklient) må være installert. Eksempelapplikasjonen vil være tilgjengelig på et git-repository. Den vil også være tilgjengelig på en minnepinne.\r\n\r\nKRAV TIL FORKUNNSKAPER:\r\nDeltakerne må ha kjennskap til grunnleggende refaktoreringer, som for eksempel extract method, move method, extract class og introduce parameter object (dette kan du eventuelt lære om del 1 av denne workshopen). Deltagerne må kunne programmere i Java, fortrinnsvis til daglig. De må også ha grunnleggende kjennskap til objektorientert design og automatisert testing. \r\n\r\nMax 20 deltakere.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Kjersti Bjørnestad Berg"
+            }
+        ],
+        "keywords": [
+            "extreme-programming",
+            "programmering",
+            "java",
+            "hands-on",
+            "refactoring",
+            "refaktorering"
+        ]
+    },
+    {
+        "id": 24,
+        "format": "workshop",
+        "title": "Hvordan jobbe effektivt i team?",
+        "content": "Smidig utvikling handler mye om å jobbe godt sammen i team. Hvordan organisere seg i et team for å jobbe effektivt? Hensikten med denne workshopen er å dele og diskutere deltakernes egne erfaringer med hva som bidrar til eller hindrer effektivt teamarbeid, og gi deltakerne innsikt i forskning på teameffektivitet fra et norsk prosjekt på smidige team (TeamIT, se http://www.sintef.no/teamit).\r\n\r\nMålgruppe: Alle som er interessert i teamarbeid, spesielt de med ansvar for å fasilitere teamarbeid i smidige prosjekter som scrum mastere.\r\n\r\nWorkshopen arrangeres av Torgeir Dingsøyr fra SINTEF og Yngve Lindsjørn fra Universitetet i Oslo.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Yngve Lindsjørn"
+            }
+        ],
+        "keywords": [
+            "teamarbeid"
+        ]
+    },
+    {
+        "id": 24,
+        "format": "workshop",
+        "title": "Hvordan jobbe effektivt i team?",
+        "content": "Smidig utvikling handler mye om å jobbe godt sammen i team. Hvordan organisere seg i et team for å jobbe effektivt? Hensikten med denne workshopen er å dele og diskutere deltakernes egne erfaringer med hva som bidrar til eller hindrer effektivt teamarbeid, og gi deltakerne innsikt i forskning på teameffektivitet fra et norsk prosjekt på smidige team (TeamIT, se http://www.sintef.no/teamit).\r\n\r\nMålgruppe: Alle som er interessert i teamarbeid, spesielt de med ansvar for å fasilitere teamarbeid i smidige prosjekter som scrum mastere.\r\n\r\nWorkshopen arrangeres av Torgeir Dingsøyr fra SINTEF og Yngve Lindsjørn fra Universitetet i Oslo.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Torgeir Dingsøyr"
+            }
+        ],
+        "keywords": [
+            "teamarbeid"
+        ]
+    },
+    {
+        "id": 36,
+        "format": "workshop",
+        "title": "Praktisk kontinuerlig leveranse fra A til produksjon",
+        "content": "I denne workshoppen får du lære hvordan et miljø for kontinuerlig leveranse settes opp fra bunnen av. Vi starter med tomme bokser i clouden og et sett med verktøy.  I løpet av de 3 timene skal vi sammen:\r\n- sette opp og provisjonere testmiljø og ci-miljø med Puppet.\r\n- sette opp og provisjonere lokalt utviklingsmiljø med Vagrant.\r\n- sette opp og provisjonere produksjons- og testmiljøer.\r\n- skripte automatisk deploy av en eksempelapplikasjon i utviklingsmiljø.\r\n- skripte både push og pull deploy til andre miljøer.\r\n- automatisere migrering av database og populering av testdata.\r\n- deploye kontinuerlig i test og produksjon.\r\n- bruke teknikker som \"feature toggling\" og \"feature branching\".\r\n\r\nVi vil opprette et eksempelprosjekt på Github som inneholder alt du trenger for å leke vaskekte DevOp. Under stødig veiledning vil alle få anledning til å prøve ut teknikkene.\r\n\r\nWorkshopen arrangeres av Andreas Heim og Stein Inge Morisbak fra BEKK.\r\n\r\nDeltakerne trenger 1 datamaskin (Linux eller Mac) per par. På forhånd må du ha installert Git, Ruby 1.9.2, Maven, Java og Eclipse eller IntelliJ.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Andreas Heim"
+            }
+        ],
+        "keywords": [
+            "ekte smidig",
+            "smidig",
+            "cloud",
+            "skripting",
+            "puppet",
+            "vagrant",
+            "continuous delivery",
+            "kontinuerlig leveranse",
+            "devops"
+        ]
+    },
+    {
+        "id": 11,
+        "format": "workshop",
+        "title": "Coaching dojo",
+        "content": "I denne workshop får man en introduksjon til smidig coaching samt får mulighet til å praktisere det man har lært. Du vil lære å lytte, observere, stille riktige spørsmål, mm. Vær forberedt på høyt interaksjonsnyvå. Det blir umulig å sove i hjørnet på denne workshopen.\r\n\r\nPasser for alle som lurer på hva coaching er, ScrumMastere, ledere, samt for de som allerede coacher og har lyst å spisse sine ferdigheter som coach.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Sergey Dmitriev"
+            }
+        ],
+        "keywords": [
+            "scrummaster",
+            "coaching"
+        ]
+    },
+    {
+        "id": 49,
+        "format": "lightning-talk",
+        "title": "Verden er mer enn bare scrum og fossefall",
+        "content": "I 2001 publiserte 17 av våre største profeter Smidig-manifestet, som ut av intet forandret måten vi utfører og tenker på software-prosjekter. Før det strekker en ubrutt rekke av mislykkede fossefallprosjekter seg tilbake til tidenes morgen. Eller ihvertfall er dette inntrykket man får når man snakker med dagens smidig-entusiaster; før den dagen Uncle Bob kom ned fra fjellet med Smidig-manifestet innskrevet på steintavlene sine, eksisterte det tydeligvis ikke friske utviklingsmetoder.\r\n\r\nVet du hva? Det er tøys. Vi har diskutert og forsket på og filosofert over metodikk siden før du var født. Smidig-manifestet oppsto ikke i et vakuum. Folk skrev bra kode før Kent Beck; folk skrev tilogmed _tester_ før Kent Beck. Vellykkede prosjekter ble gjennomført uten en Certified Scrum Master ved roret. Kode ble skrevet av bare én person om gangen og _verden gikk ikke under_. Allikevel er alt fra forrige århundre bare en mørk middelalder for dagens nærsynte generasjon. Vet du hva? Det er din egen feil om du tror den eneste metodikken IT-bransjen brukte før Scrum er MSF. Og det er på høy tid at du tar deg tid til å opplyse deg selv.\r\n\r\nKom og få en historietime av noen som har jobbet med smidige prosjekter siden langt inne på det mørkeste 90-tallet. Kom og se alt vi har glemt. Kom, ikke minst, og se at det finnes alternativer til metodikkene vi dogmatisk klamrer oss til som en annen cargo cult, og at de fleste av disse alternativene faktisk har vært der en stund.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Bodil Stokke"
+            }
+        ],
+        "keywords": [
+            "rant",
+            "historie",
+            "metodikk"
+        ]
+    },
+    {
+        "id": 63,
+        "format": "lightning-talk",
+        "title": "Hva med å tenke sjæl?",
+        "content": "Så du har lest alle bøkene til Martin Fowler. Du nevner Kent Beck 25 ganger i lyntalen din på Smidig og du har besøkt ham på farmen hans. Rett som det er glemmer du at Bob Martin faktisk ikke er onkelen din. Hva med å begynne å tenke sjæl? Hva med å høre på helt vanlige kollegers erfaringer?\r\n\r\nDenne lyntalen viser hvor sløvende og destruktivt ekspertavhengighet er. Lyntalen gir deg også noen tips til hvordan du effektivt kan ventilere stinkende guruluft fra organisasjonen din.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Eirik Bjørsnøs"
+            }
+        ],
+        "keywords": [
+            "demokrati",
+            "deling",
+            "kunnskap",
+            "eksperter"
+        ]
+    },
+    {
+        "id": 35,
+        "format": "workshop",
+        "title": "The Kanban Game",
+        "content": "\"Learning by doing\" er den beste måten å lære på. I denne workshop'en får du sjansen til å lære Kanban ved å spille brettspill!\r\nSpillet, som er utviklet av  Russel Healy, er designet for å lære bort prinsippene i Kanban og er ansett for å være den beste måten å lære metoden på. Enten du bare har hørt om Kanban, eller har brukt det på din arbeidsplass og ønsker å lære mer: Dette er en super måte å lære om Kanban!\r\n\r\nAgenda:\r\n\r\nIntroduksjon til Kanban og forklaring av spillet\r\nSpille getKanban\r\nOppsummering \r\n\r\nVi deler inn i 4 lag med 4-6 spillere på hvert lag. Max antall deltakere er dermed 24.  \r\nPå Roots konferansen 2011 i Bergen klarte 2 lag å få en score på over $ 60 000. Den uoffisielle verdensrekorden er $ 66 200 og ble satt på et Kanban kurs i Sveits.  Kanskje et Smidig lag kan slå den?\r\n\r\nHva lærer du:\r\n\r\n- Hvordan håndtere et pull system\r\n- Hvorfor begrensing av arbeid fungerer (WIP limits)\r\n- Viktigheten av visualisering\r\n- Hvordan bruke Cumulative Flow Diagrams og control charts for bedre styring av prosessen din\r\n- Classes of service (basics)\r\n\r\nog mer",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ketil Jensen"
+            }
+        ],
+        "keywords": [
+            "spill",
+            "kanban"
+        ]
+    },
+    {
+        "id": 36,
+        "format": "workshop",
+        "title": "Praktisk kontinuerlig leveranse fra A til produksjon",
+        "content": "I denne workshoppen får du lære hvordan et miljø for kontinuerlig leveranse settes opp fra bunnen av. Vi starter med tomme bokser i clouden og et sett med verktøy.  I løpet av de 3 timene skal vi sammen:\r\n- sette opp og provisjonere testmiljø og ci-miljø med Puppet.\r\n- sette opp og provisjonere lokalt utviklingsmiljø med Vagrant.\r\n- sette opp og provisjonere produksjons- og testmiljøer.\r\n- skripte automatisk deploy av en eksempelapplikasjon i utviklingsmiljø.\r\n- skripte både push og pull deploy til andre miljøer.\r\n- automatisere migrering av database og populering av testdata.\r\n- deploye kontinuerlig i test og produksjon.\r\n- bruke teknikker som \"feature toggling\" og \"feature branching\".\r\n\r\nVi vil opprette et eksempelprosjekt på Github som inneholder alt du trenger for å leke vaskekte DevOp. Under stødig veiledning vil alle få anledning til å prøve ut teknikkene.\r\n\r\nWorkshopen arrangeres av Andreas Heim og Stein Inge Morisbak fra BEKK.\r\n\r\nDeltakerne trenger 1 datamaskin (Linux eller Mac) per par. På forhånd må du ha installert Git, Ruby 1.9.2, Maven, Java og Eclipse eller IntelliJ.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2011",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stein Inge Morisbak"
+            }
+        ],
+        "keywords": [
+            "ekte smidig",
+            "smidig",
+            "cloud",
+            "skripting",
+            "puppet",
+            "vagrant",
+            "continuous delivery",
+            "kontinuerlig leveranse",
+            "devops"
+        ]
+    }
+]
