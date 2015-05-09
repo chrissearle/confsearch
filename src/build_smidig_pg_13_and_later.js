@@ -66,6 +66,13 @@ pg.connect(connection, function (err, client, done) {
             }
 
             data.push({
+                "index": {
+                    "_index": "conference",
+                    "_type": "session"
+                }
+            });
+
+            data.push({
                 "format": row.type,
                 "title": row.title,
                 "content": row.description,

@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01f7192e-58f4-4498-b13f-17b637cf2624",
         "format": "lightning-talk",
         "content": "Vi har vel alle gjort det, vi trenger testdata kjapt og legger det i sql scripts. Det er ingenting galt i det, men det er en løsning som ofte ikke skalerer med et domene som utvikles over tid. Til slutt befinner du deg et sted du ikke vil være. Denne lyntalen vil presentere smerten med sql-insert-scripts i daglig utvikling, og veien tilbake til et smertefritt testdataoppsett.",
@@ -26,6 +32,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49476109"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/2e8d5563-5a8f-4cda-9881-ef41c5509d48",
@@ -57,6 +69,12 @@
         "video": "http://player.vimeo.com/video/49309471"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/dc890433-a28b-4221-b691-5e16193876ac",
         "format": "lightning-talk",
         "content": "Er du erfaren javautvikler som skal lage din første Android-applikasjon? Da har du mye moro foran deg, men også mange overraskelser og frustrasjoner. Du vil sannsynligvis bruke mye tid på å feilsøke fordi SDK eller runtime i mange tilfeller ikke sier fra om hvor feilen ligger. Du blir i tillegg tvunget til å skrive kode som for erfarne java-utviklere er uvant, og det er lett å få uoversiklig kode dersom du ikke benytter deg av enkle hjelpemidler.\r\nI denne lyntalen deler jeg noen av mine erfaringer med utvikling for Android og gir deg 5 tips som vil gjøre din første erfaring med utvikling for Android mer positiv enn min.",
@@ -86,6 +104,12 @@
         "video": "http://player.vimeo.com/video/49445223"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/63824149-fc97-409c-8af7-ae8af1dc77b0",
         "format": "presentation",
         "content": "The PRD for Java 7 had almost 2000 changes. This talk is on 55 new features in Java 7 you (probably) didn't hear about in an ignite format of one per minute. No stopping, no going back....Questions, sure but only if time remains (otherwise save for later).",
@@ -111,6 +135,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49476110"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/eb3120d0-1669-4242-afe7-28b153f8150d",
@@ -142,6 +172,12 @@
         "video": "http://player.vimeo.com/video/49299026"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/17841c61-483e-4fe2-86d6-7e3ce7af901a",
         "format": "presentation",
         "content": "APIs have seen dramatic growth in the last few years, and they're now powering everything we do. This is causing a fundamental shift in how we write applications - it's not just a UI and a database anymore.  This makes good APIs even more important than ever. Come join a fun talk as we explore the best and worst of web APIs. We'll see what makes an API great - and what makes it awful.  From data formats to documentation to authentication - there's a lot to learn whether you're building the next Facebook API or you're building a small on-premise application.",
@@ -169,6 +205,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49309468"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/666dbce1-0464-4281-b2d1-a98e3a045a13",
@@ -202,6 +244,12 @@
         "video": "http://player.vimeo.com/video/49309473"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c5383a64-b76e-426b-acc6-06f2bb01b3b8",
         "format": "presentation",
         "content": "Now that Git has been in the wild for several years, leading edge developers and projects are considering it their primary source code control tool of choice. Distributed version control systems have so much to offer, but are you using Git and its DVCS capabilities to their fullest? This talk assumes a working basic knowledge of Git and, quicly progressing from from there, explores some of the intermediate to advanced uses of this unique version control tool. We will work through examples of powerful features including interactive rebase, rebase-on-pull, external diff tools, rerere, advanced logging features, the RefLog, and the reset command.",
@@ -227,6 +275,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49444883"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/36ac5add-3002-455c-a5bd-9a86121514b8",
@@ -256,6 +310,12 @@
         "video": "http://player.vimeo.com/video/49377272"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1104444f-004c-4e28-968d-daf88a73e1cb",
         "format": "lightning-talk",
         "content": "AndEngine er et opensource rammeverk for å utvikle 2D spill til Android. Det tilbyr et forenklet API til openGL og det kan enkelt knyttes til Box2D for å impl. fysikk. \r\n\r\nDenne lyntalen vil presentere hvordan man kommer i gang med versjon GLES2, som benytter seg av OpenGL ES 2.0.",
@@ -281,6 +341,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49445452"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ba57c52b-4e04-4f18-8f71-561029a4d227",
@@ -312,6 +378,12 @@
         "video": "http://player.vimeo.com/video/49445220"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/6804b8af-04a5-4291-827b-0151ea2cc99c",
         "format": "lightning-talk",
         "content": "Å innføre god arkitekturstyring, etablere et godt ramme- og metodeverk og gode kvalitetssikringsrutiner, krever flere års investering i godt og systematisk arkitekturarbeid. Men hva gjør du når du har begrenset med ressurser og miljøet roper etter styring?\r\nGjennom enkle virkemidler kan du øke kunnskapen i organisasjonen og få bedre dokumentasjon på arkitekturen i systemene. Du får til og med et virkningsfullt styringsverktøy for videre livssyklusplanlegging!",
@@ -339,9 +411,15 @@
         "video": "http://player.vimeo.com/video/49308351"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/3a35f1d6-71b1-4ee0-a199-4c70e72bf6c0",
         "format": "lightning-talk",
-        "content": "Regresjonstesting av browser-baserte applikasjoner tar mye tid, men er viktig for å opprettholde god kvalitet ved videreutvikling. Automatisering av slike tester er alltid et ønske, men det er ikke lett å få testene lett vedlikeholdbare og robuste. Ofte blir testene lett utdaterte og til mer frustrasjon enn en hjelp. I lyn-talen deles erfaringer om fallgruver som oppstår ved innføring av slike automatiske tester. Som en del av erfaringene gjennomgås verktøy og metoder vi har benyttet for å unngå eller motvirke disse effektene. Fallgruvene er ofte tekniske men f��rer gjerne til andre utfordringer som mangel på  motivasjon og \"eierskap\" i teamet. Noen sentrale tema er Selenium 2, WebDriver og page-object pattern.",
+        "content": "Regresjonstesting av browser-baserte applikasjoner tar mye tid, men er viktig for å opprettholde god kvalitet ved videreutvikling. Automatisering av slike tester er alltid et ønske, men det er ikke lett å få testene lett vedlikeholdbare og robuste. Ofte blir testene lett utdaterte og til mer frustrasjon enn en hjelp. I lyn-talen deles erfaringer om fallgruver som oppstår ved innføring av slike automatiske tester. Som en del av erfaringene gjennomgås verktøy og metoder vi har benyttet for å unngå eller motvirke disse effektene. Fallgruvene er ofte tekniske men fører gjerne til andre utfordringer som mangel på  motivasjon og \"eierskap\" i teamet. Noen sentrale tema er Selenium 2, WebDriver og page-object pattern.",
         "keywords": [
             "Software Craftsmanship and Tools",
             "Frontend",
@@ -369,6 +447,12 @@
         "video": "http://player.vimeo.com/video/49308357"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/59b6f6a2-be2d-49ea-aeb9-3056a2d9adaa",
         "format": "presentation",
         "content": "Much has been made of the need to establish software architectures to provide the firm foundations on which successful products are constructed, but if a product is successful over the long term its architecture will not only need to evolve, but must be actively defended against malignant forces. The fact that software architectures tend to outlive the tenure of developers, architects, management teams and even companies makes the maintenance of software architectures over the long term crucial for the ability of products to deliver ongoing value.\r\n\r\nWhat happens to the architecture of established systems in an environment where concurrent feature delivery projects make architectural ‘adjustments’ for their own ends?  How can erosion of this shared architecture be managed across multiple teams? How can projects acting in their own best interests avoid over-exploiting the common architectural resource on which they all depend? Should ownership of the architecture be distributed and shared, or centralised and tightly controlled? Perhaps most importantly, can we detect when the architecture has been violated?\r\n\r\nThis talk explores how shared resources in other fields are managed for the common good, and draws analogies and lessons which can be applied to the shared ‘resource’ of a software architecture. Examples garnered from over twelve years working with greenfield and legacy software systems illustrate how to diagnose, understand the causes of, and address the erosion of application architectures so that products can flourish and be productive for future generations.",
@@ -394,6 +478,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49377271"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/b468e212-0ec4-4fb1-b6d3-67af0c9e77fa",
@@ -424,6 +514,12 @@
         "video": "http://player.vimeo.com/video/49299023"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/723a47f6-e8d0-4670-a21e-75faf7771424",
         "format": "lightning-talk",
         "content": "Spock is an expressive and elegant testing framework for Java and Groovy applications. You use it as an alternative to JUnit to create readable and concise tests through a simple specification language. Because it is based on Groovy, it takes away unnecessary boilerplate common in Java based unit tests and leaves you with a structured specification of a program´s wanted behavior. It even comes with a built in mocking API. Spock is compatible with JUnit, which means Spock specifications runs seamlessly in IDEs, in builds tools and on continuous integration servers. This lightning talk will introduce Spock through several examples.",
@@ -449,6 +545,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49476112"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/867687af-8886-4761-969c-53ffa0bc8f0d",
@@ -477,6 +579,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49377270"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/50f4388d-5d28-46b1-8879-e4559124563e",
@@ -508,6 +616,12 @@
         "video": "http://player.vimeo.com/video/49445219"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e4c077d0-eae9-464c-b8a1-9a4a7bb85059",
         "format": "presentation",
         "content": "Unstable back-end systems ? Changing data ? Test and production two worlds apart ? Based on real project experiences, this talk is about Selenium-based approaches to how quality can be achieved against all odds. With code.",
@@ -534,6 +648,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49386943"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01c66910-0c21-4981-8ff6-174cb574add5",
@@ -566,6 +686,12 @@
         "video": "http://player.vimeo.com/video/49476114"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/7ba6e660-5d77-4540-9bb6-43e0e9096500",
         "format": "presentation",
         "content": "As applications grow and mature to become a natural and integral part of business, government and society as a whole, so does the demands for application security. Often ill-defined, often poorly understood by decision makers, it’s never the less critical for any internet facing system.\r\n\r\nApplication security is no longer optional. It can no longer be an afterthought. It cannot be addressed by adding another box to the server room. It cannot be outsourced, nor can it easily be retrofitted. Security must be designed and built into mission critical applications from the beginning, and the only people in a position to do this are the ones building it. Luckily, the basics of application security are surprisingly simple.\r\n\r\nIn this introductory talk, we'll delve look into what every application developer needs to know about security, regardless of whether you see yourself as a backend or frontend person, or what language you prefer. We'll look into the basic forms of the most common threats and mitigation in some detail, in order to assist you in recognizing where problems may occur, what might happen, against whom and in what circumstances. And most importantly: how to best address them in your own applications. This will include subjects such as important security patterns, injection attacks, cross site scripting, cross site request forgery and session hijacking.\r\n\r\nThe talk will focus on concrete examples, demonstrating both the issues and important tools and techniques for the responsible developer.",
@@ -591,6 +717,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49305645"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/8fd501ac-6a21-4dca-9bea-0736c25c730f",
@@ -621,6 +753,12 @@
         "video": "http://player.vimeo.com/video/49372218"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/b181fb36-b0ce-4f2a-8197-5a4cdc86d356",
         "format": "lightning-talk",
         "content": "You know the code that is so deliciously fulfilling, you wake up craving it in\r\nthe middle of the night? I like to think of this as comfort code. In this talk you will see simple, yet elegant code example dishes you can throw together, using ingredients every developer should have in the pantry.\r\n\r\n\r\nKari will show you how to whip up some mouth watering treats,\r\ncertain to satisfy cravings and impress friends and family.",
@@ -647,6 +785,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49476115"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/532958d9-2a9d-40b7-8b05-1ca42ec27888",
@@ -678,6 +822,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49367408"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1d29b53a-ba0c-4791-98dd-1819dda8e843",
@@ -712,6 +862,12 @@
         "video": "http://player.vimeo.com/video/49477304"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/3e5bdf11-a3c9-404c-810e-b4720b2166be",
         "format": "presentation",
         "content": "The Job of a developer has evolved strongly in the last 10 years, pushed by new requirements and new tools such as Continuous Integration, Test Driven Development and refactoring. Software Development Industry has now reached a sufficient level of maturity to engage into new practices such as managing source code quality while developing applications.\r\n\r\nAfter introducing the concept of the internal quality (and non-quality), this presentation will show why and how to measure this quality in order to define action plans. \r\n\r\nWe will then see how to use Sonar to support such practice in a classical approach code, audit oriented. Thereafter, we will see why and how to go further by using the powerful differential views in Sonar to support a new practice : the Continuous Inspection. This is a important transformation of this practice from a control oriented process to a development support oriented process",
@@ -738,6 +894,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49302112"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0e306aba-c738-4fc7-9eb6-e8ac29334fb4",
@@ -768,6 +930,12 @@
         "video": "http://player.vimeo.com/video/49309472"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1a0e32cc-0eed-476d-91cc-c922b9ec7484",
         "format": "presentation",
         "content": "A few years ago the Guardian (www.guardian.co.uk) completed a major rebuild of it's systems that produced a single application that succesfully served the high volume of traffic to the site, accomplished many of the project's other goals and was judged a success. However, we weren't satisfied. Any new addition risked affecting the whole site's performance and stability, the code base was continuously growing and there was little room for innovation and experimentation.\r\n\r\nIn this talk I'll discuss the various ways we've attempted to break down the site into a collection of smaller applications including the difficulties and missteps as well as the successes.",
@@ -794,6 +962,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49306015"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c4eb809b-e019-402b-8cdc-aceaeef2c85a",
@@ -825,6 +999,12 @@
         "video": "http://player.vimeo.com/video/49477305"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/43d55c93-e5fe-430b-a2b5-51c9779833b7",
         "format": "presentation",
         "content": "Today, there are several trends that are forcing application architectures to evolve. Users expect a rich, interactive and dynamic user experience on a wide variety of clients including mobile devices. Applications must be highly scalable, highly available and run on cloud environments. Organizations often want to frequently roll out updates, even multiple times a day. Consequently, it’s no longer adequate to develop simple, monolithic web applications that serve up HTML to desktop browsers.\r\n\r\nIn this talk we describe the limitations of a monolithic architecture. You will learn how to use the scale cube to decompose your application into a set of narrowly focused, independently deployable back-end services and an HTML 5 client. We will also discuss the role of technologies such as NodeJS and AMQP brokers. You will learn how a modern PaaS such as Cloud Foundry simplifies the development and deployment of this style of application.",
@@ -854,6 +1034,12 @@
         "video": "http://player.vimeo.com/video/49392435"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0b1a6870-937f-4748-9fa8-0ffb650d9429",
         "format": "presentation",
         "content": "The most important question to be asked when developing a new software system is \"How will we replace it?\" It is however a question seldom asked. Instead organization focus on reusability, which unfortunately helps create rigid and inflexible architectures. The talk shows how to design systems made up of small parts, why you should standardize on protocol and not platform and how you will end with a system that is easier to scale and maintain.",
@@ -879,6 +1065,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49367318"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/13322167-88de-42d4-88ef-e39912c1f508",
@@ -910,6 +1102,12 @@
         "video": "http://player.vimeo.com/video/49458021"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0964080e-2658-4d57-9cda-b5842c06edc9",
         "format": "presentation",
         "content": "Leter du etter et bedre komponentbasert webrammeverk? Vil du lage brukervennlige nettsider, men misliker å skrive JavaScript? Ønsker du å skille presentasjon og logikk? Da har du kanskje vurdert Wicket, som kan friste med Java-sentrisk programmeringsmodell og lite XML. Kanskje har du skrevet noen enkle applikasjoner allerede, men tør du bruke Wicket til ditt neste store prosjekt?\r\n\r\nI dette foredraget deler vi våre erfaringer med Wicket. Vi forteller deg det dokumentasjonen ikke forteller, og det som blogg-eksempler og minimale demo-applikasjoner ikke tar hensyn til. Vi gir deg eksempler på arkitekturprinsipper som fungerer, og forteller om noen som ikke har fungert.\r\n\r\nTemaene er:\r\n\r\n* GUI-arkitektur i en voksende kodebase. Hvordan dra nytte av Wicket sin egen arkitektur? Hvordan strukturere når AJAX er faretruende enkelt?\r\n* Vedlikeholdbarhet i koden. Er du generelt bekymret for Wicket sin læringskurve?\r\n* Modeller og sesjonsstørrelse. Vi fulgte råd fra artikler og diverse blogger, og brukte en kombinasjon av Hibernate, Open Session In View og Wicket sin LoadableDetachableModel. Når vi så la på mer og mer funksjonalitet, ble koden veldig komplisert. Vi tok da grep, og forteller hvordan vi trives med en løsning som er stikk i strid med hva som anbefales!\r\n* Testing og verktøystøtte. Større (og mindre...) prosjekter trenger testing og verktøy\r\n\r\nTemaene illustreres ved hjelp av reelle kodeeksempler.\r\n\r\nVi setter Wicket i en bredere kontekst, og sammenlikner raskt med andre komponentbaserte rammeverk som GWT og JSF. Vurderer du Wicket til ditt neste prosjekt, eller har du begynt å høste erfaringer? Da er dette foredraget for deg!",
@@ -930,19 +1128,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0964080e-2658-4d57-9cda-b5842c06edc9/speakers/ba3accbe-1ade-484e-be51-9722842ffd4e",
-                "name": "Anders Båtstrand",
-                "bio": "Anders er systemutvikler og medeier i Kantega AS, sivilingeniør i Industriell Matematikk, med spesialisering innen abstrakt algebra. Han jobber i et prosjekt med en størrelse på 20 000 timer, basert på Apache Wicket.",
-                "avatar": "http://javazone.no/ems/server/binary/f53a433e-6002-4467-8832-3b717829d012?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0964080e-2658-4d57-9cda-b5842c06edc9/speakers/0019c4af-e7cd-487d-92cc-7e04377f5760",
                 "name": "Torstein Strøm",
                 "bio": "Torstein er sjefsarkitekt og medeier i Kantega AS. Torstein har 10 års erfaring med arkitektur og systemutvikling på Java-plattformen. Han er arkitekt i et prosjekt med en størrelse på 20 000 timer, basert på Apache Wicket.",
                 "avatar": "http://javazone.no/ems/server/binary/9950ba03-5e35-4cdd-9d09-07b134fbd275?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0964080e-2658-4d57-9cda-b5842c06edc9/speakers/ba3accbe-1ade-484e-be51-9722842ffd4e",
+                "name": "Anders Båtstrand",
+                "bio": "Anders er systemutvikler og medeier i Kantega AS, sivilingeniør i Industriell Matematikk, med spesialisering innen abstrakt algebra. Han jobber i et prosjekt med en størrelse på 20 000 timer, basert på Apache Wicket.",
+                "avatar": "http://javazone.no/ems/server/binary/f53a433e-6002-4467-8832-3b717829d012?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49306016"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/fd4d0ef3-32f9-4834-bc7b-a58581556471",
@@ -971,6 +1175,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49477306"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ce40b878-2f85-414b-8c02-68737bb277c4",
@@ -1004,6 +1214,12 @@
         "video": "http://player.vimeo.com/video/49367410"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4ba616d5-1c90-475a-a6b1-77ffc626ba70",
         "format": "presentation",
         "content": "Cloud Foundry, the open source PaaS from VMware, and cloud in general, to some extent, provides today's developers with unique opportunities:scale! Unlimited scale! In this talk, Spring Integration committer Oleg Zhurakousky and Spring Developer Advocate Josh Long introduce how to use Cloud Foundry and RabbitMQ to build integration and batch processing solutions that can scale to meet any challenge with Spring Integration and Spring Batch.",
@@ -1024,19 +1240,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4ba616d5-1c90-475a-a6b1-77ffc626ba70/speakers/47b633aa-6dd7-4162-acbf-1640ce49c38b",
-                "name": "Josh Long",
-                "bio": "Josh Long is the Spring developer advocate. Josh is the lead author on Apress’ Spring Recipes, 2nd Edition, and a SpringSource committer and contributor. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include scalability, BPM, grid processing, mobile computing and so-called \"smart\" systems. He blogs at blog.springsource.org or joshlong.com.",
-                "avatar": "http://javazone.no/ems/server/binary/5074a86d-3732-4ad5-801b-65e06d45ab5b?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4ba616d5-1c90-475a-a6b1-77ffc626ba70/speakers/97c4758b-6951-43e1-b403-d0991ee02c2a",
                 "name": "Oleg Zhurakousky",
                 "bio": "Oleg is a Sr. Software Engineer with SpringSource/VMWare and a core developer of Spring Integration framework. He has 16+ years of experience in software engineering across multiple disciplines including software architecture and design, consulting, business analysis and application development. After starting his career in the world of COBOL & CICS, Oleg has been focusing on professional Java and Java EE development since 1999. Since 2004 he has been heavily involved in using several open source technologies and platforms with Spring Framework at the forefront, while working on a number of projects around the world and spanning industries such as Telecommunication, Banking, Law Enforcement, US DOD and others.",
                 "avatar": "http://javazone.no/ems/server/binary/811dd4ad-1447-4ef4-88e0-701a6a5efa98?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4ba616d5-1c90-475a-a6b1-77ffc626ba70/speakers/47b633aa-6dd7-4162-acbf-1640ce49c38b",
+                "name": "Josh Long",
+                "bio": "Josh Long is the Spring developer advocate. Josh is the lead author on Apress’ Spring Recipes, 2nd Edition, and a SpringSource committer and contributor. Josh likes solutions that push the boundaries of the technologies that enable them. His interests include scalability, BPM, grid processing, mobile computing and so-called \"smart\" systems. He blogs at blog.springsource.org or joshlong.com.",
+                "avatar": "http://javazone.no/ems/server/binary/5074a86d-3732-4ad5-801b-65e06d45ab5b?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49477307"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/354c429f-8554-4929-b754-53d22bb6f421",
@@ -1059,19 +1281,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/354c429f-8554-4929-b754-53d22bb6f421/speakers/1e716aba-3700-4c67-bd14-20ae5f4a6c19",
-                "name": "Stein Inge Morisbak",
-                "bio": "Stein Inge leder BEKK sin faggruppe for Kontinuerlige Leveranser og DevOps og jobber for tiden som tech lead for teamet som utvikler Digipost. Med bakgrunn som både drifter og utvikler er han spesielt interessert i å bygge bro mellom drift og utvikling. Han har tidligere holdt foredrag på blant andre JavaZone, Smidig og Roots.",
-                "avatar": "http://javazone.no/ems/server/binary/c63f0481-6c7a-4d8e-82c3-a5ee6c3b0bdc?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/354c429f-8554-4929-b754-53d22bb6f421/speakers/a955e848-43d9-40cb-bccf-0e1a627e4692",
                 "name": "Sveinung Dalatun",
                 "bio": "Sveinung jobber som utvikler hos BEKK. For tiden fokuserer han på Kontinuerlige leveranser og DevOps, og hvordan man gjennom dette kan forbedre kvaliteten på produktet og redusere \"waste\". Han har tidligere presentert på Smidig og Akademy.",
                 "avatar": "http://javazone.no/ems/server/binary/9c6fd29a-1287-4f45-b5cb-bb3763ae1636?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/354c429f-8554-4929-b754-53d22bb6f421/speakers/1e716aba-3700-4c67-bd14-20ae5f4a6c19",
+                "name": "Stein Inge Morisbak",
+                "bio": "Stein Inge leder BEKK sin faggruppe for Kontinuerlige Leveranser og DevOps og jobber for tiden som tech lead for teamet som utvikler Digipost. Med bakgrunn som både drifter og utvikler er han spesielt interessert i å bygge bro mellom drift og utvikling. Han har tidligere holdt foredrag på blant andre JavaZone, Smidig og Roots.",
+                "avatar": "http://javazone.no/ems/server/binary/c63f0481-6c7a-4d8e-82c3-a5ee6c3b0bdc?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49445221"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/8ce83a0e-69f7-475f-a4b2-7b00347eacb2",
@@ -1102,6 +1330,12 @@
         "video": "http://player.vimeo.com/video/49300363"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/d3637bb8-e03f-4088-b7f4-078394899fa5",
         "format": "lightning-talk",
         "content": "NAVs nye stillingssøk for mobil er en webapp i JavaScript. I denne talen presenteres de viktigste erfaringene fra utviklingen av denne applikasjonen. Hvilken arkitektur ble valgt? Hvilke bibliotek og rammeverk ble brukt? Hvilke utfordringer ble møtt?",
@@ -1130,6 +1364,12 @@
         "video": "http://player.vimeo.com/video/49299025"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/02dee094-0e06-45fe-83d8-4ceb2e5f69d7",
         "format": "lightning-talk",
         "content": "Prosjektet jeg jobber i har benyttet Cassandra i nesten 2 år og vi har gjort oss noen erfaringer.\r\n\r\nHar du planer om å benytte Cassandra i ditt nåværende eller neste prosjekt?\r\nKom innom denne lyntalen og vil jeg dele et par \"pros and cons\" som kan være nyttig",
@@ -1155,6 +1395,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49372217"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a992d464-dcab-44e0-a72c-40a6b39eb4bd",
@@ -1186,6 +1432,12 @@
         "video": "http://player.vimeo.com/video/49477309"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c1ae08cf-77bb-4a38-aa3e-965b33be716f",
         "format": "presentation",
         "content": "Video content is playing an increasingly important role on the web today. Video provides an engaging and effective way of conveying your message to an audience. Yet as programmers, lack of tooling has made it difficult for us to access video.\r\n\r\nThis talk covers everything you need to work effectively with video using Java and HTML5. After introducing the basic concepts of frames, codecs and container formats, we'll dive into video production, analysis and transformation using the open source library Xuggler. We'll then show you how to consume video in the browser using HTML5 video and Javascript. We'll also cover new APIs giving programmatic access to the user's webcam and how to process live video with effects in the browser using the Canvas API.\r\n\r\nThe format of the talk is a mix of slides covering the theory with some fun demos showing what kind of video solutions you can create using what you've learned. Whether your plan is to build the next Youtube or you just want to add some video to your web site, this talk covers everything you need to get started.",
@@ -1212,6 +1464,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49377269"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/770c5e15-3370-4e9e-b196-03c40944515e",
@@ -1243,6 +1501,12 @@
         "video": "http://player.vimeo.com/video/49467255"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/bdc2d5ce-9d7e-44da-ada4-c2d91ae35758",
         "format": "presentation",
         "content": "Utskjelt og uthengt, beskylt for bestikkelser og spekulasjoner om en traumatisk barndom som mobbeoffer. Trakassert av Davy Wathne i beste sendetid. Fotballdommere utsettes for mye, men er det virkelig nødvendig å utsette dem for en webportal utviklet i Microsoft Visual Studio 2003 som kun fungerer i Internet Explorer?\r\n\r\nEr du litt lei av å skrive den samme koden dag ut og dag inn? Du er produktiv og får jobben gjort med Java og diverse open source rammeverk, men du savner den deilige følelsen av læring. Det å ha det skikkelig gøy mens du lærer nye ting? Du vet, den følelsen du hadde mens du studerte? Pet projects/hobbyprosjekter er mange utvikleres løsning på dette, men det er ikke alltid så lett å finne et problem du kan bruke som utgangspunkt for å lære noe nytt. Mange ganger tenkte jeg at \"kanskje jeg skal lage noe som konsumerer et REST-API\", men hvor mange twitter/facebook/ mashups trenger egentlig verden? Det finnes allerede mange gode der ute, og det er kanskje ikke så rart, for dataene til alle disse sosiale mediene er så lett tilgjengelig. Men hva med alle disse irriterende webappene, du vet, disse som ikke fungerer i annet en internet exploder og som hvertfall ikke har et åpent API? Hva med dem?\r\n\r\nDette var utgangspunktet for _mitt_ hobbyprosjekt. Et hobbyprosjekt som har vokst til å ha over hundre unike brukere om dagen, og over 350 unike brukere i uken. Dette er historien om Dommer-FIKS:\r\n\r\nPresentasjonen vil vise hvordan Scala, Unfiltered, JSoup, Twitter Bootstrap og Heroku ble brukt for å utvikle en ny frontend for Internet Explorer-utyske på tre-fire kvelder. Løsningen ble laget uten å ha spesielt stor kjennskap til noen av teknologiene fra før. Målet med presentasjonen er ikke å gi en deltaljert intro til hverken Scala, Unfiltered eller Bootstrap. Den vil derimot forklare hvordan de valgte teknologiene alle bidro til at en ny frontend kunne skrives på noen få dager av en som knapt nok har hørt om CSS og Javascript. Den vil vise hvordan du kan få morroa tilbake i utviklingen og vil gi en rekke dommeranekdoter underveis..",
@@ -1271,6 +1535,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49307943"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/54bc73c1-8c6d-4e8d-8976-90f69eb6bf7b",
@@ -1304,6 +1574,12 @@
         "video": "http://player.vimeo.com/video/49298211"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/fc4d2c9e-d6f7-4c7f-a942-d0374bbcc8e5",
         "format": "lightning-talk",
         "content": "Bør jeg bruke MEAP i mitt mobilprosjekt, eller bør vi skrive appene native?\r\n\r\nØnsker å dele noen erfaringer og tanker som ble gjort i forkant av et mobilprosjekt levert på Android, iPhone og Windows Phone 7.\r\nVi valgte å gå for native apper, jeg forteller hvorfor.",
@@ -1331,6 +1607,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49445453"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4e4f0a71-92ed-4c27-81ca-8b5a676fad24",
@@ -1363,6 +1645,12 @@
         "video": "http://player.vimeo.com/video/49386439"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f492c3df-b7d4-40fb-839b-50ea25f88262",
         "format": "presentation",
         "content": "Groovy doesn't claim to be a fully-fledged functional programming language but it does provide the Java or Groovy developer with a whole toolbox of features for doing functional style programs. This talk looks at the key Groovy features which support a functional style. Topics covered include using closures, currying and partial evaluation, closure composition, useful functional-centric AST macros, useful functional-centric runtime meta-programming tricks, trampolining, using Java functional libraries, immutable data structures, lazy and infinite lists, using Groovy 2's static typing and approaches for moving beyond Java's type system.",
@@ -1388,6 +1676,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49302108"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/429ca0c1-966c-40f4-a6b2-93347b8ca44f",
@@ -1419,6 +1713,12 @@
         "video": "http://player.vimeo.com/video/49298213"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a9483d82-a7bb-429d-b14e-4dd32071cb3d",
         "format": "lightning-talk",
         "content": "Fine, you can clone projects, commit code, pull, and push to GitHub. But do you know why that stuff works? Have you ever looked at the plumbing behind the porcelain? Come to this talk for a lighting-fast explanation of the internals of a Git repository and a demonstration of how to commit content without every running add or commit—or without even creating a file. A deeper understanding of Git awaits!",
@@ -1446,6 +1746,12 @@
         "video": "http://player.vimeo.com/video/49478285"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f99fb2e9-6e5e-4353-8e01-95595d1dae6c",
         "format": "lightning-talk",
         "content": "I mange miljøer oppleves barter og skjegg som mer mandig enn det å være glattbabert. Du var kanskje ikke klar over det, men det er grunnen til at alle kule programmeringsspråk tar i bruk barteparenteser.\r\n\r\nBarter har derimot ikke alltid den effekten en tror de har. Selv ble jeg overrasket både av responsen jeg fikk av min egen bart i November, og den jeg fikk når jeg tok i bruk barter i JavaScript. Hvem hadde trodd at en enkel bart kunne være så forskjellig?\r\n\r\nDette er varskolyntalen for deg som har begynt å snuse på hipsterspråk numero dos, JavaScript. Har du enda ikke rukket å sette deg inn i scope, kontekst og variabelsynlighet? Ta det med ro, her får du de grunnleggende reglene som gjør JavaScript litt mer begripelig i starten. Og hvis du lurte… jada, det er forskjellig fra Java.",
@@ -1471,6 +1777,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49309203"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4377bd5e-c6e0-4f54-99ec-f381fbc0e5ed",
@@ -1501,6 +1813,12 @@
         "video": "http://player.vimeo.com/video/49478286"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ba68aba2-1e57-4252-bfa5-4d15e7cff8c9",
         "format": "presentation",
         "content": "With Java systems getting larger and larger, using more and more heap, just raising the max heap size will no longer save you from long GC pauses. Concurrent Mark-And-Sweep has been the solution for a long time, but as heaps grows beyond a couple of giga bytes in size, Mark-And-Sweep GC pauses will grow beyond levels acceptable in modern Java systems. This presentation takes us through the inner workings of a modern JVM and how you can tune your JVM for optimal GC performance. The problems we're facing with ever growing heap sizes will be explained, together with how Mark And Sweep garbage collector does garbage collection today, what limits there are, and how the G1 (Garbage First) garbage collector will take over tomorrow, when Java heaps goes from large to huge.",
@@ -1526,6 +1844,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/ebc23d91-7a97-4b89-af44-aa41cfef711d?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/322ef4e7-e437-4d99-a9c3-624ac3a457da",
@@ -1557,6 +1881,12 @@
         "video": "http://player.vimeo.com/video/49375218"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c4930035-1d96-4ce1-8b79-213ae8bcd6f3",
         "format": "presentation",
         "content": "It's an interesting time in the world of application development. We're in the middle of a perfect storm in which cloud deployments, alternative data stores, and rich, multi-device client UIs are emerging as the future standards. What does this mean for Grails developers and what does the framework offer in this very different world?\r\n\r\nWe'll look at potential changes to the way applications are designed and how you can leverage the current and future features of Grails to take advantage of those changes. Find out how conventions and the plugin system can smooth your way to future architectures.",
@@ -1584,6 +1914,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49392433"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/9fac703f-0b35-4bfe-8f41-c3fee74925fc",
@@ -1614,6 +1950,12 @@
         "video": "http://player.vimeo.com/video/49367319"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a09ae765-03a8-4e17-b0ff-f69d9aaf3d7d",
         "format": "presentation",
         "content": "Har du noensinne lurt på hvordan HTTP caching fungerer? I dette foredraget vil jeg fortelle om hvordan spesifikasjonen sier at det skal fungere.  Jeg vil gi eksempler og se hvordan de forskjellige cache-reglene oppfører seg. Her vil det også vises noen \"Gotchas\".\r\n\r\nJeg vil også se på utvidelser til HTTP, herunder Cache Channels, og Edge Side Includes (ESI).",
@@ -1642,9 +1984,15 @@
         "video": "http://player.vimeo.com/video/49305646"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/dd7ac8d2-65f0-4fcf-aa6b-72b16eeaf032",
         "format": "presentation",
-        "content": "De siste ��rene har det blitt mer og mer fokus på behandling av store datamengder og ytelse. Grid-produkter kan tilby et spennende alternativ til den tradisjonelle databasen, gjennom at mange maskiner jobber sammen med å holde data i et distribuert minne. Dette gir egenskaper som tilnærmet lineær skalering og ekstremt høy ytelse.\r\n\r\nDenne presentasjonen viser Open Source produktet Hazelcast. Med eksempler viser vi hvordan produktet fungerer, og går gjennom erfaringer vi har hatt med produktet det siste året. Eksemplene taes hovedsaklig fra Skatteetaten hvor produktet har blitt testet ut for områder som datainnsamling og skatteberegning.",
+        "content": "De siste årene har det blitt mer og mer fokus på behandling av store datamengder og ytelse. Grid-produkter kan tilby et spennende alternativ til den tradisjonelle databasen, gjennom at mange maskiner jobber sammen med å holde data i et distribuert minne. Dette gir egenskaper som tilnærmet lineær skalering og ekstremt høy ytelse.\r\n\r\nDenne presentasjonen viser Open Source produktet Hazelcast. Med eksempler viser vi hvordan produktet fungerer, og går gjennom erfaringer vi har hatt med produktet det siste året. Eksemplene taes hovedsaklig fra Skatteetaten hvor produktet har blitt testet ut for områder som datainnsamling og skatteberegning.",
         "keywords": [
             "Enterprise",
             "Distributed Systems and Cloud",
@@ -1669,6 +2017,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49386944"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/9604a0b6-f585-46c6-89c0-d1af5aa358ef",
@@ -1701,6 +2055,12 @@
         "video": "http://player.vimeo.com/video/49478288"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146",
         "format": "presentation",
         "content": "Telenor calculated in 2010 that it´s self-service web solution for businesses & enterprises, MinBedrift, would not scale with the projected customer growth beyond 2012. In order to achieve acceptable user response times, the current solution was dependent of nightly pre-caching the customers’ data. However, the time available for caching was closing fast, and then response times would become increasingly longer. In the end Telenor would start losing customers. This is the story about how usage of NoSQL solutions such as Lucene/Solr index & Neo4j graph database solved the problem, and then some more.",
@@ -1721,19 +2081,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/309b7e44-dcef-490f-87e5-c24109f59f95",
-                "name": "Katrina Sponheim",
-                "bio": "Katrina is the system architect of Telenor Norway’s self service web solutions for the business segment. She has during the last year been involved in scalability and performance improvements related to customers being exposed to large data sets.",
-                "avatar": "http://javazone.no/ems/server/binary/1af6a495-d13e-47b9-a123-b081d90c6bff?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/d43388ef-024f-4f24-b449-7e57ecc61f36",
                 "name": "Sebastian Verheughe",
                 "bio": "Currently working at Telenor Norway as a system area architect, Sebastian is responsible for business services in the mobile value chain. The last year he has been working on a project looking into how such services better can support search and retrieval of large dynamic data sets by the clients.",
                 "avatar": "http://javazone.no/ems/server/binary/f7b3d1fa-a519-4130-862e-6ff7971de72b?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/309b7e44-dcef-490f-87e5-c24109f59f95",
+                "name": "Katrina Sponheim",
+                "bio": "Katrina is the system architect of Telenor Norway’s self service web solutions for the business segment. She has during the last year been involved in scalability and performance improvements related to customers being exposed to large data sets.",
+                "avatar": "http://javazone.no/ems/server/binary/1af6a495-d13e-47b9-a123-b081d90c6bff?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49386442"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e5999413-7fa9-447e-aad7-4e804cafc600",
@@ -1761,6 +2127,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49324970"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/95af0aaa-cd8d-41ac-9821-43e4c5f35fc2",
@@ -1791,6 +2163,12 @@
         "video": "http://player.vimeo.com/video/49392327"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/d7574be3-100c-40d4-939e-97b1171e8f52",
         "format": "presentation",
         "content": "The number of Android powered devices are sky rocketing. To reach larger audiences, developers want to create applications that are compatible with as many devices as possible.\r\n\r\nIce Cream Sandwich brings together tablet- and phone development, but adoption however steady is still slow. This results in developers having to cope with different Android versions for years to come. The diversity of devices running the operating system provide great freedom of choice for consumers. On the other hand, screen sizes, form factors and capabilities vary dramatically and provide additional challenges for developers.\r\n\r\nThe presentation will cover how to use fragments to achieve a high level of code reuse in the UI layer. The presentation will also cover how to use the Android compatibility package to build applications that can be installed, from a single APK to both phones and tablets. The topics will be explained using code, and a complete overview of how to write highly portable Android applications will be given during the presentation.",
@@ -1816,6 +2194,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49302109"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ce4c93fc-1995-40f5-94bb-d915a0176baf",
@@ -1846,6 +2230,12 @@
         "video": "http://player.vimeo.com/video/49308355"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0e3e94b7-1f27-4fec-997e-44511a5373dd",
         "format": "lightning-talk",
         "content": "Har du lyst å være med å arrangere JavaZone? Eller kanskje bli en aktiv javaBin-er? Det norske Java-fagmiljøet består av en haug med kreative entusiaster som gjerne vil ha med akkurat deg i miljøet! Denne lyntalen gir en introduksjon til hvem vi er, hva vi gjør og hvordan du kan bli med.",
@@ -1872,6 +2262,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49478289"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a1472a67-37c2-46d2-b544-c4ca88786a47",
@@ -1902,6 +2298,12 @@
         "video": "http://player.vimeo.com/video/49480090"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cc6240f8-c202-44b5-be16-c5b9249ef640",
         "format": "lightning-talk",
         "content": "For å kunne levere kontinuerlig er det viktig at kodebasen blir integrert kontinuerlig, dvs. at man merger til mainline minst en gang om dagen. På denne måten legger du til rette for at koden er klar for deploy oftere, det blir lettere å estimere oppgaver, og du sparer deg selv for unødvendig smerte. F.eks. \"merge hell\" og kode som er vanskelig/umulig å refaktorere. Noe som lett kan forekomme når en feature-branch bare blir merget tilbake til mainline etter at den er ferdig.\r\n\r\n\r\nJeg vil derfor gå gjennom teknikker og patterns som \"branch by abstraction\" og \"feature toggling\", som gjør det lettere å kode direkte i mainline.",
@@ -1928,6 +2330,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49381226"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4f855b17-1498-4432-8b21-33265f982d47",
@@ -1965,6 +2373,12 @@
         "video": "http://player.vimeo.com/video/49392437"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a8b2bb04-03f2-4e88-9663-8387692af0e0",
         "format": "lightning-talk",
         "content": "Rust is a curly-brace, block-structured expression language. It visually resembles the C language family, but differs significantly in syntactic and semantic details. Its design is oriented toward concerns of “programming in the large”, that is, of creating and maintaining boundaries – both abstract and operational – that preserve large-system integrity, availability and concurrency.\r\n\r\nIt supports a mixture of imperative procedural, concurrent actor, object-oriented and pure functional styles. Rust also supports generic programming and metaprogramming, in both static and dynamic styles.\r\n\r\nRust is influenced by Alef, C++, Camlp4, Common Lisp, Erlang, Haskell, Hermes, Limbo, Napier, Napier88, Newsqueak, NIL, Sather, Standard ML",
@@ -1990,6 +2404,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49324972"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/71829719-8e70-4c51-bd4f-9cf61eedd522",
@@ -2020,6 +2440,12 @@
         "video": "http://player.vimeo.com/video/49480091"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e1dda332-04fb-4be6-b371-6a2f10585dee",
         "format": "lightning-talk",
         "content": "Shellet kan bli din beste venn og gi deg alt du trenger, kjapt og effektivt. \r\nMen; \"Noe montering må påregnes\"\r\nJeg vil gjerne dele mine erfaringer om hvordan jeg har konfigurert mitt shell for å all den informasjon og funksjonalitet jeg trenger.",
@@ -2046,6 +2472,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49381223"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/985528c8-1d5e-427e-8064-0bb6f2051ec4",
@@ -2075,6 +2507,12 @@
         "video": "http://player.vimeo.com/video/49300362"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/2bcf5061-abdf-4b77-8087-cb96baeaff3e",
         "format": "presentation",
         "content": "When you send a package through FedEx it goes through a tracked, automated process that makes sure that the package arrives promptly at the destination. The same should apply to every commit that you check into the trunk. Continuous delivery describes how this process can be made fully automated and transparent and we will show you how your commits can be “fedexed” to production on application servers like JBoss, Tomcat, Weblogic and others with the help from Jenkins and LiveRebel.\r\n\r\nThe main idea of continuous delivery is the deployment pipeline. Every commit that enters the pipeline should go through automated integration and testing and if successful, produce a release candidate. We will show how Jenkins can be used to orchestrate the process all the way to the staging environment.\r\n\r\nOnce we're there, the most complicated phase begins. The release candidate needs to be deployed to production, without disrupting the users or introducing risks. LiveRebel makes production updates quick, automated, non-disruptive and reversible. It finishes the job and delivers the updated version right into the users hands.\r\n\r\nIn this talk we will build a full clustered environment and a deployment pipeline so that commits into the trunk would update a live chat server while you keep on chatting.",
@@ -2101,6 +2539,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49367413"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/7620c399-91b9-4859-b96b-fea4d7a89f00",
@@ -2132,6 +2576,12 @@
         "video": "http://player.vimeo.com/video/49480093"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/35bd6a04-b829-4700-ac78-e73d80a0c6ba",
         "format": "lightning-talk",
         "content": "Define unit test: \"A test that runs fast and can run in parallel with other tests\",\r\n\r\nDefine integration test: \"A test that uses realistic third party software or systems\"\r\n\r\nUsing JUnit 4.8 @RunsWith test runners, on my recent projects I've created tests that can be configured to run both with in-process fakes and with real third party systems. I've used this on large scale for tests that integrate with a database and have toyed with using the idea for slow and fast-running web integration tests.\r\n\r\nBy using this approach, I have tests that are fast enough to run with Infinitest and that can also verify integration with external systems.",
@@ -2157,6 +2607,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49480094"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ea606905-36c3-49d8-ac5e-08492a498292",
@@ -2186,6 +2642,12 @@
         "video": "http://player.vimeo.com/video/49444840"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/6644a592-e87f-4783-8c50-71bad92d8bde",
         "format": "presentation",
         "content": "Java annotation processing lar deg skrive compiler plug-ins som setter deg i stand til å gå gjennom koden, lete etter annotasjoner og utføre valideringer i henhold til annotasjonens bruk. For eksempel kan du sjekke  at alle klasser annotert med @EJB har @SecurityDomain satt og at verdien ikke er feilstavet, alt gjort på kompileringstidspunktet.\r\n\r\nI dette foredraget vil Vidar gi deg en innføring i Java Annotation Processing. Foredraget forklarer hvordan du instruerer javakompliatoren til å validere kode slik at du får kompileringsfeil og ikke kjøretidsfeil, uten å ta i bruk mekanismer andre mekanismer enn Core java. Utfordringer rundt IDE-støtte blir også diskutert.\r\n\r\nEtter foredrag vil tilhørerne ha fått innblikk i hvordan Java Annotation Processing fungerer og hvordan de kan ta det i bruk i sine egne prosjekter. Annotation processing er ikke mye brukt og foredraget vil være en fin mulighet til å få en rask innføring i en spennende mekanisme som kan gi interessante muligheter.",
@@ -2213,6 +2675,12 @@
         "video": "http://player.vimeo.com/video/49591088"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c866bac1-3255-4421-8a2a-9c3a48f7e492",
         "format": "presentation",
         "content": "The hottest topic for Enterprise Java applications out there is\r\nsecurity. It has so many different aspects and this session is going\r\nto cover the basics which are used ootb from the example application.\r\nGoing further down to the OWASP Top 10 about application security and\r\nalso shows how and where to integrate solutions for that.",
@@ -2233,19 +2701,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c866bac1-3255-4421-8a2a-9c3a48f7e492/speakers/5d88de4e-21ac-4bbd-ba37-c65c1f4e5b20",
-                "name": "Masoud Kalali",
-                "bio": "Masoud is a principal software engineer at ORACLE working in GlassFish project in the Security and PaaS areas. He is author of GlassFish and Java EE security book published in 2010 and several articles in that area in Java.net, dZone and other magazines. He is author or multiple well received refcardz about Security, Java EE, GlassFish, XML and NoSQL.  He has a master degree in Information Systems and been involved with software projects since 2001. Masoud blogs regularly at http://kalali.me and he can be followed in his twitter @MasoudKalali",
-                "avatar": "http://javazone.no/ems/server/binary/0de3731c-b423-4198-a033-f0e1bf66765b?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c866bac1-3255-4421-8a2a-9c3a48f7e492/speakers/a8ca454e-ee9e-415c-b267-fc4f826b7fdd",
                 "name": "Markus Eisele",
                 "bio": "Markus is a principal technology consultant working for msg systems ag in Germany. Markus is a software architect, developer and consultant. He also writes for IT magazines. Markus joined msg in 2002 and has been a member of the Center of Competence IT-Architecture for nine years. After that Markus moved on to the IT-Strategy and Architecture group. He works daily with customers and projects dealing with Enterprise level Java and infrastructures. This includes the Java platform and several Web-related technologies on a variety of platforms using products from different vendors. His main area of expertise are Java EE Servers. Markus is speaking at different conferences about his favorite topics. He is also part of the Java EE 7 expert group. Stay up to date with his activities visiting his blog (http://blog.eisele.net/). Follow him on twitter @myfear.",
                 "avatar": "http://javazone.no/ems/server/binary/1f9b0f6d-c2f7-446f-a29a-adbd4b5cfd49?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c866bac1-3255-4421-8a2a-9c3a48f7e492/speakers/5d88de4e-21ac-4bbd-ba37-c65c1f4e5b20",
+                "name": "Masoud Kalali",
+                "bio": "Masoud is a principal software engineer at ORACLE working in GlassFish project in the Security and PaaS areas. He is author of GlassFish and Java EE security book published in 2010 and several articles in that area in Java.net, dZone and other magazines. He is author or multiple well received refcardz about Security, Java EE, GlassFish, XML and NoSQL.  He has a master degree in Information Systems and been involved with software projects since 2001. Masoud blogs regularly at http://kalali.me and he can be followed in his twitter @MasoudKalali",
+                "avatar": "http://javazone.no/ems/server/binary/0de3731c-b423-4198-a033-f0e1bf66765b?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49458044"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/718233c2-2dbd-4809-b0a5-20c103c8c053",
@@ -2276,6 +2750,12 @@
         "video": "http://player.vimeo.com/video/49445224"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/40aa6c06-55a3-4dda-89cb-f08884fef58f",
         "format": "presentation",
         "content": "You're all over jQuery - you write plugins in your sleep - and before that, you were a Prototype ninja. Your team treats JavaScript like a first class citizen, you've even written more tests than Kent Beck. Is that all there is in the land of the JavaScript developer? Believe it or not, the JavaScript party hasn't stopped. What other libraries are out there? What do they offer? This talk will survey the field of modern JavaScript libraries getting you up to speed on what's new. We'll dive in just deep enough to whet your appetite on a wide variety of libraries such as Backbone, Underscore, Zepto and more.",
@@ -2301,6 +2781,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49375220"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/29473593-ec86-4df1-bc52-f739db564242",
@@ -2330,6 +2816,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49480096"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/41743505-f611-4768-a39b-9f83728bc3bb",
@@ -2368,6 +2860,12 @@
         "video": "http://player.vimeo.com/video/49375219"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/b2e2c105-7818-4fb5-9bfb-a6dda08e6a52",
         "format": "lightning-talk",
         "content": "Ruby har et imponerende arsenal av metaprogrammeringsteknikker som kan gjøre hverdagen til en programmerer mye enklere og bidra til å holde koden din DRY. Dette er kjapp introduksjon til flere av disse, med eksempler på hvordan disse kan hjelpe til i hverdagen. Lyntaleren viser eksempler fra egne prosjekter for å illustrere hvor enkelt metaprogrammering i Ruby er å benytte seg av og hvilke fordeler det kan bære med seg.",
@@ -2395,6 +2893,12 @@
         "video": "http://player.vimeo.com/video/49324975"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/0a65188e-815c-495e-aaeb-2e185d4d04f6",
         "format": "presentation",
         "content": "Java release 8 will have language features for support of functional programming. We will have lambda expressions, functional types, extension methods, and method references.  The session will explain the new features and their use.  Extension methods, for instance, will have an impact beyond the context of lambdas.  They add a new kind of multiple inheritance to Java that we will have a lot of fun with.",
@@ -2420,6 +2924,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49385450"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/99c06e54-96ab-4e86-b537-2bdbd59567cc",
@@ -2452,6 +2962,12 @@
         "video": "http://player.vimeo.com/video/49299024"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a5d5ade2-3743-4177-81ec-ca7a31dd87ce",
         "format": "lightning-talk",
         "content": "Liquibase er et verktøy for å hjelpe til med å få kontroll på migreringer i SQL databaser. Verktøyet har eksistert lenge men er likevel mindre kjent. Etter flere års erfaring med verktøyet går vi gjennom hvorfor man bør bruke slike verktøy, hvordan man kan komme i gang med Liquibase og hvilke erfaringer vi har med det.",
@@ -2478,6 +2994,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49482881"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/b913e6a3-8fd3-4eaf-b2d0-3f3748793b9f",
@@ -2507,6 +3029,12 @@
         "video": "http://player.vimeo.com/video/49324971"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/51fcc826-6737-4dd8-9f0b-7406acf63739",
         "format": "presentation",
         "content": "Vi tilbyr en kjapp innføring i C++ for Java utviklere. Det er særlig de nye tingene i 2011 standarden av C++ som vil få fokus. I denne presentasjonen vil vi demonstrere hvordan du kommer i gang med et C++ prosjekt, men vi vil fort gå over til å diskutere og sammenligne sære språkdetaljer. \r\n\r\nMålet vårt er å lage en presentasjon hvor de flinkeste Java programmere kan lære akkurat nok om den nye versjonen av C++ til å gjøre et informert valg om de vil lære mer om C++11 eller ikke.",
@@ -2525,19 +3053,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/51fcc826-6737-4dd8-9f0b-7406acf63739/speakers/e6bcb2fc-f4d6-448c-82c3-cad6935445fe",
-                "name": "Lars Gullik Bjønnes",
-                "bio": "Lars Gullik works for Cisco Systems Norway.",
-                "avatar": "http://javazone.no/ems/server/binary/f2caa7e1-e38f-4f2a-8a87-dc18c6f71b28?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/51fcc826-6737-4dd8-9f0b-7406acf63739/speakers/97d9c5d1-6dd8-446b-ba07-8ea77a56122b",
                 "name": "Olve Maudal",
                 "bio": "Olve Maudal works for Cisco Systems where he is involved in developing telepresence and video conferencing products and solutions. He loves to write code, but is just as interested in how software is developed as what it actually does. Olve is also an active member of the vibrant geek community in Oslo where he is involved in JavaPils, Cantara, XP Meetup, Oslo C++ Users Group, Lean Meetup and a few other things.",
                 "avatar": "http://javazone.no/ems/server/binary/9c6ed033-53de-4d4d-bfb9-525df24f85d3?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/51fcc826-6737-4dd8-9f0b-7406acf63739/speakers/e6bcb2fc-f4d6-448c-82c3-cad6935445fe",
+                "name": "Lars Gullik Bjønnes",
+                "bio": "Lars Gullik works for Cisco Systems Norway.",
+                "avatar": "http://javazone.no/ems/server/binary/f2caa7e1-e38f-4f2a-8a87-dc18c6f71b28?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49367411"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/34110799-6288-460d-bb42-576fb8671f28",
@@ -2574,6 +3108,12 @@
         "video": "http://player.vimeo.com/video/49381225"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/5c2b3146-24df-4514-8632-b3c7ea312e3b",
         "format": "lightning-talk",
         "content": "Vi bruker git som versjonskontroll og maven for å styre avhengigheter, bygge og versjonere. Men for leveranser brukes egenutviklet Rubyscript som hjelper deg å levere ofte og hurtig. Lyntalen beskriver ideen bak ett sett med Rubyscripts som gjør smidige og hurtige leveranser mulig i et stort utviklingsprosjekt med flere hundre maven-artifakter og avhengigheter.",
@@ -2602,6 +3142,12 @@
         "video": "http://player.vimeo.com/video/49381224"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4c376146-4ad8-4f40-b5eb-74ae88add61f",
         "format": "presentation",
         "content": "In Java, memory leaks take the form of “unwanted references”, i.e., references that keep objects alive that are no longer needed by any part of your program. If these “forgotten” objects pile up they might even cause an OutOfMemoryError.\r\nThe session explains various kinds of memory leaks, how they happen, and how they can be detected using tools (profilers and heap dump analyzers).",
@@ -2627,6 +3173,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49299021"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/31a347da-136d-43f9-a3de-6e181f09d0c5",
@@ -2658,6 +3210,12 @@
         "video": "http://player.vimeo.com/video/49386440"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/ff109646-6ac7-439f-9f3c-1cabbef28ebe",
         "format": "lightning-talk",
         "content": "HTTP ble funnet opp av Tim Berners Lee for 20 år siden. Mye har skjedd siden den gang. \r\nVi ser på utfordringer med HTTP og hvordan Googles SPDY løser noen av disse.",
@@ -2684,6 +3242,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49482882"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e1d11f7e-271d-4e23-aeb8-30031636a5d5",
@@ -2714,6 +3278,12 @@
         "video": "http://player.vimeo.com/video/49375217"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e3dbc179-7ee2-4184-9367-20ed0d262ce7",
         "format": "presentation",
         "content": "Nygaard and Dahl invented Simula’s classes and objects to master complex problems. Alan Kay coined the term ‘object orientation’ with its networks of communicating objects to facilitate simple and powerful mental models. His goal was to make computers and programming comprehensible to everybody. Mainstream programmers missed the importance of communication in Kay’s OO and misused the term. Their much weaker approach is better called ‘class orientation’.\r\n\r\nI have extended Kay’s original OO with explicit concepts and code that specify how objects interact at runtime. With the DCI (Data-Context-Interaction) paradigm, programmers can reason about their code, new team members get quickly up to speed, maintainers lead a better and more productive life. The DCI Context is a new abstraction that supplements the commen  class. While a class says everything about the inside of an object and nothing about the objects surrounding it, a DCI Context says everything about a network of communicating objects and nothing about their insides. The class is great for describing autonomous objects such as the domain objects in the Data part of DCI. The DCI Context is great for describing how use cases are realized by networks of communicating objects. Communication is now a first-class citizen of programming!",
@@ -2741,6 +3311,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49392434"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/5c11d572-55eb-4f26-9e23-f4c90607bfc0",
@@ -2774,6 +3350,12 @@
         "video": "http://player.vimeo.com/video/49386942"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1b5cbfd0-de8c-4964-b109-9ac47f045e2b",
         "format": "presentation",
         "content": "Have you ever tried to write a moderately complex browser side application with the assumption that jQuery is probably all you need for the job? I mean, fire off some AJAX requests, then just use some DOM manipulation to put the results where you want them—how hard can it be, right?\r\n\r\nWould you have enjoyed maintaining the code that resulted from that assumption? No, neither would I.\r\n\r\nWould you like to see a better solution?\r\n\r\nAs it turns out, programmers have known how to keep their frontend code under control for a while using a surprisingly simple principle called MVC. Now that the browser has suddenly become a serious platform for application development, the need for MVC (or, at least, the basic concepts behind MVC) has become so apparent that we already have multiple rival MVC libraries for the browser platform. Backbone is arguably the most popular of the lot, and certainly one of the most lightweight.\r\n\r\nIn this presentation, you'll learn how to harness the power of Backbone by example, as we build a simple browser side application from the bottom up using nothing but Backbone and your favourite DOM toolkit.",
@@ -2799,6 +3381,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49482883"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/5d69a034-eb3e-448b-bcbf-15b90488f1d8",
@@ -2827,6 +3415,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49368449"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/66f67513-e72e-4e9b-b1e5-f098af81447f",
@@ -2858,6 +3452,12 @@
         "video": "http://player.vimeo.com/video/49482885"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c6d32987-411f-4a3b-9f49-ccc33d0de709",
         "format": "presentation",
         "content": "Etter hvert som nosql blir mer og mer populært blir behovet for gode patterns stort. Det er en fordel å organisere dataene sine så godt som mulig, slik at det blir enkelt å finne tilbake til dem senere. Dette kan være en utfordiring når man ikke har lite erfaring med key-value stores.\r\nDersom man bruker gode patterns vil det føre til vakker kode, bedre ytelse og mer logisk organisering av dataene.\r\nForedraget vil se på patterns som gjelder alle key-value stores, samt patterns for mer avanserte databaser som Redis.",
@@ -2883,6 +3483,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49384336"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/54644aac-4c7b-4234-8d75-7479aeaf2c07",
@@ -2914,6 +3520,12 @@
         "video": "http://player.vimeo.com/video/49482886"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/36d4184c-e874-41f1-b423-16ae9410d7c1",
         "format": "lightning-talk",
         "content": "Har du lenge sittet med en idè til en knallbra mobilapplikasjon, men har ikke kommet i gang fordi du må lære deg Java eller Objective-C eller C# for å utvikle en native app? Eller har du kanskje utviklet en webapp som du syns mangler litt native funksjonalitet? Da er PhoneGap løsningen for deg. Med PhoneGap utvikler man hybride applikasjoner som består av webteknologier som HTML5, JS og CSS3 og man bygger en app som er mulig å deploye til hele 7 ulike plattformer. PhoneGap er laget for å bygge broer.",
@@ -2939,6 +3551,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49445455"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cb64e25a-5cef-4f55-981a-3de995e7827b",
@@ -2977,6 +3595,12 @@
         "video": "http://player.vimeo.com/video/49386441"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/dbc6cedf-04f9-4c24-b772-73fdb04187f1",
         "format": "lightning-talk",
         "content": "How programmer happiness can increase by using languages like ruby and coffeescript, templates like haml and ide's like light table. Why happy programmers are more creative and produce more value.",
@@ -3002,6 +3626,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49384340"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/d118fdf0-d948-496b-9783-259d0f961264",
@@ -3032,6 +3662,12 @@
         "video": "http://player.vimeo.com/video/49483626"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/618db1e8-885f-4cd4-8d69-843943f56249",
         "format": "presentation",
         "content": "Starting in February 2010 a small group of developers, designers and product sculptors began work on http://alpha.gov.uk, demonstrating what a new, simplified and unified website for the UK government might look and feel like. It's been rapidly followed by public betas and the outcome of that work is intended to become the official UK government website before the end of 2012. This talk tells the story of bringing a modern web startup culture into one of the world's oldest institutions.",
@@ -3057,6 +3693,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49307942"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/b5afc896-3b3f-48d0-8638-7c3e51e058c0",
@@ -3085,6 +3727,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49305649"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/3203ed38-763f-41cd-b2b3-d39dfcf1b349",
@@ -3116,6 +3764,12 @@
         "video": "http://player.vimeo.com/video/49483627"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/63742f5f-4cf9-4a6d-94c6-ea1360b76114",
         "format": "presentation",
         "content": "Are you comfortable passing functions around, returning them from other functions, and generally enjoy the pleasures of higher-order functions? Join in on an hour implementing ideas from functional programming in JavaScript. I will show you how you can significantly up your game by leaving loops behind and embracing functions as the primary unit of abstraction.",
@@ -3142,6 +3796,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49384334"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/050f1a34-c6c9-451f-a0c7-169d071961ae",
@@ -3172,6 +3832,12 @@
         "video": "http://player.vimeo.com/video/49483630"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/75cab84c-7490-4bde-9f8c-5dc49fc00633",
         "format": "presentation",
         "content": "Responsive Web Design er en rekke teknikker for å optimere websider til forskjellige typer enheter og browsere. Tilpassingen gjøres ofte av browseren, men mange responsive sider er store og tunge og ikke særlig brukervennlige på mobilen. Det er også en utfordring å tilpasse fastbredde innehold til en slik context. En alternativ løsning er å gjøre en tilpassing av websida på server siden ved å servere ulike versjoner til ulike weblesere. \r\n\r\nI denne presentasjonen vil vi se hvordan vi kan kombinere det beste fra begge disse metodene – også kalt RESS.",
@@ -3200,6 +3866,12 @@
         "video": "http://player.vimeo.com/video/49307944"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/10f88779-3e15-48fd-91ee-94250ed709d5",
         "format": "presentation",
         "content": "Mens sikkerhetsmekanismer i SOAP-baserte tjenester er veldefinerte, finnes det mange forskjellige måter å sikre REST-tjenester på. \r\nVi ser på hva som er viktig når man skal sikre REST-tjenester, og hvilke feil man bør unngå. Vi går gjennom noen av løsningene som benyttes av større aktører og ser hvordan disse beskytter tjenestene.",
@@ -3226,6 +3898,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49483632"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/904e9b46-f5a9-471d-8557-f51671148952",
@@ -3258,6 +3936,12 @@
         "video": "http://player.vimeo.com/video/49484333"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/3fb4677e-b2c2-43b3-8933-84c5565ca114",
         "format": "presentation",
         "content": "In this session, Roy Osherove, Author of 'The Art Of Unit Testing' , explains how unit tests, done wrong, can actually hurt your project more than they help. ROy introduces the three pillars of good unit tests - Readability, Maintinablity and Trutworthiness, and shows many examples from real projects's code with ideas on how to improve them, and problems can occur. From good naming conventions, to having a single mock per test (plus the difference between mocks and stubs), roy shares many important lessons he learned the hard way, while developing software. Lots of videos on this subject and more can be found at artOfUnitTesting.com and roy on titter is @RoyOsherove",
@@ -3286,6 +3970,12 @@
         "video": "http://player.vimeo.com/video/49307941"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789",
         "format": "presentation",
         "content": "Unit tests are programmer's best friend, but relying on them exclusively gives an illusion of overall system integrity. At some level, we need to verify how our components integrate and ensure unexpected behavior does not creep in when we shift the application into the target runtime. It all amounts to whether your application is providing the end user what he or she is really needs (tire swing) instead of what anyone thinks they need. How can we save our users from frustration, keep the fail whale at bay and communicate with stakeholders that the requirements are being met?\r\n\r\nWe'll show you how the Arquillian testing platform can give you these guarantees by driving agile development. We'll explore the concepts of BDD and ATDD together using a powerful trio of testing frameworks: Arquillian, WebDriver and Thucydides. Rather than just test cases, you'll build higher-level, end-to-end functional behavior using reusable web test components and following a clear \"given, when, then\" perspective. The result: cleaner, clearer tests that both validate your requirements and document your system behavior.\r\n\r\nTesting behaviors has never been so easy, and so real! If you care about quality of your software you definitely shouldn't miss this talk!",
@@ -3307,19 +3997,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/3101649f-1a2d-4848-81fd-67299809d795",
-                "name": "Aslak Knutsen",
-                "bio": "Senior Software Engineer for JBoss by Red Hat, Inc. Project lead for the Arquillian project and contributor to ShrinkWrap, ShrinkWrap Descriptors, Weld, Seam 3 and JBoss AS 7.",
-                "avatar": "http://javazone.no/ems/server/binary/e885f94d-5997-448a-b9b6-5587dd5a6fa4?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/a222721b-8657-4538-9e8f-27ea2b634763",
                 "name": "Bartosz Majsak",
                 "bio": "Bartosz Majsak works as a software developer and consultant at Cambridge Technology Partners based in Zurich. He is a JBoss Arquillian team member and lead of two modules - Persistence Extension which makes writing database oriented tests even easier and Spock Test Runner which gives your Arquillian tests some BDD and Groovy love. One thing which might prove that he is not a total geek is his addiction to alpine skiing. He used to play Go game.",
                 "avatar": "http://javazone.no/ems/server/binary/c2c8cde5-bbc0-4eb6-b9cf-afa1e9869d62?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/3101649f-1a2d-4848-81fd-67299809d795",
+                "name": "Aslak Knutsen",
+                "bio": "Senior Software Engineer for JBoss by Red Hat, Inc. Project lead for the Arquillian project and contributor to ShrinkWrap, ShrinkWrap Descriptors, Weld, Seam 3 and JBoss AS 7.",
+                "avatar": "http://javazone.no/ems/server/binary/e885f94d-5997-448a-b9b6-5587dd5a6fa4?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49484334"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1af65cb2-0438-4081-8999-0b476bdb7245",
@@ -3342,19 +4038,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1af65cb2-0438-4081-8999-0b476bdb7245/speakers/4733deaf-84a9-4e69-9024-6d4b2f8b0a6a",
-                "name": "Kristian Klette",
-                "bio": "Software developer, DevOps, and performance testing enthusiasist",
-                "avatar": "http://javazone.no/ems/server/binary/763342c2-49af-486d-8d2a-91b0f6867a94?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1af65cb2-0438-4081-8999-0b476bdb7245/speakers/acef9c7f-b5f7-4b1a-b377-3d2d8303ebd6",
                 "name": "Bjørn Remseth",
                 "bio": "Senior software engineer at Comoyo.   Previously research scientist at Telenor, senior systems architect at Telenor (Norge, Nordic, ...).   Holds a Cand. Scient. degree from the University of Oslo.",
                 "avatar": "http://javazone.no/ems/server/binary/2c8e517e-0266-456b-b84d-57a3ec674cff?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1af65cb2-0438-4081-8999-0b476bdb7245/speakers/4733deaf-84a9-4e69-9024-6d4b2f8b0a6a",
+                "name": "Kristian Klette",
+                "bio": "Software developer, DevOps, and performance testing enthusiasist",
+                "avatar": "http://javazone.no/ems/server/binary/763342c2-49af-486d-8d2a-91b0f6867a94?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49484335"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/94d4d9f4-189b-4d38-b417-d6e18aa2756d",
@@ -3387,6 +4089,12 @@
         "video": "http://player.vimeo.com/video/49298210"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/2acdeb26-0ba8-4553-82ea-45d8d5cc0df0",
         "format": "presentation",
         "content": "Most human judgment includes comparisons of a target object with one or more reference objects. Comparisons are known to sometimes lead to judgment biases. We perceive the moon as larger the closer it gets to the horizon. We feel water at room temperature is warmer if our hand was submerged in cold water just before. We estimate things are smaller than they really are when we compare them with smaller objects and larger than they really are when we compare them with larger objects. Software development effort estimation is also frequently based on comparing the effort of one task relative to that of another. We present empirical results that show how relative estimation may result in biased assessments of similarity and over-optimistic effort estimates. We observe that tasks tend to be assessed as more similar than they are in reality when compared with each other, that the similarity of two tasks depends on the direction of the comparison and that it matters whether the comparison is based on difference in work-hours or as the ratio. We also observe that the use of the Fibonacci-scale for agile estimation sometimes has unwanted side-effects which may lead to under-estimation of tasks. We use these observations and other evidence to suggest ways of improving the accuracy of relative estimation as it is done in, for example, agile projects.",
@@ -3412,6 +4120,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49309469"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/649501da-721a-46d7-908d-285edc15000d",
@@ -3444,6 +4158,12 @@
         "video": "http://player.vimeo.com/video/49368447"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/44cb94fc-89d8-4d3d-b043-e448658b9de8",
         "format": "lightning-talk",
         "content": "Bruk av Java fra Scala er enkelt fordi at Scala har vært byggd utfra den forutsetning at Scala må bruke Java-funksjonalitet. Det samme gjelder andre språk som Groovy og JRuby.\r\n\r\nHva om du trenger funksjonaliteten den andre veien? Om du har et Scala-bibliotek du svært gjerne ønsker å bruke. Hva er da riktig vei å gå fram?",
@@ -3471,6 +4191,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49324969"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/8905a070-6040-4ec8-ad7c-32c20c7be2a5",
@@ -3501,6 +4227,12 @@
         "video": "http://player.vimeo.com/video/49484337"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/862b8b0a-ef2c-4429-bb9f-58acfc2d21ec",
         "format": "presentation",
         "content": "Heroku is a Polyglot Cloud Application Platform that makes it easy to deploy Java, Play! and Scala apps on the cloud.  Deployment is as simple as doing a \"git push\".  This session will teach you how to deploy and scale Java, Play! and Scala apps on Heroku.",
@@ -3527,6 +4259,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49444703"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/1e18a003-ba12-45bf-85f1-3a86e9129301",
@@ -3556,6 +4294,12 @@
         "video": "http://player.vimeo.com/video/49308353"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/225ca8fc-209a-4de7-807b-bf48d5774432",
         "format": "lightning-talk",
         "content": "There's always the question of which build tool to use when starting a new project. At Knowit, we've been using both Maven and SBT for our Scala projects. I will explain our reasons and share the challenges we faced.",
@@ -3583,6 +4327,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49305647"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/49af94de-6c3e-4a55-a7ac-ce720b953b70",
@@ -3615,6 +4365,12 @@
         "video": "http://player.vimeo.com/video/49484339"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4f08a072-3fd5-46db-9e2d-0b97211a9367",
         "format": "lightning-talk",
         "content": "Salesforce.com, the Social CRM in the cloud, only a few clicks away and no software or hardware to install!  \r\nIsn’t  salesforce.com just a point & click solution then? Where is the charm in that for a Java developer? Or the challenge?\r\n\r\nWell, what if your clients request advanced customizations to the standard salesforce.com installation? Who then is equipped for the task if not a skilled java developer as yourself?\r\n\r\nTo solve these customization requirements salesforce.com has introduced their own development platform, force.com. Based on standard Java functionality it introduces  flexibility as in any other Java project.\r\n\r\nForce.com with its flexibility have many advantages and opportunities, but I also see several challenges. Especially regarding quality ensurance of delivery and code, and obtain maintainable solutions.\r\n\r\nThis talk will highlight some of the advantages and challenges implementing a salesforce.com solution, and sketch a solution for continuous integration that ensures quality of your tests, your code and your deployment routines",
@@ -3645,6 +4401,12 @@
         "video": "http://player.vimeo.com/video/49367322"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e0e4c706-9a20-47fe-a37b-9abd3552d2ee",
         "format": "presentation",
         "content": "h1. Problem\r\nEnterprise search can grow big, really big! And growing. Tens, yes hundreds of servers may be involved, locally or in the cloud. Managing this has been complex and time consuming - until now :)\r\n\r\nh1. SolrCloud to the rescue\r\nUsing the world's most popular Open Source search engine, Apache Solr™, we will show you how the new upcoming version 4.0 makes scaling search in the cloud really simple and robust. A new feature called SolrCloud adds centralized configuration, distributed indexing & searching, automatic failover, recovery and leader election. Scaling is now as simple as adding a new server to your cluster and it will find its role where it is most needed and start serving searches.",
@@ -3671,6 +4433,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49368443"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a61d475d-7adb-424e-a4c6-b271604f339d",
@@ -3702,6 +4470,12 @@
         "video": "http://player.vimeo.com/video/49306017"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/54f272a7-f73e-4402-b8b1-5df23cb5d81f",
         "format": "lightning-talk",
         "content": "Når et team består av to personer er ikke lenger hele SCRUM-rammeverket nødvendig, ei heller fornuftig. \r\nLyntalen tar for seg noen av de viktigste delene av SCRUM og hvordan disse kan benyttes, til sist kommer en oppsummering av hvordan SCRUM fungerer for et topersonsteam.",
@@ -3727,6 +4501,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49485268"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a4fa4420-6313-4a9d-911e-5b4515a4ccf8",
@@ -3757,6 +4537,12 @@
         "video": "http://player.vimeo.com/video/49485269"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f0d1ae61-3c51-4a7e-99f8-8eaa2bbe9069",
         "format": "presentation",
         "content": "Java serialization is a powerful core technology used by many applications and as an underpinning for many sophisticated Java technologies such as RMI, EJB, SDO, JPA, and distributed caching. Yet its implications for the design of Java systems are often overlooked. This presentation explains the continuing relevance of Java serialization.\r\nWhether for designing a system specifically concerned with serialization, developing reusable components, or updating code in which serializable objects exist, a good understanding of serialization considerations is invaluable. Learn about common serialization pitfalls and techniques for their solution, and get tips on optimizing the efficiency of serialized data.",
@@ -3784,6 +4570,12 @@
         "video": "http://player.vimeo.com/video/49302113"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/c4471708-eb8e-43f9-8bc1-07a0e5f9e97a",
         "format": "lightning-talk",
         "content": "Brukernavn og passord er uten tvil den dominerende formen for autentisering i dagen informasjonssystemer. Mye kan sies om det, men det betyr i alle fall at vi som utviklere må sørge for at passordene lagres på forsvarlig vis. Det er veldig mange måter data kan lekke på, som SQL injection, feilkonfigurasjon, kompromitterte nettverk eller sårbarheter i tredjepartskomponenter, og det er vår jobb å sørge for at brukerdatabasen er vanskelig å utnytte, selv om den forsvinner ut døra.\r\n\r\nOg den jobben gjør vi stort sett ikke bra nok.\r\n\r\nLagring av passord er likevel en veldig takknemlig og enkel oppgave å sette seg inn i, siden det er veldig få måter å gjøre det riktig på. Vi ser på hva man bør gjøre, og hva som ikke fungerer. Vi kikker også på hvordan passordcracking går for seg, slik at vi ikke bare får med oss hva som er de viktige teknikkene, men også hvorfor de er viktige.",
@@ -3809,6 +4601,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49485270"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/97bbd8b2-6577-41d1-91e8-09848cc3ec1b",
@@ -3839,6 +4637,12 @@
         "video": "http://player.vimeo.com/video/49376404"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/e69cf366-f0f6-47a2-95b1-f7717dfa7ba8",
         "format": "lightning-talk",
         "content": "Er du en av de som sier \"Jeg skulle gjerne drevet med testdrevet utvikling...\"\r\n\r\n* \"men de andre utviklerne på prosjektet driver ikke med TDD, og derfor blir ikke koden testbar\"\r\n* \"men det er legacy kode vi jobber med, så TDD blir umulig\"\r\n\r\nså er denne lyntalen for deg!\r\n\r\nDu vil få se hvordan man fint kan drive med TDD på såkalt utestbar legacy kode, via konkrete Javakode-eksempler som du kan ta med tilbake til kontoret på mandag og innføre i din egen kode. Se teknikker for hvor man starter, og se at du _ikke_ trenger å kjøpe mock-rammeverk for testing av private eller statiske metoder.\r\n\r\nBli sjefen over din egen kode, lær praktiske teknikker for å få inn enhetstestene på plasser der du trodde du måtte gi opp!",
@@ -3865,6 +4669,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49485271"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f3b272f5-76a0-4588-80db-d426ad0e4934",
@@ -3895,6 +4705,12 @@
         "video": "http://player.vimeo.com/video/49298212"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f737a444-c990-4dbd-bf33-e6145b6cf99c",
         "format": "presentation",
         "content": "With Scala Improvement Proposal 14, Scala's Futures will get a big upgrade with the new Future and Promise APIs. In this talk I will talk about the new APIs and how Futures and Promises can be used to compose asynchronous dataflow. We'll see how Futures can be used in for-comprehensions, how to gracefully handle failure, how to avoid blocking operations and get a glimpse into the implementation. This surely is the Future I was Promised, and now it is yours too!",
@@ -3923,6 +4739,12 @@
         "video": "http://player.vimeo.com/video/49368451"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/8ee6ecf8-67c7-4a57-8cec-98732b40cd5b",
         "format": "presentation",
         "content": "Mobile is the next big thing and your company needs to there. But what does there actually entail? Should you build a native app? On which platforms? Do you have the skills for that? What about the web? Can you deliver an awesome experience using nothing but a mobile web browser? This talk will help you navigate these treacherous waters. We'll discuss the pros and cons of the various approaches and give you a framework for choosing.",
@@ -3948,6 +4770,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49458020"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01aa8875-7902-4b44-ae91-1e222d282371",
@@ -3978,6 +4806,12 @@
         "video": "http://player.vimeo.com/video/49485275"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/d4517dcd-7956-45b3-ab76-7305f74fb5f4",
         "format": "presentation",
         "content": "Distributed caching technologies have now been around for more than ten years. Their capabilities have grown and matured over the years, and so have the users and their use cases. This presentation will look at how the use of data grids have evolved from distributed caching to doing highly sophisticated distributed computing today.\r\n\r\nThe audience will learn how new capabilities has changed how data grids are being used from an architectural point of view and also how it helps solve new problems like running applications across multiple datacenters, sharing data across multiple platforms and making applications ready for the cloud.",
@@ -4005,6 +4839,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49368444"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/75e9092c-2539-45c7-a86f-754e9b64a523",
@@ -4037,6 +4877,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49367407"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/6b5b324b-bd25-4066-aa01-6bc4a243394d",
@@ -4072,6 +4918,12 @@
         "video": "http://player.vimeo.com/video/49384342"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/71e655b2-e827-434d-82b1-0bb5cb9d38cc",
         "format": "lightning-talk",
         "content": "Git er mer enn bare et versjonskontrollsystem. Når du bruker Git for å holde på koden din har du et utall av morsomme verktøy du kan benytte for å gjøre hverdagen din mye enklere.\r\n\r\nJeg vil i denne lyntalen snakke om to av disse verktøyene:\r\n\r\nGit bisect - den mest givende måten å finne ut når en bug ble introdusert til koden din. Jeg vil vise hvordan bisect fungerer, og vise eksempler på praktisk bruk.  \r\n\r\nGit rerere - aldri mer en merge du har gjort før. Rerere står for Reuse Recorded Resolution og gjør akkurat det - husker på hvordan du håndterte tilsvarende merge tidligere.",
@@ -4097,6 +4949,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49376402"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/acfbb9c9-4f68-40ef-85a7-018c5ecae889",
@@ -4126,6 +4984,12 @@
         "video": "http://player.vimeo.com/video/49367317"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cce1bdcb-c49d-4337-a3d0-04cb90bcb4aa",
         "format": "presentation",
         "content": "We believe that one should never have to choose between productivity and scalability, which has been the case with traditional approaches to concurrency and distribution. The cause of that has been the wrong tools and the wrong layer of abstraction and Akka is here to change that. Akka is a unified runtime and programming model for scaling both UP (utilizing multi-core processors) and OUT (utilizing the grid/cloud). With Akka 2 this will be taken to a whole new level with its “Distributed by Design”. Akka 2 provides location transparency by abstracting away both these tangents of scalability by turning them into an operations and configuration task. This gives the Akka runtime freedom to do adaptive automatic load-balancing, cluster rebalancing, replication and partitioning. \r\nAkka is available at http://akka.io (under Apache 2 license).",
@@ -4152,6 +5016,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49485654"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/df5ddf69-ebb4-46bd-a6a5-2c51e4c5b533",
@@ -4185,6 +5055,12 @@
         "video": "http://player.vimeo.com/video/49371467"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/91083150-9781-4bfd-ae2a-19fbb0f33053",
         "format": "lightning-talk",
         "content": "Havner JPA i persistenslaget ditt uten at du tenker over alternativene? Er egentlig JPA den beste løsningen på alle persisteringsoppgaver? Dette er spørsmål jeg med tiltagende frekvens har stilt meg selv de siste årene.\r\n\r\nI denne lyntalen vil jeg snu JPA-medaljen og avsløre dens hårete rygg. Hva er det egentlig man får med på kjøpet når man velger JPA, og hvordan påvirker dette resten av applikasjonen? Når bør man velge noe annet, og i så fall hva er alternativene?",
@@ -4211,6 +5087,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49305648"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/6399ccf9-f89b-450e-b7b3-6669239c98fd",
@@ -4250,6 +5132,12 @@
         "video": "http://player.vimeo.com/video/49458025"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/2f7b4609-eb3e-4ecc-87cf-97d8a3d32191",
         "format": "lightning-talk",
         "content": "GIT gir deg massevis av historikk for kildekoden din, men har du noen gang brukt all historikken til noe nyttig?  I denne lyntalen får du se hvordan du raskt kan hente ut statistikk og nyttige data fra GIT-repositoriene dine. Armert med kommandolinja og et regneark kan vi få informative visualiseringer på nulltid.",
@@ -4275,6 +5163,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49485652"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a50b226f-6304-47fe-b552-874de562151c",
@@ -4311,6 +5205,12 @@
         "video": "http://player.vimeo.com/video/49485653"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/08157054-40bf-4c57-9ae3-86586a61952c",
         "format": "lightning-talk",
         "content": "Umiddelbart etter man tar i bruk git ser man fordelene -- ting går raskt, man kan \r\narbeide lokalt og en opplever gjerne færre merge-konflikter enn tidligere.         \r\n                                                                                   \r\nNoen uker senere og en titt på historien viser en hel del commits som              \r\nintetsigende lyder \"Merge branch 'origin/master' into master\". Etter et kjapt   \r\nsøk på Internett, dukker innstillingen autosetuprebase opp som en sølvkule.        \r\nMen det er det jo selvsagt ikke, en konflikt i form av en simultan endring på   \r\nsamme linje må alltid løses. I tillegg finnes glatte steiner på rebase-stien.   \r\n                                                                                   \r\nSå hvordan fungerer egentlig rebase? I denne lyntalen vil jeg prøve å fjerne       \r\nnoe av magien rundt rebase, og vil vise en arbeidsflyt som bidrar til at man       \r\nfår mye mer kontroll over historien. En ren historie gjør det også mye lettere  \r\nå rulle tilbake endringer, håndtere konflikter og lage releasemeldinger.",
@@ -4336,6 +5236,12 @@
             }
         ],
         "video": "http://player.vimeo.com/video/49376403"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/4fae58b8-6523-423b-8974-b3323d92a314",
@@ -4366,6 +5272,12 @@
         "video": "http://player.vimeo.com/video/49308352"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be",
         "format": "presentation",
         "content": "RAM prices have plummeted and servers with tens or even hundreds of Gigabytes of memory have become common these days. What this means to your application's architecture and deployment topology is important. On heap caching of data within enterprise application is a common example. Yet how do you make the best use of all that memory ? \r\nSince version 2.5, Ehcache comes with the ability to size your caches in bytes rather that in entry counts. Nothing really fancy, if it wasn't for Java's lack of sizeOf function. \r\n\r\nThis presentation will take you, with code, through the journey of implementing the sizeOf library for the Java platform; across multiple versions, vendors and all their permutations (including 32 vs. 64 bit platforms, CMS, Compressed OOPS, ...). The library also led us to offer new & much more dynamic ways of making use of that memory for on-heap caches within your application...",
@@ -4385,19 +5297,25 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/6f082a53-7ab3-4cad-8961-6e413c0bf693",
-                "name": "Ludovic Orban",
-                "bio": "After working for years on transactional systems, Ludovic wrote the Bitronix JTA Transaction Manager. He then joined Terracotta as a software engineer to work on Ehcache and the Quartz enterprise scheduler.",
-                "avatar": "http://javazone.no/ems/server/binary/78708eb5-3b9c-4235-b35d-5f12c77e4cf5?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/86bd1c40-a10d-4df3-88a6-a3490e3678a3",
                 "name": "Alex Snaps",
                 "bio": "Alex Snaps is a senior software engineer at Terracota Inc, with significant experience in web application development and highly concurrent systems. Before working on the Terracotta platform and product line, he participated in medium to large projects as coach, development lead and architect. He speaks regularly about Java development at events such as JavaOne, JavaPolis, Devoxx, JavaZone, Jazoon or XP Days as well as JUGs around the globe. He is currently working on Ehcache, the Quartz enterprise scheduler and the Terracotta Toolkit; he led the development of the Ehcache 2.5 Automatic Resource Management (ARC) effort.",
                 "avatar": "http://javazone.no/ems/server/binary/5d4a000c-5e87-4fb8-90c1-30a7d9710358?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/6f082a53-7ab3-4cad-8961-6e413c0bf693",
+                "name": "Ludovic Orban",
+                "bio": "After working for years on transactional systems, Ludovic wrote the Bitronix JTA Transaction Manager. He then joined Terracotta as a software engineer to work on Ehcache and the Quartz enterprise scheduler.",
+                "avatar": "http://javazone.no/ems/server/binary/78708eb5-3b9c-4235-b35d-5f12c77e4cf5?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49302115"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/fd0f2df8-f7db-4979-bdd8-ebc77b3868c7",

@@ -1,8 +1,20 @@
 [
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "Smidig 2015",
     "venue": "Radisson BLU Plaza Hotel",
     "group": "Smidig"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
   },
   {
     "name": "Smidig 2014",
@@ -10,9 +22,21 @@
     "group": "Smidig"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "Smidig 2013",
     "venue": "Radisson BLU Plaza Hotel",
     "group": "Smidig"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
   },
   {
     "name": "Smidig 2012",
@@ -20,9 +44,21 @@
     "group": "Smidig"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "Smidig 2011",
     "venue": "Radisson BLU Plaza Hotel",
     "group": "Smidig"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
   },
   {
     "name": "Smidig 2010",
@@ -30,14 +66,32 @@
     "group": "Smidig"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "Smidig 2009",
     "venue": "Oslo Kongressenter",
     "group": "Smidig"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "Smidig 2008",
     "venue": "Oslo Kongressenter",
     "group": "Smidig"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
   },
   {
     "name": "Smidig 2007",

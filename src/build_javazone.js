@@ -104,6 +104,8 @@ function handleSession(data, conference) {
 
     var speakerList = [];
 
+    var bulkSessions = [];
+
     async.series([
             function (callback) {
                 items.forEach(function (item) {
@@ -159,9 +161,22 @@ function handleSession(data, conference) {
 
             },
             function (callback) {
+                sessions.forEach(function (session) {
+                    bulkSessions.push({
+                        "index": {
+                            "_index": "conference",
+                            "_type": "session"
+                        }
+                    });
+                    bulkSessions.push(session);
+                });
+
+                callback(null, "Done");
+            },
+            function (callback) {
                 var year = conference.name.replace(/.* /, "");
 
-                writeJsonToFile("static_data/javazone-sessions-" + year + ".json", sessions, callback);
+                writeJsonToFile("static_data/javazone-sessions-" + year + ".json", bulkSessions, callback);
             }
         ],
         function (err, data) {
@@ -192,6 +207,13 @@ function handleEvents(data) {
 
     var events = [];
 
+    var control = {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    };
+
     items.forEach(function (item) {
         var conference = {
             "name": getData(item, "name"),
@@ -199,6 +221,7 @@ function handleEvents(data) {
             "group": "JavaZone"
         };
 
+        events.push(control);
         events.push(conference);
 
         getJson(getLink(item, "session collection"), function (sessionData) {

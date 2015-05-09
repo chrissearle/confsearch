@@ -121,22 +121,39 @@ function createMapping(type, path, callback) {
     });
 }
 
-function loadFile(path, type, callback) {
+function indexItem(iter, item, callback) {
+    iter = iter + 1;
+
+    elasticClient.index(item, function (err, response) {
+        if (err) {
+            if (iter < 3) {
+                indexItem(iter, item, callback);
+            } else {
+                callback(err, response);
+            }
+        } else {
+            callback(err, response);
+        }
+    });
+
+}
+
+function loadFile(path, callback) {
     "use strict";
 
     output.info("4.1: Index file: " + path);
 
     readJsonFromFile(path, function (data) {
-        data.forEach(function (item) {
-            elasticClient.index({
-                index: "conference",
-                type: type,
-                body: item
-            }, function (err, response) {
-                elasticResponse(err, response);
-            });
+        elasticClient.bulk({
+            body: data
+        }, function (err, response) {
+            if (err) {
+                logger.error("Unable to index item " + JSON.stringify(data) + " with error " + err);
+            }
+            logger.info("Indexed " + response);
+
+            callback(err, response);
         });
-        callback(null, "Done");
     });
 }
 
@@ -145,60 +162,60 @@ function loadIndexFiles(outerCallback) {
 
     output.info("4: Index files");
 
-    async.parallel([
+    async.series([
             function (callback) {
-                loadFile("static_data/javazone-conferences.json", "session", callback)
+                loadFile("static_data/javazone-conferences.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2008.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2008.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2009.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2009.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2010.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2010.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2011.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2011.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2012.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2012.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2013.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2013.json", callback)
             },
             function (callback) {
-                loadFile("static_data/javazone-sessions-2014.json", "session", callback)
+                loadFile("static_data/javazone-sessions-2014.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-conferences.json", "conference", callback)
+                loadFile("static_data/smidig-conferences.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-sessions-2010.json", "session", callback)
+                loadFile("static_data/smidig-sessions-2010.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-sessions-2011.json", "session", callback)
+                loadFile("static_data/smidig-sessions-2011.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-sessions-2012.json", "session", callback)
+                loadFile("static_data/smidig-sessions-2012.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-sessions-2013.json", "session", callback)
+                loadFile("static_data/smidig-sessions-2013.json", callback)
             },
             function (callback) {
-                loadFile("static_data/smidig-sessions-2014.json", "session", callback)
+                loadFile("static_data/smidig-sessions-2014.json", callback)
             },
             function (callback) {
-                loadFile("static_data/flatmap-conferences.json", "conference", callback)
+                loadFile("static_data/flatmap-conferences.json", callback)
             },
             function (callback) {
-                loadFile("static_data/flatmap-sessions-2013.json", "session", callback)
+                loadFile("static_data/flatmap-sessions-2013.json", callback)
             },
             function (callback) {
-                loadFile("static_data/flatmap-sessions-2014.json", "session", callback)
+                loadFile("static_data/flatmap-sessions-2014.json", callback)
             },
             function (callback) {
-                loadFile("static_data/flatmap-sessions-2015.json", "session", callback)
+                loadFile("static_data/flatmap-sessions-2015.json", callback)
             }
         ],
         outerCallback

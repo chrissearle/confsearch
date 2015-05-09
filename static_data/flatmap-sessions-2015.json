@@ -1,5 +1,11 @@
 [
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Type-Driven Development in Idris",
     "language": "en",
@@ -19,6 +25,12 @@
     "link": "http://2015.flatmap.no/brady.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Functional UI programming is a thing now",
     "language": "en",
@@ -36,6 +48,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/lilleaas.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -58,6 +76,12 @@
     "link": "http://2015.flatmap.no/mcadams.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Scala.meta",
     "language": "en",
@@ -75,6 +99,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/burmako.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -96,6 +126,12 @@
     "link": "http://2015.flatmap.no/sabin.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "OptimusPrimeT",
     "language": "en",
@@ -113,6 +149,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/hupel.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -135,6 +177,12 @@
     "link": "http://2015.flatmap.no/nilsen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Purescript",
     "language": "en",
@@ -151,6 +199,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/stokke.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -170,6 +224,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/pajer.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -196,6 +256,12 @@
     "link": "http://2015.flatmap.no/hostwinje.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Functional Composition",
     "language": "en",
@@ -213,6 +279,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/ford.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -234,6 +306,12 @@
     "link": "http://2015.flatmap.no/albertsson.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Ship your scala code often and easy with Docker",
     "language": "en",
@@ -251,6 +329,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/lonnberg.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -272,6 +356,12 @@
     "link": "http://2015.flatmap.no/waaler.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Introduction to Haskell",
     "language": "en",
@@ -289,6 +379,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/hamberg.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -310,6 +406,12 @@
     "link": "http://2015.flatmap.no/ford.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Clojures core.async explained",
     "language": "en",
@@ -327,6 +429,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/assum.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -358,6 +466,12 @@
     "link": "http://2015.flatmap.no/bjartnes.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Functional patterns for scala beginners",
     "language": "en",
@@ -377,6 +491,12 @@
     "link": "http://2015.flatmap.no/delafargue.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Slick",
     "language": "en",
@@ -394,6 +514,12 @@
       }
     ],
     "link": "http://2015.flatmap.no/teigen.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",

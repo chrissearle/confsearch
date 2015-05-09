@@ -1,8 +1,20 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    },
+    {
         "name": "JavaZone 2006",
         "venue": "Oslo Spektrum",
         "group": "JavaZone"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
     },
     {
         "name": "JavaZone 2007",
@@ -10,9 +22,21 @@
         "group": "JavaZone"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    },
+    {
         "name": "JavaZone 2008",
         "venue": "Oslo Spektrum",
         "group": "JavaZone"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
     },
     {
         "name": "JavaZone 2009",
@@ -20,9 +44,21 @@
         "group": "JavaZone"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    },
+    {
         "name": "JavaZone 2010",
         "venue": "Oslo Spektrum",
         "group": "JavaZone"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
     },
     {
         "name": "JavaZone 2011",
@@ -30,9 +66,21 @@
         "group": "JavaZone"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    },
+    {
         "name": "JavaZone 2012",
         "venue": "Oslo Spektrum",
         "group": "JavaZone"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
     },
     {
         "name": "JavaZone 2013",
@@ -40,9 +88,21 @@
         "group": "JavaZone"
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
+    },
+    {
         "name": "JavaZone 2014",
         "venue": "Oslo Spektrum",
         "group": "JavaZone"
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "conference"
+        }
     },
     {
         "name": "JavaZone 2015",

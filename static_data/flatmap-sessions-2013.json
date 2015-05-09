@@ -1,5 +1,11 @@
 [
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Living in a Post-Functional World",
     "language": "en",
@@ -18,6 +24,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/spiewak.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -44,6 +56,12 @@
     "link": "http://2013.flatmap.no/danwill.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Java 8 to the rescue!?",
     "language": "en",
@@ -64,6 +82,12 @@
     "link": "http://2013.flatmap.no/vraalsen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "From Dynamic to Static in a functional way",
     "language": "en",
@@ -81,6 +105,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/lawley.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -103,6 +133,12 @@
     "link": "http://2013.flatmap.no/hamblen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Latency and fault tolerance using Hystrix",
     "language": "en",
@@ -118,6 +154,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/migdal.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -138,6 +180,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/zaugg.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -164,6 +212,12 @@
     "link": "http://2013.flatmap.no/andersen-gott.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Unfiltered Directives",
     "language": "en",
@@ -183,6 +237,12 @@
     "link": "http://2013.flatmap.no/teigen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Event Sourcing for Functional Programmers",
     "language": "en",
@@ -200,6 +260,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/westheide.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -222,6 +288,12 @@
     "link": "http://2013.flatmap.no/sabin.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Building a Scala REST API—adaptation and experiences",
     "language": "en",
@@ -240,6 +312,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/blakstad.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -262,6 +340,12 @@
     "link": "http://2013.flatmap.no/bodil.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Parsing A La Carte",
     "language": "en",
@@ -279,6 +363,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/spiewak.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -301,6 +391,12 @@
     "link": "http://2013.flatmap.no/lilleaas.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Welcome to (Macro) Paradise",
     "language": "en",
@@ -318,6 +414,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/zaugg.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -341,6 +443,12 @@
     "link": "http://2013.flatmap.no/follesoe.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "From Grid to Akka!",
     "language": "en",
@@ -359,6 +467,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/waaler.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -381,6 +495,12 @@
     "link": "http://2013.flatmap.no/bakstad.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Shapeless",
     "language": "en",
@@ -398,6 +518,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/sabin.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -418,6 +544,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/klang.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -444,6 +576,12 @@
     "link": "http://2013.flatmap.no/hamblen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Practical Lambda Calculus",
     "language": "en",
@@ -467,6 +605,12 @@
       }
     ],
     "link": "http://2013.flatmap.no/einarjonas.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",

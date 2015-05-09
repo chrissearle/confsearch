@@ -1,5 +1,11 @@
 [
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "TBD",
     "conference": {
@@ -15,6 +21,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/odersky.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -34,6 +46,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/tangren.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -60,6 +78,12 @@
     "link": "http://2014.flatmap.no/speakers/winjehost.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Functional UI programming",
     "content": "Various JavaScript toolkits have been offered the past few years to enable the use of functional patterns on the frontend. While these tools promote composable APIs and pure functions to a certain degree, UI programming is still encumbered with stateful MV*-like frameworks, or just plain dirty DOM manipulation.\n\nFacebook's React is an interesting approach to UI programming in the browser that does away with manual DOM manipulation all together, and more closely resembles classic UI programming. Combine this approach with the immutable data structures of Clojurescript, and we're really getting somewhere.\n\nIn this talk I will explore the path to fully functional UI programming in the browser through React, Clojurescript, Om (React for Clojurescript) and other tools.",
@@ -77,6 +101,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/johansen.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -102,6 +132,12 @@
     "link": "http://2014.flatmap.no/speakers/burmako.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "DOT calculus",
     "content": "The DOT (Dependent Object Types) calculus attempts to ground Scala's type system in fewer, but powerful, constructs. In this talk I will describe what these constructs are, and how they relate to Scala's current type system. I will also show how DOT simplifies type inference. Finally, I will touch upon the challenges in the meta-theory.",
@@ -121,6 +157,12 @@
     "link": "http://2014.flatmap.no/speakers/amin.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "The imminent revolution of functional append-only databases",
     "content": "Traditional databases supports operations like \"update\" and \"delete\". How did you decide that it's OK for your business to discard old data? Are you sure this data is not relevant now, or that it will never be relevant in the future?\n\nWe'll take a look at the functional databases Event Store and Datomic. We'll mostly explore interesting business cases that functional databases solve elegantly, instead of a small (and frankly useless) getting started scenario. We'll also look at the problems that arise when we attempt to solve these problems with more traditional databases.",
@@ -138,6 +180,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/lilleaas.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -163,6 +211,12 @@
     "link": "http://2014.flatmap.no/speakers/andersen-gott-lysebraate.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Regexes, Kleene algebras, and real ultimate power!",
     "content": "If hearing 'regular expression' makes you think of Perl or that Jamie Zawinsky quote, think again! Kleene algebras are a generalization of regular expressions that can be used to compute transitive closure, shortest path, solve linear equations, and more! This talk will explore Kleene algebras, model them in Spire, and go through several concrete examples, with particular attention to regular expressions and languages. We'll see how algebraic properties plus laziness allow an amazingly expressive and powerful implementation.",
@@ -180,6 +234,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/osheim.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -201,6 +261,12 @@
     "link": ""
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Intro to Clojure",
     "content": "In this two hour workshop you will learn the basics of Clojure. You will get the theoretical intro to the language, mixed with hands on tasks, solving failing unit tests. The tasks will be solved with the amazing new IDE Light Table.\n\nIf you plan to join this session, please set up your computer beforehand. It should only take about 5 minutes. Instructions at [http://bit.ly/flatmap-clojure-ws](http://bit.ly/flatmap-clojure-ws)",
@@ -217,6 +283,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/stoyle.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -238,6 +310,12 @@
     "link": "http://2014.flatmap.no/speakers/mcadams.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Selling new tech to skeptics: Getting past 99 no's",
     "content": "You are passionate about programming, and you want your organization to understand that it is time to move on. You see the need clearly, but you face fierce resistance from those who prefer the status quo. You will get 99 no's before you finally get the 1 yes you need. How do you persist?\n\nYou need to understand the adoption of new technology in a wider perspective. What do you say, and what do they actually hear? This talk will give you practical advice and proven strategies from real life success stories.",
@@ -257,6 +335,12 @@
     "link": "http://2014.flatmap.no/speakers/jorgensen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "workshop",
     "title": "Scalaz",
     "content": "In this workshop, we'll get you started with scalaz. The first topic will be the general organization of the library; that is, an overview over what's in there and how you find what you're looking for. Next, we'll be working through a couple of problems and are trying to solve them with increasing levels of abstraction, starting with monoids, and – given enough time – ending with monad transformers (no worries: like monads, they're nice and fluffy). This will cover various topics like dealing with infinite structures, error handling and encoding invariants into types. We'll also investigate how your favourite library could benefit from scalaz integration.\n\nNo matter whether you've already been working with scalaz 6 and want to do a migration to version 7, or are completely new to scalaz, this workshop is for you. Knowing some Haskell is advantageous, but by no means necessary. A bit of Scala experience is recommended.",
@@ -273,6 +357,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/hupel.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "presentation",
@@ -294,6 +384,12 @@
     "link": "http://2014.flatmap.no/speakers/pretty.html#rapturejson"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "Rapture JSON",
     "content": "Rapture JSON is comprehensive set of tools for working with JSON in Scala which combines some of the best new features of Scala 2.10 to bridge the gap between the dynamic world of JSON and statically-typed Scala, without sacrificing the expressiveness of concise and idiomatic Scala. See how you can parse, extract and pattern match immutable JSON, or use mutable JSON to get a lightweight object database. This will be a fun, entry-level talk, with lots of examples and some live coding!",
@@ -311,6 +407,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/pretty.html#rapturejson"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -336,6 +438,12 @@
     "link": "http://2014.flatmap.no/speakers/tangrenteigen.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "How we ported our application from Java to Scala",
     "content": "In this talk I will tell the story about how we ported our main application to Scala.\n\nInitial focus will be on motivation for the team and for myself. Then we have a look at how my team tested the waters first, and how that testing developed into a multiphased porting strategy:\n\n* refactor Java codebase to favor immutability and static functions\n* mechanically rewrite Java code to Scala\n* port Java collections usage to Scala collections, introducing Option when possible\n* restore sanity by replacing Hibernate with Scalaquery/Slick\n* rewire with cake pattern instead of Spring\n* regain control over HTTP by replacing Spring MVC with Unfiltered\n\nBy sharing some experience for each of these phases, I hope this talk can be useful for anyone considering doing the same.",
@@ -353,6 +461,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/berg.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",
@@ -373,6 +487,12 @@
     "link": "http://2014.flatmap.no/speakers/sabin.html"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
+  },
+  {
     "format": "presentation",
     "title": "The Mess We've Made",
     "content": "In this talk, we'll explore why some technologies end up inexplicably dominating our field while others fade away despite their obvious merits. What will it take for the languages we care about to succeed, and what are the consequences of success? Let's apply a broad perspective to the mess we've made of modern computer science, and explore our options for getting the situation back on track through a careful examination of history, science and ponies.",
@@ -390,6 +510,12 @@
       }
     ],
     "link": "http://2014.flatmap.no/speakers/bodil.html"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "session"
+    }
   },
   {
     "format": "workshop",

@@ -1,13 +1,31 @@
 [
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "flatMap 2013",
     "venue": "DogA",
     "group": "flatMap"
   },
   {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
+  },
+  {
     "name": "flatMap 2014",
     "venue": "DogA",
     "group": "flatMap"
+  },
+  {
+    "index": {
+      "_index": "conference",
+      "_type": "conference"
+    }
   },
   {
     "name": "flatMap 2015",

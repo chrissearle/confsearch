@@ -67,6 +67,13 @@ client.connect(function (err) {
             }
 
             data.push({
+                "index": {
+                    "_index": "conference",
+                    "_type": "session"
+                }
+            });
+
+            data.push({
                 "id": row.id,
                 "format": row.type,
                 "title": row.title,

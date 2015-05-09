@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9335ca08-6aa4-48b3-8cef-20f4a6f33da2",
         "format": "presentation",
         "content": "Cucumber’s plain text language for describing an application’s behaviour has become a popular tool for many Ruby and Rails teams. With the recent Java support this great tool can be used on Java projects without a single line of Ruby.\r\n\r\nIn this session you will see how Cucumber and BDD can be used on a real Java project. You will learn how to use Cucumber's simple and extensible domain-specific language that lets you marry functional requirements and automated functional tests into one.\r\n\r\nI will also show how to install and run Cucumber and give you some useful tips about how to get the most out of the tool and the process it is based on.\r\n\r\nThe presentation will be in the form of a small, fast paced project, alternating between customer-team conversations and real-time programming with Cucumber and Java. This session will change how you approach requirements and testing of Java applications.ed project, alternating between customer-team conversations and real-time programming with Cucumber and Java.",
@@ -29,6 +35,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/d22c37df-d365-4844-bf90-0129b1aeb4b7",
         "format": "presentation",
         "content": "Almost everyone has heard mention of the term Business Process Management (BPM), but so few know what it's all about - and even less make use of BPM systems in their projects. As a paradox, a vast amount of Java-based projects actually implement BPM-functionality into their systems without even considering using ready-made BPM products, or simply because the architects are ignorant of the purpose of such systems. A part of the problem is that BPM vendors tend to over-simplify their white-paper examples, which lead to potential users finding it difficult to relate the provided examples to their specific problems.\r\nIn this presentation a Web-shop application will be designed using a BPM-system (jBPM in this case) as a fundamental part of the overall architecture. Unreliable human-tasks will be demonstrated using ”Second Life”, which is a Massive Online Virtual World. Changing business rules, scheduling and user assignments will all be provided by the BPM-system and not implemented as part of the application (which, sadly, is the common way to do it).\r\nThis presentation will provide the audience with a clean example of using BPM in their application that is more relevant than examples provided by vendors. In addition, the ”Second Life”-driven human-tasks will demonstrate how a BPM-based system will work in a (near) real-life situation.",
@@ -54,6 +66,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/f1c1fbe3-94b9-430c-b7bb-4af0ddf50a94?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/dcda4ea3-7e50-4f83-a215-ae3942e97b90",
@@ -84,6 +102,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/7a034cfe-f07b-4703-900e-4c65d2f3c7a1",
         "format": "presentation",
         "content": "Many enterprises have made heavy investments in the JavaEE platform. While powerful for complex problems, the productivity of the JavaEE platform has recently been challenged by dynamic web application platforms like Ruby on Rails, Django and Lift. But how can you benefit from the extreme productivity of these dynamic platforms, while still protecting your current investment in the JavaEE platform? Enter Groovy and Grails!\r\n\r\nGroovy is a dynamic language for the Java Virtual Machine, which integrates seamlessly with any existing Java technology. The Grails Web Application Framework is an advanced and innovative Web-application framework based on Groovy, which delivers excellent productivity regardless of whether you build your application from scratch, provides a Web GUI on top of your JPA entity model, or a Rest based Web Service adapter to your existing Spring or EJB3 based service layer.\r\n\r\nIn this talk, Björn Beskow shows how Groovy and Grails can be efficiently added to your existing JavaEE environment and dramatically boost your developer's productivity.",
@@ -112,6 +136,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bdc736df-2c31-42e1-bfa6-83d80d256e8b",
         "format": "presentation",
         "content": "Traditional Software Inspection is often uneconomic and ties up valuable staff resources. Shifting the emphasis from cleanup (that is, from identifying defects and then removing them), to merely sampling the defect level of specifications, produces significant benefits. It enables the quality level of specifications to be determined more rapidly. Consequently, the QC can be carried out more frequently. Systems and software engineers rapidly learn, through SQC feedback, to take standards seriously, which in turn reduces defect injection. Further, by analyzing where/how the defects occur continuous process improvement can be supported.",
@@ -131,18 +161,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bdc736df-2c31-42e1-bfa6-83d80d256e8b/speakers/b8eac617-e9a8-4d7a-891e-bb14a6080b73",
-                "name": "Kai Thomas Gilb",
-                "bio": "Kai works in partnership with Tom, teaching, running workshops, consulting, starting up projects, saving projects, solving problems, lecturing, writing books and articles, course & lecture materials etc.\r\n\r\n \r\n Kai has been teaching and helping clients practice Inspections and Agile Inspections since about 1990, at major organizations like Ericsson, Nokia HP, and Citigroup (2003) - where he co-invented, with Tom,  the current formal process \"Agile Inspections\", with Tom. Our initial client proved on many projects, a reduction of bugs 8 to 1 in 6 months. He most recently co-taught in Japan at JUSE, Sony and Hitachi, and for a few other corporations such as IBM.",
-                "avatar": "http://javazone.no/ems/server/binary/6647a90c-ed6c-46f1-afd1-bae21d64314a?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bdc736df-2c31-42e1-bfa6-83d80d256e8b/speakers/90853bbe-4522-4ce5-aec2-f81ca8ebb1ce",
                 "name": "Tom Gilb",
                 "bio": "\"Tom Gilb is a freelance consultant, teacher and author serving clients mainly in Europe and the US.\r\nHe has 3 books in print: “Competitive Engineering” (2005, one chapter on SQC),  “Principles of Software Engineering Management” (chapters on Inspection, 1988 !, 20th printing) and  “Software Inspection” (1993, Japanese translation).\r\n \r\nTom Gilb specializes in software engineering, systems engineering, and technical management. He resides in Oslo and London. His most recent papers, book manuscripts, and slides are available on www.gilb.com\r\n\r\n Tom was an early professional colleague, supporter,  and inspection-pupil (1974-5) of Michael Fagan (Tom wrote over 80 pages about Inspection in his 1976 Software metrics book), \r\nand a consultant to Ron Radice (1980, inventor of CMM and co-inventor with Fagan of Inspection, author of \"High Quality Low Cost Software Inspections\"),\r\n and Tom was  the first to preach and teach inspections outside of IBM, in Norway and many other countries.\r\n\r\nHe developed his own version of Software Inspection (about 400 process changes compared to Fagan's version) and documented this (with co-author Dorothy Graham) in the worlds first published book on Inspection (Software Inspection 1993, now in 14th printing). The book also includes 2 chapters on the Defect Prevention Process (aka CMMI Level 5) and many guest chapter case studies.\r\n\r\nBy 2003 he had developed and practiced an Agile version Inspection, renaming it Agile Specification Quality Control (SQC). \r\n\r\nIn September 2008 he and Kai were invited by JUSE (Japanese Union of Scientists and Engineers)  to Keynote their annual software conference on Inspections, and to present a one day tutorial on the subject. They also were invited to work with Hitachi Software, and Sony Corporation. Sony is currently spreading the Agile SQC within Sony and to many other Japanese Corporations.\r\n\r\nIn 1989-90 Tom successfully spread the method to aircraft engineering design at Douglas and Boeing, with large scale adoption and detailed study and proof of effectiveness.\r\n\r\nFrom 1988 Tom and Kai spread his Inspection method to Hewlett Packard HP Corporate and worldwide, with well-documented savings in books and papers by HP (Robert Grady).",
                 "avatar": "http://javazone.no/ems/server/binary/2c4b8fe0-973c-41dc-a2be-aaffc365b083?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bdc736df-2c31-42e1-bfa6-83d80d256e8b/speakers/b8eac617-e9a8-4d7a-891e-bb14a6080b73",
+                "name": "Kai Thomas Gilb",
+                "bio": "Kai works in partnership with Tom, teaching, running workshops, consulting, starting up projects, saving projects, solving problems, lecturing, writing books and articles, course & lecture materials etc.\r\n\r\n \r\n Kai has been teaching and helping clients practice Inspections and Agile Inspections since about 1990, at major organizations like Ericsson, Nokia HP, and Citigroup (2003) - where he co-invented, with Tom,  the current formal process \"Agile Inspections\", with Tom. Our initial client proved on many projects, a reduction of bugs 8 to 1 in 6 months. He most recently co-taught in Japan at JUSE, Sony and Hitachi, and for a few other corporations such as IBM.",
+                "avatar": "http://javazone.no/ems/server/binary/6647a90c-ed6c-46f1-afd1-bae21d64314a?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/ea43e5c7-deb4-4288-b14d-d6ec9407d36f",
@@ -172,6 +208,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/514a4681-4948-45eb-b929-0d9609b1742a",
         "format": "presentation",
         "content": "Tags: Web as a Platform, Java Frameworks\r\n\r\nJSR-170/283 er standarden for «Java Content Repositories» (JCR). Et JCR er et hierarkisk datalager. I motsetning til relasjonsdatabaser tillater JCR svært fleksible datastrukturer, slik at applikasjonen din lett kan endres etterhvert som du ser behovene. JCR kan også lagre filer og strukturerte data side om side, og er dermed et slags filsystem på steroider. I tillegg får man verdifulle funksjoner som observasjon (eventlisteners), tilgangskontroll, kryssreferanser, fulltekst-søk, versjonering, XPath- og SQL-spørringer, rike attributter og mye annet.\r\nPresentasjonen vil vi gi en innføring i JCR-implementasjonen Apache Jackrabbit.\r\n\r\nDet finnes mange kommersielle content management-systemer som bruker et JCR som datalager, men så langt har det vært få muligheter for rask JCR-applikasjonsutvikling med fritt tilgjengelige rammeverk. Formålet med Sling er å gjøre det enklere å utvikle webapplikasjoner som drar nytte av JCR.\r\n\r\nSling-applikasjoner bruker script og servlet'er, som velges ut fra en enkel navnekonvensjon, til å behandle HTTP-requester etter REST-prinsippene.\r\nAv scriptspråk støttes bl.a. Ruby, EcmaScript, Groovy, Velocity, eller Cocoon pipelines. Man kan også plugge inn sin egen skriptmotor.\r\n\r\nSamtidig støttes enterprise-behov via OSGi, noe som gjør plattformen svært utvidbar. Med OSGi-komponenter («bundles») kan man utvikle pakker for egen funksjonalitet. Bundler kan også inneholde servlets, servlet-filtre, og JCR-innhold. Presentasjonen viser hvordan man bruker OSGi-komponenter med Sling.\r\n\r\nSling og JCR er et bra valg om man utvikler et system hvor *innhold* er i fokus. Siden REST-prinsippet er sentralt i Sling, får man automatisk pene URLer til innholdet, og det er lett å lage CRUD-applikasjoner (create/read/update/delete) bare ved hjelp av vanlige HTML-skjemaer.\r\n\r\nSom en del av presentasjonen skal vi utvikle en blogg-applikasjon med bare noen få linjer kode, og dra nytte av Slings innebygde JSON-støtte.",
@@ -197,6 +239,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/ec3bacd9-c4d8-46e0-ac57-c477d0045786?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b60bec3f-6aa0-4498-94a5-846e9cbbf6cf",
@@ -228,6 +276,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5",
         "format": "presentation",
         "content": "Etter mange år i bransjen har foredragsholderne samlet på grove arkitekturtabber fra sine prosjekter.\r\n\r\nHar du skrevet ditt eget ORM-rammeverk? Eller brukt integrasjonsplattformen din som dokumentdatabase? Har du kjørt alle metodekall over webservices? Det har vi!\r\n\r\nDette erfaringsforedraget tar for seg et knippe arkitekturtabber og beskriver hvordan og hvorfor vi havnet i gjørma... og hvordan det føltes.",
@@ -248,18 +302,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/67ebc9ad-841f-4923-907e-9e4a1df6c34b",
-                "name": "Knut Erik Borgen",
-                "bio": "Knut Erik Borgen er utdannet Cand Scient i år 2000 har bred erfaring fra serverside, web 2.0 og Swing utvikling. Jobber i dag for Know IT Objectnet som arkitekt, teknisk ansvarlig, funksjonelt ansvarlig og utvikler. På hobbyfronten utvikler han open source software i PHP og Java og trives svært godt når det står utviklingsoppgaver i kø. Stor tilhenger av smidig og testdrevet utvikling.",
-                "avatar": "http://javazone.no/ems/server/binary/00212873-b3b6-49b9-bb5f-e50cdf4836e1?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/a4ba3845-f161-4602-ba86-6ffb073edef1",
                 "name": "Jan Henrik Gundelsby",
                 "bio": "Jan Henrik Gundelsby er utdannet Cand Scient og har over 10 års erfaring med serverside Java-teknologi, både J2EE og lettvektsrammeverk. Han jobber i dag for Know IT Objectnet som teknisk prosjektleder, arkitekt og utvikler for et større offentlig IT-prosjekt. Jan Henrik er en ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger som gir økt produktivitet for utvikleren.",
                 "avatar": "http://javazone.no/ems/server/binary/c8878268-6bb9-4a62-997e-b1b893e182ca?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/67ebc9ad-841f-4923-907e-9e4a1df6c34b",
+                "name": "Knut Erik Borgen",
+                "bio": "Knut Erik Borgen er utdannet Cand Scient i år 2000 har bred erfaring fra serverside, web 2.0 og Swing utvikling. Jobber i dag for Know IT Objectnet som arkitekt, teknisk ansvarlig, funksjonelt ansvarlig og utvikler. På hobbyfronten utvikler han open source software i PHP og Java og trives svært godt når det står utviklingsoppgaver i kø. Stor tilhenger av smidig og testdrevet utvikling.",
+                "avatar": "http://javazone.no/ems/server/binary/00212873-b3b6-49b9-bb5f-e50cdf4836e1?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152",
@@ -282,18 +342,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/9b456bea-0f71-4c5f-a54f-8b056907b189",
-                "name": "John Fallows",
-                "bio": "John Fallows is a pioneer in the field of rich and highly interactive user interfaces and co-founder and CTO of Kaazing Corporation. He recently worked as Architect at Brane Corporation, a startup company based in Redwood City, California. Originally from Norther Ireland, John graduated from Cambridge University in the United Kingdom and has worked in the software industry for more than ten years. Prior to joining Brane, John was a Consulting Member of Technical Staff for Server Technologies at Oracle Corporation. During his last 5 years at Oracle, John focused on designing, developing, and evolving Oracle ADF Faces to fully integrate Ajax technologies. \r\n\r\nJohn is an active participant in the standards bodies working on defining the WebSockets standards. He is also a popular speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, AjaxWorld Magazine, and JavaMagazine (DE). John is co-author of the recently published book Pro JSF and Ajax: Building Rich Internet Components, (Apress).",
-                "avatar": "http://javazone.no/ems/server/binary/5b3420be-aa7b-42b3-a481-0c55692c201a?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/0a18d54c-52f5-4724-a5e5-48785de7fa32",
                 "name": "Jonas Jacobi",
                 "bio": "As co-founder and Chief Executive Officer of Kaazing Corporation, Jonas Jacobi sets the company's business strategy and oversees all aspects of Kaazing's operations and mission to become the world-wide leader in real-time software.\r\n\r\nA native of Sweden, he has worked in the software industry for more than sixteen years. Before starting Kaazing, Jonas worked as VP of Product Management responsible for the product management and marketing strategy for Brane Corporation, a startup company in Silicon Valley.  Prior to his appointment as vice president for Brane, he worked 8 years for Oracle as a Java EE and open source evangelist, and product manager responsible for the product management of JavaServer Faces and Oracle ADF Faces (now Apache Trinidad) in the Oracle JDeveloper team.\r\n\r\nJonas is a frequent speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, JavaPro, AjaxWorld, and Oracle Magazine. Jonas is co-author of the book, Pro JSF and Ajax: Building Rich Internet Components (Apress).",
                 "avatar": "http://javazone.no/ems/server/binary/41307021-55ae-427b-a74c-5a4c87f70e50?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/9b456bea-0f71-4c5f-a54f-8b056907b189",
+                "name": "John Fallows",
+                "bio": "John Fallows is a pioneer in the field of rich and highly interactive user interfaces and co-founder and CTO of Kaazing Corporation. He recently worked as Architect at Brane Corporation, a startup company based in Redwood City, California. Originally from Norther Ireland, John graduated from Cambridge University in the United Kingdom and has worked in the software industry for more than ten years. Prior to joining Brane, John was a Consulting Member of Technical Staff for Server Technologies at Oracle Corporation. During his last 5 years at Oracle, John focused on designing, developing, and evolving Oracle ADF Faces to fully integrate Ajax technologies. \r\n\r\nJohn is an active participant in the standards bodies working on defining the WebSockets standards. He is also a popular speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, AjaxWorld Magazine, and JavaMagazine (DE). John is co-author of the recently published book Pro JSF and Ajax: Building Rich Internet Components, (Apress).",
+                "avatar": "http://javazone.no/ems/server/binary/5b3420be-aa7b-42b3-a481-0c55692c201a?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9e956e8d-67f9-4d40-bbee-bb595ea59545",
@@ -324,6 +390,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8b51a26a-1d48-4ce5-97d0-2ac8e9b3af3c",
         "format": "presentation",
         "content": "Who hasn’t been confronted with the famous “spaghetti code” characteristic that occurs so often in projects that have undergone years of development? Such types of code are typically hard to understand and maintain, and could scale-up to the system level, leading to a phenomenon we call “software entropy” or “code decay”. \r\n\r\nMost of the work done by software developers is concerned with extending and enhancing existing systems rather than producing new systems (see [1,2,3]). Software entropy seriously hinders these activities, which can substantially increase the total project costs, thus it has become an important area of concern for many software architects and managers.\r\n\r\nTo address this issue, companies have increased their focus on evaluating and improving maintainability of the code base. For example, Microsoft’s Office division assigned 20% of its development effort to re-develop/modify the code basis of their products [4]. A typical way to evaluate maintainability is to use code metrics to measure characteristics of the system. However, the problem with metrics is that they are hard to interpret and they do not provide clear guidance for improving the quality (What does a Cyclomatic Complexity of 342 mean? What can I do to improve this number?).  \r\n\r\nWith the increasing adoption of agile development methods, practices like refactoring [5] and the use of code smells [6] for source code analysis have become popular in pursuit of the holy grail of producing “beautiful code”. In general, these practices support software evolution and improve maintainability. However, not all refactorings pay-off in all situations and not all code smells are as “smelly” as one may think. Architects and developers still face the challenge of making redesign and refactoring decisions based on questions like: Which are the worst code-smells we need to get rid of? Which are the less risky refactorings? How can we do more “smart” and cost-effective refactoring? Are these notions built over code smells just a myth in order to achieve the beautiful code or do they really have practical consequences?\r\n\r\nIn this presentation, we provide a glimpse on the advances that have been booked by the software engineering research community for analyzing code smells and discuss some empirical results from studies on refactoring strategies. Our aim is to give developers and architects useful insights for prioritizing refactoring tasks and suggest different ways of combining source code analysis and human evaluation for supporting software evolution in their daily work.\r\n\r\n[1] C. Jones. Estimating Software Costs. McGraw-Hill, 1998.\r\n[2] K. H. Bennett. An introduction to software maintenance. Information and Software Technology, 12(4):257–264, 1990\r\n[3] T. M. Pigoski. Practical Software Maintenance – Best Practices for Managing Your Software Investment. Wiley, 1997\r\n[4] M.A. Cusumano and R.W. Selby, Microsoft Secrets USA: The Free Press, 1995\r\n[5] Opdyke, W.F., Refactoring Object-oriented Frameworks. 1992, University of Illinois.\r\n[6] Fowler, M. and Beck, K., \"Bad Smells in Code,\" Refactoring: Improving the Design of Existing Code Addison-Wesley, 2000, pp. 75-88.",
@@ -349,6 +421,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/7557a02e-abe0-49e3-a4de-dc239f78872d?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f2cb4f44-d460-447d-b9de-3b8081271910",
@@ -378,6 +456,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5a15d46c-231e-468f-a518-bffce3bdb01b",
         "format": "presentation",
         "content": "Performance is always an important aspect to consider when developing Java applications. In many cases the performance testing is done late in the project when the programming is finished, something that might be a problem if performance issues are discovered. It is a better approach to monitor performance from the beginning of the project and continuously compare performance numbers between each build of the application, thus ensuring that the application has the wanted throughput right from the beginning.\r\n\r\nUsing Hudson (http://hudson.dev.java.net/) and The Grinder (http://grinder.sf.net/) we have written a small plugin to run performance tests regularly and compare the results in graphs and tables. This talk will demonstrate how it is possible to continuously monitor the performance of any Java application, not just web applications, with a few simple steps. We will also demonstrate how to use Cloud Computing (Amazon Elastic Compute Cloud - EC2) to distribute the performance tests. Using Cloud Computing is a relatively cheap and quick way to dynamically allocate a number of test-nodes in order to create as realistic test scenarios as possible.",
@@ -399,18 +483,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5a15d46c-231e-468f-a518-bffce3bdb01b/speakers/aba1cc48-b8d3-48b7-a9ea-80308c9667fe",
-                "name": "Ole-Martin Mørk",
-                "bio": "Ole-Martin has worked as a programmer and architect for 9 years. He is primarily a Java Developer, but he is also programming Ruby, PHP and Python. At Open AdExchange they are developing an Advertisement System that will scale to billions of requests pr month. In order to achieve this goal, they rely heavily on a scalable architecture and good and scalable performance tests. In order to scale as much as possible, they are using Amazon Web Services as their hosting platform both for their application and the performance tests.",
-                "avatar": "http://javazone.no/ems/server/binary/c1b17cce-d358-4457-8945-e388db538d9f?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5a15d46c-231e-468f-a518-bffce3bdb01b/speakers/3dccd6fa-7366-432b-8fcb-952aa4b6a2f6",
                 "name": "Eivind Barstad Waaler",
                 "bio": "Eivind is a senior consultant and manager working for BEKK in Oslo. BEKK is a consulting company specializing in enterprise web integration. Eivind has 10 years experience developing enterprise Java/J2EE applications. He has worked on various Open Source projects and the Hudson Grinder Plugin is his latest initiative.",
                 "avatar": "http://javazone.no/ems/server/binary/2c8f78b2-7c89-4cfe-9769-6a67d3b7bf21?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5a15d46c-231e-468f-a518-bffce3bdb01b/speakers/aba1cc48-b8d3-48b7-a9ea-80308c9667fe",
+                "name": "Ole-Martin Mørk",
+                "bio": "Ole-Martin has worked as a programmer and architect for 9 years. He is primarily a Java Developer, but he is also programming Ruby, PHP and Python. At Open AdExchange they are developing an Advertisement System that will scale to billions of requests pr month. In order to achieve this goal, they rely heavily on a scalable architecture and good and scalable performance tests. In order to scale as much as possible, they are using Amazon Web Services as their hosting platform both for their application and the performance tests.",
+                "avatar": "http://javazone.no/ems/server/binary/c1b17cce-d358-4457-8945-e388db538d9f?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/4c2da667-5ffd-4dca-84aa-eece4fc4d35d",
@@ -441,6 +531,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935",
         "format": "presentation",
         "content": "",
@@ -459,34 +555,10 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/58c6cceb-ae5b-4f49-a34e-b2c519f72494",
-                "name": "Kevlin Henney",
-                "bio": "Kevlin Henney is an independent consultant based in the UK. He specialises in programming languages, OO design, patterns, development process and software architecture, helping teams adopt techniques and improve their software development through training, mentoring and reviewing. He is and has been a columnist for various magazines and web sites, including the Reg Developer channel of The Register, SearchSoftwareQuality.com and Better Software. He is also coauthor of two volumes in the Pattern-Oriented Software Architecture series, A Pattern Language for Distributed Computing and On Patterns and Pattern Languages.",
-                "avatar": "http://javazone.no/ems/server/binary/3c3b2ebc-a3b9-41e3-8565-a191949fa386?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/d1e5e604-f27e-46e2-96bc-6329223ac9f0",
-                "name": "Einar Landre",
-                "bio": "Einar Landre is a practicing software professional with 25 years’ experience as a developer, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for StatoilHydro's Business Application Services, he engages in business critical application development, architecture reviews and software process improvement activities, specializing in SOA, Domain Driven Design, use of Multi-Agents and design of large scale networked software intensive systems.\r\n\r\nBefore joining StatoilHydro, Mr. Landre has been consultant and department manager with Norwegian Bouvet, Development manager of TeamWide, technical adviser with Skrivervik Data (SUN & CISCO distributor) and finally software developer with Norsk Data where he implemented communication protocols, operating systems and test software for the space station.\r\n\r\nOver the last years Mr. Landre has become an active member of the professional community, where he has been author and coauthor of several papers presented at OOPSLA and SPE. He has presented at several international conferences in Europe and the US.\r\n\r\nHis professional interests include object oriented programming, enterprise application architecture, multi-agents, autonomous systems design, requirements analysis and specification, use of systems engineering practices, agile methodologies and leadership in high-tech organizations. He is a member of the ACM and the IEEE Computer Society, as well as the SPE (Society Petroleum Engineers).\r\n\r\nMr. Landre holds a MSc in Information Technology from the University of Strathclyde, is an IEEE certified software development professional (CSDP) and lives with his family in Stavanger, Norway.",
-                "avatar": "http://javazone.no/ems/server/binary/0f24c18e-ab62-4e36-a6f8-4066531277d4?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/b707c6b4-7578-4a57-a902-97ae7e273536",
-                "name": "Phil Wills",
-                "bio": "Phil Wills spent his university career studying Physics, but having realised he probably wasn't going to be an astronaut, opted for the next best thing: a career in software development for the web.\r\n\r\nPhil has experience with a broad range of languages and technologies, but has spent the past three years focusing on redeveloping guardian.co.uk with a focus on building a strong domain model and achieving high performance.",
-                "avatar": "http://javazone.no/ems/server/binary/09d7e777-574c-4cdc-8745-0943ded3f6d0?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f9454674-2b99-417e-bfa7-9339b197a390",
-                "name": "Eric Evans",
-                "bio": "Eric Evans, author of Domain-driven Design: Tackling Complexity in the Heart of Software, is a thought leader in software design, domain driven design and domain modeling and particularly focuses on strategic design.",
-                "avatar": "http://javazone.no/ems/server/binary/53a81d02-3e59-4984-ae12-fb143eda7439?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f86cdd98-6f2c-4122-9e1e-a72bc07a7add",
-                "name": "Scott Davis",
-                "bio": "Scott Davis is an internationally recognized author and speaker. He is passionate about open source solutions and agile development. He has worked on a variety of Java platforms, from J2EE to J2SE to J2ME (sometimes all on the same project).\r\n\r\nScott's books include Groovy Recipes: Greasing the Wheels of Java, GIS for Web Developers: Adding Where to Your Web Applications, The Google Maps API, and JBoss At Work.\r\n\r\nScott is the Editor in Chief of aboutGroovy.com, a news and information website that tracks the latest developments in Groovy and Grails. He also writes a regular column for IBM DeveloperWorks -- Mastering Grails.\r\n\r\nScott is a frequent presenter at national conferences (such as No Fluff, Just Stuff) and local user groups. He was the president of the Denver Java Users Group in 2003 when it was voted one of the top-ten JUGs in North America. After a quick move north, he is currently active in the leadership of the Boulder Java Users Group. Keep up with him at http://www.davisworld.org.",
-                "avatar": "http://javazone.no/ems/server/binary/cec79486-f9f5-4d35-9175-bd7a080cad1a?size=thumb"
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/7b7e4620-dd5b-46b6-9004-a1a30db36266",
+                "name": "Randy Stafford",
+                "bio": "Randy Stafford is a practicing software professional with 20 years’ experience as a developer, analyst, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for Oracle’s middleware development A-Team, he engages globally for proof-of-concept projects, architecture reviews, and production crises with diverse customer organizations, specializing in grid, SOA, performance, HA, and JEE/ORM work.\r\n\r\nIn past lives, Mr. Stafford has been Technical Advisor to agile vendor Rally Software, Chief Architect of SaaS company IQNavigator, Director of Development of SynXis Agent (acquired by Sabre), consultant for GemStone and Smalltalk, and a simulation specialist in the aerospace and CASE industries.\r\n\r\nLong active in the professional community, he was a contributor to Martin Fowler’s Patterns of Enterprise Application Architecture and Floyd Marinescu’s EJB Design Patterns, and a reviewer of other enterprise patterns books.  He has presented at conferences of the Society for Computer Simulation, the International Council on Systems Engineering, the Agile Development Conference, and Oracle Open World, and he has participated heavily in online communities devoted to architecture and agile development.\r\n\r\nHis professional interests include domain model persistence, enterprise application architecture, application performance management, requirements analysis and specification, software development process, organizational culture, and leadership of people.\r\n\r\nMr. Stafford is motivated to improve the practice of software development and solve problems facing society.  He lives in his native Denver, Colorado with his wife and family.",
+                "avatar": "http://javazone.no/ems/server/binary/6ad4cbd3-7e4b-4ec0-909a-4ffb396b3e8d?size=thumb"
             },
             {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/842cb35d-e1ea-4524-892e-dbb0267b48a7",
@@ -495,12 +567,42 @@
                 "avatar": "http://javazone.no/ems/server/binary/dd346bde-634a-4ab8-bbc6-9350be009fa1?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/7b7e4620-dd5b-46b6-9004-a1a30db36266",
-                "name": "Randy Stafford",
-                "bio": "Randy Stafford is a practicing software professional with 20 years’ experience as a developer, analyst, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for Oracle’s middleware development A-Team, he engages globally for proof-of-concept projects, architecture reviews, and production crises with diverse customer organizations, specializing in grid, SOA, performance, HA, and JEE/ORM work.\r\n\r\nIn past lives, Mr. Stafford has been Technical Advisor to agile vendor Rally Software, Chief Architect of SaaS company IQNavigator, Director of Development of SynXis Agent (acquired by Sabre), consultant for GemStone and Smalltalk, and a simulation specialist in the aerospace and CASE industries.\r\n\r\nLong active in the professional community, he was a contributor to Martin Fowler’s Patterns of Enterprise Application Architecture and Floyd Marinescu’s EJB Design Patterns, and a reviewer of other enterprise patterns books.  He has presented at conferences of the Society for Computer Simulation, the International Council on Systems Engineering, the Agile Development Conference, and Oracle Open World, and he has participated heavily in online communities devoted to architecture and agile development.\r\n\r\nHis professional interests include domain model persistence, enterprise application architecture, application performance management, requirements analysis and specification, software development process, organizational culture, and leadership of people.\r\n\r\nMr. Stafford is motivated to improve the practice of software development and solve problems facing society.  He lives in his native Denver, Colorado with his wife and family.",
-                "avatar": "http://javazone.no/ems/server/binary/6ad4cbd3-7e4b-4ec0-909a-4ffb396b3e8d?size=thumb"
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/58c6cceb-ae5b-4f49-a34e-b2c519f72494",
+                "name": "Kevlin Henney",
+                "bio": "Kevlin Henney is an independent consultant based in the UK. He specialises in programming languages, OO design, patterns, development process and software architecture, helping teams adopt techniques and improve their software development through training, mentoring and reviewing. He is and has been a columnist for various magazines and web sites, including the Reg Developer channel of The Register, SearchSoftwareQuality.com and Better Software. He is also coauthor of two volumes in the Pattern-Oriented Software Architecture series, A Pattern Language for Distributed Computing and On Patterns and Pattern Languages.",
+                "avatar": "http://javazone.no/ems/server/binary/3c3b2ebc-a3b9-41e3-8565-a191949fa386?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/b707c6b4-7578-4a57-a902-97ae7e273536",
+                "name": "Phil Wills",
+                "bio": "Phil Wills spent his university career studying Physics, but having realised he probably wasn't going to be an astronaut, opted for the next best thing: a career in software development for the web.\r\n\r\nPhil has experience with a broad range of languages and technologies, but has spent the past three years focusing on redeveloping guardian.co.uk with a focus on building a strong domain model and achieving high performance.",
+                "avatar": "http://javazone.no/ems/server/binary/09d7e777-574c-4cdc-8745-0943ded3f6d0?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f86cdd98-6f2c-4122-9e1e-a72bc07a7add",
+                "name": "Scott Davis",
+                "bio": "Scott Davis is an internationally recognized author and speaker. He is passionate about open source solutions and agile development. He has worked on a variety of Java platforms, from J2EE to J2SE to J2ME (sometimes all on the same project).\r\n\r\nScott's books include Groovy Recipes: Greasing the Wheels of Java, GIS for Web Developers: Adding Where to Your Web Applications, The Google Maps API, and JBoss At Work.\r\n\r\nScott is the Editor in Chief of aboutGroovy.com, a news and information website that tracks the latest developments in Groovy and Grails. He also writes a regular column for IBM DeveloperWorks -- Mastering Grails.\r\n\r\nScott is a frequent presenter at national conferences (such as No Fluff, Just Stuff) and local user groups. He was the president of the Denver Java Users Group in 2003 when it was voted one of the top-ten JUGs in North America. After a quick move north, he is currently active in the leadership of the Boulder Java Users Group. Keep up with him at http://www.davisworld.org.",
+                "avatar": "http://javazone.no/ems/server/binary/cec79486-f9f5-4d35-9175-bd7a080cad1a?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f9454674-2b99-417e-bfa7-9339b197a390",
+                "name": "Eric Evans",
+                "bio": "Eric Evans, author of Domain-driven Design: Tackling Complexity in the Heart of Software, is a thought leader in software design, domain driven design and domain modeling and particularly focuses on strategic design.",
+                "avatar": "http://javazone.no/ems/server/binary/53a81d02-3e59-4984-ae12-fb143eda7439?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/d1e5e604-f27e-46e2-96bc-6329223ac9f0",
+                "name": "Einar Landre",
+                "bio": "Einar Landre is a practicing software professional with 25 years’ experience as a developer, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for StatoilHydro's Business Application Services, he engages in business critical application development, architecture reviews and software process improvement activities, specializing in SOA, Domain Driven Design, use of Multi-Agents and design of large scale networked software intensive systems.\r\n\r\nBefore joining StatoilHydro, Mr. Landre has been consultant and department manager with Norwegian Bouvet, Development manager of TeamWide, technical adviser with Skrivervik Data (SUN & CISCO distributor) and finally software developer with Norsk Data where he implemented communication protocols, operating systems and test software for the space station.\r\n\r\nOver the last years Mr. Landre has become an active member of the professional community, where he has been author and coauthor of several papers presented at OOPSLA and SPE. He has presented at several international conferences in Europe and the US.\r\n\r\nHis professional interests include object oriented programming, enterprise application architecture, multi-agents, autonomous systems design, requirements analysis and specification, use of systems engineering practices, agile methodologies and leadership in high-tech organizations. He is a member of the ACM and the IEEE Computer Society, as well as the SPE (Society Petroleum Engineers).\r\n\r\nMr. Landre holds a MSc in Information Technology from the University of Strathclyde, is an IEEE certified software development professional (CSDP) and lives with his family in Stavanger, Norway.",
+                "avatar": "http://javazone.no/ems/server/binary/0f24c18e-ab62-4e36-a6f8-4066531277d4?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/2230f8ac-d5d3-4794-803b-9234ceb37ae5",
@@ -531,6 +633,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/932f1859-12f3-4fe6-b210-0249d8261b49",
         "format": "presentation",
         "content": "So your server is having issues? Memory? Connections? Limited response? Is the first solution to bounce the server? Perhaps change some VM flags or add some logging? In today's Java™ 6 technology world, with its superior run-time monitoring and management capabilities, the reasons to bounce the server have been greatly reduced. With proper Java Management Extensions instrumentation, the need to bounce the server may be eliminated for all but the rarest of cases.    This session, for all Java technology developers and administrators, looks at the Java 6 platform's monitoring and management capabilities, which include the ability to make VM argument changes on the fly. In addition to what is provided in the JDK™ software, it demonstrates several management tools that are available at no cost.  \r\n\r\nThe session dives deeply into \r\n\n * jconsole - for memory monitoring, heap dumping, and thread analysis \r\n * JVM tools - jmap, jhat, jinfo, jstack\r\n * BTrace - the open-source option for on-the-fly monitoring of the JVM machine",
@@ -556,6 +664,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/4497e552-48e0-459b-b70a-3306e2a3ef25?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/32b4b643-8508-4c1c-b696-94f54856ff76",
@@ -584,6 +698,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/97e4e5d4-89ea-4002-81de-d942e74388ab?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/53a9e6ba-f7db-486f-ae3d-0a63863d5902",
@@ -620,6 +740,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0ce9355b-8d66-49cf-8388-6bcc1aa71a03",
         "format": "presentation",
         "content": "Class loaders are at the core of the Java language. Java EE containers, OSGi, NetBeans modules, Tapestry 5, Grails and many others use class loaders heavily. Yet when something would go wrong, would you know how to solve it?\r\n\r\nIn this session we'll take a tour of the Java class loading mechanism, both from JVM and developer point of view. We'll see how different delegation systems are built, how synchronization works, what is the difference between finding classes and resources, what wrong assumptions has been made and are now supported. \r\n\r\nNext we will look at typical problems that you get with class loading and how to solve them. ClassNotFoundException, ClassNoDefError, LinkageError and many others are symptoms of specific things going wrong that you can usually find and fix. We'll review ways to fight with JAR hell and JAR locking and caching. Finally we'll take a look at things in the class loader world that are broken beyond repair and how to recognize and work around them.",
@@ -644,6 +770,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/71e8ff1c-cedd-438e-8cee-afcf8583fde3?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f083260a-7ff2-4c18-8e74-a2953d6ecfdd",
@@ -674,6 +806,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aef08598-dad9-4d06-8526-dddcc5ac70a9",
         "format": "presentation",
         "content": "Java er et objektorientert språk. Hva vil dette egentlig si? \"Objekter, abstraksjon, innkapsling, SOLID prinsipper\". Når vi har all denne kunnskapen, hvorfor ender vi opp med domenemodeller uten logikk og enkapsulering - og person.getAdresse().getGateAdresse().getHusnummer();\r\nEr domain driven design noe mer enn en måte å belyse disse prinsippene for oss enda en gang? Denne sesjonen vil gjennomgå hva domain driven design gir deg ut over de objektorienterte prinsippene, og vise hvordan konsepter som et felles domenespråk kan hjelpe oss med å håndtere kompleksitet i applikasjonene våre.",
@@ -700,6 +838,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/a5cf5f92-c987-4dfa-af3b-52cf1a4ff1a1?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/2e100a26-a18d-4910-9cda-31661ad9f912",
@@ -730,6 +874,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/53b5da63-761d-4e15-adb4-57e584e4fb34",
         "format": "presentation",
         "content": "Med lanseringa av Java Enterprise Edition 6 er Enterprise JavaBeans 3.1-arkitekturen klar for massene. I EJB 3.1-spesifikasjonen har forenklingane som vart introdusert i EJB 3.0 blitt vidareutvikla, og i tillegg har ny funksjonalitet blitt lagt til. Denne sesjonen gir eit oversyn over både endringane og den nye funksjonaliteten i EJB 3.1-spesifikasjonen.\r\n\r\nEmner:\r\n\n* Valgfrie local business interfaces\r\n* Portable globale JNDI-navn for session beans\r\n* Embedded Enterprise JavaBeans i webapplikasjonar\r\n* Singleton-beans og singleton concurrency management\r\n* Asynkron metodeinvokasjon på session beans\r\n* Applikasjonsvide livssyklusnotifikasjonar\r\n* Forenkla orkestrering med EJB TimerService\r\n\r\nEJB 3.0 tok eit stort steg i retning av ein forenkla EJB-arkitektur og reduserte drastisk på utviklingsinnsatsen som krevdes for å implementere Enterprise JavaBeans. EJB 3.1-spesifikasjonen vidarefører denne forenklingsprosessen ved å gjere local business interfaces valgfrie, globale JNDI-navn blir endelig standardiserte og EJBar kan no instansierast direkte i webapplikasjonar utan behov for ein separat ejb-jar.\r\n\r\nFokuset i overgangen fr† EJB 2.1 til 3.0 var å forenkle spesifikasjonen, heller enn å skulle introdusere ny funksjonalitet. Med EJB 3.1 er denne funksjonalitetsfrysen over og mykje ny funksjonalitet har blitt introdusert. Singleton beans og applikasjonsvide livssyklusnotifikasjonar for session beans er heilt nye konsept, men også eksisterande API har fått ei ansiktsløfting med ny funksjonalitet som cron-aktig spesifisering av tidsuttrykk til EJB TimerService og asynkron metodeinvokasjon på session beans.",
@@ -756,6 +906,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/0b2693cf-8c7c-4fef-9cd7-09cefbd3d0bd?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/4c845d7e-a178-4eaa-be35-a8b1af8dbe39",
@@ -787,6 +943,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/3162a859-a43c-46f1-9673-3c1c608cf72f",
         "format": "presentation",
         "content": "I blant har man behov for et lite domenespesifikt språk, for eksempel for konfigurasjon.\r\nDer en intern dsl av forskjellige grunner ikke strekker til, velger man gjerne enten svake \r\nproperty filer, eller verbos og vanskelig xml.\r\n\r\nEn bedre løsning kan være å skrive et eget språk, spesialisert for oppgaven.\r\n\r\nCombinatory parsing, kjent fra funksjonell programmering baserer seg på å kombinere små enkle parsere for å bygge en komplett og mer kompleks parser.\r\nScala, et moderne og kraftig språk for java plattformen, kommer med parser combinator bibliotek\r\nsom en del av standard distribusjonen.\r\n\r\nForedraget vil presentere hvordan man kan implementere et lite programmeringsspråk i Scala.\r\nFokuset vil være på det praktiske mer enn det teoretiske, der det blir gitt en innføring i alle stegene nødvendig\r\nfor å skrive et eget lite programmeringsspråk som kan benyttes fra Java.",
@@ -814,9 +976,15 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/43e7bcf5-44fd-4e2e-bcbb-ade5661699f1",
         "format": "presentation",
-        "content": "Interaksjon mellom en bruker og en datamaskin utføres i applikasjoner som kjører på ulike mange ulike platformer, som for eksempel en PC eller en mobiltelefon. Men brukerinteraksjon finner også sted i tjenester som svarer på SMS-meldinger, der meldingene kan sees på som kommandoer. Applikasjoner med brukerinteraksjon endrer oppførsel når brukeren utfører handlinger i applikasjonen. Hvis en bruker for eksempel navigerer eller utfører en annen handling endres tilstanden applikasjonen er i, og den nye tilstanden kan tilby annen funksjonalitet enn den opprinnelige.\r\n\r\n\r\nTilstand er ofte vanskelig �� håndtere på en god og helhetlig måte i applikasjoner. Det er dessuten vanskelig å at sikre at kun den lovlige funksjonaliteten er tilgjengelig i hver tilstand. Det er også en utfordring å håndtere handlinger som er tidkrevende og kan låse applikasjonen. Handlinger som utføres i Event Dispatch Thread, som brukes til å tegne GUI, gjør at applikasjonen ikke kan håndtere brukerforespørsler før handlingen er avsluttet.\r\n\r\n\r\nTilstand i deler av en applikasjon kan enkelt uttrykkes ved hjelp av tilstandsmaskiner. De er lar seg lett illustrere visuelt, og kan enkelt realiseres i kode. I presentasjonen beskrives det hvordan brukerinteraksjon kan ses på som hierarkiske strukturer av tilstandsmaskiner som utveksler meldinger. I en Proof of Concept demonstreres hvordan en slik arkitektur kan implementeres der tilstandsmaskiner styrer oppførselen, og asynkrone meldinger brukes til kommunikasjon. Actor-modellen brukes både til å håndtere den asynkrone meldingsutvekslingen, og for kommunikasjonen mellom tilstandsmaskinene som styrer oppførselen i applikasjonen. Dette løser problemet med låsing av applikasjonen som kan oppstå når for mye skal utføres av Event Dispatch Thread. Modellen gir også en klar separasjon mellom brukergrensesnittet og implementasjon av hendelsene som trigges fra brukergrensesnittet.\r\n\r\n\r\nEksempel på implementasjon og bruk vises i Java og Scala. Det vises hvordan Scalas Actor-modell forenkler trådhåndtering, og hvordan den gir en god abstraksjon over trådhåndtering i Java, som ofte er kompleks å jobbe med.",
+        "content": "Interaksjon mellom en bruker og en datamaskin utføres i applikasjoner som kjører på ulike mange ulike platformer, som for eksempel en PC eller en mobiltelefon. Men brukerinteraksjon finner også sted i tjenester som svarer på SMS-meldinger, der meldingene kan sees på som kommandoer. Applikasjoner med brukerinteraksjon endrer oppførsel når brukeren utfører handlinger i applikasjonen. Hvis en bruker for eksempel navigerer eller utfører en annen handling endres tilstanden applikasjonen er i, og den nye tilstanden kan tilby annen funksjonalitet enn den opprinnelige.\r\n\r\n\r\nTilstand er ofte vanskelig å håndtere på en god og helhetlig måte i applikasjoner. Det er dessuten vanskelig å at sikre at kun den lovlige funksjonaliteten er tilgjengelig i hver tilstand. Det er også en utfordring å håndtere handlinger som er tidkrevende og kan låse applikasjonen. Handlinger som utføres i Event Dispatch Thread, som brukes til å tegne GUI, gjør at applikasjonen ikke kan håndtere brukerforespørsler før handlingen er avsluttet.\r\n\r\n\r\nTilstand i deler av en applikasjon kan enkelt uttrykkes ved hjelp av tilstandsmaskiner. De er lar seg lett illustrere visuelt, og kan enkelt realiseres i kode. I presentasjonen beskrives det hvordan brukerinteraksjon kan ses på som hierarkiske strukturer av tilstandsmaskiner som utveksler meldinger. I en Proof of Concept demonstreres hvordan en slik arkitektur kan implementeres der tilstandsmaskiner styrer oppførselen, og asynkrone meldinger brukes til kommunikasjon. Actor-modellen brukes både til å håndtere den asynkrone meldingsutvekslingen, og for kommunikasjonen mellom tilstandsmaskinene som styrer oppførselen i applikasjonen. Dette løser problemet med låsing av applikasjonen som kan oppstå når for mye skal utføres av Event Dispatch Thread. Modellen gir også en klar separasjon mellom brukergrensesnittet og implementasjon av hendelsene som trigges fra brukergrensesnittet.\r\n\r\n\r\nEksempel på implementasjon og bruk vises i Java og Scala. Det vises hvordan Scalas Actor-modell forenkler trådhåndtering, og hvordan den gir en god abstraksjon over trådhåndtering i Java, som ofte er kompleks å jobbe med.",
         "keywords": [
             "Alternative Languages",
             "Architecture and Design",
@@ -840,6 +1008,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/48f4f476-dead-4efc-950f-eaf0899fe126?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8259f0eb-e57a-4c07-a581-441824becc4d",
@@ -876,6 +1050,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597",
         "format": "lightning-talk",
         "content": "Høyere ytelse oppnås ikke lenger ved å øke klokkehastigheten, men ved å kaste flere prosessorkjerner på problemet. Allerede i dag er det vanlig med 4 kjerner på skrivebordet, og denne trenden vil bare fortsette fremover. Hvis en ikke makter å utnytte parallelliteten, vil man om ikke lenge utnytte kun få prosent av ytelsen i systemet.\r\n\r\nFor å kunne utnytte systemet fullt ut, må man få et bevisst forhold til parallellitet. Hvor mange utviklere behersker egentlig dette? Vi vil belyse denne problemstillingen gjennom noen enkle caser basert på bruk av tråd-mekanismer som finnes i Java i dag.",
@@ -908,6 +1088,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/59b5d51e-bc11-428f-b07b-031735e8f241",
         "format": "lightning-talk",
         "content": "FriKomPort er en løsning for å administrere kurs/arrangement og påmeldinger til disse. Finansieringmodellene vi har benyttet oss av er Stafettfinansiering og Dugnadfinansiering.\r\nLøsninga var i første omgang betalt av kunden Kongsbergregionen, som er et kommunalt samarbeidsorgan for 8 kommuner i Buskerud og Telermark. I etterkant har andre kunder betalt for egen funksjonalitet som har komt alle brukerene til gode.\r\nEtterhvert har brukergruppen blitt så stor at vi har innført et utviklingsabonnement som gir brukerene tilgang til å være med å påvirke i hvilken retning prosjektet skal bevege seg med hensyn til funksjonalitet og videreutvikling. Tanken er at jo flere som har interesse av at løsningen lever, desto flere vil være med på finansieringen og dermed dele på kostnaden ved utviklingen.",
@@ -932,6 +1118,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/48c71e2b-8a1e-4ada-82e4-e098d190626a?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9ac9f01a-4d05-49d0-befe-a8240d10add7",
@@ -967,6 +1159,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/31120806-18a6-4599-abfe-dcbde2c5b680",
         "format": "presentation",
         "content": "I et av Mesans prosjekter - Arkivportalen.no, har kunden et stort behov for å kunne gjennomføre fritekstsøk mot Java objekter som er persistert i en database ved hjelp av JPA.\r\nVi har dermed implementert en løsning der du kan utføre fritekstsøk mot disse Java objektene. Løsningen benytter Open Source rammeverket Compass som bygger på Apache Lucene.\r\nCompass har gjort oss i stand til å levere fritekstsøk sammen med og inkludert i en standard JPA applikasjon kjørende på Suns Glassfish applikasjonsserver. \r\n\r\nForedraget vil ta for seg praktisk bruk av Compass over Lucene mot JPA og eksempler på hvordan samspillet mellom disse er løst, gjennom erfaringer fra prosjektet arkivportalen.no. Bakgrunnen for løsningen vil være introduksjon til presentasjonen. \r\n\r\nI hoveddelen vil det fokuseres på krav til løsningen og hvorfor man ønsket å bruke fritekst søk mot databasen og hvilke krav som ble stilt til løsningen i forhold til søkemuligheter. Videre tar vi for oss bruken av Compass og Lucene sammen med JPA og hvordan dette har blitt løst og konfigurert, for å oppnå best mulig resultat. Arkivportalen.no er delvis et nyutviklingsprosjekt samt en web utvidelse av en eksisterende løsning.  Vi kommer derfor også til å vise hvordan man kan innføre bruk av Compass og Lucene mot eksisterende løsninger.\r\n\r\nAvslutningsvis vil vi ta for oss våre erfaringer så langt, og belyse både positive og utfordrende egenskaper med bruk av Compass og Lucene som fritekst søkeverktøy i en JEE applikasjon.",
@@ -993,6 +1191,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/aae0a1f3-f423-40df-9de0-1d0d0a9c1d41?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/cbf87fad-a030-4c4b-8b33-8bd2e1cb5324",
@@ -1023,6 +1227,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/7dd0df5e-6b73-4589-9d39-8d84304161c5",
         "format": "lightning-talk",
         "content": "Bruker du SVN enda? Lei av at ingenting funker når repositoriet ditt går ned? Lei av at det er tungt å branche? Lei av ikke å kunne gjøre lokale endringer? Sjekk ut git. Det løser disse problemene for deg. Bruk github for å komme enkelt igang.",
@@ -1047,6 +1257,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/a9c0e162-6482-4d93-a2ce-a3c7c9ebe411?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/6bfbc3df-9a4a-4132-a837-1d550e6aa3c4",
@@ -1075,6 +1291,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/1c854912-6aea-42ad-b6da-7856f5dd4c85?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a29f755a-a561-42d3-9573-1121ba3b0c87",
@@ -1106,6 +1328,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/fbb45d54-f94b-47e8-904e-c2456c5ca1d6",
         "format": "lightning-talk",
         "content": "Green computing is always about energy efficient servers, hardware without hazardous materials and other things that appeal to hardware buffs. Cloud computing is fun, but what else can us programmers do to help the environment?\r\nIn this talk, Anders shows us how to be eco-friendly through writing better code and smarter business logic.",
@@ -1131,6 +1359,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/abee880b-5701-4645-924a-8f568cc682a6?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0f9a4115-4773-453b-a437-68e007b368d8",
@@ -1161,6 +1395,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/93fd7625-da12-441e-83e9-533dd7c91c19",
         "format": "lightning-talk",
         "content": "Have you ever tried to write a HTTP or RESTful client using the libraries out there?  \r\nUsing java.net.URLConnection or Commons HttpClient? \r\nHow do you cache your results? \r\nDo you use a proxy? \r\nIs server side caching enough? NO!\r\n\r\nEnter HTTPCache4j. \r\n\r\nYou may use the library as a standard HTTP client, using just the resolver modules. Or you may use it as a full blown HTTP cache on the client.  Your choice.",
@@ -1188,6 +1428,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/68d44de6-7415-4ac1-8629-2a11f35809e7",
         "format": "lightning-talk",
         "content": "Hvis endringer på entiteter er en problemstilling i din domenemodell kan Hibernate Envers biblioteket være en mulig løsning. Envers er et bibliotek som forenkler lagring og gjenfinning av historiske data. Med kun én enkelt annotering - \"@Audited\" - er det mulig å logge endringer i entiteter (egenskaper og/eller relasjonIer). Presentasjonen forklarer hvordan Envers virker, viser hvordan Envers introduseres i en eksisterende domenemodell, og hvordan spørringer mot historiske versjoner av entiteter kan gjøres.",
@@ -1213,6 +1459,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/c6bfca1b-769c-4392-bb79-8494e7f81411?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/58641d56-74e3-4e59-9c32-849642563424",
@@ -1243,6 +1495,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8c8be17c-b63a-4b10-b524-c883e83d881d",
         "format": "presentation",
         "content": "“You have twenty server instances running. Available bandwidth is measured in gigabits, and your application’s user interface has been carefully designed to satisfy the high customer expectations. But there is one ugly flaw in this pretty picture: How can the monolithic, centralized database handle the load?”\r\n\r\nIn practice, any scalable web application uses object caching, both to reduce database load and to improve response time. But creating efficient mechanisms for cache management is hard, especially in distributed environments such as clusters or clouds. Important challenges are data freshness, data consistency and fault tolerance.\r\n\r\nSeveral products promise to reduce the burden by providing automatic object cache management among distributed servers. Notable examples are Ehcache, memcached and Oracle Coherence.\r\n\r\nAt BEKK, we have studied several such products. Our results indicate that finding the right solution with a proper setup is critical for performance. This talk presents an overview of our experience, including benchmarks.",
@@ -1269,6 +1527,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f98e1aab-5d85-4a6b-9aac-6e0d6b18e93e",
         "format": "presentation",
         "content": "This talk will introduce Hudson, an open-source continuous integration (CI) system, which improves the productivity of a development team by automating various things. CI is getting adopted more and more, as computers get cheaper and more capable. For people new to Hudson, we'll walk through the main features, discuss why CI matters, and how Hudson can use a large number of computers effectively. For those who already know Hudson, we'll talk about the current state of the project and the community, as well as what the future directions are.",
@@ -1293,6 +1557,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/05d6a22f-1a00-4ef0-aaef-e29944c24a31?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e5c960d4-5b0b-463c-abb6-9d5acb8343ec",
@@ -1324,6 +1594,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/3a07efa0-6b0b-46e2-9b49-8cc958209b00",
         "format": "presentation",
         "content": "- Vi har levert 28 poeng denne sprinten!\r\n- Flott, det kaller jeg valuta for pengene!\r\n\r\nVi sier at smidig handler om å levere høy forretningsverdi tidlig og hyppig. Og vi sier gjerne at vi leverer det som gir mest verdi først. Men det er teorien. I praksis - for eksempel i Scrum - gjør vi ikke annet enn å levere funksjonalitet, og vi aner ikke hvor mye verdi funksjonaliteten innebærer – bare hvor mange abstrakte poeng den er estimert til. Vi overlater til kunden / produkteieren å prioritere rekkefølgen på funksjonaliteten og håper at det da gir høyest mulig verdi først. Det stemmer kanskje, eller kanskje ikke. Hvem vet?\r\n\r\nDet er mulig å bryte ut av mainstream smidig til å levere målbar forretningsverdi. Kom og hør historien om en kunde og et team som tar ”verdi” alvorlig og sammen lærer å definere, planlegge, levere og måle verdi. Det er en annerledes presentasjon - en levende, underholdende og inspirerende historie. Underveis får du også ulike innfallsvinkler og verktøy som kan hjelpe deg til å foreta det samme spranget.",
@@ -1349,6 +1625,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/f85a024f-c0fa-4b06-81cd-a347e017f5b5?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/040c0748-651f-48cb-b108-1a1b60a67020",
@@ -1379,6 +1661,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/6dd2f962-0b85-4d73-89b5-e2edb7485de6",
         "format": "lightning-talk",
         "content": "Hvordan ta bedre beslutninger i systemuviklingsprosjekter? - en praktisk tilnærming.\r\n\r\nValg av utviklingsmetode, arkitektur og teknologi er eksempel på viktige beslutninger som tas i de fleste systemutviklingsprosjekter. Gode valg medfører at utviklingstiden reduseres, kvaliteten forbedres og at både utviklere, kunder og brukere blir fornøyde. På den annen side, så kan et enkelt dårlig valg føre til at hele prosjektet blir en fiasko. \r\n\r\nDet er derfor bekymringsfullt at slike viktige beslutninger ofte tas på sviktende grunnlag. Viktige beslutninger baseres ofte på hype, salgspresentasjoner, evangelisering fra \"guruer\", eller egne erfaringer som ikke er representative for problemet man står ovenfor. \r\n\r\nDet er følgelig et stort behov for teknikker som hjelper oss til å ta bedre beslutninger. Forskere har foreslått flere teknikker som adresserer problemet, feks basert på systematiske litteraturgjennomganger og oppbygging av erfaringsdatabaser. Desverre opplever mange at det kan være svært vanskelig å bruke disse teknikkene i praksis. \r\n\r\nI denne presentasjonen skal vi se på gode og dårlige fremgangsmåter for å fremskaffe og evaluere informasjon slik at man kan fremskaffe et så godt beslutningsgrunnlag som mulig.",
@@ -1405,6 +1693,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/2e9152a9-f29f-4b7e-87be-808283dcb924",
         "format": "lightning-talk",
         "content": "Lurer du på hvorfor det er så mye hype rundt alternativer til relasjonsdatabaser. Hva er egentlig problemet med dem sier du?\r\nHer er en introduksjon til noen av utfordringene med relasjonsdatabase, kjenner du deg ikke igjen i dem er kanskje din bruk av relasjonsdatabasen grei likevel.\r\n\r\nDet er mange meninger om relasjonsdatabasen, jeg vil gi en ryddig oversikt over ting som CAP, ACID, 2PC etc slik at man enklere kan argumentere for og i mot forskjellige løsninger til forskjellige problemer.\r\n\r\nDette er ikke et korstog mot relasjonsdatabaser, men enkelte ganger er det greit å vite om begrensningene, hvorfor de er der, og hvilke alternativer man har.",
@@ -1429,6 +1723,12 @@
                 "avatar": "http://www.gravatar.com/avatar/9810e94584d89d3beb1ebaebe72050c7?d=identicon&s=100"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/464d0899-1c49-4157-ba12-ad715a49d852",
@@ -1459,6 +1759,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8fe610a4-ec93-4edf-a879-da8c6dfaafb8",
         "format": "lightning-talk",
         "content": "Vinnerne, både i næringslivet og i hoppsporten, vet at bak et godt svev ligger langvarig trening og nitidige forberedelser.\r\nTør du å satse som en skihopper i ditt neste prosjekt? Våger du å bruke tid på å konsentrere deg skikkelig før start, trykke til på hoppkanten og legge deg i flytestilling? Hvis du gjør det kan DU bli en Wirkola som det blir veldig vanskelig å hoppe etter!",
@@ -1485,6 +1791,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/affb272e-8616-49eb-9975-4d8ebba008a9",
         "format": "presentation",
         "content": "\"Cloud computing\" er en av de varmeste potetene i IT-verdenen i dag. Man har flere typer skyer, flere leverandører og mange forskjellige måter å sette sammen sine systemer.\r\n\r\nEn forutsetning for å vurdere utvikling av en cloud-basert løsning er at man har et problem som går utover en maskin. Dette kan være problemer knyttet til skalering, tilgjengelighet, replikering, backup, mm. Man har behov for å skalere horisontalt. Slike krav kan i stor grad påvirke systemets arkitektur og valg av teknologier.\r\n\r\nI dette foredraget vil vi systematisere problemstillinger til arkitekturer for systemer som kjører i en sky, og komme med konkrete forslag til arkitekturer og løsninger.\r\n\r\nNoen av emnene vi vil dekke er:\r\n\r\n    * Feature-orienterte applikasjoner\r\n    * Utviklingsprosessen\r\n    * Tilstand\r\n    * REST\r\n    * Versjonering\r\n    * Rullende oppgradering\r\n    * Skalering\r\n    * Tilgjengelighet\r\n    * Dokumentdrevne databaser\r\n    * Replikering\r\n    * Økonomi\r\n\r\nDette er en oppbygning til foredraget \"En Praktisk guide til Høytsvevende Arkitekturer\".",
@@ -1505,18 +1817,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/affb272e-8616-49eb-9975-4d8ebba008a9/speakers/97ef1aee-4c84-4b4b-8654-3edb5419dfbf",
-                "name": "Trygve Laugstøl",
-                "bio": "Trygve Laugstøl jobber i Arktekk som utvikler, arkitekt og har mange års erfaring med Java-utvikling. Han har lang erfaring med utvikling og bruk av åpen kildekode som kjerneutvikler av Maven 2 og Continuum. Trygve har jobbet lenge med utvikling av plugins som støtter opp om smidig utvikling og som rådgiver innenfor disse områdene.",
-                "avatar": "http://javazone.no/ems/server/binary/e309b9c9-546a-4d48-809f-8a48e705c372?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/affb272e-8616-49eb-9975-4d8ebba008a9/speakers/9ef95692-15d2-4465-882b-5e1f4412b847",
                 "name": "Kristian Nordal",
                 "bio": "Kristian Nordal jobber til daglig hos Arktekk, som Java-utvikler med hovedfokus på open source og smidig utvikling. Han er commiter på Codehaus sitt prosjekt for Maven-plugins og har i flere år deltatt i utviklingen av Maven 2-plugins, som for eksempel den første pluginen for Jetty5 og appassembler-pluginen.",
                 "avatar": "http://javazone.no/ems/server/binary/32750a06-6c88-43b8-a805-85535e7230b5?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/affb272e-8616-49eb-9975-4d8ebba008a9/speakers/97ef1aee-4c84-4b4b-8654-3edb5419dfbf",
+                "name": "Trygve Laugstøl",
+                "bio": "Trygve Laugstøl jobber i Arktekk som utvikler, arkitekt og har mange års erfaring med Java-utvikling. Han har lang erfaring med utvikling og bruk av åpen kildekode som kjerneutvikler av Maven 2 og Continuum. Trygve har jobbet lenge med utvikling av plugins som støtter opp om smidig utvikling og som rådgiver innenfor disse områdene.",
+                "avatar": "http://javazone.no/ems/server/binary/e309b9c9-546a-4d48-809f-8a48e705c372?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b797fb29-8ed3-4e0d-9ccf-468de64c1707",
@@ -1545,6 +1863,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a1d9128a-74cb-44fd-81ab-c1bbe8ecfe80",
         "format": "presentation",
         "content": "The next release of the Java Standard Edition is scheduled for the beginning of 2010.  In this session we'll review the latest feature list of what's in and what's out of the next version of the JDK.  \r\n\r\nThe big areas being covered are:\r\n\r\n * Modularisation of the JDK: Project Jigsaw\r\n * Small language changes: Project Coin\r\n * Dynamic language support on the JVM: The Da Vinci Machine Project",
@@ -1571,6 +1895,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/82ecc179-046b-4add-8923-606157588c44",
         "format": "lightning-talk",
         "content": "XML used to be the format of choice for transferring data or content from one system to another. JSON has more or less replaced XML for this task. \r\n\r\nAmong the reasons is the low amount of overhead surrounding the actual data. Another thing is JSONs readiness when it enters your program: It is a programatic object, immediately after transfer, ready to reveal its data. \r\n\r\nThis  session will demonstrate how little code is actually necessary to do \"near\" real life integration between two sites using JavaScript and JSON. \r\n\r\nIt could be done as a 10 minute lightning talk with focus on the client side technologies only. As a 60 minute talk the intro could be longer, and more examples and integrations with other sites like twitter could be shown. Also server side handling of JSON could be demonstrated.",
@@ -1595,6 +1925,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/d146a153-f119-4ec7-b2c5-24b1645cccb8?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/fe90972f-a6a7-41b8-849e-fb86848b3375",
@@ -1625,6 +1961,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/d76f6a5b-7993-45b2-9c2b-b54ad94113e5",
         "format": "presentation",
         "content": "De fleste utviklere vil i dag være \"smidige\" (agile), mens de tidligere kanskje ville være ”unified” (RUP) eller ”rapid” (RAD). For lenge siden var det til og med noen som ønsket å være strukturerte eller fossefalls. Er man ikke med på det siste sies det at man følger ”tradisjonelle” utviklingsmetoder, noe som neppe er positivt ment. I denne presentasjonen ser jeg på hva det er som styrer utviklingen av systemutviklingsmetoder. Særlig interessant er det å se på hvilken retorikk som brukes når nye utviklingsmetoder lykkes med å få store deler av systemutviklingsverden til å se lyset og mene at tidligere (tradisjonelle) utviklere og prosjektledere har vært mer eller mindre uopplyste og ineffektive. Jeg vil også presentere resultater fra en empirisk studie om utviklingsmetoder som demonstrere riktigheten av utsagnet ”jeg ser det, når jeg tror det”. Med andre ord at vi tolker observasjoner som mye mer positive dersom vi allerede tror på en positiv sammenheng. Erfaringer med smidige metoder blir altså mer positive fordi vi tror det er positive sammenhenger. Gjennomgangen av retorikken brukt i innføring og markedsføring av nye utviklingsmetoder oppsummeres i ti prinsipper for å lykkes med å lage en bestselger av en utviklingsmetode. Disse prinsippene demonstreres ved å beskrive hvordan jeg ville ha innført min egen, revolusjonerende (fiktive) systemutviklingsmetode ELASTIC (”Elastic development”). Denne metoden baseres på at dagens utviklingsmetoder tar alt for lite hensyn til variasjonene (elastisiteten) i kundens modenhet og usikkerheten i utviklingsarbeidet. Vi at denne elastisiteten gjør ELASTIC mye mer effektiv enn tradisjonelle utviklingsmetoder (agile, lean, RUP, RAD og fossefalls).",
@@ -1650,6 +1992,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/0045ac55-f2fb-44a9-9cfd-a2c6705a1e02?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b86b6091-e9b9-448c-a8e9-2b498d4139f2",
@@ -1682,6 +2030,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/fecc6847-a6dc-4cef-85b2-288d99894e01",
         "format": "lightning-talk",
         "content": "When developing real-world applications, debugging can be quite cumbersome; the logging is at a level that doesn’t give you a clue of what’s going on, the log file is hard to retrieve and monitor, and you are not able filter out what is important for you. Typically an application restart is needed to change the logging level. And guess what, the buggy state of your application has disappeared as free beer at PartyZone, and your logs are flooded with unrelated information \r\n\r\nWe have met these challenges several times when we at TANDBERG develop Java based products, and especially when we are designing clustered applications. Then it can be rally hard to determine which instance of the cluster that serves the incoming request. Collecting the logs from the instances in a centralized Syslog server, and apply filtering to get relevant information dynamically is very helpful for us when debugging these kind of applications.\r\n\r\nThis presentation will provide the tools that make you able to dynamically change the log level remotely, redirect you logs to a centralized Syslog server, and filter log messages. In addition you will be shown working code examples of how to customize Log4j and instrument your application using JMX.\r\n\r\nAll this will be achieved by using a killer combo of Log4j, Spring, and JMX presented to you as live and kicking code.\r\n\r\nThe presentation will also give you an overview of the relevant mechanics in Log4j, Spring and JMX that makes the foundation of the example code in the session. \r\n\r\nThe presented material is based on personal experiences from real-world Java products development.",
@@ -1707,6 +2061,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/b25cbeee-9e37-49ac-b423-61e346b5cb63?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/965e1666-be71-4738-aabe-508df8320ebc",
@@ -1735,6 +2095,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/313d7a18-3854-46db-82af-644c13f10b1a",
         "format": "presentation",
         "content": "Maven 3.0 will be the version Maven for the people. The Maven team has gone to the ends of the earth to ensure backward compatibility, improve usability, increase performance, allow safe embedding, and pave the way for implement many highly demanded features. This talk will briefly cover the process and tooling changes that have occured in the Maven project in order to accomplish what we have done with Maven 3.0, as well as discuss the architectural and feature changes. Some of the process changes include setting up a multi-platform Hudson grid, building out a framework of over 440 integration tests, creating integration tests for all core Maven plugins, and systematically seeking out Maven 2.x OSS projects to validate Maven 3.x's compatibility. We also built out a framework that measures disk I/O, network I/O, memory consumption, and CPU utilization to ensure that performance doesn't degrade. The architectural changes that will be discussed will center around how POMs are constructed, how the lifecycle is executed, how the plugin manager executes, and how artifacts are resolved. Some features derived from these architectural changes include any-source POMs, versionless parent elements, a compositional form of Maven POM configuration we call mixins, lifecycle extension points, plugin extension points, and our new Jetty Client-based, single point of entry artifact resolution mechanism we call the repository system",
@@ -1759,6 +2125,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/087e0721-894b-41d1-ab17-7743df0ce8c8?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bb873228-364f-4950-950b-87baa150eb9d",
@@ -1788,6 +2160,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a23db1c9-03cd-4468-a922-896d268b637a",
         "format": "presentation",
         "content": "This session shows one of the reasons that JRuby is the most powerful mainstream language today: meta-programming. It shows tons of meta-programming techniques in Ruby, including open classes, the shadow meta-class, defining methods on the fly, why Spring doesn't exist in Ruby, building annotations in JRuby, replicating Java features in JRuby, and tons more.  And each of these comes with an example that actually makes sense!",
@@ -1813,6 +2191,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/14461ea1-928c-49c8-a3ed-b34f5376f75a?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/596f5f5b-e2a7-4453-9507-1de4451695a0",
@@ -1843,6 +2227,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/3df541f0-002f-44fa-883c-91093ad3022f",
         "format": "lightning-talk",
         "content": "Hvordan kan man snu uleselig kode, lite tester og frustrasjon til noe positivt?\r\nLær av det og aldri gjør det igjen!",
@@ -1867,6 +2257,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/a5cf5f92-c987-4dfa-af3b-52cf1a4ff1a1?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/6f491120-6312-4261-b8b0-8bdebc335c0b",
@@ -1894,6 +2290,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/346872ac-6212-4ba6-ba7d-0f68a3e00d96?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/cf6f3873-6e7d-494e-b4eb-0725f06dae38",
@@ -1924,6 +2326,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0d022191-602c-4c52-9c63-37b2316dfeef",
         "format": "presentation",
         "content": "The web is the biggest information revolution since the advent of printing. Simple languages like HTML and CSS has made it easy to publish information that can reach a billion browsers. HTML5 and CSS3 are emerging specifications that will will make web pages richer, more compact, and more standards-complient. This presentation will demonstrate new features, and discuss how long they will last.",
@@ -1952,6 +2360,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5cfba52a-cae3-47ce-a612-33505460778c",
         "format": "lightning-talk",
         "content": "Many great companies fail to understand technological change and how it might affect them. Their current customers and existing business models that have served them so well in the past can turn into a curse in the light of disruptive innovation. Moving from closed to open innovation will help companies to get the most out of both their own inventions and the inventions of others as well. Can companies remain innovative over time?",
@@ -1976,6 +2390,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/48c10927-0ae7-4fa6-b2b1-f8fe37c6275f?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/21c8daf5-31d2-4343-b5f6-5441de3624c6",
@@ -2005,6 +2425,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/6b6552c1-7c65-40d8-9f96-e0e37207ec98",
         "format": "presentation",
         "content": "Datamaskinprogrammer egnes som litterære verk og vernes etter åndsverkloven. Det betyr i utgangspunktet at de reguleres av de samme bestemmelsene som f eks norsk lyrikk. Hvordan har det seg egentlig at dette ble resultatet – og er det lurt? I et program er funksjoner viktig, mens formen kan være sentral i poesi – og opphavsretten verner bare uttrykket. Opphavsmannen får en enerett til å utnytte verket – både poesi og program. Men til gjengjeld skal hvem som helst kunne lese lyrikken, skjønne den, bli klokere og dikte videre selv. Et program i objektkode lar seg i praksis ikke lese – er dette en slags bristende forutsetning for å gi det vern?\r\n\r\n      Noen av disse spørsmålene besvares, samtidig som det gis en kort innføring i det opphavsrettslige vernet av datamaskinprogrammer, overgang av rettigheter i arbeids- og oppdragsforhold, og forholdet til patentering av programmer. Det forutsettes ingen forkunnskaper, så foredraget innledes med en presentasjon av opphavsmann, åndsverk og enerettene til å råde over programmet.",
@@ -2032,6 +2458,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/ca258687-3b3d-4cfb-ae76-fd56bcc88352",
         "format": "presentation",
         "content": "The tenets of Domain-Driven Design are well documented, and its mindshare has expanded massively in recent years, due to the brilliant work of Eric Evans and others.\r\n\r\nHowever, knowledge on persisting large and rich domain models, especially in a performant and scalable way, is basically non existing.  Lessons learned by architects of high-scale DDD/OO-based systems in production settings are largely absent from the professional literature.  And yet such knowledge should be of significant value to current practitioners responsible for the development or operation of such systems with performance and scalability concerns.\r\n\r\nTherefore this seminar talk will focus on the persistence of domain models, the typical problems that arise around performance, scalability, and transaction isolation in domain model persistence, some observed solutions to those problems, and the consequences of those solutions for application architecture.\r\n\r\nDrawing on the presenter's two decades of experience practicing DDD in multiple production systems, with different programming languages and various object persistence technologies, the talk will briefly survey the evolution of object persistence approaches, noting their performance, scalability, and isolation characteristics, culminating with exciting new possibilities offered by data grid technologies.  However the bulk of the emphasis in the talk will be placed on patterns of domain model persistence with current Java ORM technologies.",
@@ -2057,6 +2489,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/6ad4cbd3-7e4b-4ec0-909a-4ffb396b3e8d?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/593bfcec-a409-4230-8318-f92b9243f86b",
@@ -2091,6 +2529,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/6b04223e-059a-48b4-98fd-af671dd69449",
         "format": "lightning-talk",
         "content": "Vi utviklere har mye kompleksitet vi må håndtere, og alle verktøy som gjør oss mer fokuserte og effektive er et verktøy som bør prøves. Pomodoro-teknikken hjelper oss med å håndtere samtidige oppgaver og sørger for å holde hjernen vår fokusert gjennom hele dagen og bruke tiden vår effektivt!",
@@ -2116,6 +2560,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/94535fc3-a67e-41ce-a089-77bee4402ad3?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/5a7ccd4f-fd1c-484f-8138-c28031954d61",
@@ -2145,6 +2595,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c4085d14-9c27-448c-b71a-231855371c19",
         "format": "presentation",
         "content": "I mange år har relasjonsdatabasen vært et udiskutabelt valg for de fleste applikasjoner. Imidlertid ser vi nå flere alternative databasetilnærminger, drevet av høye krav til skalerbarhet i nettskyen og Web 2.0. Denne sesjonen tar for seg bakgrunnen for denne endringen og ser på de mest interessante lagringsmekanismene som Google BigTable, Amazon SimpleDB og Yahoo PNUTS samt dokumentdatabasen CouchDB. Fokus for disse tilnærmingene er primært mulighet for fortløpende endringer, lave kostnader samt ekstrem skalerbarhet. Samtidig betyr dette begrensede muligheter sammenliknet med en RDBMS. Er det på tide å kaste ut relasjonsdatabasen?",
@@ -2170,6 +2626,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/b17916d5-4274-4192-a71c-ac4c7cc90a0f?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/53bd5f1c-14dd-4b5b-9a67-0e9caa08213f",
@@ -2203,6 +2665,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c81cd4f8-301b-4253-8859-bf520e680fbd",
         "format": "presentation",
         "content": "This presentation reviews how key evolutions of our model were driven by domain experts and how DDD encouraged them to have greater investment in the development process.\n\nIt also discusses some low-tech practices and tools which helped the design and implementation of the model and some of the remaining challenges we face in maintaining a deep, malleable domain model, whilst still meeting deadlines and addressing the operational needs of the business.",
@@ -2231,6 +2699,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9",
         "format": "presentation",
         "content": "Reuse, genericity and decoupling have recently been treated as the very goals of software development. But they are not.\r\n\r\nYou probably feel you should reuse as much code as possible, be it your own, that of you organization or third party open source or commercial software. But just because the code is already written doesn't mean you won't have to understand, debug and maybe even change it.\r\n\r\nYou probably feel you should write your code in a generic fashion so it can be reused. But generic code can be harder to understand. And making a piece of code flexible to certain kinds of changes will make it less flexible to other changes. Moving decisions to configuration can make your code more generic, but often, it will increase the cost of change.\r\n\r\nYou have probably learned that you must reduce the extent to which parts of your code is coupled to each other if you are to create maintainable code. So all your objects reference each other through interfaces and are wired together in huge XML files. But this makes the code harder to navigate and refactor.\r\n\r\nIn the quest for better software reuse, genericity and decoupling has become ends in themselves.  In this talk, we will show how examples of how contemporary notions of good design have led us and others to solutions that are overly complex.\r\n\r\n\"A good design\" is not a goal in itself. The goal is a system that requires as little effort as possible to develop and change. Proper use of reuse, decoupling and genericity can help with this goal. Improper use almost always hurts.\r\n\r\nSo how do you measure something like simplicity? We would like to revive an often reviled metric: Lines of code. More specifically, how many executable statements do you have to deal with to maintain the code?\r\n\r\nSoftware developers have to be smart. But if you sometimes get the feeling we're too smart for our own good, this talk is for you.",
@@ -2251,18 +2725,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9/speakers/5a1481c5-e1a1-46b9-8caf-1417f807eeb5",
-                "name": "Finn-Robert Kristensen",
-                "bio": "Finn-Robert has been working as a java developer for eight years and his working title is architect. His passion for developing software started when he got his first commodore 64 and he has been striving for good design since. He has fallen into many pitfalls, but feels he has learned from his mistakes.",
-                "avatar": "http://www.gravatar.com/avatar/7a264c211b009d9e81957e7e7fe1ae41?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9/speakers/13f468db-0c55-4bbd-9557-666457269e93",
                 "name": "Johannes Brodwall",
                 "bio": "Johannes is just a developer (but his business card reads \"chief scientist\" and his project plan gives him the august title \"architect\"). He's crafted code for ten years. When he started out, he wrote simplistic code. Then he learned to write elegant code. Now, he just tries to write simple code.",
                 "avatar": "http://javazone.no/ems/server/binary/f5092824-3ad8-4640-b9e9-e04ba99a95b7?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a36ecf2c-934b-40dc-9ff8-d5a81ca887d9/speakers/5a1481c5-e1a1-46b9-8caf-1417f807eeb5",
+                "name": "Finn-Robert Kristensen",
+                "bio": "Finn-Robert has been working as a java developer for eight years and his working title is architect. His passion for developing software started when he got his first commodore 64 and he has been striving for good design since. He has fallen into many pitfalls, but feels he has learned from his mistakes.",
+                "avatar": "http://www.gravatar.com/avatar/7a264c211b009d9e81957e7e7fe1ae41?d=identicon&s=100"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0498df99-58cd-4c53-8799-5ad478a52913",
@@ -2289,6 +2769,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/f52bc8df-4e7b-47be-84df-71005350d64f?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/25082d27-49a7-4539-979f-1f4cfd8d1594",
@@ -2318,6 +2804,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0f673c2a-97a5-4285-aff9-ff42f1b3e070",
         "format": "lightning-talk",
         "content": "Ingen applikasjoner er \"bruk og kast\". De fleste lever over flere år, og i løpet av levetiden blir de lappet på av ulike mennesker. Det som var \"hot og trendy\" da applikasjonene ble laget er sannsynligvis heller ikke det som ansees som \"good practice\" i dag. Så hva i all verden gjør man når man skal ta over forvaltningen av slike applikasjoner? Hvordan skal man restaurere og innføre kvalitet i gamle applikasjoner?",
@@ -2345,6 +2837,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/bb5dd67c-7aef-4341-b8ab-08b007b1b807",
         "format": "lightning-talk",
         "content": "Enterprise applications often need to schedule tasks to run at a later time, either once or periodically. There's several ways to go about this: EJB 2.1 introduced a timer service (which will get some sorely needed extensions in JEE 6), there's the popular Quartz system from OpenSymphony, and Oracle and IBM promote the Timer and Work Manager API (CommonJ, JSR-236), to mention a few. And then there's always cron.\r\n\r\nThis lightning talk explains why you might need a job scheduler, compares common solutions and frameworks, and describes some gotchas you should avoid.",
@@ -2369,6 +2867,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/3f5731a7-4a38-4d74-adff-d7561e378313?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9b6d9375-6bb7-42a4-9da3-d98794f7c7dc",
@@ -2405,6 +2909,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e61df691-6a30-4398-a5b0-7fa4ea3814eb",
         "format": "presentation",
         "content": "I mange år har SOA vært ”det neste store” og mange har prøvd å innføre dette i små og store prosjekter.  Mange har feilet og dermed har begrepet SOA mistet mye av sin glans. Foredraget omhandler erfaringene fra et prosjekt som innførte SOA i en av Norges mest komplekse IT-prosjekter og som har oppnådd gode resultater. I prosjektet har man fått etablert en SOA plattform som eksponerer tjenester fra mange forskjellige baksystemer og lagd automatiserte prosesser som benytter disse tjenestene.  \r\n\r\nÅ benytte gjenbrukbare tjenester fra forskjellige systemer direkte i en fleksibel forretningsprosess har vært selve drømmen som SOA skal innfri. Gevinsten skal være mulighet for raskere endringer og billigere forvaltning. Foredraget prøver å svare på om SOA kan innfri dette og hvor svakhetene og styrkene i en tjenesteorientert arkitektur ligger.",
@@ -2432,6 +2942,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b54d20a4-90f6-4c20-9d90-5af7d7b76a05",
         "format": "presentation",
         "content": "Integrasjon mellom systemer blir en stadig større del av budsjettene til IT-prosjekter. Over tid har en virksomhet gjerne mange systemer bygget på ulike teknologier. Derfor er det ofte kvaliteten på integrasjonen som avgjør om migrasjon til et nytt system lønner seg på sikt. \r\n\r\nDenne presentasjonen peker på noen vanlige fallgruver innen integrasjon, og dekker hva vi har hatt gode erfaringer med av retningslinjer når integrasjoner skal designes og bygges.",
@@ -2451,18 +2967,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b54d20a4-90f6-4c20-9d90-5af7d7b76a05/speakers/197aa12c-9bc8-45be-97a5-446d720422b7",
-                "name": "Irene Blesvik",
-                "bio": "Tor Magne Lindeberg and Irene Blesvik both work as integration architects at ErgoGroup AS, one of the largest Norwegian software companies offering operations, solutions and consultancy services. They are part of the company's Java technology group. They studied together at NTNU and have 5 years experience in the software industry. They have been working with various technologies and environments, including J2EE/JEE, but primarily focused on integration.",
-                "avatar": "http://javazone.no/ems/server/binary/ac94c6d5-bc1e-4cf1-8899-badd9bb7a6d6?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b54d20a4-90f6-4c20-9d90-5af7d7b76a05/speakers/0dbf7542-4e36-42d0-83c7-6df18dd8b235",
                 "name": "Tor Magne Lindeberg",
                 "bio": "Tor Magne Lindeberg and Irene Blesvik both work as integration architects at ErgoGroup AS, one of the largest Norwegian software companies offering operations, solutions and consultancy services. They are part of the company's Java technology group. They studied together at NTNU and have 5 years experience in the software industry. They have been working with various technologies and environments, including J2EE/JEE, but primarily focused on integration.",
                 "avatar": "http://javazone.no/ems/server/binary/e3263130-07e1-4958-a39a-9233f0ef19a4?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b54d20a4-90f6-4c20-9d90-5af7d7b76a05/speakers/197aa12c-9bc8-45be-97a5-446d720422b7",
+                "name": "Irene Blesvik",
+                "bio": "Tor Magne Lindeberg and Irene Blesvik both work as integration architects at ErgoGroup AS, one of the largest Norwegian software companies offering operations, solutions and consultancy services. They are part of the company's Java technology group. They studied together at NTNU and have 5 years experience in the software industry. They have been working with various technologies and environments, including J2EE/JEE, but primarily focused on integration.",
+                "avatar": "http://javazone.no/ems/server/binary/ac94c6d5-bc1e-4cf1-8899-badd9bb7a6d6?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df",
@@ -2501,6 +3023,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2d4a25d-f768-4423-b20e-69ce5d94d280",
         "format": "presentation",
         "content": "The majority of organizations have gotten their feet wet with Agile software development techniques and are now hoping to take it to the next stage.  However, they’re discovering that the simple methodologies they initially adopted aren’t sophisticated enough to address the complex situations they find themselves in.  This presentation overviews agile software development, shares data from recent industry surveys as to the adoption rate and success rate of agile techniques, and explores scaling issues such as distributed development teams, regulatory compliance, governance, large teams, complex environments, and leveraging legacy assets.  Practices from the Rational Unified Process (RUP), Agile Modeling (AM), and Lean Development Governance which help to address scaling factors will be described in detail, as will tooling strategies.  Once you go beyond the Agile rhetoric you will find that you can in fact scale it to meet the complexities of the real-world situations you find yourself in.",
@@ -2525,6 +3053,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/52a58c43-0928-439d-aa22-fc16d318f810?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/0c6b14fa-cf68-4f88-8401-43e493d6b4bc",
@@ -2553,6 +3087,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/380542ee-93b8-40aa-be96-485e4fc0dc63",
         "format": "lightning-talk",
         "content": "En ScrumBut er en mindre kjent, men ganske utbredt art av familien Scrum. Arten ble først kjent på begynnelsen av det 21 århundre, og har nylig blitt lagt til i det smidige artsregisteret. Kjennetegn inkluderer burndowns som aldri når null, ufokuserte standupmøter og sprinter med liten betydning.\r\n\r\nNyere forskning viser at mange tidligere rapporterte observasjoner av Scrums, egentlig har vært observasjoner av ScrumButs. \r\n\r\nDenne lyntalen vil illustrere de mest synlige kjennetegnene til en ScrumBut. Deretter forklares hvorfor ScrumButten kan være ett nyttig innslag i den lokale fauna, og hvordan man kan gå frem om man finner en i hagen.\r\n\r\nDet er vanskelig å kjøre Scrum etter boka; mange sliter med å gjøre det \"riktig\". Husk at boka og guruen bare er brostein på veien til lykke.\r\n\r\nAdopter en ScrumBut idag!",
@@ -2577,6 +3117,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/33f78772-2005-4fcf-a1c4-d5b27f7b9506?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/7e8a0789-8542-4958-8028-02c30fd9e77f",
@@ -2606,6 +3152,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/1cb23d76-3f59-4a48-a649-8911944043af",
         "format": "presentation",
         "content": "Den beste måten å måle fremgang på er programvare som er i bruk og skaper verdier. Kode som er klar for produksjon, men som bare ligger og venter på å bli produksjonssatt, er noe som ikke genererer verdi. Eller som man i Lean ville kalt det: Waste. Hvorfor kan vi ikke få programvaren i produksjon idet en funksjonalitet er implementert? Dette foredraget hjelper deg på veien mot å kunne endre dette.\r\n\r\n\"Push button deployment\" er noe Jeff Sutherland snakker om som en forutsetning for smidige prosesser hos Patient Keeper. Patient Keeper er selskapet han jobber for, og hvor han drar ut mange av sine erfaringer rundt Scrum. Andre bedrifter som har gjort det bra med hyppig produksjonssetting og sin evne til å tilpasse seg marked og kunder er eBay, Flicker og Amazon. For å kunne gjøre disse hyppige endringene og tilpasningene kan ikke produksjonssetting være en stor og farlig operasjon som skal gjøres så sjelden som mulig. Det må rett og slett være en enkel, sikker og rask operasjon. Det må være smidig utrulling.\r\n\r\nDette foredraget tar for seg hvilke verktøy og metoder man kan ta i bruk i Java for å komme nærmere smidig utrulling og oppsett av nye miljø. Verktøyene og metodene er basert på konkrete erfaringer, og håndterer ting som pakking, oppgradering av database og testing. Gjennom kodeeksempler viser jeg hvordan man kan bruke verktøy som Maven, Hudson, DBDeploy, Jetty og litt scripting for å få til effektiv, fleksibel og enkel deploy av en standard Java EE webapplikasjon.\r\n\r\nDet vil ikke være mulig for alle bedrifter eller systemer å ha hyppig produksjonssetting, men i det minste bør man kunne rulle ut ofte og kjapt til test-, beta- og preprodukjons-miljøer. Bare å få dette til i testmiljøene vil gjøre deg bedre i stand til å få hyppige tilbakemeldinger fra brukere, og dermed kunne korrigere kursen oftere.\r\n\r\nDette foredraget er holdt for javaBin i komprimert form. Denne utvidede utgaven vil bygge på tilbakemeldingene fra tidligere, og spesielt gi mer detaljer og eksempler i forhold til hva som skal til av kode og oppsett for å få det til i Java.\r\n\r\nTopic: Agile and Software Engineering, Tools and Techniques, Experience Reports",
@@ -2632,6 +3184,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/ee0b3eb8-d7b4-4b8f-959a-4dad201f4848?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/da827f2f-c464-43d9-8f40-2d56bbedfbc2",
@@ -2663,6 +3221,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a8ee89d9-d478-4b58-8625-5d5da1340344",
         "format": "presentation",
         "content": "In this session Erik will launch Solr and index various types of content including database, file system rich documents (PDF, Word, HTML, etc), XML, CSV, Atom feeds, and perhaps others.  Various ways to interact with and build upon Solr's capabilities will be demonstrated, including several user interface starting points and pragmatic real world operations such as scheduling indexing operations and scaling for load and corpus size.  We'll see within the live demonstrations Solr's popular features:\r\n\r\n* full-text search\r\n* faceting\r\n* highlighting\r\n* more-like-this\r\n* spell checking / did-you-mean\r\n* API from Java, Ruby, command-line",
@@ -2692,6 +3256,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/58a73376-93d2-4f74-b7ed-5d1d83f3d077",
         "format": "lightning-talk",
         "content": "Solid state drives have recently become easily available. Their performence may provide a way of reducing the time spent on on the development cycle: compiling, packeting and deploying applications. This paper shows promising results by locating the code base and local maven repository on a solid state drive. Initial experiments shows that time spent on waiting for your code to compile may be reduced by 50%.",
@@ -2716,6 +3286,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/c47ab801-042d-44dd-b5b9-a24187c2408f?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/cfaca0f6-61ae-456a-ad9b-b8cfecc1308d",
@@ -2746,6 +3322,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/3023b17f-dcae-4e0f-8d69-fa5ad6c8db64",
         "format": "presentation",
         "content": "As software development leaders, we need to think more strategically. Some design decisions affect the trajectory of the whole project or even the organization. These decisions arise in early chartering and throughout development, and they are about much more than architecture. This talk will examine these issues through the lens of the Strategic Design principles of domain-driven design, which systematize a few critical practices some successful teams do intuitively.\r\n\r\nIt is common for skilled teams to deliver software they are not proud of, due to compromises with legacy designs. Others toil for years, producing a platform that is never used to good advantage. These are strategic failures. On the other hand, there are projects with a direct explanation of how the software contributes to business goals. There are projects where designers work with a realistic view of the context of their development within the larger system, allowing them to maintain design clarity and integrity. These are strategic successes. Winning strategy starts with the domain.\r\n\r\nTwo domain-driven design principles, \"Context Mapping\" and \"Distilling the Core Domain\", help you see your strategic situation more clearly and approach strategic design decisions more systematically. These techniques require extensive interaction with domain experts as well as the leaders of the organization, in discussions broader than functional requirements. They sometimes lead to priorities quite different from our most comfortable notions.",
@@ -2774,6 +3356,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e2fc6849-a2bc-4297-8d27-1c6051b88a66",
         "format": "lightning-talk",
         "content": "h1. Problem scenario\r\nYou are to replace a mainframe system, where the user interface consists of a black console with screens of green text, with a web application.\r\nEven though the screens are unintuitive, skilled users can navigate and manipulate the data efficiently.\r\nThe expensive, high-tech, replacement web application has all kinds of nifty features to please the user visually.\r\nBut a simple request, such as utilizing function keys and mouse-less navigation can be hard to cater for, because the IT department has standardized browsers on IE6.\r\n\r\nh1. The proposal\r\nCreate your own thick client frontend which wraps a web browser widget. Such widgets are maturing and easy to customize. They render advanced pages, tackle JavaScript and Flash just as good as standard browsers.\r\nYou now have a new layer where you can take control of the user experience where needed. The web page will behave as normally, but you can specifically tailor functionality for the whole application, or the context of a specific page.\r\n\r\nh1. if( FAIL ) ?\r\nIf the frontend fails, it was hopefully a cheap investment to throw away. The web application can still be used with a normal browser.",
@@ -2800,6 +3388,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa363709-7c5d-4e1b-92d2-173d58c70d53",
         "format": "lightning-talk",
         "content": "We create maintainable, flexible and solid Java code with the use of techniques such as Test Driven Development and Continuous Integration. When it comes to client side Web development with JavaScript, the story is quite different. \r\n\r\nJavaScript has for a long time been perceived as a toy programming language for making flashy buttons and simple form validation. But now as the client side grows larger and more complex, we should take the lessons learned from TDD in Java and apply them to our JavaScript development.\r\n\r\nThere are many myths surrounding TDD and JavaScript, and we will in this session bust some of these:\r\n\r\n* There are no proper frameworks for test driven JavaScript development.\r\n* There is no IDE support.\r\n* It isn't possible to integrate it with my build or CI system.\r\n\r\nOur hands-on demonstration will show you a JavaScript application capable of controlling TANDBERG video systems and provide you with all the necessary pieces to do true Test Driven Development in JavaScript yourself. This includes:\r\n\r\n* Our minimal test framework for JavaScript testing\r\n* Running tests from Eclipse with the push of a button\r\n* Using mocks and stubs to test code in isolation\r\n* Testing of JavaScript integrated with your build and continuous integration systems",
@@ -2819,18 +3413,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa363709-7c5d-4e1b-92d2-173d58c70d53/speakers/d96d2012-aa04-463d-b066-5e81f70338e2",
-                "name": "Ragnvald Barth",
-                "bio": "Ragnvald Barth is a highly experienced Java and .Net developer. He has been working for TANDBERG the past 3 years on a wide array of projects.",
-                "avatar": "http://www.gravatar.com/avatar/a84e03836084f44d0eb097594ee5ba81?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa363709-7c5d-4e1b-92d2-173d58c70d53/speakers/4e70204a-8b69-496b-bd4a-fb8e757d076a",
                 "name": "Stig Murberg",
                 "bio": "Stig Murberg has been working at TANDBERG for the last 4 years. He works as a team lead and software developer, and his main focus and interests are in the area of Web development.",
                 "avatar": "http://www.gravatar.com/avatar/7c717cb6750b05af25221e2f061428fb?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa363709-7c5d-4e1b-92d2-173d58c70d53/speakers/d96d2012-aa04-463d-b066-5e81f70338e2",
+                "name": "Ragnvald Barth",
+                "bio": "Ragnvald Barth is a highly experienced Java and .Net developer. He has been working for TANDBERG the past 3 years on a wide array of projects.",
+                "avatar": "http://www.gravatar.com/avatar/a84e03836084f44d0eb097594ee5ba81?d=identicon&s=100"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/047ce82a-d187-4f9a-bf37-680c568f00f2",
@@ -2862,6 +3462,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/88f7f61c-d5dc-417f-a33e-25f50decd556",
         "format": "presentation",
         "content": "You may think this is a stupid presentation. Who would ever get millions of transactions in files from a legacy system? Transactions will be placed from Web and properly load balanced as they get in. But the fact of the matter is, don't be so sure. There is a lot of legacy systems out there. In 1997 the Gartner Group estimated that there were 240 billion lines of Cobol code in active apps. Something like 90 percent of financial transactions are processed by Cobol code, and 75 percent of all business data processing is Cobol. Most of that code is still there after being fixed for 2000 bug. \r\n\r\nSo why is all this Cobol stuff relevant to me? I develop using Java, not Cobol (Thank God!). It's relevant because Java is ready for the heavy lifting of replacing all this code. But since all systems can't be replaced in one go, you must interface with the existing solutions. Doing that using typical Java stack in the typical Java way, can give you an over-engineered and badly designed solution. \r\n\r\nThe speaker spent the last 3,5 years as a software architect and developer replacing large mainframe applications using best practice Java architecture (Message oriented, Spring, Hibernate etc). Doing so he realized that new techniques have their place, but processing large batch files using Domain Driven Design and Hibernate probably wasn't the easiest way of dealing with legacy code and integration.",
@@ -2890,6 +3496,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e1d97be8-80dd-459b-8f26-5b6010291d87",
         "format": "presentation",
         "content": "Have you ever wondered whether you should use a weak reference or a phantom reference? If you answered \"yes\" or \"phantom who?\" this is the session for you. It covers\n\n* The java.lang.ref API\n* Its gotchas and pitfalls\n* New APIs that address those gotchas and pitfalls\n* Reference handling patterns and best practices\n* ReferenceMap: a new concurrent map with support for strong, soft, or weak keys and values\n* How references relate to collections, caching, concurrency, and class loaders\n* And more\n\nWalk in with a working knowledge of the language, and walk out an expert in references, referents, reclamation, and other garbage collection necromancy.",
@@ -2914,6 +3526,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/fba07fc2-3415-49b7-b1c8-a821a4baf14a?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/b065b353-29a5-4938-bd4a-adc2c722372a",
@@ -2946,6 +3564,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/dafc8bae-1a8a-4009-b24b-2b72ad19e370",
         "format": "presentation",
         "content": "In The Productive Programmer, I identify 4 principles of productivity: acceleration, focus, automation, and canonicality. This session defines the principles and describes their use, but the primary focus of this talk is on real-world examples of how you can use these principles to make yourself a more productive programmer. Acceleration covers ways to speed up development by taking command of your computer. This includes keyboard shortcuts (including ways to learn them and make better use of them) in both IntelliJ and Eclipse. Focus describes how you can utilize your environment (both physical and computer) to greatly enhance your productivity. Canonicality (the DRY principle from The Pragmatic Programmer) discourages repeating artifacts in projects. This talk shows effective ways to avoid this repetition. I show examples of creating DRY documentation, O/R mapping, database schemas, and development environments.Automation refers to making the computer do more work for you. This talk includes tons of examples, all culled from real-world projects",
@@ -2973,6 +3597,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/99d4ee40-3a2e-42c6-886f-62e9188381e5",
         "format": "presentation",
         "content": "You have been handed the keys and a blank slate to build a new services-based architecture. Are you up for the task? Do you have the knowledge, judgment, and combination of hard and soft skills needed to plan, design, and execute a significant SOA project?\r\n\r\nImplementing a strong and flexible SOA can be a difficult challenge for an experienced architect, let alone someone with less experience. Many complex architecture projects end in failure, or are scaled back so that something can be achieved in a reasonable amount of time.\r\n\r\nIn this session Jeff explores the key characteristics of successful SOA projects. He covers some of the patterns, and anti-patterns, tool sets, and strategies that he himself learned the hard way – through his own trial and error experiences as an architect. Last, he provides a strategy and blueprint for achieving a high likelihood of success in your SOA project.\r\n\r\nKey session topics include:\r\n\r\n    * How to apply SOA patterns to different classes of problems;\r\n    * The common failures of a SOA project and how to prevent them;\r\n    * Architectural strategies that offer the best chance of achieving project success;\r\n    * And more.",
@@ -2997,6 +3627,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/9e3d95a5-5c22-4425-8b27-5c24ddf7a823?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/3efc1049-8b0e-466c-9ec1-fc9802ac0ca7",
@@ -3026,6 +3662,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9eb7bdaa-5f61-4738-8c4f-6cd79ad3c647",
         "format": "presentation",
         "content": "Know IT Objectnet legger til rette for faglig utvikling for de ansatte via deltagelse i fagprosjekter på tvers av de daglige kundeprosjektene. Fagprosjektene kommer i stand på de ansattes initiativ og tar for seg ulike teknologier eller områder man interesserer seg spesielt for. De har varighet fra noen uker opp til et halvt år, og skal resultere i leveranser i form av foredrag, kurs eller workshops for kolleger. De siste årene har man hatt flere ulike prosjekter innenfor smidige utviklingsprosesser. I tillegg til interne fagprosjekter, engasjerer Know IT Objectnet seg også i forskningsprosjekter innenfor området.\r\n\r\nForedraget tar for seg disse interne og eksterne prosjektene, og vil redegjøre for hvordan vi holder oversikt over prosjektene våre ved hjelp av løpende prosjekt-\"barometre\", erfaringsutveksling og kontinuerlig vedlikehold av retningslinjer / best practices.",
@@ -3045,18 +3687,24 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9eb7bdaa-5f61-4738-8c4f-6cd79ad3c647/speakers/49b8a095-6199-4182-bfe7-b5a1afbadca8",
-                "name": "Lars Ivar  Næss",
-                "bio": "Konsulentsjef i Know IT Objectnet",
-                "avatar": "http://javazone.no/ems/server/binary/a6243203-2566-4a28-a881-6d1b18f8bedc?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9eb7bdaa-5f61-4738-8c4f-6cd79ad3c647/speakers/c77bb489-4d30-4f9e-af1e-bb4b7f804a39",
                 "name": "Haakon Spilde",
                 "bio": "Seniorkonsulent i Know IT Objectnet",
                 "avatar": "http://javazone.no/ems/server/binary/5f33407f-0214-411c-a8b8-aafef9147e53?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/9eb7bdaa-5f61-4738-8c4f-6cd79ad3c647/speakers/49b8a095-6199-4182-bfe7-b5a1afbadca8",
+                "name": "Lars Ivar  Næss",
+                "bio": "Konsulentsjef i Know IT Objectnet",
+                "avatar": "http://javazone.no/ems/server/binary/a6243203-2566-4a28-a881-6d1b18f8bedc?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/4deac793-618a-42c9-aac7-276b4732293b",
@@ -3087,6 +3735,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/dd7d5307-926b-43ed-a2df-fa39e464f6d9",
         "format": "presentation",
         "content": "The ESB is not well suited for simple Web Application integration. The Web application model has evolved to the point where the presentation/logic/data tier model is a bit limited since applications need to be connected to other applications and services. There are lots of ESB-type solutions out there for dealing with this shift but they often introduce new complexities or concepts that create a barrier to entry. This talk will provide working knowledge of how to hook in external services to your Web Application without the complexity.\n\nThis session will introduce a new framework, Mule iBeans that focuses on task-based integration for web applications. The audience will learn how to integrate their web applications with other applications and services on the web and the enterprise in a way that doesn't add complexity to the code or architecture of the application. Using a couple of simple constructs developers will be able to integrate with services such as Flickr, JMS, Twitter, Google Maps and Email in minutes.",
@@ -3115,6 +3769,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/625f9a01-1ee9-41a1-a34d-1fff956b8f4c",
         "format": "lightning-talk",
         "content": "h1. The problem\r\n\r\nCreating good architecture documentation is often a problem in many large projects and organizations. Common issues are:\r\n\r\n* Out of date documentation in various MS Office formats\r\n* Architecture documentation is spread around the filesystem and mailsystem making it difficult to find the most current version of the documentation\r\n* Cumbersome and costly (enterprise) architecture tools\r\n* Using tools that are not well suited for multi-user updates\r\n* Developers are unwilling to document\r\n* Non-standard modelling conventions\r\n* Duplicated and inconsistent information\r\n* The list goes on...\r\n\r\nh1. The solution\r\n\r\nA pragmatic and agile solution to most of these issues is to create a mashup of the Confluence wiki tool together with a UML tool like Sparx Enterprise Architect. \r\n\r\nA wiki such as Confluence is very well suited for agile \"grassroots\" knowledge management and documentation. It keeps documentation in a single place, makes it easy for a group of people to work on the documentation together, it has a good search function, and it has proven to be a tool that most developers like to use.  \r\n\r\nA mashup integration of Confluence with the Enterprise Architect UML tool creates a powerful combination of two good tools. UML models are integrated in wiki pages, and the UML models will be updated automatically when the UML model is updated in the UML tool.\r\n\r\nOther topics covered in the presentation:\r\n\r\n* using the Java API of Enterprise Architect to publish UML diagrams to Confluence\r\n* creating a 4+1 view model of architecture in a wiki\r\n* using labels to \r\n** organise the information and create views\r\n** express relationships between various parts of the architecture model\r\n* how to version control wiki documentation in Confluence",
@@ -3140,6 +3800,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/3b253bbd-13c5-4578-8551-913f3e9b8b21?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8fb98ab7-f0d7-484c-8d10-eceb2bf1e275",
@@ -3171,6 +3837,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/a7b0d547-ad27-42a7-a21d-14fe77895bd7",
         "format": "presentation",
         "content": "Google Android er neste generasjons mobilplattform, og flere nye telefoner ventes i år. Android kan bli en viktig plattform for utviklere av mobile applikasjoner.\r\n\r\nVi tar for oss Android sin arkitektur med fokus på applikasjonslaget. Applikasjoner for Android skrives i en variant av Java, og kjøres i en virtuell maskin som heter Dalvik. Android har et rikt API som tilgjengeliggjør alt av telefonens funksjonalitet og har ingen \"skjulte\" API-er.\r\n\r\nVi skal se hvordan vi lager en applikasjon som benytter Trafikantens sanntidsdata, og vil gi en liten innføring i hvordan applikasjoner i Android er bygget opp.\r\n\r\nKjernen til Android er basert på Linux 2.6 og hele Android er lisensiert under frie lisenser.\r\n\r\nAndroid har også blitt \"portet\" til flere telefoner, og vi skal se hvordan man kan oppgradere en HTC TyTN II med Android.",
@@ -3197,6 +3869,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/950bb6a7-7931-4244-a162-5cabc65b71d8?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/1fc2f054-6e77-454f-852d-ff42d1b83c57",
@@ -3226,6 +3904,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/878e8dee-9d6f-4004-ae76-c990c3f475e9",
         "format": "presentation",
         "content": "Smidig utvikling er noe som de aller fleste organisasjoner holder på med, men det begrenser seg typisk til planlegging, rapportering og utvikling. Vi som er utviklere ønsker å bruke minst mulig tid på oppgaver som tar bort fokuset fra utvikling. Testerne ønsker å kunne få en ny versjon av applikasjonen vår så fort som mulig og ikke minst akkurat når de ønsker det selv. Drifterne ønsker at de binære artefaktene som rulles ut i produksjon er identiske med dem vi har benyttet i utviklernære miljøer og i systemtest.\r\n\r\nAlle har fått til automatisert bygging og kanskje testing. Flere og flere har fått til periodisk deployment av applikasjoner. Hvorfor stoppe her? Det vi trenger er et komplett regime for automatisert deployment og utrulling, der de samme binære pakkene brukes i alle miljøer, også produksjon. Vi vil spille på lag med operativsystemets egne pakker og versjonsstyring og vi ønsker full fleksibilitet for å rulle opp og ned mellom ulike versjoner.\r\n\r\nFor at en prosjektgruppe skal kunne fungere og for at produksjonssettingen skal være knirkefri, er vi avhengig av at alle ledd fungerer sammen. Dette foredraget er en praktisk innføring til hvordan vi tar det siste steget - og ikke minst hvordan vi plasserer oss selv øverst på skrytelisten til testerne og samtidig blir drifternes gullunger. Testerne vil elske oss fordi vi kan levere så raskt, mens drifterne vil sette stor pris på enkle rutiner uten unødvendige manuelle steg. Dessuten får de ikke testerne på nakken fordi alt bare fungerer! Foredraget er basert på praktisk erfaring i utviklingsprosjekter.",
@@ -3253,6 +3937,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c1bef4b7-da73-4c87-9f40-8b7e59a79c50",
         "format": "presentation",
         "content": "* Why do we separate Java and .Net developers?  \r\n* Why do system architects choose frameworks and write UML diagrams but do not write any code? \r\n* Why do we measure how many lines of code a developer writes?\r\n* Why is agile adoption in traditional organizations hard?\r\n\r\nThe theories of Frederick Taylor and those that followed today still sets the norm for how organizations are managed. What we see as normal and common ways to organize work is in fact making agile adoption difficult, hindering empirical processes and self organizing teams. The talk points these patterns and their effects and shows how to avoid the to not miss the benefits of an agile development process.",
@@ -3277,6 +3967,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/c79335ac-f9ad-48b3-b219-62324ea152a4?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/631ca70e-1ac0-4c23-987b-6746030c4fa2",
@@ -3308,6 +4004,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/55117797-a8c3-44b5-935a-56859147a5f6",
         "format": "presentation",
         "content": "By combining the power of compiled and interpreted languages in the same application, can we get the best of both worlds? Can embedding scripting capabilities in our applications help us develop software that is more flexible and more usable? Can we reduce development time by making volatile and highly fluctuating application logic customizable, dynamic and scriptable? Can we make life easier for ourselves as developers by choosing the right language for the right task at any given time? \r\n\r\nThis presentation gives an introduction to the concept of scripting engines and how they can be used to add scripting capabilities to real-world applications. We take a closer look at the Java scripting engine API (JSR 223) and popular implementations of the standard. The session includes practical examples and actual code.",
@@ -3334,6 +4036,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/fcd096fe-8ba9-4640-b31c-b5fc8063f53e?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/98df0f7b-6063-4028-b838-2503803d209c",
@@ -3363,6 +4071,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/d20b7700-7031-4d63-a9f9-d18e3801703a",
         "format": "presentation",
         "content": "With the Spring Framework 3.0 release, we  \r\nare introducing further annotation-based configuration options,  \r\nunified expression language support and comprehensive REST support.  \r\nThis talk discusses Spring as a modern Java 5 oriented application  \r\nframework: covering the core component model, annotation-driven web  \r\nMVC as well as platform integration. This would be more interesting to  \r\nexisting Spring users.",
@@ -3388,6 +4102,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/c1703639-5f8f-483c-afee-033344a8a628?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/d36d8a71-eabc-4638-80ea-4f879ddd6db1",
@@ -3416,6 +4136,12 @@
                 "avatar": "http://javazone.no/ems/server/binary/60c70250-8168-4bdc-b7eb-6811c4e3d5c3?size=thumb"
             }
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/318b94ea-7c8d-4e18-87f6-11d8f859ff63",

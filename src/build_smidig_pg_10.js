@@ -45,6 +45,12 @@ client.connect(function (err) {
 
         result.rows.forEach(function (row) {
             data.push({
+                "index": {
+                    "_index": "conference",
+                    "_type": "session"
+                }
+            });
+            data.push({
                 "id": row.id,
                 "format": "lightning-talk",
                 "title": row.title,

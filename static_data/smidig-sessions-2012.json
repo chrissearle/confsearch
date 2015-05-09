@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 85,
         "format": "workshop",
         "title": "Retrospektiv - et viktig verktøy for forbedring",
@@ -23,6 +29,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 48,
         "format": "lightning-talk",
         "title": "Smarte verktøy kan spore forretningsverdi i ditt prosjekt.",
@@ -42,6 +54,12 @@
             "jira",
             "forretningsverdi"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 81,
@@ -64,6 +82,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 15,
         "format": "workshop",
         "title": "Oppdeling av IT Systemer i verdi leveranser",
@@ -84,6 +108,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 73,
         "format": "workshop",
         "title": "Hvor fort tør du produksjonsette hvis kravet er ingen feil i produksjon?",
@@ -101,6 +131,12 @@
         "keywords": [
             "smidig programmering"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 85,
@@ -126,6 +162,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 71,
         "format": "workshop",
         "title": "Coding dojo",
@@ -145,6 +187,12 @@
             "parprogrammering",
             "tdd"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 44,
@@ -168,6 +216,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 9,
         "format": "lightning-talk",
         "title": "Smidig krever fokus på behovskartlegging",
@@ -186,6 +240,12 @@
             "kontekst",
             "behovsa"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 77,
@@ -207,6 +267,12 @@
             "smidig testing",
             "xml"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 7,
@@ -232,6 +298,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 39,
         "format": "workshop",
         "title": "#!/bin/bash uten å miste nattesøvnen",
@@ -255,6 +327,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 56,
         "format": "lightning-talk",
         "title": "The good, the bad and the Lean",
@@ -273,6 +351,12 @@
             "smidig",
             "lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 106,
@@ -296,6 +380,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 59,
         "format": "lightning-talk",
         "title": "\"Ærede dommer, jeg protesterer!\" - testeren som advokat",
@@ -314,6 +404,12 @@
             "teamarbeid",
             "smidig testing"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 79,
@@ -339,6 +435,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 49,
         "format": "lightning-talk",
         "title": "Smidig og innovator's dilemma",
@@ -359,6 +461,12 @@
             "leadership",
             "innovation"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 95,
@@ -382,6 +490,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 28,
         "format": "lightning-talk",
         "title": "Du kan ikke levere kontinuerlig om du har nedetid",
@@ -402,6 +516,12 @@
             "continuous-deployment",
             "devops"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 65,
@@ -427,6 +547,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 36,
         "format": "workshop",
         "title": "Hvordan jobbe effektivt i team?",
@@ -445,6 +571,12 @@
             "teameffektivitet",
             "teamarbeid"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 64,
@@ -467,6 +599,12 @@
             "smidig",
             "smartski"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 54,
@@ -494,6 +632,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 36,
         "format": "workshop",
         "title": "Hvordan jobbe effektivt i team?",
@@ -512,6 +656,12 @@
             "teameffektivitet",
             "teamarbeid"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 70,
@@ -536,6 +686,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 72,
         "format": "lightning-talk",
         "title": "Bygg din egen lille Heroku!",
@@ -556,6 +712,12 @@
             "programmering",
             "smidig"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 92,
@@ -579,6 +741,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 62,
         "format": "workshop",
         "title": "Smidig omstilling - \"Top-down\" møter \"Bottom-up\"",
@@ -597,6 +765,12 @@
             "coaching",
             "omstilling"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 80,

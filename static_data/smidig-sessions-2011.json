@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 88,
         "format": "workshop",
         "title": "Hands-on refaktoreringsworkshop - del 1",
@@ -22,6 +28,12 @@
             "refaktorering",
             "refactoring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 43,
@@ -49,6 +61,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 88,
         "format": "workshop",
         "title": "Hands-on refaktoreringsworkshop - del 1",
@@ -73,6 +91,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 42,
         "format": "Tordentale",
         "title": "Reduksjonisme er roten til alt vondt!",
@@ -93,6 +117,12 @@
             "reduksjonisme",
             "systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 97,
@@ -121,6 +151,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 89,
         "format": "workshop",
         "title": "Hands-on refaktoreringsworkshop - del 2",
@@ -143,6 +179,12 @@
             "refactoring",
             "refaktorering"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 43,
@@ -170,6 +212,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 89,
         "format": "workshop",
         "title": "Hands-on refaktoreringsworkshop - del 2",
@@ -194,6 +242,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 24,
         "format": "workshop",
         "title": "Hvordan jobbe effektivt i team?",
@@ -213,6 +267,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 24,
         "format": "workshop",
         "title": "Hvordan jobbe effektivt i team?",
@@ -230,6 +290,12 @@
         "keywords": [
             "teamarbeid"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 36,
@@ -259,6 +325,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 11,
         "format": "workshop",
         "title": "Coaching dojo",
@@ -277,6 +349,12 @@
             "scrummaster",
             "coaching"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 49,
@@ -298,6 +376,12 @@
             "historie",
             "metodikk"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 63,
@@ -322,6 +406,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 35,
         "format": "workshop",
         "title": "The Kanban Game",
@@ -340,6 +430,12 @@
             "spill",
             "kanban"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 36,

@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Smidig anbud, er det mulig? ",
         "content": "Når Kystverket skulle sette ut videreutviklingen av BarentsWatch bestemte de seg for å ta smidig på alvor.\r\n\r\nDe støtte fort på noen utfordringer: \r\n- alle leverandørene sier de er smidige, men hvordan vet vi det egentlig? \r\n- hvordan sjekke smidighet hos en leverandør? \r\n- anbudsprosessen i staten er ikke utpreget smidig, hvordan tilrettelegge for evaluering av smidighet?\r\n\r\nI denne lyntalen vil Kjell (BarentsWatch) og Sergey (Unusual Concepts) fortelle om en innovativ tilnærming til utlysningsprosessen som var skapt.\r\n\r\nVi snakket om dette i fjor, i år har vi enda flere fakta med oss. For siden da har Kystverket praktisert smidig anbud et par ekstra ganger og vi har gjort flere endringer i evalueringsprosessen.\r\n\r\nI siste anskaffelse fikk vi potensielle leverandører med på et 5 dagers case, hvor et virkelig team løste en virkelig oppgave. En sensor overvåket teamet underveis og gjorde vurderinger.\r\n\r\nPå denne måten klarte Kystverket å få langt bedre kjennskap til den enkelte leverandør og deres team.\r\n\r\nKom og få inspirasjon til hvordan man kan kjøre et smidig anbud. \r\nForedraget passer for virksomheter som lyser ut utviklingsprosjekter, samt leverandørene som ønsker å bruke smidig i sine leveranser.",
@@ -16,6 +22,12 @@
         "keywords": [
             "Systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -36,6 +48,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hvordan bryte de 10 smidige \"bud\"",
         "content": "Ingen standup? Ingen tavle? Ingen par-programmering? Kan det være smidig da? \r\n\r\nKom og hør om 10 smidige \"bud\", og hvordan (og hvorfor!) jeg har valgt å bryte dem.",
@@ -52,6 +70,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -72,6 +96,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Feature Toggles: en enkel teknikk for å levere funksjonalitet enda raskere",
         "content": "Vi i FINN har allerede automatisert plattformen vår og ruller ut nye artifakter til produksjon så snart ny funksjonalitet er klar.\r\n \r\nDessverre er det ofte slik at det tar noe tid å lage ny funksjonalitet, blant annet fordi det er mye som skal gjøres og ofte involveres flere personer. Den tradisjonelle måten å håndtere dette på er å opprette «feature branches». Et av hovedproblemene med feature branches er at de ofte blir svært dyre å integrere. \r\n \r\nJeg vil i denne lyntalen introdusere «feature toggles» og hvordan denne enkle teknikken gjør oss i stand til å levere ny funksjonalitet enda raskere, samtidig som vi beholder kontrollen. I tillegg får vi mange andre fordeler med på kjøpet.",
@@ -88,6 +118,12 @@
         "keywords": [
             "Software craftsmanship"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -108,6 +144,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "A kind of story mapping",
         "content": "Attendees will hear about an experience with lightweight planning for a team in a big company. At the heart of it is a kind of story map, a single-page plan of sorts. It is a simple tool for discovery and continuous planning with stakeholders, including what’s a minimum viable first version to go live with. \r\n\r\nKeywords: Story mapping, #NoEstimates, feature slicing\r\n",
@@ -124,6 +166,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -144,6 +192,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hvem bryr seg, jeg har jo skrevet en enhetstest",
         "content": "Opplever du at kodebasen råtner, selv om utviklerne sier at de driver med testdrevet utvikling? Sliter du med at feil som er meldt og rettet, fortsatt finnes i systemene dine? Er du en utvikler, som prøver å gjøre endringer eller lage nye features i kjørende kode, og lurer på hva i all verden de som har skrevet koden egentlig tenkte på?\r\n\r\nHvor er det det går galt? Utviklere leverer kode som ikke er robust og i alle fall ikke er motstandsdyktig mot endringer. Hva er det som får oppegående folk til å ta beslutninger mot sitt eget bedre vitende?",
@@ -160,6 +214,12 @@
         "keywords": [
             "Software craftsmanship"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "presentation",
@@ -180,6 +240,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "workshop",
         "title": "Executive Workshop",
         "content": "Dette er et spesielt tilbud til toppledere i organisasjoner som innfører Smidig og Lean som styringsprinsipper. \r\nNB: Det er fortsatt noen få plasser igjen! Er du leder på høyt nivå, kan du melde deg på ved å sende en mail til kontakt@smidig.no og vi vil gi deg tilbakemelding på om vi har plass til deg.\r\n\r\nTid: 28 oktober kl 09.00 - 13.00\r\nSted: Radisson Plaza, Oslo\r\n\r\nVi starter i plenum og får med oss Keynote-foredraget til Henrik Kniberg fra Spotify. Deretter beveger vi oss inn i et eget workshop-rom, der det blir ulike innledninger samt godt rom for diskusjon. Det blir servert enkel lunsj. Henrik vil være med her og vi får anledning til å ta opp temaer med ham.\r\n\r\n<a href=\"https://docs.google.com/document/d/1ME5ezOaujCDzcM7C6AsG9DAN_RmUXXRSoYRysWhArYc/edit?usp=sharing\">Program og mer detaljer her</a>\r\n_______________________________________________\r\nDu må melde deg på smidig-konferansen som vanlig deltager for å reservere plass på denne workshoppen! \r\n------------------------------------------------------------\r\n\r\nNB! Antall påmeldinger fra websidene våre er nå fylt opp. Du kan fortsatt melde deg på ved å sende en mail til kontakt@smidig.no og vi vil gi deg tilbakemelding på om vi har plass til deg",
@@ -196,6 +262,12 @@
         "keywords": [
             "Systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "workshop",
@@ -216,6 +288,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hvordan riste kvalitetskravene ut av kunden",
         "content": "Desverre uttrykker produkteiere og fagfolk som regel kun de funksjonelle kravene, og ikke kvalitetskravene. Men de forventer likevel at det som leveres skal være; lett å bruke, sikkert, lett å endre, virke raskt osv.\r\n\r\nFor å bygge den rette løsningen er vi nødt til å vite hva som er de viktigste kvalitetskravene for kunden. Denne lyntalen handler om hvordan man kan riste kvalitetskravene ut av kunden med teknikker basert på gojko adzic' Impact Mapping, elementer fra Architecture Tradeoff Analysis Method (ATAM) og specification by example.",
@@ -232,6 +310,12 @@
         "keywords": [
             "Verdiskapning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -252,6 +336,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hvordan vi leverer ny skatteberegning til Norge",
         "content": "Skatteetaten skal bytte ut sine stormaskinssystemer for forskudd- og skatteberegning i Norge, og etablere en fremtidsrettet plattform. Dette er et stort, samfunnskritisk prosjekt med mange interessenter, integrasjonspunkter og kryss-funksjonelle krav. Lyntalen tar for seg hvordan prosjektet løses gjennom smidig tilnærming og hyppige leveranser.",
@@ -268,6 +358,12 @@
         "keywords": [
             "Software craftsmanship"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -288,6 +384,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Programmering suger",
         "content": "Programmering suger. Programmering suger fordi kode er mer enn kode - man må sette opp prosjekt, reinstallere maven, brenne PCen og installere maven. I tillegg er debugging nærmest umulig og prod kræsjer selv om koden har vært igjennom test og staging.\r\n\r\nI denne lyntalen ranter jeg om problemer man støter på som en utvikler i 2014, og setter spørsmålstegn ved løsningene vi i dag aksepterer som gode.",
@@ -304,6 +406,12 @@
         "keywords": [
             "Software craftsmanship"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -324,6 +432,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hekta på flyt",
         "content": "Den setningen i det smidige manifest som ligger mitt hjerte nærmest er \"Personer og samspill fremfor prosesser og verktøy\". Likevel opplever jeg at vi ofte fokuserer mer på \"ballen\" enn på utøveren. Vi burde være mer opptatt av å dyrke menneskelige styrker, ressurser og talenter. Vi burde være mer opptatt av deg.\r\n\r\nEn måte du kan dyrke dine evner og talenter på er å komme inn i en mental tilstand som kalles flyt. Når du er i flyt blir du så oppslukt og engasjert i det du holder på med, at du glemmer både tid, sted og til og med deg selv. I denne tilstanden er du deg selv på ditt beste.\r\n\r\nI lyntalen vil jeg gi noen tips til hvordan du kan komme inn i flyt-sonen og dele mine egne erfaringer.\r\n\r\nKom på lyntalen og bli hekta på flyt!",
@@ -340,6 +454,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "presentation",
@@ -360,6 +480,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Det var en gang en kodelinje",
         "content": "\"Storytelling\" er i vinden, men det er vel ikke så relevant for programmerere? Joda, jeg tror vi faktisk at vi som skriver kode har masse å hente her, og utviklingen innen REST, JavaScript, C#, etc. bekrefter det. Programmerere trenger å kommunisere med hverandre og med kunder, prosjektledere, designere osv., og det å tenke på hvordan man best forteller \"historien\" gjør mange valg enklere.",
@@ -376,6 +502,12 @@
         "keywords": [
             "Software craftsmanship"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -396,6 +528,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Smidig prosjektrapportering",
         "content": "Som prosjektleder hender det jeg får spørsmål som \"Når er dere ferdige?\" og \"Hvor mye kommer dette til å koste til slutt?\". Om det er et prosjekt som er litt anstrengt mot slutten, så er det greit å kunne svare på dette uten å sende hele teamet inn i møterommet for re-estimering.\r\n\r\nJeg går igjennom hvilke spørsmål jeg stort sett får og hvordan jeg rigger prosjektet for å enkelt og raskt kunne svare. ",
@@ -412,6 +550,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -432,6 +576,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Gulrøtter og testkaniner - Brukersentrert utvikling av en selvbetjeningsløsning",
         "content": "Offentlige selvbetjeningsløsninger, tjenester og apps deler samme utfordring - brukerne kan være både bestemor og lillebror. \r\n\r\nHvordan sikrer man at man lager en god brukeropplevelse i slike løsninger? Svaret er brukersentrert utvikling, og i denne lyntalen forteller jeg hvordan Lånekassen har engasjert sine brukere og hva som ble gjort bak kulissene for å utvikle og kontinuerlig forbedre brukerinteraksjonen i deres sentrale selvbetjeningsløsning som brukes av 1 million kunder. Jeg utfordrer også myten om at brukerinteraksjon og brukertesting koster mye penger og tar mye tid, og viser hvordan ditt prosjekt med hjelp av 4 veldig enkle verktøy kan samle inn og analysere bruksmønstre, og på den måten utvikle og kontinuerlig forbedre brukerinteraksjonen.",
@@ -448,6 +598,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -468,6 +624,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "presentation",
         "title": " Advanced Product Owners ",
         "content": " We are going to argue that the normally defined role of Product Owner (PO) is inadequate for projects that have serious multiple quality requirements, and consequent architecture processes, to deliver the necessary levels of performance and quality.      This includes all large serious projects, such as government or corporate projects.       We do not want to argue that the Product Owner role as conventionally defined is inadequate for small projects, nor for projects that are not dependent on multiple state of the art quality, performance, and cost levels – and the consequent architecture to meet them.            However, a point is reached where a project is so demanding that methods adequate for smaller projects will fail. The methods of a homeowner-built house will not work for a 200-story skyscraper.     The Scrum project failure rate (about 19%) may be better than waterfall (more like 40%) [3] due to better feedback. But killing only one out of five pedestrians at a crossing, as opposed to two out of five, is still not good enough. We need to get closer to zero project failures in IT development   The myth is that the conventional PO process is universal, and that it scales up to any type of project. I believe we need to become more aware of the limits of today’s dogma, and to identify practices appropriate for Agile methods in the more demanding projects. ",
@@ -484,6 +646,12 @@
         "keywords": [
             "Smidig risikostyring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -504,6 +672,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "workshop",
         "title": "Intrapreneur Game Workshop: The idea that wins",
         "content": "Learn to build a startup within your organization – and get everybody to cheer for you!\r\n\r\nYour idea is your mission. Your organization is your enemy. Your co-workers are your side-kicks.\r\nBut your idea is not enough, even if it’s great. There are always things standing in the way like \"We don't have time for this\" or \"We don't have the money for this\".\r\n\r\nIn the Intrapreneur Game Workshop you will cope with forces that threaten your great ideas. Staying in touch with customers from the first day you will aim to design new products or technologies as complete, sustainable business models. You will learn ways to develop new stuff by using minimum possible money and time.",
@@ -520,6 +694,12 @@
         "keywords": [
             "Lean startup"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -540,6 +720,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Tre tips for bedre teamarbeid",
         "content": "Smidig utvikling skjer i små team. Kvaliteten på teamarbeidet vil påvirke effektiviteten i prosjektet. Hva vet vi om faktorer som påvirker teamarbeid fra studier i andre bransjer, og hva er spesielt med systemutvikling? Presentasjonen er basert på funn fra tidligere workshoper om effektivitet i teamarbeid fra blant annet smidig 2011 og smidig 2012, og vil konkluderer med tre tips for bedre teamarbeid.",
@@ -556,6 +742,12 @@
         "keywords": [
             "Systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -576,6 +768,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Distributed Scrum Teams",
         "content": "In my department, I have a team that is located on 5 different locations working closely together delivering products. The team is using Kanban as their way-of-work. This is the experiences from this team, both from the team-members and management point of view.",
@@ -592,6 +790,12 @@
         "keywords": [
             "Smidig og offshoring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -612,6 +816,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Documentation smells - communitydrevet kvalitetsforbedring",
         "content": "Dokumentasjon i wiki er enkelt å opprette, lett å endre og det er lav terskel for publisering. Men har også fallgruver som kaos, utdatert informasjon, dokumentasjon flere plasser som ikke er i synk etc. Anarki og kaos leder ikke til god dokumentasjon men heller ikke hardt styrte prosesser. Her presenteres hvordan erfaringer fra Code smells kan brukes til en community drevet prosess for forbedring av informasjon og innhold i en wiki. Documentation smells gir et felles språk om kvalitetsmangler i dokumentasjon. Mønster hjelper brukerne til å forbedre dokumentasjonen.",
@@ -628,6 +838,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "presentation",
@@ -648,6 +864,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Lean Coffee - En effektiv, demokratisk og engasjerende møteform",
         "content": "I en nylig undersøkelse oppgir nær 20 % at den tiden de bruker i møter er bortkastet tid, og årlig kastes det bort milliarder av kroner på meningsløse møter. \r\n\r\nLean Coffee,startet av Jim Benson og Jeremy Lightsmith i Seatlle i 2009, er en demokratisk møteform som kan hjelpe til med å gjøre noen av disse møtene mer effektive og meningsfulle. Møteformen har spredt seg til byer over hele verden, og i Oslo har entusiaster møttes hver andre torsdag i snart 2 år. I denne lyntalen får du en innføring i denne effektive og engasjerende møteformen.",
@@ -664,6 +886,12 @@
         "keywords": [
             "Lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "presentation",
@@ -684,6 +912,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Selvstyrte team - det norske forskningsbidraget",
         "content": "Ikke alle er klar over at norske forskere bidro vesentlig til teorien og praksisen med selvstyrte team. Denne lyntalen prøver å kaste lys over det norske forskningsbidraget med Einar Thorsrud i spissen.",
@@ -700,6 +934,12 @@
         "keywords": [
             "Systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -720,6 +960,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Nye Guru: Growth hacking på SOL",
         "content": "SOL Guru kom i 2008 og har etablert seg som en norsk versjon av Answers.com. Nå ønsker vi å fornye tjenesten, og gjøre den til et Quora på norsk.\r\n\r\nKluet er brukerengasjement: Hvordan stimulerer vi brukerne til å bidra med innhold og spre ordet om tjenesten?\r\n\r\nVårt \"unfair advantage\" er Google, som gir gamle Guru masse organisk trafikk. Denne vil vi utnytte til å skape en selvforsterkende mekanisme for å engasjere enda flere brukere.\r\n\r\nVår visjon er et bedre informert Skandinavia; vår metode er å jobbe datadrevet, der alle nye features begynner som et eksperiment. \r\n\r\nMen vi har begrenset tid. Vi trenger pålitelige eksperimenter som utføres raskt og rimelig. Vi trenger et team som løper fritt. Vi trenger feedback i sanntid.\r\n\r\nLyntalen er om både tekniske og metodiske utfordringer vi møter i dette \"growth hacking\"-prosjektet.\r\n\r\nLyntale av Lill Kristin Syversen (Produktdirektør i SOL) og Anders Haugeto (Lean eksperimentdesigner i Iterate)",
@@ -736,6 +982,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -756,6 +1008,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "workshop",
         "title": "Effektivisering av leveranseprosesser",
         "content": "Vil du levere mer kontinuerlig bør du gå etter flaskehalsene først. Det vi skal se på i denne praktiske (men kodeløse) workshopen er ulike verktøy man kan bruke for å finne disse flaskehalsene i leveranseprosessen din.\r\nVi kommer til å gå innom temaer som value-stream mapping, systems thinking og køteori for å kartlegge nåsituasjonen og for å finne tiltak.",
@@ -772,6 +1030,12 @@
         "keywords": [
             "Lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -792,6 +1056,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Oppnå resultater med Lean Teknikken A3 ",
         "content": "Lean teknikken A3 er en enkel og effektiv teknikk for å gjennomføre forbedringsprosjekter. Visma har innført og bruk dette i mange år nå. Vil først gi en rask innføring i teknikken, deretter noen konkrete eksempler på hvordan A3 har vært brukt  i en stor utviklingsorganisasjon. Avslutte med resultater vi har oppnådd. Mål  med lyntalen er å motivere for å bruke dette slagkraftige verktøyet i mange sammenhenger. Lyntaler er i dag Utviklingsdirektør i Visma VES, tidligere jobbet som Direktør kontinuerlig forbedring og utviklingssjef i FINN.no.",
@@ -808,6 +1078,12 @@
         "keywords": [
             "Lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -828,6 +1104,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hvordan kan vi i større grad skape suksess ved gjennomføring av smidige prosjekter?",
         "content": "Mange kunder, også det offentlige, ønsker å gjennomføre smidige prosjekter for lettere å kunne oppnå raske og synlige gevinster. Samtidig er mange av de samme kundene opptatt av en fastsatt pris og tidsramme. Hvilke grep kan tas slik at vi i større grad imøtekommer våre kunders ønsker og sikrer suksess?",
@@ -844,6 +1126,12 @@
         "keywords": [
             "Verdiskapning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -864,6 +1152,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Gjetter du eller vet du?",
         "content": "Når vi laget IT-systemer gjør vi en hel del antagelser. Verktøyene vi bruker for å bestemme oss er noen ganger tidligere erfaringer, markedsundersøkelser eller brukertesting, men ofte også ren gjetting. Hva gjør vi når dette ikke holder?\r\n\r\nKan analyse av brukerdata gi oss et bedre beslutningsgrunnlag?",
@@ -880,6 +1174,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -900,6 +1200,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "MVPs all the way down - Ett år senere",
         "content": "Hva skjer med MVPen din når den har vokst i omfang og blitt en del av et produkt? Hva om det produktet nesten bare består av forskjellige MVPer? Hva da, når kunden kommer med enda et behov som må løses av en allerede vaklende løsning som er bygd på ukokt spaghetti?\r\n\r\nVi ser litt på hva som skjer når skopet vokser, abstraksjonene lekker og galt rammeverk er valgt. Jeg deler erfaringer fra et prosjekt som har blitt til gjennom spikes og MVPer over ett år. Hva har fungert? Hva har gått galt? Hvorfor gikk det som det gikk og hva kan vi lære av det?",
@@ -916,6 +1222,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -936,6 +1248,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Lean som \"quick fix?\"",
         "content": "Noen gang jobbet i en silopreget virksomhet? IT-avdelingen for seg selv et sted og fagavdelingen et annet. Selgere i en gruppe og ingeniører i en annen. Et sted hvor hver gruppe har ansvar for sitt og ingen for den totale verdikjeden. Denne lyntalen vil gi et innblikk i hva som burde skje når verdistrømanalysen viser at det ikke flyter og det meste ikke henger sammen.\r\n",
@@ -952,6 +1270,12 @@
         "keywords": [
             "Lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "workshop",
@@ -972,6 +1296,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Sommer og Lean Startup",
         "content": "I sommer leverte vi et innovasjonsprosjekt på 8 uker. \r\n\r\nTeamet jobbet i henhold til lean startup, en metodikk som førte til målrettet utvikling og raske avgjørelser. \r\n\r\nI dette foredraget vil jeg fortelle om hva vi gjorde, hva vi leverte og suksesskriteriene. ",
@@ -988,6 +1318,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1008,6 +1344,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Hva skal til for at organisasjoner skal lykkes i å ta i bruk Lean Startup? ",
         "content": "Lean Startup har blitt et populært verktøy for raskt å identifisere og utvikle de beste ideene. Mange selskaper ønsker å ta i bruk metoden eller er allerede godt i gang. Hva skal til for å lykkes når man tar i bruk denne metoden? I denne lyntalen gis det konkrete tips basert på erfaring til hva som skal til for å lykkes. Og kanskje det viktigste: hele filosofien med Lean Startup er å eksperimentere og å lære - så det er lite å tape og mye å vinne med å forsøke!",
@@ -1024,6 +1366,12 @@
         "keywords": [
             "Verdiskapning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1044,6 +1392,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Et kreativt trekantsamarbeid",
         "content": "Jeg vil snakke om hvordan utvikler, interaksjonsdesigner og grafisk designer jobbet tett sammen for å lage responsive nettsider for HELFO.no. \r\n\r\nTeamet fikk korte frister og ansvar for en felles leveranse. Vi deltok i workshoper med kunden, brukertestet løsningen og kodet sammen. Ved å sitte sammen, minimere skriftlig dokumentasjon og fokusere på en HTML-prototype og muntlig kommunikasjon effektiviserte vi prosessen.\r\n",
@@ -1060,6 +1414,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1080,6 +1440,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Om å få eller gi kritikk\u000b- lure knep for å forstå\u000bog bli forstått",
         "content": "Å forstå og håndtere forskjeller og kritikk i et team er essensielle elementer i å kunne bygge reell forståelse mellom teammedlemmene. I en smidig hverdag gjør vi kontiniuerlig endringer og må tilpasse oppgaveløsningen, Gode kommunikajsonsevner i team gir store fordeler ved at en opprettholder nysgjerrighet og effektivitet uavhengig av ytre endringer.",
@@ -1096,6 +1462,12 @@
         "keywords": [
             "Kontinuerlig forbedring"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "presentation",
@@ -1116,6 +1488,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Gi meg ansvar - det blir bedre for alle da",
         "content": "Alle som ikke jobber med devOps som utviklingsstrategi idag, og lurer på om de skal innføre dette, er ofte veldig bekymret for om det blir for mye for utviklerne å bære denne voldsomme ansvarsbyrden. Mye av argumentasjonen jeg hører MOT devOps er at ting vil rakne uten et overbyråkratisert rapporteringsregime. Kan man virkelig stole på at utviklerne tar det alvorlig nok? I denne lyntalen skal jeg fortelle hvor bra det er å få være utvikler helt fra nyutviklingen, ut til produksjon og i lang tid etterpå.\r\nDette blir en lyntale med personlige erfaringer fra å jobbe på et devOps prosjekt med mikrotjenestearkitektur i 6 år. At det gjør kvaliteten på koden bedre. At det gjør at man kan fikse feil og få de ut i prod, før rapportskriverne får trykket på new Document i Word. At man kan gi fornuftige anbefalinger på hva som vil virke i den virkelige verden basert på å ha \"følt det på kroppen\". At man blir mye mer kvalitetsbevisst når man selv er den som må passe på at koden fortsetter å fungere når verden endrer seg. At jeg selv som utvikler har lært mye mer en jeg tror jeg ville ha gjort hadde jeg ikke jobbet på devOps viset. Dette og mer til skal jeg fortelle om: hvordan mye blir så meget bedre av å gi utvikleren mer ansvar. Vi vil faktisk ha det!",
@@ -1132,6 +1510,12 @@
         "keywords": [
             "DevOps"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1152,6 +1536,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Måling av verdiskaping - Agile Earned Value Management",
         "content": "Hvordan kan Agile Earned Value Management hjelpe deg å måle og styre verdiskapingen i ditt prosjekt?\r\n\r\n\r\nAgile Earned Value Management kan kombineres med andre måltall i smidig, baserer seg på anerkjent metodikk og er lett å kommunisere. Rene kinderegget!\r\n\r\n\r\n\r\n",
@@ -1168,6 +1558,12 @@
         "keywords": [
             "Verdiskapning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1188,6 +1584,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "Etter Estimering - fra konstruksjon til organisk utvikling",
         "content": "Ifjor snakket jeg om min pågående utforskning av hva som skjer når man fjerner estimater fra softwareprosjekter - #NoEstimates. Nå er konklusjonene klare, masteroppgaven levert og jeg vil gjerne dele mine funn med dere. For det skjer faktisk interessante - og litt overraskende - ting når kravspekken og estimatene får vike.",
@@ -1204,6 +1606,12 @@
         "keywords": [
             "Erfaringsrapporter"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "lightning-talk",
@@ -1224,6 +1632,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "format": "lightning-talk",
         "title": "JIRA ødelegger din smidighet (og hva du kan gjøre med det)",
         "content": "De fleste prosjekter i dag bruker et elektronisk verktøy til å holde greie på oppgavene. Disse verktøyene kommer ofte i veien for gode arbeidsprosesser.\r\n\r\nDet mest populære verktøyet er JIRA. Dette kommer usedvanlig mye i veien for gode prosjekter.\r\n\r\nDet er to spørsmål en prosjektleder skal kunne besvare og påvirke:\r\n\r\n1. Hva har vi gjort i det siste?\r\n2. Hva står igjen før vi er klare til neste levering?\r\n\r\nJeg har til gode å finne prosjektledere som bruker JIRA og som klarer å besvare dette.\r\n\r\nDette er kun ett av problemene forårsaket av et verktøy. I dette foredraget vil jeg beskrive 3 problemer og 3 tiltak for å unngå at det blir et problem (i tillegg til det åpenbare, men \"umulige\": kast verktøyet).",
@@ -1240,6 +1654,12 @@
         "keywords": [
             "Systemtenkning"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "format": "workshop",

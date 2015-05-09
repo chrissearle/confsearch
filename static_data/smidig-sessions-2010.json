@@ -1,5 +1,11 @@
 [
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 131,
         "format": "lightning-talk",
         "title": "Smidig er ikke noe du er, men noe du forsøker å bli",
@@ -17,6 +23,12 @@
         "keywords": [
             "smidig"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 73,
@@ -37,6 +49,12 @@
             "releaseprosess",
             "lean"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 43,
@@ -62,6 +80,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 149,
         "format": "lightning-talk",
         "title": "Det er enkelt å release hver dag",
@@ -85,6 +109,12 @@
         ]
     },
     {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
+    },
+    {
         "id": 97,
         "format": "lightning-talk",
         "title": "Smidig - Hvordan? spør du. Hvorfor? spør jeg.",
@@ -103,6 +133,12 @@
             "smidigere?",
             "smidig"
         ]
+    },
+    {
+        "index": {
+            "_index": "conference",
+            "_type": "session"
+        }
     },
     {
         "id": 51,
