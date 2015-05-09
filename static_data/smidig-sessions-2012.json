@@ -1,0 +1,621 @@
+[
+    {
+        "id": 85,
+        "format": "workshop",
+        "title": "Retrospektiv - et viktig verktøy for forbedring",
+        "content": "En stor del av smidig utvikling er å kontinuerlig arbeide for å forbedre arbeidsprosesser. Når man jobber iterativt er det nyttig å bruke retrospektiv i slutten av hver iterasjon for å sette fokus på hva som har blitt gjort, og hva man planlegger å gjøre videre.\r\n\r\nVi presenterer én teknikk som kan brukes for retrospektiv. Gjennom en tenkt prosjektsituasjon med kunde, leverandør og et produkt som skal leveres får deltakerne konkret praktisk erfaring med teknikken. Flere iterasjoner med planlegging, produksjon og retrospektiv gir muligheter for forbedring og grunnlag for diskusjon rundt retrospektiv som verktøy i etterkant. Kanskje klarer leverandøren til slutt å levere det kunden vil ha?  \r\n\r\nWorkshopen er inspirert av en workshop av Alistair Cockburn. Ingen forkunnskaper er nødvendige for å delta.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Trude Martinsen"
+            }
+        ],
+        "keywords": [
+            "teamarbeid",
+            "arbeidsprosess",
+            "retrospective",
+            "kommunikasjon",
+            "smidig"
+        ]
+    },
+    {
+        "id": 48,
+        "format": "lightning-talk",
+        "title": "Smarte verktøy kan spore forretningsverdi i ditt prosjekt.",
+        "content": "Navs moderniseringsprogram er det største smidige prosjektet i Norge og drives med en smidig metodikk. Underveis i prosjektets livsløp er lønnsomhetsanalyser, gevinstplaner og kost/nytte-vurderinger avgjørende for å gjøre de riktige prioriteringer og sikre god forretningsverdi.\r\nMen hvordan kan vi bruke enkle verktøy til å spore og rapportere på nøkkelverdiene som ligger til grunn for disse vurderingene?\r\nVi deler erfaringer på hvordan vi integrerte Atlassian Jira og Excel for å lage en smidig og kraftig rapporteringsløsning.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tomas Zijdemans"
+            }
+        ],
+        "keywords": [
+            "excel",
+            "jira",
+            "forretningsverdi"
+        ]
+    },
+    {
+        "id": 81,
+        "format": "lightning-talk",
+        "title": "Reducing speed limits can reduce traffic jams #req #dependencies #feedback ",
+        "content": "Dear System Developer, I have seen the agony and frustration in your face. The every day context switching and inability to concentrate on one task at the time for more than a couple of hours. The irony here is that we actually strive towards a common goal where we can deliver one requirement at a time to get early feedback and make improvements. A single flow of valuable features delivered to the customer. \r\n\r\nThe problem is our inability to define small, independent, functional requirements, which in turn ends up with headaches and stress. Still we act as developers and tester are playing on two different teams. \r\n\r\nIn this talk Mr. Bang wants to stress the importance of slowing down and focusing on finishing one task before starting another, when the pressure increases and deadlines get closer. He will share som practical examples on how requirements can be specified and flow through development as independent deliverables.\r\n\r\nIn Gothenburg, Sweden, they have reduced traffic jams and increased throughput of cars during rush hour by reducing speed limits. There is a clear parallell to software development that we can learn from.\r\n\r\nNo more headaches.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tom Johannes Bang"
+            }
+        ],
+        "keywords": [
+            "programmering",
+            "flow"
+        ]
+    },
+    {
+        "id": 15,
+        "format": "workshop",
+        "title": "Oppdeling av IT Systemer i verdi leveranser",
+        "content": "1. det er 19 prinsipper for oppdeling is små leveranser\r\n2. og vi kan fornenkle til 111111 prinsippet\r\n3. eller vi kan benytte Innvirkningstabellen\r\n4. Og iterativ erfaring\r\n\r\nfor å dele opp enhver prosjekt i små inkrementer med målbar verdileveranser til interessehavere",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tom Gilb"
+            }
+        ],
+        "keywords": [
+            "inkrementer",
+            "verdioppdeling"
+        ]
+    },
+    {
+        "id": 73,
+        "format": "workshop",
+        "title": "Hvor fort tør du produksjonsette hvis kravet er ingen feil i produksjon?",
+        "content": "Dette er en programmeringsworkshop inspirert av extreme-startup (https://github.com/rchatley/extreme_startup). \r\n\r\nDeltagerene skal løse en oppgave. (Jeg vil med vilje ikke si hva det går ut på). Oppgaven er lagt opp slik man kan velge hvor vanskelig man gjør det. Løser man større del av problemet får man mer poeng. Dersom man \"produksjonsetter\" feil blir poengsummen nullet ut, og man er tilbake til start.\r\n\r\nMan kan velge om man vil programmere alene eller sammen med noen andre.\r\n\r\nPraktisk:\r\nMan kan fritt hvelge hvilket programmeringsspråk man ønsker å bruke. Man sender en http-request til en server, og får svar derfra som tar deg videre i oppgaven. Deltagere må stille med en pc med sitt valgte programmeringsspråk og ide installert.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Anders Karlsen"
+            }
+        ],
+        "keywords": [
+            "smidig programmering"
+        ]
+    },
+    {
+        "id": 85,
+        "format": "workshop",
+        "title": "Retrospektiv - et viktig verktøy for forbedring",
+        "content": "En stor del av smidig utvikling er å kontinuerlig arbeide for å forbedre arbeidsprosesser. Når man jobber iterativt er det nyttig å bruke retrospektiv i slutten av hver iterasjon for å sette fokus på hva som har blitt gjort, og hva man planlegger å gjøre videre.\r\n\r\nVi presenterer én teknikk som kan brukes for retrospektiv. Gjennom en tenkt prosjektsituasjon med kunde, leverandør og et produkt som skal leveres får deltakerne konkret praktisk erfaring med teknikken. Flere iterasjoner med planlegging, produksjon og retrospektiv gir muligheter for forbedring og grunnlag for diskusjon rundt retrospektiv som verktøy i etterkant. Kanskje klarer leverandøren til slutt å levere det kunden vil ha?  \r\n\r\nWorkshopen er inspirert av en workshop av Alistair Cockburn. Ingen forkunnskaper er nødvendige for å delta.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Magnus Westergaard"
+            }
+        ],
+        "keywords": [
+            "teamarbeid",
+            "arbeidsprosess",
+            "retrospective",
+            "kommunikasjon",
+            "smidig"
+        ]
+    },
+    {
+        "id": 71,
+        "format": "workshop",
+        "title": "Coding dojo",
+        "content": "Hvordan bli en bedre programmerer? Du må trene.\r\n\r\nI denne workshopen får du jobbe med grunnleggende moderne programmeringsferdigheter i en sosial setting med enkle, men illustrerende oppgaver.\r\n\r\nFasciliatoren er en erfaren kode coach som  har hold coding dojos i Ukraina, Russland, Latvia, Sri Lanka og Tsjekkia, i tillegg til Norge!",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Johannes Brodwall"
+            }
+        ],
+        "keywords": [
+            "refactoring",
+            "parprogrammering",
+            "tdd"
+        ]
+    },
+    {
+        "id": 44,
+        "format": "lightning-talk",
+        "title": "Fra distribuert kaos til samarbeid gjennom god kommunikasjon",
+        "content": "Mange opplever distribuert utvikling som problematisk. Noen hevder smidig utvikling gjør det enda vanskeligere. Jeg hevder distribuert utvikling nødvendiggjør smidige praksiser - for å presse fram det samarbeidet og tilbakemeldingssløyfene som er nødvendig for å få til gode resultater. Samtidig må man tilpasse seg virkeligheten som distribuert utvikling utgjør. Stikkordet er etablering av god kommunikasjon. Banalt, vanskelig og nødvendig. Lyntalen tar for seg hvorfor vi idet hele tatt har denne problemstillingen, og teknikker og mekanismer som lyntaler har hatt erfaring med at virker.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Lars Arne Skår"
+            }
+        ],
+        "keywords": [
+            "kommunikasjon",
+            "smidig",
+            "distribuert"
+        ]
+    },
+    {
+        "id": 9,
+        "format": "lightning-talk",
+        "title": "Smidig krever fokus på behovskartlegging",
+        "content": "For å kunne nyttigjøre seg av hurtige tilbakemeldinger og gjøre funksjonelle avklaringer i selve utviklingen,er det en forutsetning at man allerede har opprettet felles referanserammer og god kommunikasjon i forkant for å forstå sluttbrukere i en kontekst. For å få til dette må også utviklere, ikke bare UX må tidligere med i prosessen for å forstå brukskonteksten",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Knut H Rolland"
+            }
+        ],
+        "keywords": [
+            "kontekst",
+            "behovsa"
+        ]
+    },
+    {
+        "id": 77,
+        "format": "lightning-talk",
+        "title": "Hvordan få testdata (nesten) gratis",
+        "content": "Ved hjelp av stukturerte brukertilfeller og aspekter kombinert med xml kan du på no time lage et play/replay-konsept som lar deg lagre og avspille brukertilfeller. Etter refakturering kan  brukertilfeller avspilles for å  sjekke for eventuelle uønskede sideeffekter eller feil.  I tillegg kan du ved editering av xml-filer systematisk tvinge fram test av varianter av brukertilfeller. Spesielt relevant der en har store legacysystemer med kompliserte prosesser for å skape testdata og der en ser behov for refakturering.   ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Pål Myhre"
+            }
+        ],
+        "keywords": [
+            "aspectj",
+            "smidig testing",
+            "xml"
+        ]
+    },
+    {
+        "id": 7,
+        "format": "lightning-talk",
+        "title": "MVP og Evo utfyller hverandre",
+        "content": "MVP - Minimum Viable Product - er en super tilnærming når man skal nyutvikle. Men hva gjør videre etter at man har utviklet et MVP? Evo - Tom og Kai Gilbs prosjektmetodikk - tar utgangspunkt i at man skal definere produktkvaliteter som man så skal forbedre. Men hva gjør man før man har et produkt i det hele tatt?\r\n\r\nDisse to tankegangene utfyller hverandre på et glimrende vis. MVP fram til et minimumsprodukt, deretter Evo for å fokusere videreutvikling på det som er viktig. Lyntalen forklarer tankegangen og tar for seg erfaringer fra et pågående prosjekt på Statkraft der dette er forsøkt.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Trond Wingård"
+            }
+        ],
+        "keywords": [
+            "smidig",
+            "metodikk",
+            "erfaringer",
+            "evo",
+            "mvp"
+        ]
+    },
+    {
+        "id": 39,
+        "format": "workshop",
+        "title": "#!/bin/bash uten å miste nattesøvnen",
+        "content": "Vanligvis lærer vi nye programmeringsspråk ved å lage små lekeprosjekter som er lite nyttige. Når man lærer seg shellskripting lager man som regel noe svært nyttig første gang. Det starter med å putte noen få komandoer i sekvens i en fil og kjøre den. Umiddelbart merker man \"the power of the shell\", og du får lyst til å gjøre mer avanserte ting. Du begynner å se på løkker, if'er, arrays og funksjoner. Det er da man oppdager at shellskripting kan være marerittaktig frustrende å få kontroll på. Lite er intuitivt og små nyanser i syntaks gir fullstendig uforutsigbare og uforklarelige resultater. Etterhvert som skriptene blir større blir de uoversiktlige og kompliserte og du begynner å savne unittester, debuggingsmuligheter, syntakskontroll, standardisering, og logging.\r\n\r\n\r\nI denne workshoppen vil vi se på problemer det er vanlig å støte på og hvordan du kan håndtere de. Vi vil trene på teknikker fra \"utviklernes verden\" som ikke er så vanlig å benytte seg av i \"drifternes verden\", og hva utviklere trenger å lære seg om arrays, looper, scoping, system variable og *nix verktøy for å kunne bli effektive bash-programmerere. Deltakerne vil få erfare hvordan skriptene kan bli mye mer håndterbare og mindre utsatt for feil. Vi vil se på funksjoner, enhetstester, debugging, standardisering, organisering av kildekode, versjonskontroll og loggrammeverk som forbedrer kvalitet, vedlikeholdbarhet, lesbarhet, gjenbrukbarhet, ryddighet, og testbarhet.\r\n\r\n\r\nAlternativt kan jeg holde en tordentale om disse tingene, eller skvise det inn som en kort workshop, men da blir det mindre tid til å få testet ut tingene selv.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stein Inge Morisbak"
+            }
+        ],
+        "keywords": [
+            "continuous-deployment",
+            "continuous delivery",
+            "shellskripting",
+            "bash",
+            "devops"
+        ]
+    },
+    {
+        "id": 56,
+        "format": "lightning-talk",
+        "title": "The good, the bad and the Lean",
+        "content": "\"Lean\" er en produksjonsmetode som fokuserer på å skape verdi ved å eliminere “waste”. Den er en variasjon over temaet effektivisering. Spørsmålet om hva som førere til slik effektivisering er imidlertid omstridt – ikke bare innen industriell produksjon, men også innen programvareutvikling der smidige metoder har stått i en særstilling i de siste årene. \r\n\r\nDenne lyntalen vil sette fingeren på nettopp hovedkonseptet i Lean: waste, og stille kritiske spørsmål ved verdien av å prøve og overføre dette fra produksjon til utvikling. Hva er det som gjør det bra, hva som gjør det dårlig, og hva som rett og slett gjør at det ikke henger på greip? Hovedutfordringen er: kan Lean være smidig?",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Tore Dybå"
+            }
+        ],
+        "keywords": [
+            "smidig",
+            "lean"
+        ]
+    },
+    {
+        "id": 106,
+        "format": "lightning-talk",
+        "title": "Det holder ikke å nynne melodien, du må kunne teksten!",
+        "content": "Halvhjertet innsats er verre enn ingen innsats. For å lykkes som et team må alle kunne melodien, alle må kunne teksten og viktigst: man må skjønne hva som blir sunget!\r\n\r\nDette er selvfølgelig ikke en lyntale om musikk, men her tenker jeg på melodien som et språk og teksten som rammeverket. Da gir det seg selv at man må skjønne hvorfor man programmerer som man gjør, hvis ikke forsvinner meningen og resultatet blir dårlig.\r\n\r\n\r\n\r\n\"'Scuse me while I kiss this guy.\"  ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Andreas Heim"
+            }
+        ],
+        "keywords": [
+            "omskrivning",
+            "legacy",
+            "metode"
+        ]
+    },
+    {
+        "id": 59,
+        "format": "lightning-talk",
+        "title": "\"Ærede dommer, jeg protesterer!\" - testeren som advokat",
+        "content": "En smidig tester er både brukerens og utviklerens advokat. Gjennom å sette spørsmålstegn på alle antagelsene finner hun ut hva brukerens behov er og hjelper utvikleren å finne feil før de blir implementert. Testeren kan domene og systemet som ingen annen og har en unique forståelse om kravene. Lyntalen beskriver hvordan den smidige testeren sørger for at brukeren får et produkt som oppfyller behovene. Målgruppen er ikke bare testere og utviklere men alle som er interessert i å få en bedre forståelse for hva smidig testing egentlig er. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ellen Weber"
+            }
+        ],
+        "keywords": [
+            "teamarbeid",
+            "smidig testing"
+        ]
+    },
+    {
+        "id": 79,
+        "format": "lightning-talk",
+        "title": "Forstå Littles lov og lever raskere!",
+        "content": "Littles lov sier at gjennomsnittlig ventetid i en kø er gjennomsnittlig antall ting i køen delt på gjennomsnittlig prosesseringtid av hver ting.\r\n\r\nI følge Littles lov betyr det at et smidig team som leverer 5 brukerhistorier hver sprint og har en produktkø på jevnt over 50 brukerhistorier, i snitt bruker 10 sprinter på å levere en brukerhistorie. Med 14. dagers sprinter snakker vi da en gjennomsnitlig leveringstid på 20 uker fra en brukerhistorie kommer inn i produktkøen til den er klar for produksjon.\r\n\r\nLyntalen peker på hva vi kan gjøre for å redusere leveringstiden.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Nils Christian Haugen"
+            }
+        ],
+        "keywords": [
+            "krav",
+            "køteori",
+            "produktkø",
+            "user-stories",
+            "backlog"
+        ]
+    },
+    {
+        "id": 49,
+        "format": "lightning-talk",
+        "title": "Smidig og innovator's dilemma",
+        "content": "Et foredrag om:\r\n\r\n-hvordan kan vi legge til rette for disruptiv innovasjon\r\n\r\n-hvilke utfordringer har jeg opplevd å stå overfor ved utvikling av løsninger som sprenger grenser for hva bedriften leverer \"i dag\" ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Eira Brunstad"
+            }
+        ],
+        "keywords": [
+            "erfaringer",
+            "smidig",
+            "leadership",
+            "innovation"
+        ]
+    },
+    {
+        "id": 95,
+        "format": "lightning-talk",
+        "title": "Hackathon som utviklingsprosess",
+        "content": "Om du setter smarte folk med ulik bakgrunn sammen i et rom med en tidsfrist og en engasjerende problemstilling, skjer det spennende ting. Ønsker å dele erfaringer fra Startup Weekend metoden som arbeidsform for økt innovasjon i alt fra store til små virksomheter.  ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Maja Adriaensen"
+            }
+        ],
+        "keywords": [
+            "visjon",
+            "lean-startup",
+            "hackathon"
+        ]
+    },
+    {
+        "id": 28,
+        "format": "lightning-talk",
+        "title": "Du kan ikke levere kontinuerlig om du har nedetid",
+        "content": "Når du driver med kontinuerlig leveranse er det et problem om du har nedetid hver gang du produksjonssetter når målet er å produksjonssette så ofte du kan. I denne lyntalen vil jeg vise hvordan du kan unngå nedetid når du deployer Java-web-applikasjoner. Jeg vil vise hvordan du kan deploye (og rulle tilbake) nye versjoner, og også hvordan du bør håndtere databaseendringer (og rollback) mellom deployments.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Stein Inge Morisbak"
+            }
+        ],
+        "keywords": [
+            "continuous delivery",
+            "kontinuerlig leveranse",
+            "continuous-deployment",
+            "devops"
+        ]
+    },
+    {
+        "id": 65,
+        "format": "lightning-talk",
+        "title": "Fra visjon til sprint backlog - ta avgjørelser på siste ansvarlige tidspunkt",
+        "content": "Å ta avgjørelser på siste ansvarlige tidspunkt er et kjent prinsipp i Smidig. De fleste er enige i at dette er fornuftig, men få kan vel med hånden på hjertet si at de vet når dette er? Lyntalen belyser viktige faktorer som spiller inn, og hvordan prosjektene kan påvirke disse til sin fordel. Et mer bevisst forhold til når \"siste ansvarlige tidspunkt\" er, og ikke minst hvordan dette varierer gjennom et langt prosjekt, vil sannsynligvis bidra til at lytterne øker effektiviteten og foretningsverdien i prosjektene sine. Lyntalen bygger på batcheloroppgaven - \"Hvordan gjøre de \"riktige tingene\" til \"riktig tid\" - Produktkøstyring i Scrum prosjekter\", som jeg skrev ved BI, høsten 2012.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Mads Aagaard"
+            }
+        ],
+        "keywords": [
+            "backlog",
+            "visjon",
+            "jit",
+            "produktkø",
+            "smidig"
+        ]
+    },
+    {
+        "id": 36,
+        "format": "workshop",
+        "title": "Hvordan jobbe effektivt i team?",
+        "content": "Smidig utvikling handler mye om å jobbe godt sammen i team. Hvordan organisere seg i et team for å jobbe effektivt? Hensikten med denne workshopen er å dele og diskutere deltakernes egne erfaringer med hva som bidrar til eller hindrer effektivt teamarbeid, og gi deltakerne innsikt i en modell for teameffektivitet som kan brukes til å forbedre egen praksis i smidige team. Denne workshopen passer for alle som jobber i systemutviklingsteam, og er interessert i å reflektere over eget teamarbeid, enten du er teamdeltaker, fasilitator eller teamleder.\r\n\r\nWorkshopen arrangeres av Torgeir Dingsøyr fra SINTEF og Yngve Lindsjørn fra Universitetet i Oslo.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Yngve Lindsjørn"
+            }
+        ],
+        "keywords": [
+            "teameffektivitet",
+            "teamarbeid"
+        ]
+    },
+    {
+        "id": 64,
+        "format": "lightning-talk",
+        "title": "XP er en effektiv metode for startups i tidlig fase til å skaffe seg kunder og investor",
+        "content": "Extreme Programming (XP) er en iterativ utviklingsmetode som baserer seg på opplevelser og tilbakemeldinger fra kunde/testperson. Den er ofte ustrukturert og eksperimentell i formen som ofte passer godt for tidligfase startups og prosjekter. Vi i Smartski har bevisst brukt denne metoden for å skaffe oss de første kundene samt investor. Med denne presentasjonen vil jeg inspirere flere til å bruke XP i startups og prosjekter. www.smartski.no",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Boye Riis"
+            }
+        ],
+        "keywords": [
+            "lean-startup",
+            "xp",
+            "smidig",
+            "smartski"
+        ]
+    },
+    {
+        "id": 54,
+        "format": "lightning-talk",
+        "title": "Feature Branching vs. Feature Toggling - Ja takk, begge deler!",
+        "content": "Det er for tiden en pågående uenighet mellom tilhengerne av Feature Branching og Feature Toggling.\r\n\r\nSpesielt Martin Fowler har gått ut og ment at Feature Branching er en Anti-Pattern som ødelegger Continuous Integration og lar utviklerne legge seg til uvaner som slurvete testing mv.\r\n\r\nAndre mener Feature Branching er en god mekanisme for at større team skal kunne utvikle flere kompliserte features parallelt uten å tråkke hverandre på tærne, og at strategier som git-flow gir gode verktøy for å håndtere kompleksiteten i å utvikle større systemer med hyppig release takt og Continuous Deployment.\r\n\r\nJeg ønsker å presentere en strategi som kombinerer Feature Branching basert på git-flow sammen med Feature Toggling og flere parallelle CI løp for long lived branches, basert på våre erfaringer med ABC Startsiden sine løsninger. ",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Thomas Malt"
+            }
+        ],
+        "keywords": [
+            "feature-toggling",
+            "feature-branching",
+            "ci",
+            "continuous-deployment",
+            "git",
+            "git-flow",
+            "metodikk"
+        ]
+    },
+    {
+        "id": 36,
+        "format": "workshop",
+        "title": "Hvordan jobbe effektivt i team?",
+        "content": "Smidig utvikling handler mye om å jobbe godt sammen i team. Hvordan organisere seg i et team for å jobbe effektivt? Hensikten med denne workshopen er å dele og diskutere deltakernes egne erfaringer med hva som bidrar til eller hindrer effektivt teamarbeid, og gi deltakerne innsikt i en modell for teameffektivitet som kan brukes til å forbedre egen praksis i smidige team. Denne workshopen passer for alle som jobber i systemutviklingsteam, og er interessert i å reflektere over eget teamarbeid, enten du er teamdeltaker, fasilitator eller teamleder.\r\n\r\nWorkshopen arrangeres av Torgeir Dingsøyr fra SINTEF og Yngve Lindsjørn fra Universitetet i Oslo.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Torgeir Dingsøyr"
+            }
+        ],
+        "keywords": [
+            "teameffektivitet",
+            "teamarbeid"
+        ]
+    },
+    {
+        "id": 70,
+        "format": "lightning-talk",
+        "title": "Rainbow Sprint Planning",
+        "content": "Hvordan kan du planlegge iterativt og ikke bare inkrementelt? Hvordan kan teamet forstå det de jobber med i en større sammenheng?\r\nHvordan kan du få målrettet jobbing mot en god sprint demo?\r\n\r\nPrøv en Rainbow Sprint Plan.\r\n\r\nEn rainbow plan er et konsept som jeg selv har funnet på. Det fungerer ganske enkelt slik:\r\n1. Beskriv et fullstendig scenario som vil demonstrere at systemet fungerer.\r\n2. For hvert steg i scenario, bestem hvor ferdig dette skal være på slutten av sprinten\r\n3. Jobb!\r\n\r\nNavnet Rainbow plan kommer av at hvert scenariosteg får en farge avhengig av hvor ferdig det er.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Johannes Brodwall"
+            }
+        ],
+        "keywords": [
+            "planlegging",
+            "krav",
+            "demo",
+            "sprint"
+        ]
+    },
+    {
+        "id": 72,
+        "format": "lightning-talk",
+        "title": "Bygg din egen lille Heroku!",
+        "content": "Jeg går gjennom Herokus arkitektur fra tusen fot, og gir konkrete eksempler på hvordan du kan bygge en utrullingsplattform (mini-heroku) som teammedlemmene dine vil legge sin elsk på. Teknologisk sett er dette automatisering med git og salt.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Ole Christian Rynning"
+            }
+        ],
+        "keywords": [
+            "automatisering",
+            "kontinuerlig leveranse",
+            "programmering",
+            "smidig"
+        ]
+    },
+    {
+        "id": 92,
+        "format": "lightning-talk",
+        "title": "Store IT-prosjekter bør feile",
+        "content": "Et skråblikk på hvorfor det kanskje er slik at store, kompliserte IT-prosjekter egentlig burde feile. Hva driver kompleksiteten? Vi går igjennom 'vitenskapelig materiale' de siste femti år som bygger opp under påstanden, og sammenfatter dette med de siste tall fra SSB.",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Henning Spjelkavik"
+            }
+        ],
+        "keywords": [
+            "ssb",
+            "kompleksitet",
+            "parkinson"
+        ]
+    },
+    {
+        "id": 62,
+        "format": "workshop",
+        "title": "Smidig omstilling - \"Top-down\" møter \"Bottom-up\"",
+        "content": "Mange smidig-initiativer begynner fra grasrota og sprer seg rundt i organisasjonen. Andre steder er det ledergruppa som ønsker å få effekten av smidig, uten å involvere \"grasrota\" i særlig grad. Ingen av disse strategiene er særlig gode. Man må gjøre begge deler.\r\n\r\nI Agile42 leder vi omstillingsprosesser ved å \r\n* Kartlegge situasjonen (agile assessment)\r\n* Bevisstgjøring på flere plan (awareness training)\r\n* Kjøre en eller flere piloter (Lean, Kanban, Scrum, XP etc..) der vi coacher underveis og støtter i å fjerne hindringer.\r\n* Forberede total omstilling forankret i strategi (strategy mapping)\r\n* Følge opp strategy map, \"coache the coach\", \"train the trainer\"\r\n\r\nVi er ferdige når organisasjonen fortsetter å utfordre status quo og kontinuerlig forbedrer seg.\r\nI denne seansen vil vi gå igjennom fremgangsmåten og dele praktiske erfaringer.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Geir Amsjø"
+            }
+        ],
+        "keywords": [
+            "coaching",
+            "omstilling"
+        ]
+    },
+    {
+        "id": 80,
+        "format": "lightning-talk",
+        "title": "Du trenger litt olje til Scrum-maskineriet ditt",
+        "content": "Et velfungerende Scrum-team består av dedikerte folk som trives på jobb. I denne lyntalen vil jeg presentere tanker om hvordan man bygger opp et velfungerende team, med fokus på å få teammedlemmene til å trives, yte sitt beste og levere med kvalitet. Mellom-menneskelige utfordringer angripes forfra og praktiske problemstillinger takles bakfra, og dette er en lyntale som alle med tilsvarende roller vil kunne ta med seg noe fra.\r\n",
+        "conference": {
+            "group": "Smidig",
+            "name": "Smidig 2012",
+            "venue": "Radisson BLU Plaza Hotel"
+        },
+        "speakers": [
+            {
+                "name": "Jakob Havstein Eriksen"
+            }
+        ],
+        "keywords": [
+            "teamarbeid",
+            "scrum"
+        ]
+    }
+]

@@ -174,6 +174,9 @@ function loadIndexFiles(outerCallback) {
                 loadFile("static_data/smidig-conferences.json", "conference", callback)
             },
             function (callback) {
+                loadFile("static_data/smidig-sessions-2012.json", "session", callback)
+            },
+            function (callback) {
                 loadFile("static_data/smidig-sessions-2013.json", "session", callback)
             },
             function (callback) {
