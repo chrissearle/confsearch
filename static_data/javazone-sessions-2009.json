@@ -302,16 +302,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/a4ba3845-f161-4602-ba86-6ffb073edef1",
-                "name": "Jan Henrik Gundelsby",
-                "bio": "Jan Henrik Gundelsby er utdannet Cand Scient og har over 10 års erfaring med serverside Java-teknologi, både J2EE og lettvektsrammeverk. Han jobber i dag for Know IT Objectnet som teknisk prosjektleder, arkitekt og utvikler for et større offentlig IT-prosjekt. Jan Henrik er en ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger som gir økt produktivitet for utvikleren.",
-                "avatar": "http://javazone.no/ems/server/binary/c8878268-6bb9-4a62-997e-b1b893e182ca?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/67ebc9ad-841f-4923-907e-9e4a1df6c34b",
                 "name": "Knut Erik Borgen",
                 "bio": "Knut Erik Borgen er utdannet Cand Scient i år 2000 har bred erfaring fra serverside, web 2.0 og Swing utvikling. Jobber i dag for Know IT Objectnet som arkitekt, teknisk ansvarlig, funksjonelt ansvarlig og utvikler. På hobbyfronten utvikler han open source software i PHP og Java og trives svært godt når det står utviklingsoppgaver i kø. Stor tilhenger av smidig og testdrevet utvikling.",
                 "avatar": "http://javazone.no/ems/server/binary/00212873-b3b6-49b9-bb5f-e50cdf4836e1?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/f64c9769-d369-45ed-bbc7-175b559895d5/speakers/a4ba3845-f161-4602-ba86-6ffb073edef1",
+                "name": "Jan Henrik Gundelsby",
+                "bio": "Jan Henrik Gundelsby er utdannet Cand Scient og har over 10 års erfaring med serverside Java-teknologi, både J2EE og lettvektsrammeverk. Han jobber i dag for Know IT Objectnet som teknisk prosjektleder, arkitekt og utvikler for et større offentlig IT-prosjekt. Jan Henrik er en ivrig lettvekts-fantast som forsøker å jobbe mot smidige arkitekturer og løsninger som gir økt produktivitet for utvikleren.",
+                "avatar": "http://javazone.no/ems/server/binary/c8878268-6bb9-4a62-997e-b1b893e182ca?size=thumb"
             }
         ]
     },
@@ -342,16 +342,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/0a18d54c-52f5-4724-a5e5-48785de7fa32",
-                "name": "Jonas Jacobi",
-                "bio": "As co-founder and Chief Executive Officer of Kaazing Corporation, Jonas Jacobi sets the company's business strategy and oversees all aspects of Kaazing's operations and mission to become the world-wide leader in real-time software.\r\n\r\nA native of Sweden, he has worked in the software industry for more than sixteen years. Before starting Kaazing, Jonas worked as VP of Product Management responsible for the product management and marketing strategy for Brane Corporation, a startup company in Silicon Valley.  Prior to his appointment as vice president for Brane, he worked 8 years for Oracle as a Java EE and open source evangelist, and product manager responsible for the product management of JavaServer Faces and Oracle ADF Faces (now Apache Trinidad) in the Oracle JDeveloper team.\r\n\r\nJonas is a frequent speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, JavaPro, AjaxWorld, and Oracle Magazine. Jonas is co-author of the book, Pro JSF and Ajax: Building Rich Internet Components (Apress).",
-                "avatar": "http://javazone.no/ems/server/binary/41307021-55ae-427b-a74c-5a4c87f70e50?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/9b456bea-0f71-4c5f-a54f-8b056907b189",
                 "name": "John Fallows",
                 "bio": "John Fallows is a pioneer in the field of rich and highly interactive user interfaces and co-founder and CTO of Kaazing Corporation. He recently worked as Architect at Brane Corporation, a startup company based in Redwood City, California. Originally from Norther Ireland, John graduated from Cambridge University in the United Kingdom and has worked in the software industry for more than ten years. Prior to joining Brane, John was a Consulting Member of Technical Staff for Server Technologies at Oracle Corporation. During his last 5 years at Oracle, John focused on designing, developing, and evolving Oracle ADF Faces to fully integrate Ajax technologies. \r\n\r\nJohn is an active participant in the standards bodies working on defining the WebSockets standards. He is also a popular speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, AjaxWorld Magazine, and JavaMagazine (DE). John is co-author of the recently published book Pro JSF and Ajax: Building Rich Internet Components, (Apress).",
                 "avatar": "http://javazone.no/ems/server/binary/5b3420be-aa7b-42b3-a481-0c55692c201a?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8f535d5f-1855-4106-a51d-ef89f0c19152/speakers/0a18d54c-52f5-4724-a5e5-48785de7fa32",
+                "name": "Jonas Jacobi",
+                "bio": "As co-founder and Chief Executive Officer of Kaazing Corporation, Jonas Jacobi sets the company's business strategy and oversees all aspects of Kaazing's operations and mission to become the world-wide leader in real-time software.\r\n\r\nA native of Sweden, he has worked in the software industry for more than sixteen years. Before starting Kaazing, Jonas worked as VP of Product Management responsible for the product management and marketing strategy for Brane Corporation, a startup company in Silicon Valley.  Prior to his appointment as vice president for Brane, he worked 8 years for Oracle as a Java EE and open source evangelist, and product manager responsible for the product management of JavaServer Faces and Oracle ADF Faces (now Apache Trinidad) in the Oracle JDeveloper team.\r\n\r\nJonas is a frequent speaker at international conferences and has written numerous articles for leading IT magazines such as Java Developer's Journal, JavaPro, AjaxWorld, and Oracle Magazine. Jonas is co-author of the book, Pro JSF and Ajax: Building Rich Internet Components (Apress).",
+                "avatar": "http://javazone.no/ems/server/binary/41307021-55ae-427b-a74c-5a4c87f70e50?size=thumb"
             }
         ]
     },
@@ -555,12 +555,6 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/7b7e4620-dd5b-46b6-9004-a1a30db36266",
-                "name": "Randy Stafford",
-                "bio": "Randy Stafford is a practicing software professional with 20 years’ experience as a developer, analyst, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for Oracle’s middleware development A-Team, he engages globally for proof-of-concept projects, architecture reviews, and production crises with diverse customer organizations, specializing in grid, SOA, performance, HA, and JEE/ORM work.\r\n\r\nIn past lives, Mr. Stafford has been Technical Advisor to agile vendor Rally Software, Chief Architect of SaaS company IQNavigator, Director of Development of SynXis Agent (acquired by Sabre), consultant for GemStone and Smalltalk, and a simulation specialist in the aerospace and CASE industries.\r\n\r\nLong active in the professional community, he was a contributor to Martin Fowler’s Patterns of Enterprise Application Architecture and Floyd Marinescu’s EJB Design Patterns, and a reviewer of other enterprise patterns books.  He has presented at conferences of the Society for Computer Simulation, the International Council on Systems Engineering, the Agile Development Conference, and Oracle Open World, and he has participated heavily in online communities devoted to architecture and agile development.\r\n\r\nHis professional interests include domain model persistence, enterprise application architecture, application performance management, requirements analysis and specification, software development process, organizational culture, and leadership of people.\r\n\r\nMr. Stafford is motivated to improve the practice of software development and solve problems facing society.  He lives in his native Denver, Colorado with his wife and family.",
-                "avatar": "http://javazone.no/ems/server/binary/6ad4cbd3-7e4b-4ec0-909a-4ffb396b3e8d?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/842cb35d-e1ea-4524-892e-dbb0267b48a7",
                 "name": "Greg Young",
                 "bio": "Greg Young is an independent consultant who resides in two suitcases\r\n(literally!). At the moment of writing he is residing in Montreal,\r\nQuebec  but loves to travel and may be in a city near you soon.\r\n\r\nIn his spare time you can find Greg on the alt.net list, speaking at\r\nconferences or user groups, or floating upside down through rapids in\r\nhis kayak.",
@@ -573,6 +567,24 @@
                 "avatar": "http://javazone.no/ems/server/binary/3c3b2ebc-a3b9-41e3-8565-a191949fa386?size=thumb"
             },
             {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/7b7e4620-dd5b-46b6-9004-a1a30db36266",
+                "name": "Randy Stafford",
+                "bio": "Randy Stafford is a practicing software professional with 20 years’ experience as a developer, analyst, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for Oracle’s middleware development A-Team, he engages globally for proof-of-concept projects, architecture reviews, and production crises with diverse customer organizations, specializing in grid, SOA, performance, HA, and JEE/ORM work.\r\n\r\nIn past lives, Mr. Stafford has been Technical Advisor to agile vendor Rally Software, Chief Architect of SaaS company IQNavigator, Director of Development of SynXis Agent (acquired by Sabre), consultant for GemStone and Smalltalk, and a simulation specialist in the aerospace and CASE industries.\r\n\r\nLong active in the professional community, he was a contributor to Martin Fowler’s Patterns of Enterprise Application Architecture and Floyd Marinescu’s EJB Design Patterns, and a reviewer of other enterprise patterns books.  He has presented at conferences of the Society for Computer Simulation, the International Council on Systems Engineering, the Agile Development Conference, and Oracle Open World, and he has participated heavily in online communities devoted to architecture and agile development.\r\n\r\nHis professional interests include domain model persistence, enterprise application architecture, application performance management, requirements analysis and specification, software development process, organizational culture, and leadership of people.\r\n\r\nMr. Stafford is motivated to improve the practice of software development and solve problems facing society.  He lives in his native Denver, Colorado with his wife and family.",
+                "avatar": "http://javazone.no/ems/server/binary/6ad4cbd3-7e4b-4ec0-909a-4ffb396b3e8d?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/d1e5e604-f27e-46e2-96bc-6329223ac9f0",
+                "name": "Einar Landre",
+                "bio": "Einar Landre is a practicing software professional with 25 years’ experience as a developer, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for StatoilHydro's Business Application Services, he engages in business critical application development, architecture reviews and software process improvement activities, specializing in SOA, Domain Driven Design, use of Multi-Agents and design of large scale networked software intensive systems.\r\n\r\nBefore joining StatoilHydro, Mr. Landre has been consultant and department manager with Norwegian Bouvet, Development manager of TeamWide, technical adviser with Skrivervik Data (SUN & CISCO distributor) and finally software developer with Norsk Data where he implemented communication protocols, operating systems and test software for the space station.\r\n\r\nOver the last years Mr. Landre has become an active member of the professional community, where he has been author and coauthor of several papers presented at OOPSLA and SPE. He has presented at several international conferences in Europe and the US.\r\n\r\nHis professional interests include object oriented programming, enterprise application architecture, multi-agents, autonomous systems design, requirements analysis and specification, use of systems engineering practices, agile methodologies and leadership in high-tech organizations. He is a member of the ACM and the IEEE Computer Society, as well as the SPE (Society Petroleum Engineers).\r\n\r\nMr. Landre holds a MSc in Information Technology from the University of Strathclyde, is an IEEE certified software development professional (CSDP) and lives with his family in Stavanger, Norway.",
+                "avatar": "http://javazone.no/ems/server/binary/0f24c18e-ab62-4e36-a6f8-4066531277d4?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f9454674-2b99-417e-bfa7-9339b197a390",
+                "name": "Eric Evans",
+                "bio": "Eric Evans, author of Domain-driven Design: Tackling Complexity in the Heart of Software, is a thought leader in software design, domain driven design and domain modeling and particularly focuses on strategic design.",
+                "avatar": "http://javazone.no/ems/server/binary/53a81d02-3e59-4984-ae12-fb143eda7439?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/b707c6b4-7578-4a57-a902-97ae7e273536",
                 "name": "Phil Wills",
                 "bio": "Phil Wills spent his university career studying Physics, but having realised he probably wasn't going to be an astronaut, opted for the next best thing: a career in software development for the web.\r\n\r\nPhil has experience with a broad range of languages and technologies, but has spent the past three years focusing on redeveloping guardian.co.uk with a focus on building a strong domain model and achieving high performance.",
@@ -583,18 +595,6 @@
                 "name": "Scott Davis",
                 "bio": "Scott Davis is an internationally recognized author and speaker. He is passionate about open source solutions and agile development. He has worked on a variety of Java platforms, from J2EE to J2SE to J2ME (sometimes all on the same project).\r\n\r\nScott's books include Groovy Recipes: Greasing the Wheels of Java, GIS for Web Developers: Adding Where to Your Web Applications, The Google Maps API, and JBoss At Work.\r\n\r\nScott is the Editor in Chief of aboutGroovy.com, a news and information website that tracks the latest developments in Groovy and Grails. He also writes a regular column for IBM DeveloperWorks -- Mastering Grails.\r\n\r\nScott is a frequent presenter at national conferences (such as No Fluff, Just Stuff) and local user groups. He was the president of the Denver Java Users Group in 2003 when it was voted one of the top-ten JUGs in North America. After a quick move north, he is currently active in the leadership of the Boulder Java Users Group. Keep up with him at http://www.davisworld.org.",
                 "avatar": "http://javazone.no/ems/server/binary/cec79486-f9f5-4d35-9175-bd7a080cad1a?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/f9454674-2b99-417e-bfa7-9339b197a390",
-                "name": "Eric Evans",
-                "bio": "Eric Evans, author of Domain-driven Design: Tackling Complexity in the Heart of Software, is a thought leader in software design, domain driven design and domain modeling and particularly focuses on strategic design.",
-                "avatar": "http://javazone.no/ems/server/binary/53a81d02-3e59-4984-ae12-fb143eda7439?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/aa936d38-2ad2-41f9-a5d8-dfedd8ac9935/speakers/d1e5e604-f27e-46e2-96bc-6329223ac9f0",
-                "name": "Einar Landre",
-                "bio": "Einar Landre is a practicing software professional with 25 years’ experience as a developer, architect, manager, consultant, and author/presenter.\r\n\r\nCurrently for StatoilHydro's Business Application Services, he engages in business critical application development, architecture reviews and software process improvement activities, specializing in SOA, Domain Driven Design, use of Multi-Agents and design of large scale networked software intensive systems.\r\n\r\nBefore joining StatoilHydro, Mr. Landre has been consultant and department manager with Norwegian Bouvet, Development manager of TeamWide, technical adviser with Skrivervik Data (SUN & CISCO distributor) and finally software developer with Norsk Data where he implemented communication protocols, operating systems and test software for the space station.\r\n\r\nOver the last years Mr. Landre has become an active member of the professional community, where he has been author and coauthor of several papers presented at OOPSLA and SPE. He has presented at several international conferences in Europe and the US.\r\n\r\nHis professional interests include object oriented programming, enterprise application architecture, multi-agents, autonomous systems design, requirements analysis and specification, use of systems engineering practices, agile methodologies and leadership in high-tech organizations. He is a member of the ACM and the IEEE Computer Society, as well as the SPE (Society Petroleum Engineers).\r\n\r\nMr. Landre holds a MSc in Information Technology from the University of Strathclyde, is an IEEE certified software development professional (CSDP) and lives with his family in Stavanger, Norway.",
-                "avatar": "http://javazone.no/ems/server/binary/0f24c18e-ab62-4e36-a6f8-4066531277d4?size=thumb"
             }
         ]
     },
@@ -1036,16 +1036,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8259f0eb-e57a-4c07-a581-441824becc4d/speakers/5465215b-df40-447f-96fb-d6a9dcc50bb2",
-                "name": "Trygve Laugstøl",
-                "bio": "Trygve Laugstøl jobber i Arktekk som utvikler, arkitekt og har mange års erfaring med Java-utvikling. Han har lang erfaring med utvikling og bruk av åpen kildekode som kjerneutvikler av Maven 2 og Continuum. Trygve har jobbet lenge med utvikling av plugins som støtter opp om smidig utvikling og som rådgiver innenfor disse områdene.",
-                "avatar": "http://javazone.no/ems/server/binary/6c8599d5-2c6f-45fb-ac64-741c3441848a?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8259f0eb-e57a-4c07-a581-441824becc4d/speakers/db119be2-99e1-41dd-9e57-6dcc2c99c683",
                 "name": "Kristian Nordal",
                 "bio": "Kristian Nordal jobber til daglig hos Arktekk, som Java-utvikler med hovedfokus på open source og smidig utvikling. Han er commiter på Codehaus sitt prosjekt for Maven-plugins og har i flere år deltatt i utviklingen av Maven 2-plugins, som for eksempel den første pluginen for Jetty5 og appassembler-pluginen.",
                 "avatar": "http://javazone.no/ems/server/binary/922cf6bb-b012-4d78-b217-61f8dec42acc?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/8259f0eb-e57a-4c07-a581-441824becc4d/speakers/5465215b-df40-447f-96fb-d6a9dcc50bb2",
+                "name": "Trygve Laugstøl",
+                "bio": "Trygve Laugstøl jobber i Arktekk som utvikler, arkitekt og har mange års erfaring med Java-utvikling. Han har lang erfaring med utvikling og bruk av åpen kildekode som kjerneutvikler av Maven 2 og Continuum. Trygve har jobbet lenge med utvikling av plugins som støtter opp om smidig utvikling og som rådgiver innenfor disse områdene.",
+                "avatar": "http://javazone.no/ems/server/binary/6c8599d5-2c6f-45fb-ac64-741c3441848a?size=thumb"
             }
         ]
     },
@@ -1074,16 +1074,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0",
-                "name": "Fredrik Vraalsen",
-                "bio": "Fredrik Vraalsen is a Java developer/consultant at Know IT Objectnet, doing design and development on a large sales back-end system and client application for NSB. He is also a Scala enthusiast and co-founder of scalaBin as well as member of the JavaZone programme committee for the past two years.\r\n\r\nFredrik received an M.Sc. degree from the University of Illinois at Urbana-Champaign in 2001 and has over 10 years of experience as a software developer working with J2EE, Swing client applications and Java/C++ on mobile devices. After graduating he was as a researcher and developer at SINTEF for 5 years with a focus on software development methodology, mobile systems and model-based security analysis.",
-                "avatar": "http://javazone.no/ems/server/binary/b006c96e-53ae-483b-b0d2-6a65e53ed485?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597/speakers/dab13296-4ecf-456c-ada5-b0b34994b08f",
                 "name": "Jon Marius Håkedal",
                 "bio": "Jon Marius Håkedal er utdannet Sivilingeniør fra NTNU (2004) og har siden 2005 jobbet som utvilker/konsulent for Know IT Objectnet. Han har vært med på å utvikle både klient- og serverside løsninger, og har erfaring med en bråte forskjellige teknologier. For tiden jobber han med en av norges største selvbetjeningsløsninger for bedriftsmarkedet.",
                 "avatar": "http://javazone.no/ems/server/binary/2da1cd1d-cb99-4ef3-bbcb-43abcb11f136?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/e0fd28a9-d48d-4e3a-acff-35f0db7ba597/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0",
+                "name": "Fredrik Vraalsen",
+                "bio": "Fredrik Vraalsen is a Java developer/consultant at Know IT Objectnet, doing design and development on a large sales back-end system and client application for NSB. He is also a Scala enthusiast and co-founder of scalaBin as well as member of the JavaZone programme committee for the past two years.\r\n\r\nFredrik received an M.Sc. degree from the University of Illinois at Urbana-Champaign in 2001 and has over 10 years of experience as a software developer working with J2EE, Swing client applications and Java/C++ on mobile devices. After graduating he was as a researcher and developer at SINTEF for 5 years with a focus on software development methodology, mobile systems and model-based security analysis.",
+                "avatar": "http://javazone.no/ems/server/binary/b006c96e-53ae-483b-b0d2-6a65e53ed485?size=thumb"
             }
         ]
     },
@@ -2515,16 +2515,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/593bfcec-a409-4230-8318-f92b9243f86b/speakers/e4ad73ce-d31e-40a0-9117-5d620fb474ca",
-                "name": "Jan Eivind Stillingen",
-                "bio": "Jan Eivind jobber som seniorkonsulent hos Know IT Objectnet. Han har 15 års erfaring med ulike teknologier, og har de siste 8 årene jobbet som arkitekt og utvikler i prosjekter med Java som plattform. Dette har gitt han bred erfaring innen J2EE (EJB2.0/3.0, JSP, WebServices), Spring, Hibernate, JPA og Swing.",
-                "avatar": "http://javazone.no/ems/server/binary/3a70a164-80ea-4980-81b6-2ab73d006973?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/593bfcec-a409-4230-8318-f92b9243f86b/speakers/4483dfea-3b28-4055-bb91-0e259e543d4f",
                 "name": "Hågen Hasle",
                 "bio": "Hågen jobber som konsulent hos Know IT Objectnet og har kompetanse på en rekke av dagens mest moderne buzzwords.  Som ung var han en ivrig deltager i nulløp i det lokale idrettslaget, og han vil gjerne bringe det gode budskap om nulløpets fortreffelighet til de store masser.",
                 "avatar": "http://javazone.no/ems/server/binary/fde60ef4-bd5b-49b6-877e-00c3f8211185?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/593bfcec-a409-4230-8318-f92b9243f86b/speakers/e4ad73ce-d31e-40a0-9117-5d620fb474ca",
+                "name": "Jan Eivind Stillingen",
+                "bio": "Jan Eivind jobber som seniorkonsulent hos Know IT Objectnet. Han har 15 års erfaring med ulike teknologier, og har de siste 8 årene jobbet som arkitekt og utvikler i prosjekter med Java som plattform. Dette har gitt han bred erfaring innen J2EE (EJB2.0/3.0, JSP, WebServices), Spring, Hibernate, JPA og Swing.",
+                "avatar": "http://javazone.no/ems/server/binary/3a70a164-80ea-4980-81b6-2ab73d006973?size=thumb"
             }
         ]
     },
@@ -3009,16 +3009,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0",
-                "name": "Fredrik Vraalsen",
-                "bio": "Fredrik Vraalsen is a Java developer/consultant at Know IT Objectnet, doing design and development on a large sales back-end system and client application for NSB. He is also a Scala enthusiast and co-founder of scalaBin as well as member of the JavaZone programme committee for the past two years.\r\n\r\nFredrik received an M.Sc. degree from the University of Illinois at Urbana-Champaign in 2001 and has over 10 years of experience as a software developer working with J2EE, Swing client applications and Java/C++ on mobile devices. After graduating he was as a researcher and developer at SINTEF for 5 years with a focus on software development methodology, mobile systems and model-based security analysis.",
-                "avatar": "http://javazone.no/ems/server/binary/1a7f53f8-df7e-4688-98db-04950a4509f2?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df/speakers/1d29ccb1-2cf0-4651-bca4-fea8c8ddd63c",
                 "name": "Alf Kristian Støyle",
                 "bio": "Alf Kristian is always eager to find better ways. He is very interested in lightweight development and has been a Scala enthusiast for more than a year. Alf Kristian is co-founder of scalaBin, the Norwegian Scala User Group, and he has been a member of the JavaZone programme committee for the past two years.\r\n\r\nAlf Kristian has more than 5 years of experience within software development and consulting, and he currently works for Know IT Objectnet AS.",
                 "avatar": "http://javazone.no/ems/server/binary/4c394fb6-0eec-470c-b583-0d683af201e5?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/b582a071-d4c2-4a48-ac66-812a5ef94c1b/sessions/c2dd9ab1-286d-43f2-974b-24e03f3c36df/speakers/1729c8c7-83af-48b3-adaa-4c88f13893b0",
+                "name": "Fredrik Vraalsen",
+                "bio": "Fredrik Vraalsen is a Java developer/consultant at Know IT Objectnet, doing design and development on a large sales back-end system and client application for NSB. He is also a Scala enthusiast and co-founder of scalaBin as well as member of the JavaZone programme committee for the past two years.\r\n\r\nFredrik received an M.Sc. degree from the University of Illinois at Urbana-Champaign in 2001 and has over 10 years of experience as a software developer working with J2EE, Swing client applications and Java/C++ on mobile devices. After graduating he was as a researcher and developer at SINTEF for 5 years with a focus on software development methodology, mobile systems and model-based security analysis.",
+                "avatar": "http://javazone.no/ems/server/binary/1a7f53f8-df7e-4688-98db-04950a4509f2?size=thumb"
             }
         ]
     },

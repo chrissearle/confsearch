@@ -727,16 +727,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e1adc95b-d468-45d9-bc1b-063171184bd1/speakers/5d139619-33b0-4a70-a3db-897c4b90070f",
-                "name": "Aleksander Stensby",
-                "bio": "Aleksander holds a MSc in Computer Science from the University of Agder and Carleton University in Canada, specializing in Pattern Recognition and Textual Analysis. He has been working as a lead developer in Integrasco AS since 2004, focusing mainly on developing the search technology that the company use today.\r\n\r\nToday, Aleksander holds the position as Analytics Director at Integrasco, being in charge of all client deliverables and client communications. He works closely with the R&D team to better build intelligent solutions that can benefit in providing both clients and in-house analysts with the best possible tools.\r\n\r\nAleksander has broad experience with Java development and technologies such as Lucene Search, Solr, Hibernate, Mysql, Spring and Hibernate Shards, with keen interests in search, machine learning, pattern recognition and scalability.",
-                "avatar": "http://javazone.no/ems/server/binary/39df3dc8-f488-45bb-8931-b332d9e48f4a?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e1adc95b-d468-45d9-bc1b-063171184bd1/speakers/6382eb4b-7214-40f5-8eb6-ee9d6ba82dd0",
                 "name": "Jaran Nilsen",
                 "bio": "Jaran graduated with a Master of Computer Science in 2007. Since 2004 he has been working at Integrasco AS, developing web mining and search technology for analyzing social and consumer generated media. \r\n\r\nToday he holds the position as Head of R&D at Integrasco and is in charge of the development of scalable data mining and search technology as well as intelligent processes based on machine learning and pattern recognition. \r\n\r\nHis interests range from the curious little code snippet to large scale system architecture and has spent most of his career this far fullfilling this interest on the Java platform.",
                 "avatar": "http://javazone.no/ems/server/binary/85a84f12-f474-4a86-9b00-f389ef5bd108?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e1adc95b-d468-45d9-bc1b-063171184bd1/speakers/5d139619-33b0-4a70-a3db-897c4b90070f",
+                "name": "Aleksander Stensby",
+                "bio": "Aleksander holds a MSc in Computer Science from the University of Agder and Carleton University in Canada, specializing in Pattern Recognition and Textual Analysis. He has been working as a lead developer in Integrasco AS since 2004, focusing mainly on developing the search technology that the company use today.\r\n\r\nToday, Aleksander holds the position as Analytics Director at Integrasco, being in charge of all client deliverables and client communications. He works closely with the R&D team to better build intelligent solutions that can benefit in providing both clients and in-house analysts with the best possible tools.\r\n\r\nAleksander has broad experience with Java development and technologies such as Lucene Search, Solr, Hibernate, Mysql, Spring and Hibernate Shards, with keen interests in search, machine learning, pattern recognition and scalability.",
+                "avatar": "http://javazone.no/ems/server/binary/39df3dc8-f488-45bb-8931-b332d9e48f4a?size=thumb"
             }
         ]
     },
@@ -969,16 +969,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/4904200d-3170-444e-baab-a64ee4dfd2c5/speakers/5dbcdf69-d5ea-47e5-8374-15bf5a054f58",
-                "name": "Olve Maudal",
-                "bio": "Olve Maudal loves to write code, but is perhaps more interested in how software is developed than what it actually does. Since 2004, Olve has been working for TANDBERG, the leading provider of telepresence and video conferencing products and solutions. Previous experience includes developing systems for finding oil (Schlumberger 1996-2000), and developing systems for electronically moving money (BBS 2000-2004). Olve is an active member of the vibrant geek community in Oslo where he is involved in JavaPils, Cantara, XP Meetup, Oslo C++ Users Group, Lean Meetup and a few other things. You can follow him at http://olvemaudal.wordpress.com and http://twitter.com/olvemaudal",
-                "avatar": "http://javazone.no/ems/server/binary/46bb3259-3383-49a9-947d-27aeb294c9d3?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/4904200d-3170-444e-baab-a64ee4dfd2c5/speakers/c209c932-786e-4342-9aac-da41edee290c",
                 "name": "Jon Jagger",
                 "bio": "Jon Jagger is an independent software coach-consultant-trainer-enthusiast based in England. He specializes in agile software development (people, process and principles), test driven development, deliberate practice, design, analysis, OO, UML and curly bracket languages. He served as the convenor and principal UK expert on the ECMA C# committee and has co-authored two books on C#. He is a frequent visitor to Oslo and has presented at the Oslo C++ User Group and JavaBin. He is a regular speaker at the Accu conferences. You can follow him at http://jonjagger.blogspot.com/ and http://twitter.com/JonJagger He is 43, married with three children. He loves freshwater river fishing.",
                 "avatar": "http://javazone.no/ems/server/binary/e95db228-8d3e-4a32-ad08-f718c92ea760?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/4904200d-3170-444e-baab-a64ee4dfd2c5/speakers/5dbcdf69-d5ea-47e5-8374-15bf5a054f58",
+                "name": "Olve Maudal",
+                "bio": "Olve Maudal loves to write code, but is perhaps more interested in how software is developed than what it actually does. Since 2004, Olve has been working for TANDBERG, the leading provider of telepresence and video conferencing products and solutions. Previous experience includes developing systems for finding oil (Schlumberger 1996-2000), and developing systems for electronically moving money (BBS 2000-2004). Olve is an active member of the vibrant geek community in Oslo where he is involved in JavaPils, Cantara, XP Meetup, Oslo C++ Users Group, Lean Meetup and a few other things. You can follow him at http://olvemaudal.wordpress.com and http://twitter.com/olvemaudal",
+                "avatar": "http://javazone.no/ems/server/binary/46bb3259-3383-49a9-947d-27aeb294c9d3?size=thumb"
             }
         ]
     },
@@ -3036,16 +3036,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e6ca284d-4940-46a8-bfaf-6544dcf292c0/speakers/a8a00cd4-1e53-49c0-98d2-8eda6d7c7472",
-                "name": "Martin Gunnarsson",
-                "bio": "Great programmers are usually lousy designers, and vice versa, but Martin is one of those rare cross-breeds who can handle both. Graphics programming and GUI design suits him particularly well, but being a true perfectionist, he's rarely satisfied with the results of his own work. Martin has several years of Swing work behind him, and he's been creating 2D and 3D graphics for over ten years. Martin currently works as a consultant for Epsilon, with user experience as one of his specialities.",
-                "avatar": "http://javazone.no/ems/server/binary/8bca6c8f-0981-4ae0-9d58-7648f74268d3?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e6ca284d-4940-46a8-bfaf-6544dcf292c0/speakers/b25e29da-ae55-4d91-afb0-26ce481bd838",
                 "name": "Pär Sikö",
                 "bio": "Pär is a passionate developer whoʼs been working with client side Java for more than ten years and that is hoping for another ten years filled with challenges and new technology. Pär is a fast learner with a need to always learn more and never being satisfied, always wanting more. This is a good thing since GUI programming always ends up on pixel level where the details are of utter most importance.",
                 "avatar": "http://javazone.no/ems/server/binary/d72abc4f-9e72-4a8d-a91a-5c8ca6259c01?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/e6ca284d-4940-46a8-bfaf-6544dcf292c0/speakers/a8a00cd4-1e53-49c0-98d2-8eda6d7c7472",
+                "name": "Martin Gunnarsson",
+                "bio": "Great programmers are usually lousy designers, and vice versa, but Martin is one of those rare cross-breeds who can handle both. Graphics programming and GUI design suits him particularly well, but being a true perfectionist, he's rarely satisfied with the results of his own work. Martin has several years of Swing work behind him, and he's been creating 2D and 3D graphics for over ten years. Martin currently works as a consultant for Epsilon, with user experience as one of his specialities.",
+                "avatar": "http://javazone.no/ems/server/binary/8bca6c8f-0981-4ae0-9d58-7648f74268d3?size=thumb"
             }
         ]
     },
@@ -3573,6 +3573,18 @@
         },
         "speakers": [
             {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/5c31aabe-af6b-4a26-a0d7-4ce902de7171",
+                "name": "Reidar Bruusgaard",
+                "bio": "- Jurist, jobbet i politiet siden 1997\n- 12/13 års tung(!) erfaring med organisert kriminalitet og utradisjonelle metoder\n- Bakgrunn som politijurist, statsadvokat, etterforskningsleder, teamleder i spesialenheten Catch\n- Er i dag seksjonsleder på Kripos (dvs leder for alle etterforskerne på Kripos), har ansvar for prioriteringer og veivalg i alvorlige straffesaker.\n- Har hatt prinsippsaker om politiets \"metoder\" i Høyesterett, har deltatt i høringer, underviser på PHS og har holdt mange foredrag om emnet, har skrevet Master og har levert PhD-skisse vedr Orgkrim (Handelshøjskolen i København, CBS).\n- Deltatt i DLD debatten de siste månedene.",
+                "avatar": "http://javazone.no/ems/server/binary/044f2cb5-f927-4897-83e7-c3d2c2d9ab74?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/b626cfc5-62c6-4fe0-9c2c-9fb266e7743e",
+                "name": "Martin Bekkelund",
+                "bio": "Martin har en høyere IT-utdannelse fra NITH og har arbeidet i IT-bransjen siden 1999, både i Norge og internasjonalt, hvor han har arbeidet med strategiske, virksomhetskritiske IT-løsninger. For tiden arbeider Martin som utviklingsleder ved Friprogsenteret, hvor han har det overordnede informasjonsansvaret.",
+                "avatar": "http://javazone.no/ems/server/binary/838db6e3-2387-4306-b61d-9adc73be0621?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/8b9e9222-865a-481c-8535-6865080a3d91",
                 "name": "Torgeir Waterhouse",
                 "bio": "Torgeir Waterhouse begynte i IKT-Norge i mars 2008 og jobber som prosjektleder. Torgeir kommer fra Forbrukerrådet hvor han har vært ansvarlig for IKT og Media.",
@@ -3585,22 +3597,10 @@
                 "avatar": "http://javazone.no/ems/server/binary/47a1b52f-3058-4305-a8ed-537d1ec410b3?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/b626cfc5-62c6-4fe0-9c2c-9fb266e7743e",
-                "name": "Martin Bekkelund",
-                "bio": "Martin har en høyere IT-utdannelse fra NITH og har arbeidet i IT-bransjen siden 1999, både i Norge og internasjonalt, hvor han har arbeidet med strategiske, virksomhetskritiske IT-løsninger. For tiden arbeider Martin som utviklingsleder ved Friprogsenteret, hvor han har det overordnede informasjonsansvaret.",
-                "avatar": "http://javazone.no/ems/server/binary/838db6e3-2387-4306-b61d-9adc73be0621?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/83e6c624-bd5f-4712-9704-0a3dd6cb7e8f",
                 "name": "Rune Utne Reitan",
                 "bio": "- Politioverbetjent på Kripos.\n- Ble nylig tilsatt som taktisk etterforskningsleder på Orgkrim, hvilket innebærer at han har det daglige, taktiske ansvaret for ledelsen av store Orgkrimsaker som Kripos etterforsker.\n- Har lang erfaring med utradisjonelle etterforskningsmetoder (fra saker), og har også hatt utradisjonelle metoder som et særlig ansvarsområde på Kripos.\n- Har hatt en sentral rolle ifm høringssvaret til Kripos.\n- Har mye praktisk erfaring med KK, romavlytting og andre tilsvarende metoder som inngår i DLD-diskusjonen.",
                 "avatar": "http://javazone.no/ems/server/binary/ff0dde6e-6649-4f3a-9185-8b7e9f21bae7?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cd44cbb1-dfc3-4fd6-8815-020d15cec360/speakers/5c31aabe-af6b-4a26-a0d7-4ce902de7171",
-                "name": "Reidar Bruusgaard",
-                "bio": "- Jurist, jobbet i politiet siden 1997\n- 12/13 års tung(!) erfaring med organisert kriminalitet og utradisjonelle metoder\n- Bakgrunn som politijurist, statsadvokat, etterforskningsleder, teamleder i spesialenheten Catch\n- Er i dag seksjonsleder på Kripos (dvs leder for alle etterforskerne på Kripos), har ansvar for prioriteringer og veivalg i alvorlige straffesaker.\n- Har hatt prinsippsaker om politiets \"metoder\" i Høyesterett, har deltatt i høringer, underviser på PHS og har holdt mange foredrag om emnet, har skrevet Master og har levert PhD-skisse vedr Orgkrim (Handelshøjskolen i København, CBS).\n- Deltatt i DLD debatten de siste månedene.",
-                "avatar": "http://javazone.no/ems/server/binary/044f2cb5-f927-4897-83e7-c3d2c2d9ab74?size=thumb"
             }
         ]
     },
@@ -3629,10 +3629,10 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/977cd4bb-7dba-4187-9542-3393dd2bb8f7/speakers/26b932dd-8e30-4a9c-8fb0-b6386192d36e",
-                "name": "Christine Hafskjold",
-                "bio": "Prosjektleder IKT, Teknologirådet.",
-                "avatar": "http://javazone.no/ems/server/binary/3dce883f-6e16-445a-b4ed-2b1273169c8c?size=thumb"
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/977cd4bb-7dba-4187-9542-3393dd2bb8f7/speakers/03e947a2-5a42-4004-a2a4-6f31008a9e20",
+                "name": "Sverre Andreas Lunde-Danbolt",
+                "bio": "Prosjektleder for data.norge.no, Fornyingsdepartementet.",
+                "avatar": "http://www.gravatar.com/avatar/862c4034a710f1abb02fb7242dd300fc?d=identicon&s=100"
             },
             {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/977cd4bb-7dba-4187-9542-3393dd2bb8f7/speakers/35489a6f-9f94-49b9-9bb0-500219767318",
@@ -3653,10 +3653,10 @@
                 "avatar": "http://javazone.no/ems/server/binary/a3f52663-3810-442b-9504-9da800f21aac?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/977cd4bb-7dba-4187-9542-3393dd2bb8f7/speakers/03e947a2-5a42-4004-a2a4-6f31008a9e20",
-                "name": "Sverre Andreas Lunde-Danbolt",
-                "bio": "Prosjektleder for data.norge.no, Fornyingsdepartementet.",
-                "avatar": "http://www.gravatar.com/avatar/862c4034a710f1abb02fb7242dd300fc?d=identicon&s=100"
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/977cd4bb-7dba-4187-9542-3393dd2bb8f7/speakers/26b932dd-8e30-4a9c-8fb0-b6386192d36e",
+                "name": "Christine Hafskjold",
+                "bio": "Prosjektleder IKT, Teknologirådet.",
+                "avatar": "http://javazone.no/ems/server/binary/3dce883f-6e16-445a-b4ed-2b1273169c8c?size=thumb"
             }
         ]
     },
@@ -3751,16 +3751,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/a3d224a0-f048-466c-b61b-433049b757d8/speakers/294f7549-85cd-47f5-a6ea-c2498c9528d9",
-                "name": "Guillaume Bort",
-                "bio": "Guillaume Bort is lead developer of the Play! framework, co-founder and CTO of Zenexity, a company specialized in web architecture. In his day time job, he is advising prestigious companies over their web architecture while enjoying working on play! framework during his night job. He has also contributed to numerous open source projects over the time.",
-                "avatar": "http://javazone.no/ems/server/binary/90c63671-bd91-4d7c-8da2-104337de6b79?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/a3d224a0-f048-466c-b61b-433049b757d8/speakers/c11492c3-256d-4c23-b914-958496681e1e",
                 "name": "Nicolas Leroux",
                 "bio": "Nicolas Leroux is a senior architect and managing partner at Lunatech, having joined in 2001.\r\nNicolas is an expert early adopter of the Java Enterprise platform as well as the open-source technologies that gravitate around it. He applies this experience and technical expertise of the JBoss middleware platform on Lunatech's projects and for Sdu Uitgevers. On recent projects he has applied both the jBPM work-flow framework and the Drools rules engine.\r\nNicolas is also an open source enthusiast and more specifically a Java enthusiast. He is the co-founder of the Benelux JBoss User Group and the Riviera Java User Group . He also contributes to the open source frameworks he uses by committing patches.\r\nNicolas recently developed a passion for the play! framework and is now a core developer of the framework.",
                 "avatar": "http://javazone.no/ems/server/binary/57121d22-637e-4edc-9960-a393874b9da3?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/a3d224a0-f048-466c-b61b-433049b757d8/speakers/294f7549-85cd-47f5-a6ea-c2498c9528d9",
+                "name": "Guillaume Bort",
+                "bio": "Guillaume Bort is lead developer of the Play! framework, co-founder and CTO of Zenexity, a company specialized in web architecture. In his day time job, he is advising prestigious companies over their web architecture while enjoying working on play! framework during his night job. He has also contributed to numerous open source projects over the time.",
+                "avatar": "http://javazone.no/ems/server/binary/90c63671-bd91-4d7c-8da2-104337de6b79?size=thumb"
             }
         ]
     },
@@ -3963,16 +3963,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/61f52ecc-f974-46f6-a2c6-f2d0862d6a4e/speakers/8f02b78d-c547-45c2-b4b6-071a13426db8",
-                "name": "Karianne Berg",
-                "bio": "Karianne har en mastergrad i IKT fra Universitetet i Bergen. Etter to år i Oslo har hun nå nylig flyttet tilbake til Bergen for å jobbe som konsulent for Miles. Hennes hovedinteresser er patterns, smidig utvikling og spennende teknologi. Karianne brenner for et aktivt fagmiljø, og er medarrangør av konferansene ROOTS og Smidig og inntil nylig den månedlige møteplassen Oslo XP Meetup. Hun er også en ivrig foredragsholder, og har tidligere holdt foredrag på konferansene Smidig, Javazone, XP og NDC, i tillegg til ulike brukergruppemøter.\r\n\r\nKarianne har også opparbeidet seg ekstensiv kunnskap om ninjaer, delvis gjennom å ha sett dokumentarfilmen \"Ninja Assassin\" fire ganger. Da hun var liten sparte hun penger til nunchakus.",
-                "avatar": "http://javazone.no/ems/server/binary/ae626784-5383-48b3-aeb2-f91be72c2844?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/61f52ecc-f974-46f6-a2c6-f2d0862d6a4e/speakers/543e8e3f-bc7c-4662-a36a-bb30c5d69d5a",
                 "name": "Nina Heitmann",
                 "bio": "Nina har en sivilingeniørgrad i Kommunikasjonsteknologi fra NTNU, og er ansatt som konsulent i Javaavdelingen i Itera Consulting (tidligere Objectware). Hennes hovedinteresser er programmeringsspråk, smidige metoder og kodekvalitet. Hun er aktiv i Java-miljøet i Oslo med sin deltakelse i møtegruppen til javaBin.",
                 "avatar": "http://javazone.no/ems/server/binary/2d43ce5f-47d9-484c-90df-e872594ea28a?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/61f52ecc-f974-46f6-a2c6-f2d0862d6a4e/speakers/8f02b78d-c547-45c2-b4b6-071a13426db8",
+                "name": "Karianne Berg",
+                "bio": "Karianne har en mastergrad i IKT fra Universitetet i Bergen. Etter to år i Oslo har hun nå nylig flyttet tilbake til Bergen for å jobbe som konsulent for Miles. Hennes hovedinteresser er patterns, smidig utvikling og spennende teknologi. Karianne brenner for et aktivt fagmiljø, og er medarrangør av konferansene ROOTS og Smidig og inntil nylig den månedlige møteplassen Oslo XP Meetup. Hun er også en ivrig foredragsholder, og har tidligere holdt foredrag på konferansene Smidig, Javazone, XP og NDC, i tillegg til ulike brukergruppemøter.\r\n\r\nKarianne har også opparbeidet seg ekstensiv kunnskap om ninjaer, delvis gjennom å ha sett dokumentarfilmen \"Ninja Assassin\" fire ganger. Da hun var liten sparte hun penger til nunchakus.",
+                "avatar": "http://javazone.no/ems/server/binary/ae626784-5383-48b3-aeb2-f91be72c2844?size=thumb"
             }
         ]
     },
@@ -4299,16 +4299,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/d8e6a905-d808-4932-bfdc-e1d0184b20fd/speakers/bbabdcbd-b086-456f-acec-72cd7728b5d0",
-                "name": "Per Ivar Gjerløw",
-                "bio": "Senior consultant. Developer with more than 10 years experience of Java projects, some of them using agile methods.",
-                "avatar": "http://javazone.no/ems/server/binary/ee57b177-3a75-4f47-9821-c496d8c8094e?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/d8e6a905-d808-4932-bfdc-e1d0184b20fd/speakers/fc11ef88-2b1a-4a3b-a9dd-cb64ff53b118",
                 "name": "Karol Olivier Dubaele Hårsaker",
                 "bio": "Managing Consultant. Profet for Agile methods in Capgemini Norway, and an experienced user of agile methods.",
                 "avatar": "http://javazone.no/ems/server/binary/a0084c56-6f0d-42cf-8d05-a3c7b606cf52?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/d8e6a905-d808-4932-bfdc-e1d0184b20fd/speakers/bbabdcbd-b086-456f-acec-72cd7728b5d0",
+                "name": "Per Ivar Gjerløw",
+                "bio": "Senior consultant. Developer with more than 10 years experience of Java projects, some of them using agile methods.",
+                "avatar": "http://javazone.no/ems/server/binary/ee57b177-3a75-4f47-9821-c496d8c8094e?size=thumb"
             }
         ]
     },
@@ -4453,7 +4453,7 @@
     {
         "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/a15f4bfd-1d2b-4d7b-ac18-051a3ea4cb9f",
         "format": "presentation",
-        "content": "Vårt problem: fakturavolumet hadde vokst over hodet på vår Java batchapplikasjon. Etter iherdige forsøk for å øke ytelsen på vår serielle applikasjon, så parallellprosessering ut til å være eneste løsning.\r\n\r\nVår første utfordring var å finne hvordan vi skulle parallellprosessere. Skulle vi bruke flere instanser av applikasjonen eller tråder? Valget falt på å bruke tråder, men hvor skulle vi benytte tråder, og var koden vi skulle parallellisere trådsikker?\r\n \r\nKodebasen hadde vært utviklet over flere år, og ingen hadde dessverre fokusert nevneverdig på trådsikkehet. Neste steg på veien var derfor å analysere og dokumentere klassenes trådsikkerhet. Selve kodearbeidet gikk ut på å fjerne delt tilstand der det var mulig, og å dele opp og fyre i gang deloppgaver. Vår største utfordring var med en modul som måtte ha delt tilstand, og vi kommer til å presentere alle løsningene vi trodde ville virke, og den som til slutt fungerte.\r\n\r\nImplementasjonen vår brukte deler av Java 5 concurrency-APIet og vi kommer også til å demonstrere vår bruk og verifisering av denne koden. \r\n\r\nVi hadde utviklet, verifisert, og ytelsestestet og valgte å produksjonssette. Dessverre oppstod mystiske feil i produksjon, og mistanken gikk straks til den nyinnf��rte trådingen. Vi fikk derfor også kost oss med den tidkrevende oppgaven med feilsøking av trådfeil. \r\n\r\nGjennom presentasjonen ønsker vi å presentere steg for steg hvordan vi gikk fram, hvilke feil vi gjorde, og bakgrunn for de valgene vi tok. Vi vil også presentere noen generelle utfordringer innenfor parallellprosessering, inkludert implementasjon, testing, feilsøking, APIer og profilingverktøy.",
+        "content": "Vårt problem: fakturavolumet hadde vokst over hodet på vår Java batchapplikasjon. Etter iherdige forsøk for å øke ytelsen på vår serielle applikasjon, så parallellprosessering ut til å være eneste løsning.\r\n\r\nVår første utfordring var å finne hvordan vi skulle parallellprosessere. Skulle vi bruke flere instanser av applikasjonen eller tråder? Valget falt på å bruke tråder, men hvor skulle vi benytte tråder, og var koden vi skulle parallellisere trådsikker?\r\n \r\nKodebasen hadde vært utviklet over flere år, og ingen hadde dessverre fokusert nevneverdig på trådsikkehet. Neste steg på veien var derfor å analysere og dokumentere klassenes trådsikkerhet. Selve kodearbeidet gikk ut på å fjerne delt tilstand der det var mulig, og å dele opp og fyre i gang deloppgaver. Vår største utfordring var med en modul som måtte ha delt tilstand, og vi kommer til å presentere alle løsningene vi trodde ville virke, og den som til slutt fungerte.\r\n\r\nImplementasjonen vår brukte deler av Java 5 concurrency-APIet og vi kommer også til å demonstrere vår bruk og verifisering av denne koden. \r\n\r\nVi hadde utviklet, verifisert, og ytelsestestet og valgte å produksjonssette. Dessverre oppstod mystiske feil i produksjon, og mistanken gikk straks til den nyinnførte trådingen. Vi fikk derfor også kost oss med den tidkrevende oppgaven med feilsøking av trådfeil. \r\n\r\nGjennom presentasjonen ønsker vi å presentere steg for steg hvordan vi gikk fram, hvilke feil vi gjorde, og bakgrunn for de valgene vi tok. Vi vil også presentere noen generelle utfordringer innenfor parallellprosessering, inkludert implementasjon, testing, feilsøking, APIer og profilingverktøy.",
         "keywords": [
             "experience report",
             "concurrency / scalability"
@@ -4510,16 +4510,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cbb113a4-5720-47a1-9048-b6e840a3e566/speakers/a7872551-aa44-495c-a723-039ffaf8015c",
-                "name": "Steve Freeman",
-                "bio": "Steve Freeman is an independent consultant specializing in Agile software development. A founder member of the London Extreme Tuesday Club, he was chair of the first XPDay and is a frequent organizer and presenter at international conferences. Steve has worked in a variety of organizations, from writing shrink-wrap software for IBM, to prototyping for major research laboratories. Steve has a Ph.D. from Cambridge University, and degrees in statistics and music. Steve is based in London, UK.\r\n\r\nSteve and Nat Pryce were joint winners of the 2006 Agile Alliance Gordon Pask award, and co-authored \"Growing Object Oriented Software, Guided by Tests\" (Addison-Wesley)",
-                "avatar": "http://www.gravatar.com/avatar/fa489d4e0cffb52e75855e78ad36fbf4?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cbb113a4-5720-47a1-9048-b6e840a3e566/speakers/e957ce22-3396-47e5-9b7d-1d0befef46f0",
                 "name": "Nat Pryce",
                 "bio": "Nat Pryce has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. With a Ph.D. from Imperial College London, he has also worked on research projects and does occasional university teaching. An early adopter of Extreme Programming, he has written or contributed to several open source libraries that support Test Driven Development. He was one of the founding organizers of the London XPDay and regularly presents at international conferences. Nat is based in London, UK.",
                 "avatar": "http://www.gravatar.com/avatar/3f144e369e425a94c2e2afe78bae89f1?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/cbb113a4-5720-47a1-9048-b6e840a3e566/speakers/a7872551-aa44-495c-a723-039ffaf8015c",
+                "name": "Steve Freeman",
+                "bio": "Steve Freeman is an independent consultant specializing in Agile software development. A founder member of the London Extreme Tuesday Club, he was chair of the first XPDay and is a frequent organizer and presenter at international conferences. Steve has worked in a variety of organizations, from writing shrink-wrap software for IBM, to prototyping for major research laboratories. Steve has a Ph.D. from Cambridge University, and degrees in statistics and music. Steve is based in London, UK.\r\n\r\nSteve and Nat Pryce were joint winners of the 2006 Agile Alliance Gordon Pask award, and co-authored \"Growing Object Oriented Software, Guided by Tests\" (Addison-Wesley)",
+                "avatar": "http://www.gravatar.com/avatar/fa489d4e0cffb52e75855e78ad36fbf4?d=identicon&s=100"
             }
         ]
     },
@@ -4584,16 +4584,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/ac89b15e-a747-48ca-83b7-760231e04a1e/speakers/cb34c196-e3b2-4ea0-87eb-2ce986346aa0",
-                "name": "Johannes Brodwall",
-                "bio": "Johannes is an experienced Java developer and architecture working for Steria Norway. For the first several years as a Java-programmer, he tried to find a good web framework. Finally, he decided to learn what it takes to construct a web application without a web framework, just so he could see what work the frameworks were helping him with. He's never looked back.\r\n\r\nJohannes has been practicing test-driven development for ten years. He finds the practice hard, especially with new designs and patterns. As a result, whenever he runs across a problem that's difficult to test, he works on it repeatedly until he finds a good way to test it - a kata.",
-                "avatar": "http://javazone.no/ems/server/binary/5766b069-f073-4e20-8f6e-65b9e79b1ee1?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/ac89b15e-a747-48ca-83b7-760231e04a1e/speakers/97f3ebfa-df12-40b7-b45b-649a12eb3a7a",
                 "name": "Anders Karlsen",
                 "bio": "Anders is a solutions architect working for Steria Norway with more than ten years of Java project experience. Anders is happiest when he can able to make simple and understandable solutions to complex problems.",
                 "avatar": "http://javazone.no/ems/server/binary/8e315f45-7c98-4104-a729-052e87016268?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/28a1c5c2-b61e-4d2f-a67e-b60f9efdc2a8/sessions/ac89b15e-a747-48ca-83b7-760231e04a1e/speakers/cb34c196-e3b2-4ea0-87eb-2ce986346aa0",
+                "name": "Johannes Brodwall",
+                "bio": "Johannes is an experienced Java developer and architecture working for Steria Norway. For the first several years as a Java-programmer, he tried to find a good web framework. Finally, he decided to learn what it takes to construct a web application without a web framework, just so he could see what work the frameworks were helping him with. He's never looked back.\r\n\r\nJohannes has been practicing test-driven development for ten years. He finds the practice hard, especially with new designs and patterns. As a result, whenever he runs across a problem that's difficult to test, he works on it repeatedly until he finds a good way to test it - a kata.",
+                "avatar": "http://javazone.no/ems/server/binary/5766b069-f073-4e20-8f6e-65b9e79b1ee1?size=thumb"
             }
         ]
     },

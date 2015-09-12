@@ -964,16 +964,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/b0e28663-2421-4e94-997e-f9d07ebb52b6/speakers/ce44cb31-b69e-45fc-b524-64cfcb266178",
-                "name": "Ole Christian Rynning",
-                "bio": "Ole Christian er utvikler og leder faggruppen for Dynamiske språk i BEKK. Han deltar også i JavaZones programkomite og er aktiv i fagmiljøet i Oslo. Han interesserer seg for tiden spesielt for programmeringsspråk, deriblant spesielt Scala, Clojure og Ruby for tiden.",
-                "avatar": "http://javazone.no/ems/server/binary/d49e7653-2a02-474f-9f04-c81fcef122a6?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/b0e28663-2421-4e94-997e-f9d07ebb52b6/speakers/71c39c30-2a4b-49d8-8bab-f79a2881a697",
                 "name": "Eivind Uggedal",
                 "bio": "Eivind Uggedal er seniorkonsulent i BEKK. Han er bidragsyter til flere kjente opensource-prosjekter. Han står blant annet også bak siter som wasitup.com og mediaqueri.es. Har flere års erfaring med drift av web-løsninger med høy trafikk. Han interesserer seg spesielt for for tiden for DevOps, Go og distribuerte systemer.",
                 "avatar": "http://javazone.no/ems/server/binary/3e067ed5-d277-4768-9e3e-350f5f9cb795?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/b0e28663-2421-4e94-997e-f9d07ebb52b6/speakers/ce44cb31-b69e-45fc-b524-64cfcb266178",
+                "name": "Ole Christian Rynning",
+                "bio": "Ole Christian er utvikler og leder faggruppen for Dynamiske språk i BEKK. Han deltar også i JavaZones programkomite og er aktiv i fagmiljøet i Oslo. Han interesserer seg for tiden spesielt for programmeringsspråk, deriblant spesielt Scala, Clojure og Ruby for tiden.",
+                "avatar": "http://javazone.no/ems/server/binary/d49e7653-2a02-474f-9f04-c81fcef122a6?size=thumb"
             }
         ]
     },
@@ -2243,16 +2243,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/cbec6381-574c-41ff-980b-13bcb17fd8f9/speakers/6728e66b-6ba6-41ca-ba83-d1c039857679",
-                "name": "Steinar Haugen",
-                "bio": "Steinar jobber som selvstendig konsulent i Steinar Haugen Consulting AS og som CTO i nyetablerte Technebies AS. Han har jobbet 14 år som konsulent og har programmert i nesten 30 år. De siste 10 årene har han hovedsaklig jobbet i telekom bransjen.\r\n\r\nInteressefeltet er bredt og spenner fra utvikling innen store mellomvare systemer, via GUI app'er og grafisk databehandling, til algoritmer og genetisk programmering. Han liker å lære nye språk. Den siste tiden har han jobbet med groovy og groovy-baserte rammeverk, samt utvikling av DSL'er innen groovy. Han har nylig jobbet med migrering av et stort byggesystem fra maven 1 til gradle.",
-                "avatar": "http://javazone.no/ems/server/binary/cb6f2510-313b-4427-b56d-807cdce54672?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/cbec6381-574c-41ff-980b-13bcb17fd8f9/speakers/1cc77e19-fa50-4554-a109-355b17c0831f",
                 "name": "Kenneth Stigen",
                 "bio": "Kenneth jobber i Know IT Objectnet og har jobbet i konsulentbransjen siden 2004. Han har sin kjernekompetanse innenfor objektorientert utvikling av Java/JEE-løsninger. Kenneth har deltatt på mange store prosjekter, og flesteparten av dem innenfor telekom. Kenneth er for tiden engasjert hos Telenor mobil.",
                 "avatar": "http://javazone.no/ems/server/binary/0c5de128-fe12-4204-87be-d77da8e84cb1?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/cbec6381-574c-41ff-980b-13bcb17fd8f9/speakers/6728e66b-6ba6-41ca-ba83-d1c039857679",
+                "name": "Steinar Haugen",
+                "bio": "Steinar jobber som selvstendig konsulent i Steinar Haugen Consulting AS og som CTO i nyetablerte Technebies AS. Han har jobbet 14 år som konsulent og har programmert i nesten 30 år. De siste 10 årene har han hovedsaklig jobbet i telekom bransjen.\r\n\r\nInteressefeltet er bredt og spenner fra utvikling innen store mellomvare systemer, via GUI app'er og grafisk databehandling, til algoritmer og genetisk programmering. Han liker å lære nye språk. Den siste tiden har han jobbet med groovy og groovy-baserte rammeverk, samt utvikling av DSL'er innen groovy. Han har nylig jobbet med migrering av et stort byggesystem fra maven 1 til gradle.",
+                "avatar": "http://javazone.no/ems/server/binary/cb6f2510-313b-4427-b56d-807cdce54672?size=thumb"
             }
         ]
     },
@@ -2348,16 +2348,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a1dc1659-c215-4e6e-b19c-a0d72256f7d3/speakers/29d998f1-fd75-47ad-85e3-9b7551b2c11f",
-                "name": "Nils Christian Haugen",
-                "bio": "Nils Christian nyter å hjelpe team å levere software som gleder både brukere og sponsorer. Som konsulent er han å finne i ulike roller hvor han får praktisert dette gjennom coaching i smidig test- og utviklingsmetodikk, kravspesifisering, systemarkitektur og utvikling. Nils Christian er sivilingeniør fra NTNU og partner i Scienta AS.",
-                "avatar": "http://javazone.no/ems/server/binary/c7d40d8d-3c5e-42cc-b9bd-f2461669e55c?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a1dc1659-c215-4e6e-b19c-a0d72256f7d3/speakers/30946172-da1b-4726-a04b-ed391483bc07",
                 "name": "Stein Grimstad",
                 "bio": "Stein er en arkitekt/rådgiver som ønsker å bidra til at kunden får størst mulig avkastning på sine IT-investeringer. Hans fagområder inkluderer estimering/usikkerhetsanalyser, kravspesifisering, modellering og systemarkitektur. Stein har en doktorgrad i Software Engineering fra Universitetet i Oslo, og er partner i Scienta AS.",
                 "avatar": "http://javazone.no/ems/server/binary/5322259d-5847-4e53-bb41-969fc0b5d76a?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a1dc1659-c215-4e6e-b19c-a0d72256f7d3/speakers/29d998f1-fd75-47ad-85e3-9b7551b2c11f",
+                "name": "Nils Christian Haugen",
+                "bio": "Nils Christian nyter å hjelpe team å levere software som gleder både brukere og sponsorer. Som konsulent er han å finne i ulike roller hvor han får praktisert dette gjennom coaching i smidig test- og utviklingsmetodikk, kravspesifisering, systemarkitektur og utvikling. Nils Christian er sivilingeniør fra NTNU og partner i Scienta AS.",
+                "avatar": "http://javazone.no/ems/server/binary/c7d40d8d-3c5e-42cc-b9bd-f2461669e55c?size=thumb"
             }
         ]
     },
@@ -2384,12 +2384,6 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/761820c9-6fab-4dd0-8e66-52951d142415/speakers/d1287584-42d6-4767-827f-89f841153ffd",
-                "name": "Matthew J. McCullough",
-                "bio": "Open Source Application Architect at Ambient Ideas\r\n\r\nMatthew McCullough is an energetic 12 year veteran of enterprise software development, open source education, and co-founder of Ambient Ideas, LLC, a Denver consultancy. He is an outspoken advocate for the use of open source libraries in enterprise applications. Matthew currently is a member of the JCP, reviewer for technology publishers including O'Reilly, President of the Denver Open Source Users Group, and speaker on the No Fluff Just Stuff 2009 tour. \r\n\r\nHis experience includes successful J2EE, SOA, and Web Service implementations for real estate, financial management, and telecommunications firms, and development of several open source libraries. Matthew jumps at opportunities to evangelize, present, and educate teams on the benefits of open source. His current focuses are Maven, iPhone and Android applications, and OSS debugging tools. \r\n\r\nMatthew currently resides in beautiful Denver, Colorado, USA with his wife and baby daughter, who all are active in nearly every outdoor activity Colorado offers.",
-                "avatar": "http://www.gravatar.com/avatar/bededa744012c87721d68f69342f81b0?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/761820c9-6fab-4dd0-8e66-52951d142415/speakers/193ffe6a-4016-489f-8d68-d43b27b6736e",
                 "name": "Nathaniel Schutta",
                 "bio": "Nathaniel T. Schutta is a senior software engineer focussed on making usable applications. A proponent of polyglot programming, Nate has written two books on Ajax and speaks regularly at various No Fluff Just Stuff symposia, universities, and Java user groups. In addition to his day job, Nate is an adjunct professor at the University of Minnesota where he teaches students to embrace dynamic languages.",
@@ -2400,6 +2394,12 @@
                 "name": "Neal Ford",
                 "bio": "Neal Ford is Software Architect and Meme Wrangler at ThoughtWorks, a global IT consultancy with an exclusive focus on end-to-end software development and delivery. He is also the designer and developer of applications, instructional materials, magazine articles, courseware, video/DVD presentations, and author and/or editor of 6 books spanning a variety of technologies, including the most recent The Productive Programmer. He focuses on designing and building of large-scale enterprise applications. He is also an internationally acclaimed speaker, speaking at over 100 developer conferences worldwide, delivering more than 600 talks. Check out his web site at http://www.nealford.com. He welcomes feedback and can be reached at nford@thoughtworks.com.",
                 "avatar": "http://www.gravatar.com/avatar/ffa3043f44a3d0973490cb40b475428e?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/761820c9-6fab-4dd0-8e66-52951d142415/speakers/d1287584-42d6-4767-827f-89f841153ffd",
+                "name": "Matthew J. McCullough",
+                "bio": "Open Source Application Architect at Ambient Ideas\r\n\r\nMatthew McCullough is an energetic 12 year veteran of enterprise software development, open source education, and co-founder of Ambient Ideas, LLC, a Denver consultancy. He is an outspoken advocate for the use of open source libraries in enterprise applications. Matthew currently is a member of the JCP, reviewer for technology publishers including O'Reilly, President of the Denver Open Source Users Group, and speaker on the No Fluff Just Stuff 2009 tour. \r\n\r\nHis experience includes successful J2EE, SOA, and Web Service implementations for real estate, financial management, and telecommunications firms, and development of several open source libraries. Matthew jumps at opportunities to evangelize, present, and educate teams on the benefits of open source. His current focuses are Maven, iPhone and Android applications, and OSS debugging tools. \r\n\r\nMatthew currently resides in beautiful Denver, Colorado, USA with his wife and baby daughter, who all are active in nearly every outdoor activity Colorado offers.",
+                "avatar": "http://www.gravatar.com/avatar/bededa744012c87721d68f69342f81b0?d=identicon&s=100"
             }
         ]
     },
@@ -3385,16 +3385,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/c394e862-0925-4abd-8cbd-8a798316d9c5/speakers/287e2c47-56ff-4079-9075-d337ea69b3c9",
-                "name": "Børge Lotre",
-                "bio": "Børge er fagsjef for IT-rådgivning og Arkitektur i Bekk Consulting. Han har 16 års erfaring og har de siste årene primært jobbet med J2EE løsninger og da spesielt modernisering av gamle systemer.",
-                "avatar": "http://javazone.no/ems/server/binary/366f2308-b139-4fa4-bae7-ea3a36a79ce2?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/c394e862-0925-4abd-8cbd-8a798316d9c5/speakers/be7aeff8-85b7-423b-85a6-1d902fb3f040",
                 "name": "Eirik Wang",
                 "bio": "Eirik jobber som manager i Bekk Consulting. Han har 6 års erfaring og har de siste årene jobbet med J2EE løsninger. De siste par årene har han vært med i et større moderniseringsprosjekt skrevet i J2EE med Apache Camel i bunn. Han brenner for ren og testbar kode.",
                 "avatar": "http://javazone.no/ems/server/binary/2c7698b7-6896-4c4a-8218-25b2870521c9?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/c394e862-0925-4abd-8cbd-8a798316d9c5/speakers/287e2c47-56ff-4079-9075-d337ea69b3c9",
+                "name": "Børge Lotre",
+                "bio": "Børge er fagsjef for IT-rådgivning og Arkitektur i Bekk Consulting. Han har 16 års erfaring og har de siste årene primært jobbet med J2EE løsninger og da spesielt modernisering av gamle systemer.",
+                "avatar": "http://javazone.no/ems/server/binary/366f2308-b139-4fa4-bae7-ea3a36a79ce2?size=thumb"
             }
         ]
     },
@@ -3424,16 +3424,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/fd2868fd-c039-4434-a596-d139719ed8a6/speakers/b8eac617-e9a8-4d7a-891e-bb14a6080b73",
-                "name": "Kai Thomas Gilb",
-                "bio": "Independent Consultant, Author, Teacher www.gilb.com",
-                "avatar": "http://javazone.no/ems/server/binary/1dc547bf-1b53-4d31-9ce9-be33f217c486?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/fd2868fd-c039-4434-a596-d139719ed8a6/speakers/5a3e1518-e4b4-48a7-a488-976e9e9abc29",
                 "name": "Tom Gilb",
                 "bio": "Independent Consultant, Author, Teacher since 1960\r\nAuthor of Competitive Engineering (2005)\r\nwww.gilb.com",
                 "avatar": "http://javazone.no/ems/server/binary/996dbebc-ffb3-42ee-b836-2a74ae42c64c?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/fd2868fd-c039-4434-a596-d139719ed8a6/speakers/b8eac617-e9a8-4d7a-891e-bb14a6080b73",
+                "name": "Kai Thomas Gilb",
+                "bio": "Independent Consultant, Author, Teacher www.gilb.com",
+                "avatar": "http://javazone.no/ems/server/binary/1dc547bf-1b53-4d31-9ce9-be33f217c486?size=thumb"
             }
         ]
     },
@@ -3826,16 +3826,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/3e849654-0f6a-41df-86d5-b08e732ab8f2/speakers/0626a6a0-ebff-41c4-80e4-9b851b3b0349",
-                "name": "Aslak Knutsen",
-                "bio": "Aslak Knutsen is currently a Senior Software Engineer for the JBoss Seam team at Red Hat, Inc. where he is the project lead for Arquillian and works on projects such as ShrinkWrap, Weld and Seam 3. Previously, Aslak was a Senior Consultant at Conduct AS (working with JBoss related technologies) and Senior Developer at EDB ASA (working with electronic billing/banking systems).",
-                "avatar": "http://javazone.no/ems/server/binary/3811a2d7-1c07-4f7e-aa2c-9d0e143ee3bc?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/3e849654-0f6a-41df-86d5-b08e732ab8f2/speakers/f8013f87-2da8-4013-bfca-b8301f89f8d0",
                 "name": "Andrew Lee Rubinger",
                 "bio": "Advocate for and speaker on testable enterprise Java development, author of \"Enterprise JavaBeans 3.1\" from O'Reilly Media.  Member of the JBoss Application Server development team and technical lead of the ShrinkWrap project.  Proudly employed by JBoss / Red Hat.",
                 "avatar": "http://javazone.no/ems/server/binary/2006603c-cca9-4989-a0f5-bed7c634b1ce?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/3e849654-0f6a-41df-86d5-b08e732ab8f2/speakers/0626a6a0-ebff-41c4-80e4-9b851b3b0349",
+                "name": "Aslak Knutsen",
+                "bio": "Aslak Knutsen is currently a Senior Software Engineer for the JBoss Seam team at Red Hat, Inc. where he is the project lead for Arquillian and works on projects such as ShrinkWrap, Weld and Seam 3. Previously, Aslak was a Senior Consultant at Conduct AS (working with JBoss related technologies) and Senior Developer at EDB ASA (working with electronic billing/banking systems).",
+                "avatar": "http://javazone.no/ems/server/binary/3811a2d7-1c07-4f7e-aa2c-9d0e143ee3bc?size=thumb"
             }
         ]
     },
@@ -3870,16 +3870,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a841555d-e1ad-48f2-90bd-ce27f2ac6d37/speakers/892c6d5f-0e52-47f3-8520-bc1df1e0020c",
-                "name": "Anders Sveen",
-                "bio": "Anders er seniorkonsulent hos Miles AS. Han har over 6 års erfaring fra store og små prosjekter innenfor mange bransjer. Gjennom forskjellige roller i prosjekter har han fått solid erfaring med smidige prosesser, Java EE, TDD, databaser, integrasjon og objektorientert design. Han brenner for smidige prosesser og enkel, endringsdyktig kode som gir maksimalt med verdi for organisasjonen.",
-                "avatar": "http://javazone.no/ems/server/binary/90cb9fe3-a9b3-4fa6-88c6-bfd3e873ebd2?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a841555d-e1ad-48f2-90bd-ce27f2ac6d37/speakers/c9ba95ee-16b6-419b-a57a-5cd7f764c74e",
                 "name": "Truls Jørgensen",
                 "bio": "Truls er fagansvarlig for Java i Capgemini Norge. Han har erfaring med utvikling, funksjonell design og teknisk arkitektur fra riktig store til ganske små prosjekter. Truls mener at smidig utviklingsmetodikk er den rette vei, at Domain Driven Design og Test Driven Development er mye mer enn fengende fraser med tilhørende kule forkortelser, at Pearl Jam er verdens beste band, at løsninger for mobile enheter vil være sentrale i mange bedrifters IT-planer fremover, og at Open Source kommer til å vinne til slutt.",
                 "avatar": "http://javazone.no/ems/server/binary/b14e741f-f05c-4d4a-b873-5117b8b071c5?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/1307dbcc-048e-4f80-9faa-ffa1bef40fda/sessions/a841555d-e1ad-48f2-90bd-ce27f2ac6d37/speakers/892c6d5f-0e52-47f3-8520-bc1df1e0020c",
+                "name": "Anders Sveen",
+                "bio": "Anders er seniorkonsulent hos Miles AS. Han har over 6 års erfaring fra store og små prosjekter innenfor mange bransjer. Gjennom forskjellige roller i prosjekter har han fått solid erfaring med smidige prosesser, Java EE, TDD, databaser, integrasjon og objektorientert design. Han brenner for smidige prosesser og enkel, endringsdyktig kode som gir maksimalt med verdi for organisasjonen.",
+                "avatar": "http://javazone.no/ems/server/binary/90cb9fe3-a9b3-4fa6-88c6-bfd3e873ebd2?size=thumb"
             }
         ]
     },

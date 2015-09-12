@@ -163,16 +163,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/5838a1ac-df90-48de-aa8c-6eacbddfb99d/speakers/0896b163-595c-48ae-b2a9-083028fcf166",
-                "name": "Jim Webber",
-                "bio": "Dr. Jim Webber is Chief Scientist with Neo Technology the company behind the popular open source graph database Neo4j, where he where he works on R&D for highly scalable graph databases and writes open source software. Jim has written two books on integration and distributed systems: “Developing Enterprise Web Services” on XML Web Services and “REST in Practice” on using the Web for building large-scale systems. His latest book is “Graph Databases” which focuses on the Neo4j database. His blog is located at http://jimwebber.org and he tweets often @jimwebber.",
-                "avatar": "http://javazone.no/ems/server/binary/c05e7cda-279b-40fc-a348-559739b41877?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/5838a1ac-df90-48de-aa8c-6eacbddfb99d/speakers/9215312e-b86d-4bb5-851e-6d7c9fd48ea2",
                 "name": "Ian Robinson",
                 "bio": "Ian is a software engineer at Neo Technology, the company behind Neo4j, the world’s leading open source graph database. He's also a co-author of REST in Practice (O’Reilly) and a contributor to the book REST: From Research to Practice (Springer) and Service Design Patterns (Addison-Wesley). I present at conferences worldwide on graph data, and the awesome graph capabilities of Neo4j, and recently wrote the book Graph Databases (O'Reilly) about my experiences with Neo4j.",
                 "avatar": "http://www.gravatar.com/avatar/ca3ed26d7a8339404fd1aeaa0054d557?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/5838a1ac-df90-48de-aa8c-6eacbddfb99d/speakers/0896b163-595c-48ae-b2a9-083028fcf166",
+                "name": "Jim Webber",
+                "bio": "Dr. Jim Webber is Chief Scientist with Neo Technology the company behind the popular open source graph database Neo4j, where he where he works on R&D for highly scalable graph databases and writes open source software. Jim has written two books on integration and distributed systems: “Developing Enterprise Web Services” on XML Web Services and “REST in Practice” on using the Web for building large-scale systems. His latest book is “Graph Databases” which focuses on the Neo4j database. His blog is located at http://jimwebber.org and he tweets often @jimwebber.",
+                "avatar": "http://javazone.no/ems/server/binary/c05e7cda-279b-40fc-a348-559739b41877?size=thumb"
             }
         ]
     },
@@ -808,16 +808,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/90753df8-f684-4553-b331-616a4431d6c0/speakers/65c8c935-3a8a-47df-8460-4808d470ccab",
-                "name": "Nat Pryce",
-                "bio": "After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.",
-                "avatar": "http://www.gravatar.com/avatar/ef415c49017ed1ba33aa402a83d5a900?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/90753df8-f684-4553-b331-616a4431d6c0/speakers/a83d66ae-c596-4cae-bb2e-e217763d5a64",
                 "name": "Steve Freeman",
                 "bio": "Steve Freeman, author of Growing Object Oriented Software, Guided by Tests (Addison-Wesley), was a pioneer of Agile software development in the UK. He has developed software for a range of institutions, from small vendors to multinational investment banks. Steve trains and consults for software teams around the world. Previously, he has worked in research labs and software houses, earned a PhD (Cambridge), written shrink-wrap applications for IBM, and taught at University College London. Steve is a presenter and organiser at international industry conferences, and was chair of the first London XpDay.",
                 "avatar": "http://www.gravatar.com/avatar/2bafd3813fe96133edd6f31d0153ecb9?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/90753df8-f684-4553-b331-616a4431d6c0/speakers/65c8c935-3a8a-47df-8460-4808d470ccab",
+                "name": "Nat Pryce",
+                "bio": "After completing his PhD at Imperial College, Nat Pryce joined a dot-com just in time to ride the bust. Since then he has worked as a programmer, architect, trainer, and consultant in a variety of industries, including sports reportage, marketing communications, retail, telecoms, and finance. He has also worked on academic research projects and does occasional university teaching. An early adopter of XP, he has written or contributed to several open source libraries and tools that support TDD and was one of the founding organizers of the London XP Day conference. He also regularly presents at international conferences. Nat is based in London, UK.",
+                "avatar": "http://www.gravatar.com/avatar/ef415c49017ed1ba33aa402a83d5a900?d=identicon&s=100"
             }
         ],
         "video": "http://vimeo.com/105785565"
@@ -1091,16 +1091,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a732e2d1-1648-4725-9571-489720cd91d2/speakers/9fa0a473-57cc-4f61-90ad-e7fd63dd1cb8",
-                "name": "Åshild Kaldahl Thorrud",
-                "bio": "Åshild jobber i Capgemini som Java-utvikler. Hun har mer enn tre års erfaring med systemutvikling. Hun synes applikasjonssikkerhet er interessant, og liker å finne enkle løsninger på å forbedre dette i programutvikling.",
-                "avatar": "http://javazone.no/ems/server/binary/47665dd0-648e-41cd-9d84-f3a9ac2dfe5a?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a732e2d1-1648-4725-9571-489720cd91d2/speakers/d83609dc-a4a9-4ee2-825d-c4c77fd26520",
                 "name": "Mikael Strand",
                 "bio": "Mikael jobber i Capgemini som Java-utvikler. Han har mer enn fire års erfaring med systemutvikling, og leder sikkerhetsgruppen i Capgemini Oslo. Han er er opptatt av sikkerhet, ikke bare i software, men også om hvordan bedrifter bør tenke rundt sikkerhet generelt.",
                 "avatar": "http://javazone.no/ems/server/binary/74f6d336-424c-4e2a-bc1d-d6cac81d3d58?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a732e2d1-1648-4725-9571-489720cd91d2/speakers/9fa0a473-57cc-4f61-90ad-e7fd63dd1cb8",
+                "name": "Åshild Kaldahl Thorrud",
+                "bio": "Åshild jobber i Capgemini som Java-utvikler. Hun har mer enn tre års erfaring med systemutvikling. Hun synes applikasjonssikkerhet er interessant, og liker å finne enkle løsninger på å forbedre dette i programutvikling.",
+                "avatar": "http://javazone.no/ems/server/binary/47665dd0-648e-41cd-9d84-f3a9ac2dfe5a?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105869246"
@@ -1309,16 +1309,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/c75d6c46-bf89-438a-b433-e9466869446c/speakers/dcb98809-83b8-4305-84e4-fa8741d5dbd2",
-                "name": "Magne Jørgensen",
-                "bio": "Forsker og rådgiver innen kostnadsestimering. Jobber ved Scienta, Simula Research Laboratory og Universitetet i Oslo. Brenner for evidensbasert systemutvikling.",
-                "avatar": "http://javazone.no/ems/server/binary/5543e583-2494-4419-9060-c3e38e5c45af?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/c75d6c46-bf89-438a-b433-e9466869446c/speakers/0ad28a21-3f47-40e4-9c6a-2ed546d688f6",
                 "name": "Stein Grimstad",
                 "bio": "Arkitekt i Scienta AS. Er opptatt av at kundene skal få størst mulig avkastning på IT-investeringene.",
                 "avatar": "http://javazone.no/ems/server/binary/40fd987f-d3f0-4f4f-bb52-111ebc8793e4?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/c75d6c46-bf89-438a-b433-e9466869446c/speakers/dcb98809-83b8-4305-84e4-fa8741d5dbd2",
+                "name": "Magne Jørgensen",
+                "bio": "Forsker og rådgiver innen kostnadsestimering. Jobber ved Scienta, Simula Research Laboratory og Universitetet i Oslo. Brenner for evidensbasert systemutvikling.",
+                "avatar": "http://javazone.no/ems/server/binary/5543e583-2494-4419-9060-c3e38e5c45af?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105785566"
@@ -1809,16 +1809,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/7654251c-36c7-427b-b643-09ea29eaabd7/speakers/4d38606b-274a-462a-b811-81d6c53dd14f",
-                "name": "Ismar Slomic",
-                "bio": "Ismar er teknisk arkitekt i Accenture. Han er ansvarlig for interne hackathons og entreprenørskap  i tillegg til å være ansvarlig for teknisk arkitektur på en av Norges mest spennende frontend prosjekt hos Telenor.",
-                "avatar": "http://javazone.no/ems/server/binary/d6c26ef7-786e-4ee5-837e-c1f55f88590b?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/7654251c-36c7-427b-b643-09ea29eaabd7/speakers/80112fca-7ea6-4d01-ade9-b529de0d00f4",
                 "name": "Anna Karpova",
                 "bio": "Anna er interaksjonsdesigner og frontendutvikler i Accenture og jobber til daglig i Accenture's innovasjonslab på Blindern. Anna har øye for detaljer og tenker alltid på brukerens behov først.",
                 "avatar": "http://javazone.no/ems/server/binary/54aafda7-9aa7-48a7-82b6-b8c59270a5ce?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/7654251c-36c7-427b-b643-09ea29eaabd7/speakers/4d38606b-274a-462a-b811-81d6c53dd14f",
+                "name": "Ismar Slomic",
+                "bio": "Ismar er teknisk arkitekt i Accenture. Han er ansvarlig for interne hackathons og entreprenørskap  i tillegg til å være ansvarlig for teknisk arkitektur på en av Norges mest spennende frontend prosjekt hos Telenor.",
+                "avatar": "http://javazone.no/ems/server/binary/d6c26ef7-786e-4ee5-837e-c1f55f88590b?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105857889"
@@ -2163,16 +2163,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/b2b7f30e-f94d-427a-a060-b59f599c0a0a/speakers/13a45679-b50a-40a6-b84b-d7d5afb766c7",
-                "name": "Ragnar Aas",
-                "bio": "Ragnar is a consultant at Bouvet, currently working as a developer in the Erex team. He joined the Erex team in February 2013, and has enjoyed it ever since. Other things he enjoys, is to take really long exposures of galaxies far, far away, to take shorter exposures of the world around him, and to expose himself to the world under the motto “to baldly go where nobody else wants to go!”",
-                "avatar": "http://javazone.no/ems/server/binary/c0fdd82c-d35d-4361-886e-0fd659dabdc6?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/b2b7f30e-f94d-427a-a060-b59f599c0a0a/speakers/0d584c7d-f51d-4e05-8a67-11aed4abff27",
                 "name": "Gareth Western",
                 "bio": "Gareth is a consultant at Bouvet, currently working as a \"technical architect\" on the Erex project. He has been involved with Erex since shortly after moving to Norway and joining Bouvet in 2011. He believes Erex is a fascinating solution which has served its purpose well, yet still contains opportunities for future expansion and development.",
                 "avatar": "http://javazone.no/ems/server/binary/02030eac-4cc5-4c74-9eb4-906a51d95d0a?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/b2b7f30e-f94d-427a-a060-b59f599c0a0a/speakers/13a45679-b50a-40a6-b84b-d7d5afb766c7",
+                "name": "Ragnar Aas",
+                "bio": "Ragnar is a consultant at Bouvet, currently working as a developer in the Erex team. He joined the Erex team in February 2013, and has enjoyed it ever since. Other things he enjoys, is to take really long exposures of galaxies far, far away, to take shorter exposures of the world around him, and to expose himself to the world under the motto “to baldly go where nobody else wants to go!”",
+                "avatar": "http://javazone.no/ems/server/binary/c0fdd82c-d35d-4361-886e-0fd659dabdc6?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105880151"
@@ -2416,16 +2416,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/95e8e618-bd1d-42cb-8657-df5470466217/speakers/88846615-a4f7-42fe-841c-e4b9ed65fe68",
-                "name": "Per Jørgen Walstrøm",
-                "bio": "Per Jørgen har jobbet som utvikler siden dot.com-bølgen på slutten av 90-tallet og finner fortsatt motivasjon og indre glede i en test som lyser grønt.",
-                "avatar": "http://javazone.no/ems/server/binary/652cda95-2668-4411-8669-2362c3b41c02?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/95e8e618-bd1d-42cb-8657-df5470466217/speakers/042cbf07-02a4-45f8-9a4d-36753e848ca2",
                 "name": "Audun Fauchald Strand",
                 "bio": "Audun har jobbet som utvikler og arkitekt i nesten 10 år. Han liker store kompliserte systemer, diskusjoner, og ting som google lager.",
                 "avatar": "http://www.gravatar.com/avatar/dcc1c50e9615b70ecb92c35fd90046e8?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/95e8e618-bd1d-42cb-8657-df5470466217/speakers/88846615-a4f7-42fe-841c-e4b9ed65fe68",
+                "name": "Per Jørgen Walstrøm",
+                "bio": "Per Jørgen har jobbet som utvikler siden dot.com-bølgen på slutten av 90-tallet og finner fortsatt motivasjon og indre glede i en test som lyser grønt.",
+                "avatar": "http://javazone.no/ems/server/binary/652cda95-2668-4411-8669-2362c3b41c02?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105743314"
@@ -2602,16 +2602,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/61213799-46a3-4176-8d19-7e3316d24f05/speakers/2d1f91f0-1fef-4c54-8a6c-31b16e0129a6",
-                "name": "Joar Aurdal",
-                "bio": "Full-stack utvikler med erfaring fra flere store prosjekter. Han har i en årrekke vært en aktiv bidragsyter til Accentures fagmiljø, og er lidenskapelig opptatt av kodekvalitet, enkelhet, og det å utvikle mot en konsekvent og hensiktsmessig arkitektur.",
-                "avatar": "http://javazone.no/ems/server/binary/8b9b5f3e-5b1e-4756-b78f-ed1eee3f72f6?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/61213799-46a3-4176-8d19-7e3316d24f05/speakers/94bbbf51-d97b-446e-ab18-f0ce20105bf7",
                 "name": "Tom-Tom Erik Isaksen",
                 "bio": "Forretningsutvikler med lang erfaring fra utvikling av digitale flater i Telenor. Blant annet jobbet med sosiale medier og selvbetjeningsløsninger for både bedrifts- og privatmarkedet. \nJobber ut i fra filosofien: «Det handler ikke om hva du lager, men hvordan du lager det».",
                 "avatar": "http://javazone.no/ems/server/binary/630539c9-3d19-4818-b310-8db78ab66ad2?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/61213799-46a3-4176-8d19-7e3316d24f05/speakers/2d1f91f0-1fef-4c54-8a6c-31b16e0129a6",
+                "name": "Joar Aurdal",
+                "bio": "Full-stack utvikler med erfaring fra flere store prosjekter. Han har i en årrekke vært en aktiv bidragsyter til Accentures fagmiljø, og er lidenskapelig opptatt av kodekvalitet, enkelhet, og det å utvikle mot en konsekvent og hensiktsmessig arkitektur.",
+                "avatar": "http://javazone.no/ems/server/binary/8b9b5f3e-5b1e-4756-b78f-ed1eee3f72f6?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105771498"
@@ -3215,16 +3215,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/028d2c13-03cd-46c6-b28f-36413c48031f/speakers/42c222f3-b66b-497f-b550-cccbf5d5e6f9",
-                "name": "Trond Arve Wasskog",
-                "bio": "Trond Arve Wasskog er utvikler, arkitekt og CTO i Bekk Consulting. Han har jobbet med utvikling på Java-plattformen i hele sin karrière, og er nå løsningsarkitekt for MAG og EDAG",
-                "avatar": "http://javazone.no/ems/server/binary/2077f1ed-da52-4a1f-a3f8-7d4cd86ac487?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/028d2c13-03cd-46c6-b28f-36413c48031f/speakers/46db11f8-51eb-40a6-b83d-6853cb5758d2",
                 "name": "Anders Sveen",
                 "bio": "Anders Sveen er utvikler og arkitekt hos Miles i Oslo. Han har i det siste jobbet såpass mye med Bash og Linux at han har begynt å kalle seg for drifter. I utformingen av systemer er smidig system-utvikling viktig, og han forsøker å balansere effektivitet og hastighet med forutsigbarhet og stabilitet i produksjon.\nHan har erfaring fra små, store, bra og dårlige smidige prosjekter, men lærer stadig nye ting. Gjennom erfaringen med drift og ansvar i produksjon har han erfart hvor viktig det er å få hele verdikjeden til å spille sammen, ikke bare utvikle kjapt. Det finnes få ting som er så gøy som å legge ut noe i produksjon én dag, måle den neste, og legge ut en korreksjon den tredje dagen.",
                 "avatar": "http://www.gravatar.com/avatar/7f71fa594373939c77b687ef482326d1?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/028d2c13-03cd-46c6-b28f-36413c48031f/speakers/42c222f3-b66b-497f-b550-cccbf5d5e6f9",
+                "name": "Trond Arve Wasskog",
+                "bio": "Trond Arve Wasskog er utvikler, arkitekt og CTO i Bekk Consulting. Han har jobbet med utvikling på Java-plattformen i hele sin karrière, og er nå løsningsarkitekt for MAG og EDAG",
+                "avatar": "http://javazone.no/ems/server/binary/2077f1ed-da52-4a1f-a3f8-7d4cd86ac487?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105777592"
@@ -3502,16 +3502,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/710a16d2-0113-4c39-9bb6-f7eb7bc24be0/speakers/3eb42b76-55cd-4c62-b52a-fdcc0baab846",
-                "name": "Shaukat Ali",
-                "bio": "Dr. Shaukat Ali is currently a research scientist in Certus Software Verification and Validation Center, Simula Research Laboratory, Norway. He has been affiliated to Simula Research Lab since 2007. He has been involved in many industrial and research projects related to Model-based Testing (MBT) and Empirical Software Engineering since 2003. He has experience of working in several industries and academic research groups in many countries including UK, Canada, Norway, and Pakistan. Shaukat has been on the program or organisation committees of several international, IEEE and ACM conferences such as ACM/IEEE International Conference on Model Driven Engineering Languages and Systems, European Conference on Modeling Foundations and Applications and System Analysis and Modelling Conference.",
-                "avatar": "http://javazone.no/ems/server/binary/e8496e78-6164-495a-92b6-d45a0ca8ceaf?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/710a16d2-0113-4c39-9bb6-f7eb7bc24be0/speakers/e04c5baf-b3b6-40f2-a421-be5bd673834b",
                 "name": "Tao Yue",
                 "bio": "Dr. Tao Yue is a senior research scientist at Simula Research Laboratory, Oslo, Norway, where she is leading the expertise area of Model Based Engineering (MBE). She has around 16 years of experience of conducting industry-oriented research with a focus on MBE in various application domains such as Avionics, Maritime and Energy, and Communications in several countries including Canada, Norway, and China. Her main research area is software engineering, with specific interested in requirements engineering, requirements-driven testing, model-based development, model-based configuration and variability modeling, and empirical software engineering. Tao has been on the program and organization committees of many international, IEEE and ACM conferences such as ACM/IEEE International Conference on Model Driven Engineering Languages and Systems (PC member and Track Chair), European Conference on Modeling Foundations, International Conference on Quality Software, and IEEE Annual International Computers, Software&Applications Conference.",
                 "avatar": "http://javazone.no/ems/server/binary/6ae90365-b12c-45ad-ba29-42b986dc915c?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/710a16d2-0113-4c39-9bb6-f7eb7bc24be0/speakers/3eb42b76-55cd-4c62-b52a-fdcc0baab846",
+                "name": "Shaukat Ali",
+                "bio": "Dr. Shaukat Ali is currently a research scientist in Certus Software Verification and Validation Center, Simula Research Laboratory, Norway. He has been affiliated to Simula Research Lab since 2007. He has been involved in many industrial and research projects related to Model-based Testing (MBT) and Empirical Software Engineering since 2003. He has experience of working in several industries and academic research groups in many countries including UK, Canada, Norway, and Pakistan. Shaukat has been on the program or organisation committees of several international, IEEE and ACM conferences such as ACM/IEEE International Conference on Model Driven Engineering Languages and Systems, European Conference on Modeling Foundations and Applications and System Analysis and Modelling Conference.",
+                "avatar": "http://javazone.no/ems/server/binary/e8496e78-6164-495a-92b6-d45a0ca8ceaf?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105751215"
@@ -3792,16 +3792,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/31e299c2-8ea3-4f2a-a0a4-85dd533cc1e7/speakers/72081b60-d2f3-48ef-9de6-6ce7be36182d",
-                "name": "Kai Gilb",
-                "bio": "Kai Gilb\nKai Gilb has partnered with Tom in developing these ideas, holding courses and practicing them with clients since 1992. He coaches managers and product owners, writes papers, develops the courses, and is writing his own book, ‘Evo – Evolutionary Project Management & Product Development.’\nTom & Kai work well as a team, they approach the art of teaching their common methods somewhat differently.",
-                "avatar": "http://javazone.no/ems/server/binary/337ebf7e-d792-44ce-be8f-57c8acd4bcde?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/31e299c2-8ea3-4f2a-a0a4-85dd533cc1e7/speakers/4d82af20-d5d2-4811-a563-9465a6662910",
                 "name": "Tom Gilb",
                 "bio": "Tom Gilb is an American systems engineer, consultant, and author, known for the development of software metric, software inspection, and evolutionary processes. He coaches managers and product owners, writes papers, develops the courses. There are very many organizations and individuals who use some or all of their methods. IBM and HP were two early corporate adopters. Recently over 15,000 (and growing) engineers at Intel have adopted the “Planguage” requirements methods. Ericsson, Nokia and recently Nordea and Statoil and A Major Multinational Finance Group use parts of their methods extensively. Many smaller companies also use the methods.",
                 "avatar": "http://www.gravatar.com/avatar/a42b3c54c76183a5f99b75edd4a52e61?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/31e299c2-8ea3-4f2a-a0a4-85dd533cc1e7/speakers/72081b60-d2f3-48ef-9de6-6ce7be36182d",
+                "name": "Kai Gilb",
+                "bio": "Kai Gilb\nKai Gilb has partnered with Tom in developing these ideas, holding courses and practicing them with clients since 1992. He coaches managers and product owners, writes papers, develops the courses, and is writing his own book, ‘Evo – Evolutionary Project Management & Product Development.’\nTom & Kai work well as a team, they approach the art of teaching their common methods somewhat differently.",
+                "avatar": "http://javazone.no/ems/server/binary/337ebf7e-d792-44ce-be8f-57c8acd4bcde?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105888902"
@@ -4405,16 +4405,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/08d18044-dd3f-48e8-a6bd-ce85a1d1d3ab/speakers/d6146532-f35b-4ed1-ba11-c40ca0f18433",
-                "name": "Michael Gfeller",
-                "bio": "Michael Gfeller wrote one of his first computer programs on a Casio FX-602P and has been fascinated by programming ever since. He has been programming whenever possible, sometimes even to create works for the sole purpose of pleasing the eye. After studying chemistry and earning a D.Sc. from ETH Zürich, he has been working full time with IT since 1999. Java entered his world in 2006. He loves learning new and old stuff, theory in practice, theory for theory's sake, art, and books. He works as developer, architect and tech lead, and is lead of the Java technical network at Computas. He is quite convinced that semantic web technologies are one of the best ways to deal with the challenges of handling distributed data. For the past one and a half years he has been working on a semantic project, unfortunately not yet based on the new semantic web technologies.",
-                "avatar": "http://www.gravatar.com/avatar/751886ee6646156662d7a299413e2519?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/08d18044-dd3f-48e8-a6bd-ce85a1d1d3ab/speakers/b5aa7def-ebda-4d5e-88c7-ad3bbf22dc99",
                 "name": "Rustam Mehmandarov",
                 "bio": "Rustam Mehmandarov holds a master's degree in Computer Science from the University of Oslo. He has been working as a developer and lead programmer for over 8 years. In addition to being passionate about agile development, web development, architecture and geographical information systems, he is also a guru of both Linux and Windows worlds. On his spare time he enjoys working out, as well as coding in Python and Java [but not simultaneously].",
                 "avatar": "http://www.gravatar.com/avatar/05c3f7f58d28ae2c794df07efb92411a?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/08d18044-dd3f-48e8-a6bd-ce85a1d1d3ab/speakers/d6146532-f35b-4ed1-ba11-c40ca0f18433",
+                "name": "Michael Gfeller",
+                "bio": "Michael Gfeller wrote one of his first computer programs on a Casio FX-602P and has been fascinated by programming ever since. He has been programming whenever possible, sometimes even to create works for the sole purpose of pleasing the eye. After studying chemistry and earning a D.Sc. from ETH Zürich, he has been working full time with IT since 1999. Java entered his world in 2006. He loves learning new and old stuff, theory in practice, theory for theory's sake, art, and books. He works as developer, architect and tech lead, and is lead of the Java technical network at Computas. He is quite convinced that semantic web technologies are one of the best ways to deal with the challenges of handling distributed data. For the past one and a half years he has been working on a semantic project, unfortunately not yet based on the new semantic web technologies.",
+                "avatar": "http://www.gravatar.com/avatar/751886ee6646156662d7a299413e2519?d=identicon&s=100"
             }
         ]
     },
@@ -4972,16 +4972,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/e87a5cbb-94ee-46d2-a149-6065bb7426be/speakers/39da6310-1a71-41d2-bcf5-614e48324424",
-                "name": "Kim Christian Swenson",
-                "bio": "Kim Christian har jobbet med pantemaskiner og tilhørende server-side systemer i 7 år. Han har vært med på å ta pantemaskinkommunikasjon fra analog dial-up til event-dreven kommunikasjon over TCP/IP og HTTP. Han har jobbet med alt fra å implementere proprietær krypto i pantemaskin kommunikasjonsprotokollen til å tune relasjonsdatabaser og 3-lags web-applikasjoner. Som tech-lead ledet han arbeidet med å ta Tomras nye back-office plattform fra monolitt til et stabilt og skalerbart distribuert system.",
-                "avatar": "http://javazone.no/ems/server/binary/2a5bdc4c-5017-47de-b617-825c21092196?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/e87a5cbb-94ee-46d2-a149-6065bb7426be/speakers/a7b940d7-61dc-408f-989f-3cc3ec8885b7",
                 "name": "Erik Drolshammer",
                 "bio": "Erik brenner for arkitektur og utvikling på Java-plattformen. Han er spesielt interessert i komplekse og kompliserte problemstillinger som f.eks. distribuerte systemer som kommuniserer med hardware-dingser med krav til høy throughput, høy oppetid og lav latency. \n\nErik er aktiv i community-miljøet i Oslo og tror OpenSource og deling av kunnskap er nøkkelen til å bli flink. \nHan er nestleder i Oslo Software Architecture meetup, medlem i Programkomiteen for JavaZone 2014 og er ellers ofte på Teknologihuset for å høre på eller holde foredrag. \n\nErik er utdannet sivilingeniør data fra NTNU og har jobbet som konsulent siden 2007. Han jobber nå som sjefskonsulent for Altran.",
                 "avatar": "http://javazone.no/ems/server/binary/214f72fd-f660-45dc-902c-36513bf5c5c3?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/e87a5cbb-94ee-46d2-a149-6065bb7426be/speakers/39da6310-1a71-41d2-bcf5-614e48324424",
+                "name": "Kim Christian Swenson",
+                "bio": "Kim Christian har jobbet med pantemaskiner og tilhørende server-side systemer i 7 år. Han har vært med på å ta pantemaskinkommunikasjon fra analog dial-up til event-dreven kommunikasjon over TCP/IP og HTTP. Han har jobbet med alt fra å implementere proprietær krypto i pantemaskin kommunikasjonsprotokollen til å tune relasjonsdatabaser og 3-lags web-applikasjoner. Som tech-lead ledet han arbeidet med å ta Tomras nye back-office plattform fra monolitt til et stabilt og skalerbart distribuert system.",
+                "avatar": "http://javazone.no/ems/server/binary/2a5bdc4c-5017-47de-b617-825c21092196?size=thumb"
             }
         ],
         "video": "http://vimeo.com/105869196"
@@ -5580,16 +5580,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a9789af3-3587-423d-b465-c9fe7428c2fa/speakers/cd0f9831-0503-449c-a3b0-89ce35d2c5c7",
-                "name": "Magnar Sveen",
-                "bio": "Jeg heter Magnar og er en glad framsieutvikler. Jeg er deleier i Kodemaker, jobber til daglig som konsulent, og om kvelden utvikler jeg blant annet eventyrspillet Adventur Delux, pomodoro-verktøyet mytomatoes.com og en screencast om at emacs rocker. Jeg har også en blogg med screencasts om testdrevet javascript, zombier og mafia på zombietdd.com. Og en til med Clojure og ClojureScript på www.zombieclj.no",
-                "avatar": "http://www.gravatar.com/avatar/7c4453ccef88852995d6b191307aab27?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a9789af3-3587-423d-b465-c9fe7428c2fa/speakers/6eb34c89-5135-4f2a-bb7a-5bf33f696ca6",
                 "name": "Christian Johansen",
                 "bio": "Christian is a passionate programmer at Kodemaker.\n\nHe is the author of Test-Driven JavaScript Development, and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS.\n\nAfter dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.",
                 "avatar": "http://www.gravatar.com/avatar/6e7ddb6784d284c385f3f0f307ebf90d?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/9f40063a-5f20-4d7b-b1e8-ed0c6cc18a5f/sessions/a9789af3-3587-423d-b465-c9fe7428c2fa/speakers/cd0f9831-0503-449c-a3b0-89ce35d2c5c7",
+                "name": "Magnar Sveen",
+                "bio": "Jeg heter Magnar og er en glad framsieutvikler. Jeg er deleier i Kodemaker, jobber til daglig som konsulent, og om kvelden utvikler jeg blant annet eventyrspillet Adventur Delux, pomodoro-verktøyet mytomatoes.com og en screencast om at emacs rocker. Jeg har også en blogg med screencasts om testdrevet javascript, zombier og mafia på zombietdd.com. Og en til med Clojure og ClojureScript på www.zombieclj.no",
+                "avatar": "http://www.gravatar.com/avatar/7c4453ccef88852995d6b191307aab27?d=identicon&s=100"
             }
         ],
         "video": "http://vimeo.com/105777538"

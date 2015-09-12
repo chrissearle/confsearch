@@ -2081,16 +2081,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/d43388ef-024f-4f24-b449-7e57ecc61f36",
-                "name": "Sebastian Verheughe",
-                "bio": "Currently working at Telenor Norway as a system area architect, Sebastian is responsible for business services in the mobile value chain. The last year he has been working on a project looking into how such services better can support search and retrieval of large dynamic data sets by the clients.",
-                "avatar": "http://javazone.no/ems/server/binary/f7b3d1fa-a519-4130-862e-6ff7971de72b?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/309b7e44-dcef-490f-87e5-c24109f59f95",
                 "name": "Katrina Sponheim",
                 "bio": "Katrina is the system architect of Telenor Norway’s self service web solutions for the business segment. She has during the last year been involved in scalability and performance improvements related to customers being exposed to large data sets.",
                 "avatar": "http://javazone.no/ems/server/binary/1af6a495-d13e-47b9-a123-b081d90c6bff?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/01d60eee-e6f3-4a61-8721-16e66c6f1146/speakers/d43388ef-024f-4f24-b449-7e57ecc61f36",
+                "name": "Sebastian Verheughe",
+                "bio": "Currently working at Telenor Norway as a system area architect, Sebastian is responsible for business services in the mobile value chain. The last year he has been working on a project looking into how such services better can support search and retrieval of large dynamic data sets by the clients.",
+                "avatar": "http://javazone.no/ems/server/binary/f7b3d1fa-a519-4130-862e-6ff7971de72b?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49386442"
@@ -2845,16 +2845,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/41743505-f611-4768-a39b-9f83728bc3bb/speakers/49bcf898-91de-4e54-8c52-74d554b59c9a",
-                "name": "Bjørn Nordlund",
-                "bio": "Bjørn Nordlund is a developer at Cisco and his main quest as a programmer and system developer has always been to try to make things simpler and more manageable. To achieve this it is important to understand, identify and solve the real problems, which is often concealed behind technical impediments. He has held several talks at earlier javaZone and Smidig conferences.",
-                "avatar": "http://javazone.no/ems/server/binary/74a4d89d-5ec8-456d-ab1f-e56b98b2c355?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/41743505-f611-4768-a39b-9f83728bc3bb/speakers/d526c70b-a8ba-46b1-9395-c69a0b25e6a7",
                 "name": "Syver Enstad",
                 "bio": "is a programmer that repeatedly seems to discover that much to his disappointment just sitting down and coding is often not the \r\nmost important thing that can be done on a software project. He is a recovering C++ programmer that mostly programms ruby these days, even though python is probably the programming language he knows best. Syver is employed at Cisco Systems as a software developer",
                 "avatar": "http://javazone.no/ems/server/binary/e16b4af2-8384-476b-9c89-bd91680265d5?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/41743505-f611-4768-a39b-9f83728bc3bb/speakers/49bcf898-91de-4e54-8c52-74d554b59c9a",
+                "name": "Bjørn Nordlund",
+                "bio": "Bjørn Nordlund is a developer at Cisco and his main quest as a programmer and system developer has always been to try to make things simpler and more manageable. To achieve this it is important to understand, identify and solve the real problems, which is often concealed behind technical impediments. He has held several talks at earlier javaZone and Smidig conferences.",
+                "avatar": "http://javazone.no/ems/server/binary/74a4d89d-5ec8-456d-ab1f-e56b98b2c355?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49375219"
@@ -3997,16 +3997,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/a222721b-8657-4538-9e8f-27ea2b634763",
-                "name": "Bartosz Majsak",
-                "bio": "Bartosz Majsak works as a software developer and consultant at Cambridge Technology Partners based in Zurich. He is a JBoss Arquillian team member and lead of two modules - Persistence Extension which makes writing database oriented tests even easier and Spock Test Runner which gives your Arquillian tests some BDD and Groovy love. One thing which might prove that he is not a total geek is his addiction to alpine skiing. He used to play Go game.",
-                "avatar": "http://javazone.no/ems/server/binary/c2c8cde5-bbc0-4eb6-b9cf-afa1e9869d62?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/3101649f-1a2d-4848-81fd-67299809d795",
                 "name": "Aslak Knutsen",
                 "bio": "Senior Software Engineer for JBoss by Red Hat, Inc. Project lead for the Arquillian project and contributor to ShrinkWrap, ShrinkWrap Descriptors, Weld, Seam 3 and JBoss AS 7.",
                 "avatar": "http://javazone.no/ems/server/binary/e885f94d-5997-448a-b9b6-5587dd5a6fa4?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/cdcbd789-13f4-4656-981d-e9b6d4abf789/speakers/a222721b-8657-4538-9e8f-27ea2b634763",
+                "name": "Bartosz Majsak",
+                "bio": "Bartosz Majsak works as a software developer and consultant at Cambridge Technology Partners based in Zurich. He is a JBoss Arquillian team member and lead of two modules - Persistence Extension which makes writing database oriented tests even easier and Spock Test Runner which gives your Arquillian tests some BDD and Groovy love. One thing which might prove that he is not a total geek is his addiction to alpine skiing. He used to play Go game.",
+                "avatar": "http://javazone.no/ems/server/binary/c2c8cde5-bbc0-4eb6-b9cf-afa1e9869d62?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49484334"
@@ -5190,16 +5190,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a50b226f-6304-47fe-b552-874de562151c/speakers/861a6111-fcf5-4bd9-97d7-09d902c844f7",
-                "name": "Christian Johansen",
-                "bio": "Christian is a passionate programmer currently working at gitorious.org where he does everything from JavaScript to Ruby to Unix systems tuning.\r\n\r\nHe is the author of Test-Driven JavaScript Development, and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS.\r\n\r\nAfter dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.",
-                "avatar": "http://javazone.no/ems/server/binary/ba8bbe9c-b6e2-46f9-b228-61324a59e5a4?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a50b226f-6304-47fe-b552-874de562151c/speakers/b169688f-41fc-4708-8a1d-cc5fbb1dcc8e",
                 "name": "Magnar Sveen",
                 "bio": "Jeg heter Magnar og er en glad framsieutvikler. Jeg er deleier i Kodemaker, jobber til daglig hos FINN, og om kvelden utvikler jeg blant annet eventyrspillet Adventur Delux, pomodoro-verktøyet mytomatoes.com og en screencast om at emacs rocker. Jeg har også en blogg med screencasts om testdrevet javascript, zombier og mafia på zombietdd.com.",
                 "avatar": "http://javazone.no/ems/server/binary/95325d89-79ca-42df-9f4c-5472e98fde34?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/a50b226f-6304-47fe-b552-874de562151c/speakers/861a6111-fcf5-4bd9-97d7-09d902c844f7",
+                "name": "Christian Johansen",
+                "bio": "Christian is a passionate programmer currently working at gitorious.org where he does everything from JavaScript to Ruby to Unix systems tuning.\r\n\r\nHe is the author of Test-Driven JavaScript Development, and he maintains several open source projects, including the recently released test-framework Buster.JS and the popular mocking framework Sinon.JS.\r\n\r\nAfter dark you may find him tinkering with his Emacs setup, coding Lisp and slowly being devoured by the world of functional programming.",
+                "avatar": "http://javazone.no/ems/server/binary/ba8bbe9c-b6e2-46f9-b228-61324a59e5a4?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49485653"
@@ -5297,16 +5297,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/86bd1c40-a10d-4df3-88a6-a3490e3678a3",
-                "name": "Alex Snaps",
-                "bio": "Alex Snaps is a senior software engineer at Terracota Inc, with significant experience in web application development and highly concurrent systems. Before working on the Terracotta platform and product line, he participated in medium to large projects as coach, development lead and architect. He speaks regularly about Java development at events such as JavaOne, JavaPolis, Devoxx, JavaZone, Jazoon or XP Days as well as JUGs around the globe. He is currently working on Ehcache, the Quartz enterprise scheduler and the Terracotta Toolkit; he led the development of the Ehcache 2.5 Automatic Resource Management (ARC) effort.",
-                "avatar": "http://javazone.no/ems/server/binary/5d4a000c-5e87-4fb8-90c1-30a7d9710358?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/6f082a53-7ab3-4cad-8961-6e413c0bf693",
                 "name": "Ludovic Orban",
                 "bio": "After working for years on transactional systems, Ludovic wrote the Bitronix JTA Transaction Manager. He then joined Terracotta as a software engineer to work on Ehcache and the Quartz enterprise scheduler.",
                 "avatar": "http://javazone.no/ems/server/binary/78708eb5-3b9c-4235-b35d-5f12c77e4cf5?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/4c18f45a-054a-4699-a2bc-6a59a9dd8382/sessions/f2575921-5082-442d-a9e0-9c56318694be/speakers/86bd1c40-a10d-4df3-88a6-a3490e3678a3",
+                "name": "Alex Snaps",
+                "bio": "Alex Snaps is a senior software engineer at Terracota Inc, with significant experience in web application development and highly concurrent systems. Before working on the Terracotta platform and product line, he participated in medium to large projects as coach, development lead and architect. He speaks regularly about Java development at events such as JavaOne, JavaPolis, Devoxx, JavaZone, Jazoon or XP Days as well as JUGs around the globe. He is currently working on Ehcache, the Quartz enterprise scheduler and the Terracotta Toolkit; he led the development of the Ehcache 2.5 Automatic Resource Management (ARC) effort.",
+                "avatar": "http://javazone.no/ems/server/binary/5d4a000c-5e87-4fb8-90c1-30a7d9710358?size=thumb"
             }
         ],
         "video": "http://player.vimeo.com/video/49302115"

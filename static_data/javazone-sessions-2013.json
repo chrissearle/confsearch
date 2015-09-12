@@ -134,16 +134,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/a3f8f2fb-5347-4a94-9165-f78fc866c7f5/speakers/90be2fba-f71a-4938-8909-088f481294b2",
-                "name": "John Fallows",
-                "bio": "John Fallows is co-founder and CTO of Kaazing, a company recognized for its contribution to the creation of the WebSocket standard. John is actively involved in standard bodies such as AMQP and his sons football team. As his co-founder, he lives by the rule that no task is too big or impossible, it just need to be properly qualified.",
-                "avatar": "http://www.gravatar.com/avatar/a8caddf8734f510bf7099261f8b9811d?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/a3f8f2fb-5347-4a94-9165-f78fc866c7f5/speakers/911ff5da-5312-4d92-9021-77c120f944df",
                 "name": "Jonas Jacobi",
                 "bio": "Jonas Jacobi is co-founder and CEO of Kaazing, a company recognized for its contribution to the creation of the WebSocket standard. He lives by two rules; 90% of life is showing up, and nothing is impossible (impossible things might just take a bit longer).",
                 "avatar": "http://www.gravatar.com/avatar/f80433fc78c2a7bbe823f4f6846b49d7?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/a3f8f2fb-5347-4a94-9165-f78fc866c7f5/speakers/90be2fba-f71a-4938-8909-088f481294b2",
+                "name": "John Fallows",
+                "bio": "John Fallows is co-founder and CTO of Kaazing, a company recognized for its contribution to the creation of the WebSocket standard. John is actively involved in standard bodies such as AMQP and his sons football team. As his co-founder, he lives by the rule that no task is too big or impossible, it just need to be properly qualified.",
+                "avatar": "http://www.gravatar.com/avatar/a8caddf8734f510bf7099261f8b9811d?d=identicon&s=100"
             }
         ],
         "video": "http://vimeo.com/74437801"
@@ -412,16 +412,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/f888523e-ec04-462b-ba3a-7e4e0c352864/speakers/f7fda0de-8fee-4bc9-aca9-9cac72894f4b",
-                "name": "Markus Krüger",
-                "bio": "Markus Krüger is a developer at Comoyo, where he is getting paid for having fun with curly bracket languages. He has held several presentations at JavaZone and other venues previously, on various subjects such as performance testing, scheduling, and scalability through streaming. He likes making large things go fast.",
-                "avatar": "http://www.gravatar.com/avatar/2f6800f011b29365b0fc352d57889e0b?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/f888523e-ec04-462b-ba3a-7e4e0c352864/speakers/a94f95b9-0e27-49f5-8241-91a796fc620c",
                 "name": "Leif Einar Aune",
                 "bio": "Leif Einar Aune is a software architect and application developer at Comoyo, with broad experience from large, distributed mobile telecommunications networks and multimedia transcoding and distribution. He is the tech lead for Comoyo's video processing pipeline.",
                 "avatar": "http://www.gravatar.com/avatar/6fef40896b95a2dd8aad658863b9da25?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/f888523e-ec04-462b-ba3a-7e4e0c352864/speakers/f7fda0de-8fee-4bc9-aca9-9cac72894f4b",
+                "name": "Markus Krüger",
+                "bio": "Markus Krüger is a developer at Comoyo, where he is getting paid for having fun with curly bracket languages. He has held several presentations at JavaZone and other venues previously, on various subjects such as performance testing, scheduling, and scalability through streaming. He likes making large things go fast.",
+                "avatar": "http://www.gravatar.com/avatar/2f6800f011b29365b0fc352d57889e0b?d=identicon&s=100"
             }
         ],
         "video": "http://vimeo.com/74440477"
@@ -728,16 +728,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/de2498f1-2a0b-4e87-b475-414264a3935c/speakers/1dd6ad12-e9d5-40f9-b1b4-35a6d76e8a75",
-                "name": "Alain Defrance",
-                "bio": "Alain Defrance is currently working at BitTitan Inc. (http://www.bittitan.com) as core developer.\n\nPrior to BitTitan, Alain was project lead at eXo platform and used to contribute to open source projects like GateIn, CRaSH, Chromattic and wikbook.",
-                "avatar": "http://javazone.no/ems/server/binary/8224f5a3-b62c-44f8-bb88-d22af9fccc4e?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/de2498f1-2a0b-4e87-b475-414264a3935c/speakers/e1613a72-c0f5-4cbb-9f9b-c27b9f6f2742",
                 "name": "Julien Viet",
                 "bio": "Julien Viet leads product development of eXo Platformâs flagship eXo Portal product on which the entire eXo product line is based. In June 2009, eXo Portal was merged with JBoss Portal to create GateIn, which Julien now co-leads. In this role, he is deeply involved in GateInâs technical vision and plays a key role in product development and advanced R&D architecture prototyping.\n\nPrior to eXo, Julien was an engineer at JBoss, where he founded the JBoss Portal project in 2004. In four years, Julien built an enterprise-class portal server with a team of only five developers. He started contributing to the JBoss project (application server) in 2002 and joined JBoss, Inc. two years later.\n\nJulien is passionate about open source and active in standards groups. In his spare time, he started the Chromattic project, an advanced Object to Java Content Repository (JCR) mapping framework that now underpins the GateIn project. He is also an expert group member for several Java specifications, including Portlet 2.0 (JSR-286), Content Repository for Java Technology API 2.0 (JSR-283) and Portlet Bridge for JavaServer Faces (JSR-301). Julien holds an engineering degree from Institut National des TÃ©lÃ©communications, one of Franceâs top schools for engineering.",
                 "avatar": "http://www.gravatar.com/avatar/cb52062fbd7e159b54e3c298d622fe72?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/de2498f1-2a0b-4e87-b475-414264a3935c/speakers/1dd6ad12-e9d5-40f9-b1b4-35a6d76e8a75",
+                "name": "Alain Defrance",
+                "bio": "Alain Defrance is currently working at BitTitan Inc. (http://www.bittitan.com) as core developer.\n\nPrior to BitTitan, Alain was project lead at eXo platform and used to contribute to open source projects like GateIn, CRaSH, Chromattic and wikbook.",
+                "avatar": "http://javazone.no/ems/server/binary/8224f5a3-b62c-44f8-bb88-d22af9fccc4e?size=thumb"
             }
         ],
         "video": "http://vimeo.com/74553180"
@@ -1595,16 +1595,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/224628c5-bb49-41b2-aa83-59ef8ad7eccc/speakers/1388aab9-0702-4f07-91b1-9b8bf3a4a3f2",
-                "name": "Trygve Laugstøl",
-                "bio": "Trygve Laugstøl jobber som utvikler og fagsjef i Nets.",
-                "avatar": "http://www.gravatar.com/avatar/d78edd7e4d5cff2c4e3ba640d0935fa8?d=identicon&s=100"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/224628c5-bb49-41b2-aa83-59ef8ad7eccc/speakers/1ce36cba-082e-479c-b0b3-775b32aad445",
                 "name": "Joakim Blomskøld",
                 "bio": "Joakim Blomskøld jobber som eneste utvikler i Profsys. Han har mer enn 10 års erfaring med Java og webutvikling.",
                 "avatar": "http://www.gravatar.com/avatar/9826759f6c85bcfcb23dbe53b562bcb4?d=identicon&s=100"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/224628c5-bb49-41b2-aa83-59ef8ad7eccc/speakers/1388aab9-0702-4f07-91b1-9b8bf3a4a3f2",
+                "name": "Trygve Laugstøl",
+                "bio": "Trygve Laugstøl jobber som utvikler og fagsjef i Nets.",
+                "avatar": "http://www.gravatar.com/avatar/d78edd7e4d5cff2c4e3ba640d0935fa8?d=identicon&s=100"
             }
         ],
         "video": "http://vimeo.com/74295932"
@@ -2094,16 +2094,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/3728ea5a-6da8-40a7-9864-d1e504a7aace/speakers/a2db7ce1-142f-44a6-8657-45fc129902b4",
-                "name": "Erik Bakstad",
-                "bio": "Etter å ha konkludert med at Scala var for mainstream, valge Erik for tre år siden å lære seg Clojure. Siden den gang har han kjempet en tapende kamp med å evangelisere Lisp i en Java-frelst verden. Frustrasjonen over infiks notasjon og manglende parenteser drev han til slutt til å starte sitt eget selskap hvor han nå får daglig utløp for sin Clojure avhengighet.",
-                "avatar": "http://javazone.no/ems/server/binary/cdb6562b-76f0-42c9-90e1-689b019c3e4d?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/3728ea5a-6da8-40a7-9864-d1e504a7aace/speakers/1d350662-2351-4a42-a4d3-ec58c60f3772",
                 "name": "Alfred Sandvik Lysebraate",
                 "bio": "Etter en euforisk opplevelse på noen av de første Scalaprosjektene i Norge ble Alfred kastet tilbake i Javas evigbrennende flammer. Betaler han nå for sine programmeringssynder? Han har uansett personlig erfart hvordan valg av programmeringsspråk kan forandre både tankesett, løsninger og drivkraften til en programmerer.",
                 "avatar": "http://javazone.no/ems/server/binary/5a5822e6-7849-4d1d-9604-e45db8d56d67?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/3728ea5a-6da8-40a7-9864-d1e504a7aace/speakers/a2db7ce1-142f-44a6-8657-45fc129902b4",
+                "name": "Erik Bakstad",
+                "bio": "Etter å ha konkludert med at Scala var for mainstream, valge Erik for tre år siden å lære seg Clojure. Siden den gang har han kjempet en tapende kamp med å evangelisere Lisp i en Java-frelst verden. Frustrasjonen over infiks notasjon og manglende parenteser drev han til slutt til å starte sitt eget selskap hvor han nå får daglig utløp for sin Clojure avhengighet.",
+                "avatar": "http://javazone.no/ems/server/binary/cdb6562b-76f0-42c9-90e1-689b019c3e4d?size=thumb"
             }
         ],
         "video": "http://vimeo.com/74325376"
@@ -3427,16 +3427,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/ab1ecbab-22d7-4967-8068-95b23a9f3216/speakers/1276bf15-4a29-4968-86df-77164ae9472d",
-                "name": "Simen Sommerfeldt",
-                "bio": "Simen Sommerfeldt, CTO Oslo hos Bouvet ASA og medlem av Østlandsstyret i Dataforeningen. Stiftet Lær Kidsa Koding! for å sørge for at barn kan få en mulighet til å skjønne og kontrollere en stadig mer digital verden.",
-                "avatar": "http://javazone.no/ems/server/binary/5d19aa2e-e957-4a35-b229-efa0ff336475?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/ab1ecbab-22d7-4967-8068-95b23a9f3216/speakers/4cd4d9f8-30a3-4838-8630-4a3c47aaf5b7",
                 "name": "Torgeir Waterhouse",
                 "bio": "Direktør internett og nye medier IKT-Norge og leder for Digitutvalget. Ble med tidlig i Lær Kidsa Koding! og koordinerer nå nettverket sammen med Simen",
                 "avatar": "http://javazone.no/ems/server/binary/247934c1-3b74-42f9-821f-3d8351ec1cbb?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/cee37cc1-5399-47ef-9418-21f9b6444bfa/sessions/ab1ecbab-22d7-4967-8068-95b23a9f3216/speakers/1276bf15-4a29-4968-86df-77164ae9472d",
+                "name": "Simen Sommerfeldt",
+                "bio": "Simen Sommerfeldt, CTO Oslo hos Bouvet ASA og medlem av Østlandsstyret i Dataforeningen. Stiftet Lær Kidsa Koding! for å sørge for at barn kan få en mulighet til å skjønne og kontrollere en stadig mer digital verden.",
+                "avatar": "http://javazone.no/ems/server/binary/5d19aa2e-e957-4a35-b229-efa0ff336475?size=thumb"
             }
         ],
         "video": "http://vimeo.com/74356964"

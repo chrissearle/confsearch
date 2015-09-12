@@ -184,6 +184,12 @@
         },
         "speakers": [
             {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/eb0ea481-99a3-4ba6-b923-cdd836deb544",
+                "name": "Lene Pettersen",
+                "bio": "Lene Pettersen works as an interaction designer and information\narchitect at Bouvet ASA. She holds a Bachelor degree (hovedfag) in\nSocial anthropology from University of Oslo, within cognitive\nanthropology. She also studied film at the University of Copenhagen in\nDenmark and holds regularly lectures about our surrounding world and\nways of grasping and bringing meaning to reality. She lectured earlier\nin ethnographic film for undergraduate students at the University of\nOslo.",
+                "avatar": "http://javazone.no/ems/server/binary/0020a12d-b91f-44c7-8e87-6418cbb2e78e?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/56c54e2f-fd25-4587-bca5-ac7dc79d974b",
                 "name": "Kristin Halvorsen",
                 "bio": "Kristin Halvorsen works as a Business Manager for Digital Business\nInnovation at Objectware AS. She holds a M.Sc.  in computers and\ninformation systems from the Norwegian Technical and Scientific\nUniversity (NTNU). Her focus is on the business value of good user\nexperience. She leads the continuous development of Objectware\nExperience Framework - a methodology, tools and techniques framework\nto assure the alignment between business, users and technology. She\nlectures in eBusiness at BI the Norwegian School of Management.",
@@ -196,22 +202,16 @@
                 "avatar": "http://javazone.no/ems/server/binary/30108ca4-692e-4071-a0d2-dc50c1698905?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/eb0ea481-99a3-4ba6-b923-cdd836deb544",
-                "name": "Lene Pettersen",
-                "bio": "Lene Pettersen works as an interaction designer and information\narchitect at Bouvet ASA. She holds a Bachelor degree (hovedfag) in\nSocial anthropology from University of Oslo, within cognitive\nanthropology. She also studied film at the University of Copenhagen in\nDenmark and holds regularly lectures about our surrounding world and\nways of grasping and bringing meaning to reality. She lectured earlier\nin ethnographic film for undergraduate students at the University of\nOslo.",
-                "avatar": "http://javazone.no/ems/server/binary/0020a12d-b91f-44c7-8e87-6418cbb2e78e?size=thumb"
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/56bf442c-1dc9-419e-8f47-bea192afcd85",
+                "name": "Yngvar Sørensen",
+                "bio": "Yngvar is a senior consultant and Swing expert at Bouvet ASA with Java\nexperience since 1997. His primary fields of interest are AOP, rich\nuser interfaces and interaction design. He\nis actively involved with the Norwegian JUG (javaBin).",
+                "avatar": "http://javazone.no/ems/server/binary/d886378d-05b1-421c-a617-6455c9447574?size=thumb"
             },
             {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/542e7b54-8fa1-482d-bcaa-2fee6cfb53cd",
                 "name": "Bernadette Ann Eirheim",
                 "bio": "Bernadette is the usability specialist at Escenic AS, and works with\nuser experience and user interface design for the Escenic\nproducts. She has a masters degree in HCI (human computer interaction)\nfrom Heriot-Watt University in Scotland and has been working with user\nexperience in Norway since 1994 and has experience working with UNIX\ninterfaces, web and windows interfaces for Microsoft and Apple\nplatforms.  She was active in getting the first two usability\nconferences in Norway, Yggdrasil organized.",
                 "avatar": "http://javazone.no/ems/server/binary/8c780824-efa9-47ad-a4ec-33b6bc9ee603?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/0ff2fe30-d29f-49f2-a77c-beb4792d5103/speakers/56bf442c-1dc9-419e-8f47-bea192afcd85",
-                "name": "Yngvar Sørensen",
-                "bio": "Yngvar is a senior consultant and Swing expert at Bouvet ASA with Java\nexperience since 1997. His primary fields of interest are AOP, rich\nuser interfaces and interaction design. He\nis actively involved with the Norwegian JUG (javaBin).",
-                "avatar": "http://javazone.no/ems/server/binary/d886378d-05b1-421c-a617-6455c9447574?size=thumb"
             }
         ]
     },
@@ -914,16 +914,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/185773b2-42f8-4532-953c-59d9736823c1/speakers/f053004d-b031-44ff-82cf-2556fff931e3",
-                "name": "Mario Aparicio",
-                "bio": "Mario is an experienced developer and architect currently working with SOA and Java development at CIBER Norway. Ciber is an acknowledged consulting company, delivering mission critical solutions with strong focus on Java, and related technologies. Mario holds a Master of Computer Science from Norwegian University of Science and Technology. His main interests are SOA Governance, Process engines, Scrum and software development on the Java platform. This is the second year Mario holds a presentation at JavaZone.",
-                "avatar": "http://javazone.no/ems/server/binary/2d4bdb72-bde9-49b8-82a8-ec942c543b08?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/185773b2-42f8-4532-953c-59d9736823c1/speakers/1364ee44-df84-4e34-853e-8b7331d99039",
                 "name": "Eirik Larsen",
                 "bio": "Eirik R. Larsen works as a software engineer in Ciber Norway, an Oslo-based IT consultancy. He graduated as Master of Computer Science from the Norwegian University of Science and Technology in 2005. Eiriks main focus is Java Enterprise-related technologies such as JSF, Hibernate, Seam and EJB.",
                 "avatar": "http://javazone.no/ems/server/binary/897fbfe0-5c99-4ba8-baf0-d9e194f83325?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/185773b2-42f8-4532-953c-59d9736823c1/speakers/f053004d-b031-44ff-82cf-2556fff931e3",
+                "name": "Mario Aparicio",
+                "bio": "Mario is an experienced developer and architect currently working with SOA and Java development at CIBER Norway. Ciber is an acknowledged consulting company, delivering mission critical solutions with strong focus on Java, and related technologies. Mario holds a Master of Computer Science from Norwegian University of Science and Technology. His main interests are SOA Governance, Process engines, Scrum and software development on the Java platform. This is the second year Mario holds a presentation at JavaZone.",
+                "avatar": "http://javazone.no/ems/server/binary/2d4bdb72-bde9-49b8-82a8-ec942c543b08?size=thumb"
             }
         ]
     },
@@ -984,6 +984,12 @@
         },
         "speakers": [
             {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/9502de9b-425d-46c1-a5ea-f13ffc229904/speakers/ba905da3-23a5-42d3-9340-33a6aec8d7f4",
+                "name": "Kim Andreassen",
+                "bio": "Kim Andreassen holds a Master of Information Technology, and works as Senior Consultant and team leader at Capgemini Norway. He has several years of experience from several java projects, and has the last 18 months been working as team leader for one of the development teams at NAV.",
+                "avatar": "http://javazone.no/ems/server/binary/4acb5984-bbb3-4156-8a9f-e157118271de?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/9502de9b-425d-46c1-a5ea-f13ffc229904/speakers/ddb51538-391f-4a1a-ad18-a7ad178922b8",
                 "name": "Bent Are Melsom",
                 "bio": "Bent Are Melsom holds a Master of Science from NTNU, and works as a Managing Consultant at Capgemini Norway where he leads the java department. He has many years of experience, and has the last 18 months been working as technical architect for Capgemini at the NAV Pensionprogram.",
@@ -994,12 +1000,6 @@
                 "name": "Audun Wangensteen",
                 "bio": "Audun Wangensteen holds a Master of Science from NTNU and works as Senior Consultant at Capgemini Norway. The last 18 months he has been working as team leader for one of the development teams at NAV.",
                 "avatar": "http://javazone.no/ems/server/binary/87ff7fc2-a5bf-49ed-8c91-0ea4796e7d34?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/9502de9b-425d-46c1-a5ea-f13ffc229904/speakers/ba905da3-23a5-42d3-9340-33a6aec8d7f4",
-                "name": "Kim Andreassen",
-                "bio": "Kim Andreassen holds a Master of Information Technology, and works as Senior Consultant and team leader at Capgemini Norway. He has several years of experience from several java projects, and has the last 18 months been working as team leader for one of the development teams at NAV.",
-                "avatar": "http://javazone.no/ems/server/binary/4acb5984-bbb3-4156-8a9f-e157118271de?size=thumb"
             }
         ]
     },
@@ -1552,16 +1552,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16721089-1c46-42e8-b357-fadbd3db732e/speakers/667fe1ba-f704-4c53-9532-6d68872c22de",
-                "name": "Christian Hauknes",
-                "bio": "Christian er godt over middels interessert i kommunikasjon og\nprosessforberinger. Han har i flere år jobbet i konsulentbransjen som\nprosjektleder og utvikler før det. Han har lenge hatt sterkt fokus på\nsmidige metoder og ledelsesfilosofi, testing og kvalitet i prosjekter.\nHan er styremedlem i Norsk Forum for Smidig Systemutvikling og en av\narrangørene av Smidig200X-konferansene.",
-                "avatar": "http://javazone.no/ems/server/binary/8ea83a4a-5d34-4181-863c-3a92104ce9a1?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16721089-1c46-42e8-b357-fadbd3db732e/speakers/7f4abddb-ea6a-419b-82e7-7411d96b7fbb",
                 "name": "Trond Wingård",
                 "bio": "Trond er siviløkonom av utdannelse, utvikler av hjerte, prosjektleder av yrke. Han har alltid vært opptatt av å få til gode ting i team, og fra XP dukket opp i 1999 har han konsentrert seg om smidige metoder som \nprosjektstyringsfilosofi. Han er styremedlem i Norsk Forum for Smidig Systemutvikling, styremedlem i DNDs \nfaggruppe for Effektiv Programvareutvikling, og en av grunnleggerne av Steria Smidig Forum.",
                 "avatar": "http://javazone.no/ems/server/binary/c185017a-b126-43fa-a317-4b644a94b80b?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16721089-1c46-42e8-b357-fadbd3db732e/speakers/667fe1ba-f704-4c53-9532-6d68872c22de",
+                "name": "Christian Hauknes",
+                "bio": "Christian er godt over middels interessert i kommunikasjon og\nprosessforberinger. Han har i flere år jobbet i konsulentbransjen som\nprosjektleder og utvikler før det. Han har lenge hatt sterkt fokus på\nsmidige metoder og ledelsesfilosofi, testing og kvalitet i prosjekter.\nHan er styremedlem i Norsk Forum for Smidig Systemutvikling og en av\narrangørene av Smidig200X-konferansene.",
+                "avatar": "http://javazone.no/ems/server/binary/8ea83a4a-5d34-4181-863c-3a92104ce9a1?size=thumb"
             }
         ]
     },
@@ -1654,16 +1654,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/63738359-7150-40de-9215-cc4c03b99d08/speakers/b6d616ff-785f-4297-aac9-6a1d705ec359",
-                "name": "Ola Bini",
-                "bio": "Ola Bini is a Swedish developer currently working for ThoughtWorks in Stockholm, Sweden. He has been one of the core developers for JRuby since 2006 and is the author of the APress book Practical JRuby on Rails. He has much experience with Java, Ruby and LISP, and has been involved with several other open source projects - but nowadays JRuby takes most of his time.\n\nHe has been known to like implementing languages, writing regular expression engines, YAML parsers and other similar things that exist at the borders of computer science.",
-                "avatar": "http://javazone.no/ems/server/binary/e3bbe938-6eb8-45a4-bbe0-4e605830bd2f?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/63738359-7150-40de-9215-cc4c03b99d08/speakers/de5c5d98-33f4-43a6-b359-8b4e7e37a897",
                 "name": "Charles Oliver Nutter",
                 "bio": "Charles Nutter has been a Java developer since 1996, recently working as the senior Java architect at Ventera Corp and in September moved to Sun to work full-time on JRuby! He led the open-source LiteStep project in the late 90s and came to Ruby in the fall of 2004. Since then he has been a member of the JRuby team, helping to make it a true alternative Ruby platform.",
                 "avatar": "http://javazone.no/ems/server/binary/0f1e20f3-0d23-49b1-a440-92f3873d3949?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/63738359-7150-40de-9215-cc4c03b99d08/speakers/b6d616ff-785f-4297-aac9-6a1d705ec359",
+                "name": "Ola Bini",
+                "bio": "Ola Bini is a Swedish developer currently working for ThoughtWorks in Stockholm, Sweden. He has been one of the core developers for JRuby since 2006 and is the author of the APress book Practical JRuby on Rails. He has much experience with Java, Ruby and LISP, and has been involved with several other open source projects - but nowadays JRuby takes most of his time.\n\nHe has been known to like implementing languages, writing regular expression engines, YAML parsers and other similar things that exist at the borders of computer science.",
+                "avatar": "http://javazone.no/ems/server/binary/e3bbe938-6eb8-45a4-bbe0-4e605830bd2f?size=thumb"
             }
         ]
     },
@@ -1756,16 +1756,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/72dcd445-4352-4a47-8039-d1bdcfe34de5/speakers/095df3d5-13a4-4bfa-be8f-fd5885b3dda4",
-                "name": "Filip Van Laenen",
-                "bio": "Filip van Laenen har vært ansatt i Computas i 11 år og har vært\ninvolvert i Java-prosjekter stort sett hele tiden. For tiden er han\nteknisk prosjektleder for MATS-prosjektet hos Mattilsynet og leder for\nComputas’ fagnettverk for Software Engineering.",
-                "avatar": "http://javazone.no/ems/server/binary/1ea649e8-bdd9-46e5-bdc8-7793993f764e?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/72dcd445-4352-4a47-8039-d1bdcfe34de5/speakers/c4c514d2-bd56-4cdc-bed2-f0286aa10581",
                 "name": "Anders Sandberg Nordbø",
                 "bio": "Anders Sandberg Nordbø har vært ansatt i Computas i 1 år, og har vært\nen del av MATS-prosjektet siden han startet. Han hadde ansvaret for\nkartklienten i MATS fra planleggingen til implementasjonen.",
                 "avatar": "http://javazone.no/ems/server/binary/4d2ed77b-cc4b-4bbe-8435-520a3b73cffc?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/72dcd445-4352-4a47-8039-d1bdcfe34de5/speakers/095df3d5-13a4-4bfa-be8f-fd5885b3dda4",
+                "name": "Filip Van Laenen",
+                "bio": "Filip van Laenen har vært ansatt i Computas i 11 år og har vært\ninvolvert i Java-prosjekter stort sett hele tiden. For tiden er han\nteknisk prosjektleder for MATS-prosjektet hos Mattilsynet og leder for\nComputas’ fagnettverk for Software Engineering.",
+                "avatar": "http://javazone.no/ems/server/binary/1ea649e8-bdd9-46e5-bdc8-7793993f764e?size=thumb"
             }
         ]
     },
@@ -2056,6 +2056,12 @@
         },
         "speakers": [
             {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/b6d616ff-785f-4297-aac9-6a1d705ec359",
+                "name": "Ola Bini",
+                "bio": "Ola Bini is a Swedish developer currently working for ThoughtWorks in Stockholm, Sweden. He has been one of the core developers for JRuby since 2006 and is the author of the APress book Practical JRuby on Rails. He has much experience with Java, Ruby and LISP, and has been involved with several other open source projects - but nowadays JRuby takes most of his time.\n\nHe has been known to like implementing languages, writing regular expression engines, YAML parsers and other similar things that exist at the borders of computer science.",
+                "avatar": "http://javazone.no/ems/server/binary/dfcc46d0-fbe8-4ed7-8b6e-21e68db26aa6?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/83138172-6457-4108-93c6-3f81b64c5924",
                 "name": "Gilad Bracha",
                 "bio": "Gilad Bracha is the creator of the Newspeak programming language. He is currently Distinguished Engineer at Cadence Design Systems. Previously, he was a Computational Theologist and Distinguished Engineer at Sun Microsystems. He is co-author of the Java Language Specification, and a researcher in the area of object-oriented programming languages. Prior to joining Sun, he worked on Strongtalk, the Animorphic Smalltalk System. He received his  B.Sc in Mathematics and Computer Science from Ben Gurion University in Israel and a Ph.D. in Computer Science from the University of Utah.",
@@ -2074,28 +2080,22 @@
                 "avatar": "http://javazone.no/ems/server/binary/0f1e20f3-0d23-49b1-a440-92f3873d3949?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/41cf0452-5c07-4e2c-98f8-6a73a1c8fa12",
-                "name": "Bill Venners",
-                "bio": "Bill Venners is president of Artima, Inc., publislher of Artima Developer\n(www.artima.com). He is author of the book, Inside the Java Virtual Machine,\na programmer-oriented survey of the Java platform's architecture and\ninternals. His popular columns in JavaWorld magazine covered Java internals,\nobject-oriented design, and Jini. Active in the Jini Community since its\ninception, Bill led the Jini Community's ServiceUI project, whose ServiceUI API\nbecame the de facto standard way to associate user interfaces to Jini services.\nBill is also the lead developer and designer of ScalaTest, an open source\ntesting tool for Scala and Java developers, and coauthor with Martin Odersky\nand Lex Spoon of the book, Programming in Scala.",
-                "avatar": "http://javazone.no/ems/server/binary/cc4ee353-d2e8-4c4c-a62a-2913bbf3cf9d?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/f86cdd98-6f2c-4122-9e1e-a72bc07a7add",
                 "name": "Scott Davis",
                 "bio": "Scott Davis is an internationally recognized author and speaker. He is passionate about open source solutions and agile development. He has worked on a variety of Java platforms, from J2EE to J2SE to J2ME (sometimes all on the same project).\n\nScott's books include Groovy Recipes: Greasing the Wheels of Java, GIS for Web Developers: Adding Where to Your Web Applications, The Google Maps API, and JBoss At Work.\n\nScott is the Editor in Chief of aboutGroovy.com, a news and information website that tracks the latest developments in Groovy and Grails. He also writes a regular column for IBM DeveloperWorks -- Mastering Grails.\n\nScott is a frequent presenter at national conferences (such as No Fluff, Just Stuff) and local user groups. He was the president of the Denver Java Users Group in 2003 when it was voted one of the top-ten JUGs in North America. After a quick move north, he is currently active in the leadership of the Boulder Java Users Group. Keep up with him at http://www.davisworld.org.",
                 "avatar": "http://javazone.no/ems/server/binary/cec79486-f9f5-4d35-9175-bd7a080cad1a?size=thumb"
             },
             {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/41cf0452-5c07-4e2c-98f8-6a73a1c8fa12",
+                "name": "Bill Venners",
+                "bio": "Bill Venners is president of Artima, Inc., publislher of Artima Developer\n(www.artima.com). He is author of the book, Inside the Java Virtual Machine,\na programmer-oriented survey of the Java platform's architecture and\ninternals. His popular columns in JavaWorld magazine covered Java internals,\nobject-oriented design, and Jini. Active in the Jini Community since its\ninception, Bill led the Jini Community's ServiceUI project, whose ServiceUI API\nbecame the de facto standard way to associate user interfaces to Jini services.\nBill is also the lead developer and designer of ScalaTest, an open source\ntesting tool for Scala and Java developers, and coauthor with Martin Odersky\nand Lex Spoon of the book, Programming in Scala.",
+                "avatar": "http://javazone.no/ems/server/binary/cc4ee353-d2e8-4c4c-a62a-2913bbf3cf9d?size=thumb"
+            },
+            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/f1f32cbb-ca5b-49f0-9a28-4de607a6f298",
                 "name": "Robert C. Martin",
                 "bio": "Robert C. Martin (Uncle Bob) has been a software professional since 1970 and is founder and  president of Object Mentor Inc., in Gurnee, Illinois.  Object Mentor, Inc., is an international firm of highly experienced software developers and managers who specialize in helping companies get their projects done.  Object Mentor offers process improvement consulting, object-oriented software design consulting, training, and skill development services to major corporations worldwide.\n\nMr. Martin has published dozens of articles in various trade journals, and is a regular speaker at international conferences and trade shows.\n\nMr. Martin has authored and edited many books including:\n* Designing Object Oriented C++ Applications using the Booch Method\n* Patterns Langauages of Program Design 3\n* More C++ Gems\n* Extreme Programming in Practice\n* Agile Software Development: Principles, Patterns, and Practices.\n\nA leader in the industry of software development, Mr. Martin served three years as the editor-in-chief of the C++ Report, and he served as the first chairman of the Agile Alliance.",
                 "avatar": "http://javazone.no/ems/server/binary/5839fb4d-4ec6-4687-a990-40a622a6c416?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/34455cd5-9a8c-4599-9101-fdbfb6a6e565/speakers/b6d616ff-785f-4297-aac9-6a1d705ec359",
-                "name": "Ola Bini",
-                "bio": "Ola Bini is a Swedish developer currently working for ThoughtWorks in Stockholm, Sweden. He has been one of the core developers for JRuby since 2006 and is the author of the APress book Practical JRuby on Rails. He has much experience with Java, Ruby and LISP, and has been involved with several other open source projects - but nowadays JRuby takes most of his time.\n\nHe has been known to like implementing languages, writing regular expression engines, YAML parsers and other similar things that exist at the borders of computer science.",
-                "avatar": "http://javazone.no/ems/server/binary/dfcc46d0-fbe8-4ed7-8b6e-21e68db26aa6?size=thumb"
             }
         ]
     },
@@ -2124,16 +2124,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/7c9a77e8-bf12-42a2-96fd-fe9c8109fda0/speakers/5768c49b-56ea-45b3-b054-558ad9d93d83",
-                "name": "Stein Grimstad",
-                "bio": "Stein has more than 10 years’ industry experience as software developer\nand solution architect. His professional interests cover many areas of\nsoftware development, but are particularly related to the interaction\nbetween clients and vendors. He received a phd from UiO in 2006, and is\na member of the estimation project at Simula Research Laboratory.\n\nAs a co-founder of Wasteless, Stein work closely with their industrial\npartners. He frequently talks at international conferences, give courses, and is the author of several papers published in international journals and magazines. Topics include expert estimation, process improvement and evaluation of software technology.",
-                "avatar": "http://javazone.no/ems/server/binary/a586d3f1-ee1f-4011-b1ef-d9128b3e30f1?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/7c9a77e8-bf12-42a2-96fd-fe9c8109fda0/speakers/2b4bc88b-ec4b-4470-8b3d-9cd1ee65e26b",
                 "name": "Frode Torvund",
                 "bio": "Frode currently works as a consultant at Know IT Objectnet AS. He has\nbeen working as a developer, architect, advisor and project manager in\ndefense, oil & energy, telecom and public sector since 1995. Frode has a wide\nrange of professional interests, but enjoys in particular working with\nthe customer to identify their needs and creating the good solution.",
                 "avatar": "http://javazone.no/ems/server/binary/c790c6bb-7f28-420d-98ac-3280eff84c58?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/7c9a77e8-bf12-42a2-96fd-fe9c8109fda0/speakers/5768c49b-56ea-45b3-b054-558ad9d93d83",
+                "name": "Stein Grimstad",
+                "bio": "Stein has more than 10 years’ industry experience as software developer\nand solution architect. His professional interests cover many areas of\nsoftware development, but are particularly related to the interaction\nbetween clients and vendors. He received a phd from UiO in 2006, and is\na member of the estimation project at Simula Research Laboratory.\n\nAs a co-founder of Wasteless, Stein work closely with their industrial\npartners. He frequently talks at international conferences, give courses, and is the author of several papers published in international journals and magazines. Topics include expert estimation, process improvement and evaluation of software technology.",
+                "avatar": "http://javazone.no/ems/server/binary/a586d3f1-ee1f-4011-b1ef-d9128b3e30f1?size=thumb"
             }
         ]
     },
@@ -2617,22 +2617,10 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/5a96689d-ce48-4d5c-a151-132246864de9",
-                "name": "Benjamin Sommer",
-                "bio": "Sommer holds an MBA from Agder College with specialization in internationalisation and project management. He is Ph.D candidate at NTNU, Institute for Industrial Economics and Technology Management in the area of business development. Sommer has over 10 years experience as project manager and consultant from IT-projects in public and private sector. He is certified Scrum Practitioner and certified Scrum master with experience from several project methodologies such as PMI, ValueSAP, Stepping Up, and agile/lean mangement.",
-                "avatar": "http://javazone.no/ems/server/binary/048b1906-d3c4-441e-ad91-6f507a73f32d?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/4b7bb585-dc9b-4fc5-95d9-1b2d592600eb",
                 "name": "Tomas Bjørge",
                 "bio": "Thomas har flere års erfaring fra utviklingsprosjekter i offentlig sektor, og har det siste 1,5 året jobbet som utvikler og sertifisert ScrumMaster i NAVs pensjonsprosjekt. Han er interessert i smidig utvikling, både når det gjelder teknologi, metodikk og sammenhengen mellom disse.",
                 "avatar": "http://javazone.no/ems/server/binary/01bded72-b1d2-4aff-ae31-80e74a0de16a?size=thumb"
-            },
-            {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/b8cea5f3-ef34-4631-a5ba-762344f442d6",
-                "name": "Anders M. Braathen",
-                "bio": "Anders Magnus har erfaring fra flere utviklingsprosjekter i offentlig sektor, og har det siste 1,5 året jobbet som utvikler og sertifisert ScrumMaster i NAVs pensjonsprosjekt. Han er engasjert i praktisk implementering av smidig metodikk og bruk av smidige utviklingsverktøy.",
-                "avatar": "http://javazone.no/ems/server/binary/6463d4f1-fd32-4fbb-9554-663a5ee67a5a?size=thumb"
             },
             {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/bed7b61c-cfd3-44cf-9076-7844003ffcec",
@@ -2641,16 +2629,28 @@
                 "avatar": "http://javazone.no/ems/server/binary/750a7ba8-35ce-4320-8b2f-c2f12e294ed8?size=thumb"
             },
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/d2bdc54a-783c-4e3f-8710-22fe16b1a6c0",
-                "name": "Geir Magne Trengereid",
-                "bio": "Geir Magne Trengereid is a Managing Consultant at  Capgemini and Certified ScrumMasters. For the last two years he has been working on a large project in Public Sector as Solution Architect and Technical Project Manager, where he has has been responsible for introducing Scrum.\n\nGeir Magne has an MSc (Siv.ing) form NTNU and has 16 years of experience from a wide range of projects and in the later years mostly as a Technical Project Manager or Project Manager.",
-                "avatar": "http://javazone.no/ems/server/binary/7824c6d7-24f2-4efd-b1c0-3c570975f135?size=thumb"
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/b8cea5f3-ef34-4631-a5ba-762344f442d6",
+                "name": "Anders M. Braathen",
+                "bio": "Anders Magnus har erfaring fra flere utviklingsprosjekter i offentlig sektor, og har det siste 1,5 året jobbet som utvikler og sertifisert ScrumMaster i NAVs pensjonsprosjekt. Han er engasjert i praktisk implementering av smidig metodikk og bruk av smidige utviklingsverktøy.",
+                "avatar": "http://javazone.no/ems/server/binary/6463d4f1-fd32-4fbb-9554-663a5ee67a5a?size=thumb"
             },
             {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/d4fffe8a-45ac-430e-bd36-a53f7d1a9704",
                 "name": "Kristoffer Moum",
                 "bio": "Kristoffer Moum is a senior developer with more than seven years of experience in developing enterprise\nJava. He has experience as a developer, architect, lead developer and scrum master in various projects.\nAlso, he has done mentoring and architecture reviews and has previously held various presentations for\njavaBin and JavaZone. Kristoffer regularly works as a course instructor with Spring and Maven.",
                 "avatar": "http://javazone.no/ems/server/binary/bde1c574-ad54-4687-ba54-6ba5d61f6752?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/5a96689d-ce48-4d5c-a151-132246864de9",
+                "name": "Benjamin Sommer",
+                "bio": "Sommer holds an MBA from Agder College with specialization in internationalisation and project management. He is Ph.D candidate at NTNU, Institute for Industrial Economics and Technology Management in the area of business development. Sommer has over 10 years experience as project manager and consultant from IT-projects in public and private sector. He is certified Scrum Practitioner and certified Scrum master with experience from several project methodologies such as PMI, ValueSAP, Stepping Up, and agile/lean mangement.",
+                "avatar": "http://javazone.no/ems/server/binary/048b1906-d3c4-441e-ad91-6f507a73f32d?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/8d87189d-89f8-44d8-a292-066bfe82bf44/speakers/d2bdc54a-783c-4e3f-8710-22fe16b1a6c0",
+                "name": "Geir Magne Trengereid",
+                "bio": "Geir Magne Trengereid is a Managing Consultant at  Capgemini and Certified ScrumMasters. For the last two years he has been working on a large project in Public Sector as Solution Architect and Technical Project Manager, where he has has been responsible for introducing Scrum.\n\nGeir Magne has an MSc (Siv.ing) form NTNU and has 16 years of experience from a wide range of projects and in the later years mostly as a Technical Project Manager or Project Manager.",
+                "avatar": "http://javazone.no/ems/server/binary/7824c6d7-24f2-4efd-b1c0-3c570975f135?size=thumb"
             }
         ]
     },
@@ -2941,16 +2941,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/6e4ad74c-f25d-4877-af40-5afb31ca42d3/speakers/57f71204-f0fe-44f7-a6f8-aa13a89933f7",
-                "name": "Torje Coldevin",
-                "bio": "Chief Architect in Kantega. 7 years of experience developing insurance systems. Using nature as the main source of inspiration to design computer systems.  Special field of interest; Artificial Intelligence.",
-                "avatar": "http://javazone.no/ems/server/binary/39fe1c72-ba5e-40cd-8eed-d17fd4e606dc?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/6e4ad74c-f25d-4877-af40-5afb31ca42d3/speakers/6823446c-a103-46a9-86f3-ef71c7b71eff",
                 "name": "Frode Standal",
                 "bio": "CTO in Kantega. 17 years of experience in the software industry, more than 10 years of experience as a software architect. Special interests include software architecture, frameworks, patterns, programming.",
                 "avatar": "http://javazone.no/ems/server/binary/aaf1638e-569b-4e56-991c-eb9e9f479182?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/6e4ad74c-f25d-4877-af40-5afb31ca42d3/speakers/57f71204-f0fe-44f7-a6f8-aa13a89933f7",
+                "name": "Torje Coldevin",
+                "bio": "Chief Architect in Kantega. 7 years of experience developing insurance systems. Using nature as the main source of inspiration to design computer systems.  Special field of interest; Artificial Intelligence.",
+                "avatar": "http://javazone.no/ems/server/binary/39fe1c72-ba5e-40cd-8eed-d17fd4e606dc?size=thumb"
             }
         ]
     },
@@ -3236,16 +3236,16 @@
         },
         "speakers": [
             {
-                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16c94f80-1319-431f-a398-e36dce88dd2c/speakers/62ab4a80-ecf8-4f7f-a57f-b247d55811d8",
-                "name": "Bjørn Remseth",
-                "bio": "Bjørn Remseth. Cand. Scient. Research scientist at Telenor Research & Innovation. Bjørn has more than twenty years of experience as a sysadmin, developer, systems architect and research scientist.",
-                "avatar": "http://javazone.no/ems/server/binary/057548be-5724-4c4a-96a4-608181dc26c0?size=thumb"
-            },
-            {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16c94f80-1319-431f-a398-e36dce88dd2c/speakers/3eabe7ec-4122-40a3-a843-e4735dd6353a",
                 "name": "Else Nordhagen",
                 "bio": "Else Nordhagen. Dr. Scient. Research Scientist at Telenor Research & Innovation. More than thirty years of experience with object oriented design and implementation, 3D graphics, theoretical computer science and GUI design (from Smalltalk in the late seventies, to J2ME today).",
                 "avatar": "http://javazone.no/ems/server/binary/0852c5f9-76db-4f31-a079-948287fcc499?size=thumb"
+            },
+            {
+                "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16c94f80-1319-431f-a398-e36dce88dd2c/speakers/62ab4a80-ecf8-4f7f-a57f-b247d55811d8",
+                "name": "Bjørn Remseth",
+                "bio": "Bjørn Remseth. Cand. Scient. Research scientist at Telenor Research & Innovation. Bjørn has more than twenty years of experience as a sysadmin, developer, systems architect and research scientist.",
+                "avatar": "http://javazone.no/ems/server/binary/057548be-5724-4c4a-96a4-608181dc26c0?size=thumb"
             },
             {
                 "link": "http://javazone.no/ems/server/events/5e130372-285d-49cd-aedb-7f306d97b04d/sessions/16c94f80-1319-431f-a398-e36dce88dd2c/speakers/3e3d25c4-e32e-4876-8a3f-743138b218e5",
