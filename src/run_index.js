@@ -236,22 +236,14 @@ function logResult(err, resp) {
 async.series([
         deleteIndex,
         createIndex,
-        function (outerCallback) {
-            "use strict";
-
-            async.parallel([
-                    function (callback) {
-                        createMapping("conference", "config/conference_mapping.json", callback);
-                    },
-                    function (callback) {
-                        createMapping("session", "config/session_mapping.json", callback);
-                    },
-                    function (callback) {
-                        createMapping("speaker", "config/speaker_mapping.json", callback);
-                    }
-                ],
-                outerCallback
-            );
+        function (callback) {
+            createMapping("conference", "config/conference_mapping.json", callback);
+        },
+        function (callback) {
+            createMapping("session", "config/session_mapping.json", callback);
+        },
+        function (callback) {
+            createMapping("speaker", "config/speaker_mapping.json", callback);
         },
         loadIndexFiles
     ],
